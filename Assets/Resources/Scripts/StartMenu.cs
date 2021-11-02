@@ -5,9 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class StartMenu : MonoBehaviour
 {
+    private MenuController MenuController;
     void Awake()
     {
-        SceneManager.LoadScene("Menus", LoadSceneMode.Additive);
+        if (!SceneManager.GetSceneByName("Menus").isLoaded)
+        {
+            SceneManager.LoadScene("Menus", LoadSceneMode.Additive);
+        }
     }
 
     public void StartGame()
@@ -18,6 +22,15 @@ public class StartMenu : MonoBehaviour
 
     public void LevelSelect()
     {
+        FindMenuController().OpenMenu(Menu.LEVEL_SELECT);
+    }
 
+    private MenuController FindMenuController()
+    {
+        if (MenuController == null)
+        {
+            MenuController = FindObjectOfType<MenuController>();
+        }
+        return MenuController;
     }
 }
