@@ -17,6 +17,12 @@ TextureImporter:
   - first:
       213: -5428206428529569624
     second: clockhandles
+  - first:
+      213: -7833671090200325546
+    second: ladybug
+  - first:
+      213: 5860025163644826426
+    second: window
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -218,6 +224,48 @@ TextureImporter:
       bones: []
       spriteID: 8a0d00c53032ba4b0800000000000000
       internalID: -5428206428529569624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ladybug
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 549
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652dc55e5a5394390800000000000000
+      internalID: -7833671090200325546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: window
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 561
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3376eda6ddf25150800000000000000
+      internalID: 5860025163644826426
       vertices: []
       indices: 
       edges: []
