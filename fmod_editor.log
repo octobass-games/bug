@@ -18,13 +18,25 @@
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
-[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
-[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
-[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
-[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
-[LOG] SoundI::release                          : bu1pause (0000021AA2CE6788)
-[LOG] SoundI::release                          :     bu1pause (0000021AA3173888)
-[LOG] SoundI::release                          :     bu1pause (0000021AA2CEB018)
+[LOG] SystemI::mixerSuspend                    : Suspending output.
+[LOG] SystemI::mixerResume                     : Resuming output.
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000021A13CBC938
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000021A13CBC938
+[LOG] SystemI::mixerSuspend                    : Suspending output.
+[LOG] SystemI::mixerResume                     : Resuming output.
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000021A13CBC938
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000021A13CBC938
+[LOG] SystemI::mixerSuspend                    : Suspending output.
+[LOG] SystemI::mixerResume                     : Resuming output.
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000021A13CBC938
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000021A13CBC938
+[LOG] SystemI::mixerSuspend                    : Suspending output.
+[LOG] SystemI::mixerResume                     : Resuming output.
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000021A13CBC938
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000021A13CBC938
+[LOG] SoundI::release                          : bu1 (0000021A17C42468)
+[LOG] SoundI::release                          :     bu1 (0000021A13DAEDC8)
+[LOG] SoundI::release                          :     bu1 (0000021A13CBC938)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients

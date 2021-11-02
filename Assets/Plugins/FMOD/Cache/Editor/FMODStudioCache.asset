@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: ../FMOD/bugFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637714589210046938
+  lastModified: 637714612968838575
   FileSizes:
   - Name: Desktop
     Value: 1012
@@ -57,10 +57,10 @@ MonoBehaviour:
   Path: ../FMOD/bugFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637714589210086859
+  lastModified: 637714612968883487
   FileSizes:
   - Name: Desktop
-    Value: 900
+    Value: 898
   Exists: 1
 --- !u!114 &-3656015517224784595
 MonoBehaviour:
@@ -77,10 +77,10 @@ MonoBehaviour:
   Path: ../FMOD/bugFMOD/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637714589239720479
+  lastModified: 637714612970071226
   FileSizes:
   - Name: Desktop
-    Value: 2070464
+    Value: 2070688
   Exists: 1
 --- !u!114 &-472359461837985604
 MonoBehaviour:
@@ -128,8 +128,30 @@ MonoBehaviour:
   - {fileID: -5871323868531065815}
   StringsBanks:
   - {fileID: -4859501465797540771}
-  stringsBankWriteTime: 637714589210086859
+  stringsBankWriteTime: 637714612968883487
   cacheVersion: 8
+--- !u!114 &1987860187060993298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/bug1/isPaused
+  m_EditorClassIdentifier: 
+  Name: isPaused
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &4647375386407270651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -153,6 +175,28 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 48999
+--- !u!114 &7324478703534155674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/All Tracks/isPaused
+  m_EditorClassIdentifier: 
+  Name: isPaused
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &7912853425471599883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -173,7 +217,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -472359461837985604}
+  - {fileID: 1987860187060993298}
   MinDistance: 0
   MaxDistance: 0
   Length: 88500
@@ -197,7 +241,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -5407771392856965126}
+  - {fileID: 7324478703534155674}
   MinDistance: 0
   MaxDistance: 0
   Length: 88500

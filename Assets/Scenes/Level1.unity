@@ -546,6 +546,8 @@ MonoBehaviour:
   Params:
   - Name: Parameter 1
     Value: 0
+  - Name: isPaused
+    Value: 0
   OverrideAttenuation: 0
   OverrideMinDistance: 0
   OverrideMaxDistance: 0
