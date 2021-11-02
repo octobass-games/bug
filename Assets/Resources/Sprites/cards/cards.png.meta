@@ -14,6 +14,9 @@ TextureImporter:
   - first:
       213: -7415955986125602904
     second: card-spider
+  - first:
+      213: -2922113337684369405
+    second: card-ant
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -186,7 +189,7 @@ TextureImporter:
         width: 39
         height: 67
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,6 +197,27 @@ TextureImporter:
       bones: []
       spriteID: 8af3d01725b351990800000000000000
       internalID: -7415955986125602904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: card-ant
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 33
+        width: 39
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30064e1c6619277d0800000000000000
+      internalID: -2922113337684369405
       vertices: []
       indices: 
       edges: []
