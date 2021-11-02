@@ -14,12 +14,14 @@ public class Collectables : MonoBehaviour
 
     public void UnlockCollectable(CollectableData data)
     {
-        var collecatable = CollectableList.Find(c => c.Data == data);
+        var collecatable = CollectableList.Find(c => c.Data.Name == data.Name);
         if (collecatable == null)
         {
             Debug.Log("Could not find collectable: " + data.Name);
             return;
         }
+
+        Debug.Log("collectable unlocked");
         collecatable.Locked = false;
     }
 }

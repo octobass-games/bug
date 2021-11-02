@@ -1285,6 +1285,7 @@ GameObject:
   - component: {fileID: 1449598147}
   - component: {fileID: 1449598148}
   - component: {fileID: 1449598149}
+  - component: {fileID: 1449598150}
   m_Layer: 0
   m_Name: Controller
   m_TagString: Untagged
@@ -1333,6 +1334,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c19ea096074d2444b4297ca939286a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1449598150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1449598146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f66af2d37049b0545a22fa26983f44be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollectableData:
+  - {fileID: 11400000, guid: df2d20aad2e1bbe4b8d62a6e548f8385, type: 2}
+  - {fileID: 11400000, guid: d507a0d468480694ab795623e8b9f97b, type: 2}
+  - {fileID: 11400000, guid: a229d100b02ea18408d6c21de27351a2, type: 2}
+  - {fileID: 11400000, guid: a8e07ef05920e0640ac026747910e627, type: 2}
+  - {fileID: 11400000, guid: 316771211d039964dabe543397a2a4db, type: 2}
+  CollectableList: []
 --- !u!1 &1539766241
 GameObject:
   m_ObjectHideFlags: 0
@@ -1419,7 +1439,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1449598149}
         m_TargetAssemblyTypeName: MouseMonitor, Assembly-CSharp
-        m_MethodName: OnDrag
+        m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

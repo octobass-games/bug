@@ -8,16 +8,16 @@ public class StartMenu : MonoBehaviour
     private MenuController MenuController;
     void Awake()
     {
-        if (!SceneManager.GetSceneByName("Menus").isLoaded)
+        if (!SceneManager.GetSceneByName("Brain").isLoaded)
         {
-            SceneManager.LoadScene("Menus", LoadSceneMode.Additive);
+            SceneManager.LoadScene("Brain", LoadSceneMode.Additive);
         }
     }
 
     public void StartGame()
     {
         SceneManager.LoadScene("Level1");
-        SceneManager.LoadScene("Menus", LoadSceneMode.Additive);
+        SceneManager.LoadScene("Brain", LoadSceneMode.Additive);
     }
 
     public void LevelSelect()

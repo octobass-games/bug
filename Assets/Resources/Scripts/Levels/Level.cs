@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Level : MonoBehaviour
+public class Level
 {
     public LevelData Data;
     public bool Locked = true;

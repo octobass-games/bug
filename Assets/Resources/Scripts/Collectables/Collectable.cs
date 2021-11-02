@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Collectable : MonoBehaviour
+public class Collectable
 {
     public CollectableData Data;
     public bool Locked = true;
