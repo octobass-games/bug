@@ -11,6 +11,9 @@ TextureImporter:
   - first:
       213: 8963368785945452489
     second: card-bumblebee
+  - first:
+      213: -7415955986125602904
+    second: card-spider
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -120,7 +123,7 @@ TextureImporter:
         width: 39
         height: 67
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -141,7 +144,7 @@ TextureImporter:
         width: 39
         height: 67
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -162,7 +165,7 @@ TextureImporter:
         width: 39
         height: 67
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -170,6 +173,27 @@ TextureImporter:
       bones: []
       spriteID: 9cf5a1dbb68446c70800000000000000
       internalID: 8963368785945452489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: card-spider
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 33
+        width: 39
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af3d01725b351990800000000000000
+      internalID: -7415955986125602904
       vertices: []
       indices: 
       edges: []
