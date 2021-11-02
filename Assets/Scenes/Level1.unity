@@ -537,13 +537,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/Music/bug1
+  Event: event:/Music/All Tracks
   PlayEvent: 1
   StopEvent: 0
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
-  Params: []
+  Params:
+  - Name: Parameter 1
+    Value: 0
   OverrideAttenuation: 0
   OverrideMinDistance: 0
   OverrideMaxDistance: 0

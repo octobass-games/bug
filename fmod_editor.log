@@ -18,59 +18,13 @@
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
-[LOG] SystemI::mixerSuspend                    : Suspending output.
-[LOG] SystemI::mixerResume                     : Resuming output.
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000021AA2CE9F38
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000021AA2CE9F38
-[LOG] SystemI::mixerSuspend                    : Suspending output.
-[LOG] SystemI::mixerResume                     : Resuming output.
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000021AA2CE9F38
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000021AA2CE9F38
-[LOG] SystemI::createSound                     : filename = ../FMOD/bugFMOD/Build/Desktop/Music.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 0000021AA2CE6FF8 : node = 0000021AC6ED9970
-[LOG] SystemI::createSound                     : add node to async list : head = 0000021AA3058E58.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000021AA2CE6FF8
-[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/bugFMOD/Build/Desktop/Music.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1011872
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 1632
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000021AC6ED9A80
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='bu1', format=5, channels=2, frequency=48000, lengthbytes=1011040, lengthpcm=4301529, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.246521.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000021AA2CE6FF8
-[LOG] SoundI::release                          : bu1 (0000021AA2CEB1C8)
-[LOG] SoundI::release                          :     bu1 (0000021A1BEF8A68)
-[LOG] SoundI::release                          :     bu1 (0000021AA2CE9F38)
-[LOG] SystemI::mixerSuspend                    : Suspending output.
-[LOG] SystemI::mixerResume                     : Resuming output.
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000021AA2CE9878
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000021AA2CE9878
-[LOG] SystemI::createSound                     : filename = ../FMOD/bugFMOD/Build/Desktop/Music.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 0000021AA2CE9F38 : node = 0000021AC7149470
-[LOG] SystemI::createSound                     : add node to async list : head = 0000021AA3058E58.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000021AA2CE9F38
-[LOG] SystemI::createSoundInternal             :     Create name='../FMOD/bugFMOD/Build/Desktop/Music.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1011872
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 1632
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000021AC7149580
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='bu1', format=5, channels=2, frequency=48000, lengthbytes=1011040, lengthpcm=4301529, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.246521.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000021AA2CE9F38
-[LOG] SoundI::release                          : bu1 (0000021AA2CE6FF8)
-[LOG] SoundI::release                          :     bu1 (0000021A1BEFC4E8)
-[LOG] SoundI::release                          :     bu1 (0000021AA2CE9878)
-[LOG] SoundI::release                          : bu1 (0000021AA2CE9F38)
-[LOG] SoundI::release                          :     bu1 (0000021A1BEF90E8)
-[LOG] SoundI::release                          :     bu1 (0000021AA2CEC2A8)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] SoundI::release                          : bu1pause (0000021AA2CE6788)
+[LOG] SoundI::release                          :     bu1pause (0000021AA3173888)
+[LOG] SoundI::release                          :     bu1pause (0000021AA2CEB018)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
