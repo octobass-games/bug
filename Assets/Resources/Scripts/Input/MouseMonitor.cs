@@ -3,14 +3,27 @@ using UnityEngine.InputSystem;
 
 public class MouseMonitor : MonoBehaviour
 {
+
     public void OnClick()
     {
         GetColliderBeneathMouse()?.GetComponent<OnClick>()?.Invoke();
     }
 
-    public void OnDrag()
+    public void OnDrag(InputAction.CallbackContext ctx)
     {
-        GetColliderBeneathMouse()?.GetComponent<Draggable>()?.Drag();
+        var draggableBeneathMouse = GetColliderBeneathMouse()?.GetComponent<Draggable>();
+
+        if (draggableBeneathMouse)
+        {
+            if (ctx.started)
+            {
+                draggableBeneathMouse.DragStart();
+            }
+            else
+            {
+                draggableBeneathMouse.DragEnd();
+            }
+        }
     }
 
     private Collider2D GetColliderBeneathMouse()

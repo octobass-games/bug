@@ -12,6 +12,22 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "Drag Start",
+                    "type": "Button",
+                    "id": "417e99c1-f874-423f-bed2-0f4843ea7464",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Drag End",
+                    "type": "Button",
+                    "id": "08da38e7-6786-49dc-83fd-072313442d9b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -23,6 +39,28 @@
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "Inspect",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "df6118dc-dc09-4998-b50e-575412968bf6",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Drag Start",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "24d96c9f-b1fd-4e5c-90ed-2d49140eb27c",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Drag End",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

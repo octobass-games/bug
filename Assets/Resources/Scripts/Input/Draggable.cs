@@ -12,15 +12,15 @@ public class Draggable : MonoBehaviour
             var mouseWorldPoint = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
             transform.position = new Vector3(mouseWorldPoint.x, mouseWorldPoint.y, transform.position.z);
         }
-
-        if (Mouse.current.leftButton.wasReleasedThisFrame)
-        {
-            isDragging = false;
-        }
     }
 
-    public void Drag()
+    public void DragStart()
     {
         isDragging = true;
+    }
+
+    public void DragEnd()
+    {
+        isDragging = false;
     }
 }
