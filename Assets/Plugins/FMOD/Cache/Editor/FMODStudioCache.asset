@@ -1,5 +1,28 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8111908351622136432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/bug2
+  m_EditorClassIdentifier: 
+  Path: event:/Music/bug2
+  guid: 8106adf62fd8fa43b039fcd22a08040d
+  Banks:
+  - {fileID: -7467817890366345429}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 17500
 --- !u!114 &-7467817890366345429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15,10 +38,10 @@ MonoBehaviour:
   Path: bugFMOD/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637714612970071226
+  lastModified: 637715637952300447
   FileSizes:
   - Name: Desktop
-    Value: 2070688
+    Value: 2295264
   Exists: 1
 --- !u!114 &-5871323868531065815
 MonoBehaviour:
@@ -165,12 +188,13 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: 7912853425471599883}
   - {fileID: 8837736835546838897}
+  - {fileID: -8111908351622136432}
   EditorParameters: []
   MasterBanks:
   - {fileID: 795385939878711748}
   StringsBanks:
   - {fileID: 5717468962763334139}
-  stringsBankWriteTime: 637714612968883487
+  stringsBankWriteTime: 637715637952200699
   cacheVersion: 8
 --- !u!114 &795385939878711748
 MonoBehaviour:
@@ -187,7 +211,7 @@ MonoBehaviour:
   Path: bugFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637714612968838575
+  lastModified: 637715637952190734
   FileSizes:
   - Name: Desktop
     Value: 1012
@@ -274,10 +298,32 @@ MonoBehaviour:
   Path: bugFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637714612968883487
+  lastModified: 637715637952200699
   FileSizes:
   - Name: Desktop
-    Value: 898
+    Value: 942
+  Exists: 1
+--- !u!114 &7195335706841569629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/bug1/isPaused
+  m_EditorClassIdentifier: 
+  Name: isPaused
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
   Exists: 1
 --- !u!114 &7324478703534155674
 MonoBehaviour:
@@ -321,10 +367,32 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -4849358446590921219}
+  - {fileID: 7195335706841569629}
   MinDistance: 0
   MaxDistance: 0
   Length: 88500
+--- !u!114 &8318111056212039263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/All Tracks/isPaused
+  m_EditorClassIdentifier: 
+  Name: isPaused
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &8837736835546838897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -345,7 +413,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 1604297715768980446}
+  - {fileID: 8318111056212039263}
   MinDistance: 0
   MaxDistance: 0
   Length: 88500
