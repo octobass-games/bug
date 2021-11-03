@@ -835,8 +835,6 @@ MonoBehaviour:
   TriggerOnce: 0
   Preload: 0
   Params:
-  - Name: Parameter 1
-    Value: 0
   - Name: isPaused
     Value: 0
   OverrideAttenuation: 0
