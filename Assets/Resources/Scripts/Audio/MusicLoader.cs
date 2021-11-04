@@ -5,17 +5,14 @@ using UnityEngine;
 public class MusicLoader : MonoBehaviour
 {
     FMOD.Studio.EventInstance musicEvent;
-    FMOD.Studio.PARAMETER_ID parameterController;
+
     [FMODUnity.EventRef]
-
     float updatedParameter;
-
     [SerializeField]
     float parameterNumber;
-   
 
 
-    void Start()
+    public void Start()
     {
         musicEvent = FMODUnity.RuntimeManager.CreateInstance("event:/Music/All Tracks");
 
@@ -23,14 +20,14 @@ public class MusicLoader : MonoBehaviour
         DontDestroyOnLoad(GameObject.Find("Music"));
     }
 
-    void Update()
+    public void Update()
     {
         updatedParameter = SetMusicParameter();
         musicEvent.setParameterByName("isPaused", updatedParameter);
     }
-    private float SetMusicParameter()
+    public float SetMusicParameter()
     {
-        if (GameObject.Find("PausedMenu").activeSelf)
+        if (GameObject.Find("PauseMenu").activeSelf)
         {
             parameterNumber = 1f;
         }
