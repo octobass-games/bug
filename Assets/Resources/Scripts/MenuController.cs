@@ -14,10 +14,13 @@ public class MenuController : MonoBehaviour
     public GameObject CollectablesPanel;
 
     public MusicLoader musicLoader;
+    public string toggleMenuSFX;
 
     public void OpenLevelSelect() => OpenMenu(Menu.LEVEL_SELECT);
 
     public void OpenCollectables() => OpenMenu(Menu.COLLECTABLES);
+
+   
 
     public void OpenPause()
     {
@@ -42,6 +45,7 @@ public class MenuController : MonoBehaviour
         PausePanel.SetActive(menu == Menu.PAUSE);
         CollectablesPanel.SetActive(menu == Menu.COLLECTABLES);
         musicLoader.SetMenuMusic(true);
+        FMODUnity.RuntimeManager.PlayOneShot(toggleMenuSFX);
     }
 
     public void CloseMenu()
@@ -51,6 +55,7 @@ public class MenuController : MonoBehaviour
         CollectablesPanel.SetActive(false);
         Time.timeScale = 1;
         musicLoader.SetMenuMusic(false);
+        FMODUnity.RuntimeManager.PlayOneShot(toggleMenuSFX);
     }
 
 }

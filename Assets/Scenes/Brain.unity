@@ -4182,6 +4182,7 @@ MonoBehaviour:
   PausePanel: {fileID: 2109265610}
   CollectablesPanel: {fileID: 1124503306}
   musicLoader: {fileID: 1571915050}
+  toggleMenuSFX: event:/SFX/static
 --- !u!114 &1449598149
 MonoBehaviour:
   m_ObjectHideFlags: 0
