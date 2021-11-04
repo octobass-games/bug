@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Events;
 
 public class MenuFallInOnEnabled : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class MenuFallInOnEnabled : MonoBehaviour
     public int Offset = 500;
     public bool Loop = false;
     public bool RandomiseSpeed = false;
+    public UnityEvent OnFallEnd;
 
     private RectTransform rect;
     void Awake()
@@ -36,7 +38,9 @@ public class MenuFallInOnEnabled : MonoBehaviour
             if (!Loop)
             {
                 Complete = true;
-            }else
+                OnFallEnd?.Invoke();
+            }
+            else
             {
                 MoveToTop();
             }
