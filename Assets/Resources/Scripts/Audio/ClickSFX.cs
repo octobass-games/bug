@@ -4,18 +4,8 @@ using UnityEngine;
 
 public class ClickSFX : MonoBehaviour
 {
-    bool isWrong = true;
-    void Update()
+    public void PlayOneShot(string path)
     {
-        if (Input.GetMouseButtonDown(0) && isWrong == true)
-        {
-            FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/clickWrong");
-        }
-
-        if (Input.GetMouseButtonDown(0) && isWrong == false)
-        {
-            //FMODUnity.RuntimeManager.PlayOneShot("event:/");
-        }
+        FMODUnity.RuntimeManager.PlayOneShot(path);
     }
-    
 }

@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Levels : MonoBehaviour
 {
@@ -9,9 +10,13 @@ public class Levels : MonoBehaviour
 
     public LevelSummary LevelSummary;
 
-    void Start()
+    public Level CurrentLevel;
+
+    void Awake()
     {
         LevelData.ForEach((l) => LevelList.Add(new Level(l)));
+
+        LevelList[0].Locked = false;
     }
 
     public void CompleteLevel(LevelData data, int interactionCount)
@@ -39,15 +44,32 @@ public class Levels : MonoBehaviour
         return LevelList[index + 1];
     }
 
-    public Level FindLevel(LevelData data)
+    public Level FindLevel(LevelData data) => FindLevel(data.SceneName);
+
+    public Level FindLevel(string sceneName)
     {
-        var level = LevelList.Find(l => l.Data == data);
+        var level = LevelList.Find(l => l.Data.SceneName == sceneName);
 
         if (level == null)
         {
-            Debug.Log("Could not find level: " + data.Name);
+            Debug.Log("Could not find level: " + sceneName);
         }
 
         return level;
     }
+
+    void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if (scene.name != "Brain" && scene.name != "StartMenu")
+        {
+            var level = FindLevel(scene.name);
+            CurrentLevel = level;
+        }
+    }
+
 }

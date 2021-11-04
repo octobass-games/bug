@@ -6,6 +6,7 @@ public class Collectables : MonoBehaviour
     public List<CollectableData> CollectableData;
 
     public List<Collectable> CollectableList = new List<Collectable>();
+    public UnlockedCollectable UI;
 
     void Start()
     {
@@ -22,6 +23,7 @@ public class Collectables : MonoBehaviour
         }
 
         Debug.Log("collectable unlocked");
+        UI.Render(data);
         collecatable.Locked = false;
     }
 }

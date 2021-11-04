@@ -12,11 +12,12 @@ public class LevelSummary : MonoBehaviour
     public Button NextLevelButton;
     public GameObject FallingSpritePrefab;
     public List<GameObject> FallingSpriteContainers;
+    public TMPro.TextMeshProUGUI Text;
 
     public void ShowSummary(Level level, int interactionCount, UnityAction GoToNextLevel)
     {
         Panel.SetActive(true);
-
+        Text.text = level.Data.Name + " Complete!";
         Image.sprite = level.Data.Sprite;
         StarAnimator.SetInteger("Stars", level.GetStarRating(interactionCount));
         NextLevelButton.onClick.AddListener(GoToNextLevel);
@@ -24,7 +25,7 @@ public class LevelSummary : MonoBehaviour
         FallingSpriteContainers.ForEach(gameObject =>
         {
             gameObject.DestroyChildren();
-
+            gameObject.GetComponent<MenuFallInOnEnabled>().Offset = level.Data.FallingSprites.Count * 200;
             level.Data.FallingSprites.Shuffle().ToList().ForEach(s =>
             {
                 GameObject fallingObject = Instantiate(FallingSpritePrefab);

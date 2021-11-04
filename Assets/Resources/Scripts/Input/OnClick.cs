@@ -5,17 +5,17 @@ using UnityEngine.Events;
 public class OnClick : MonoBehaviour
 {
     public UnityEvent Event;
-    public bool IsTrigger;
+    public bool OnlyFireOnce;
 
     private bool HasBeenTriggered;
 
     public void Invoke()
     {
-        if (!IsTrigger)
+        if (!OnlyFireOnce)
         {
             Event.Invoke();
         }
-        else if (IsTrigger && !HasBeenTriggered)
+        else if (OnlyFireOnce && !HasBeenTriggered)
         {
             Event.Invoke();
             HasBeenTriggered = true;
