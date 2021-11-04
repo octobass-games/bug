@@ -5,14 +5,17 @@ using UnityEngine.InputSystem;
 public class MouseMonitor : MonoBehaviour
 {
 
-    public void OnClick()
+    public void OnClick(InputAction.CallbackContext ctx)
     {
-        GetColliderBeneathMouse()?.GetComponent<OnClick>()?.Invoke();
+        if (ctx.started)
+        {
+           FindObjectOfTypeBeneathMouse<OnClick>()?.Invoke();
+        }
     }
 
     public void OnDrag(InputAction.CallbackContext ctx)
     {
-        var draggableBeneathMouse = GetColliderBeneathMouse()?.GetComponent<Draggable>();
+        var draggableBeneathMouse = FindObjectOfTypeBeneathMouse<Draggable>();
 
         if (draggableBeneathMouse)
         {
@@ -27,7 +30,7 @@ public class MouseMonitor : MonoBehaviour
         }
     }
 
-    private Collider2D GetColliderBeneathMouse()
+    private T FindObjectOfTypeBeneathMouse<T>() where T : class
     {
         if (IsMouseOverUIElement())
         {
@@ -39,8 +42,7 @@ public class MouseMonitor : MonoBehaviour
         var ray = Camera.main.ScreenPointToRay(mousePosition);
         var hit = Physics2D.Raycast(ray.origin, ray.direction);
 
-
-        return hit.collider;
+        return hit.collider?.GetComponent<T>();
     }
 
     private bool IsMouseOverUIElement()

@@ -4301,7 +4301,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1449598149}
         m_TargetAssemblyTypeName: MouseMonitor, Assembly-CSharp
         m_MethodName: OnClick
-        m_Mode: 1
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4332,8 +4332,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1449598149}
         m_TargetAssemblyTypeName: MouseMonitor, Assembly-CSharp
-        m_MethodName: OnDragEnd
-        m_Mode: 1
+        m_MethodName: OnDrag
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4344,6 +4344,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 08da38e7-6786-49dc-83fd-072313442d9b
     m_ActionName: Player/Drag End[/Mouse/rightButton]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1449598148}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+        m_MethodName: TogglePause
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 405c8acd-4f22-4d93-9170-7498a4e7ba85
+    m_ActionName: Player/Pause[/Keyboard/escape]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player

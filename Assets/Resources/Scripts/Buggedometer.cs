@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -8,13 +9,19 @@ public class Buggedometer : MonoBehaviour
     public int OutOfPatienceDelaySeconds;
     public UnityEvent OnOutOfPatience;
 
-    public void DecrementPatience()
-    {
-        Patience -= 1;
+    private HashSet<GameObject> PatienceDroppers = new HashSet<GameObject>();
 
-        if (Patience == 0)
+    public void DecrementPatience(GameObject gameObject)
+    {
+        if (!PatienceDroppers.Contains(gameObject))
         {
-            StartCoroutine(OutOfPatience());
+            Patience -= 1;
+            PatienceDroppers.Add(gameObject);
+
+            if (Patience == 0)
+            {
+                StartCoroutine(OutOfPatience());
+            }
         }
     }
 
