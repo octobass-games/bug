@@ -5,7 +5,8 @@ public class MenuFallInOnEnabled : MonoBehaviour
     private Vector2 OrginalPostion;
     private float Speed = 300;
     private bool Complete = false;
-    public int Offset = 1;
+    private int Offset = 500;
+    public bool Loop = false;
 
     private RectTransform rect;
     void Awake()
@@ -27,7 +28,13 @@ public class MenuFallInOnEnabled : MonoBehaviour
 
         if(rect.anchoredPosition == OrginalPostion)
         {
-            Complete = true;
+            if (!Loop)
+            {
+                Complete = true;
+            }else
+            {
+                MoveToTop();
+            }
         }
     }
 

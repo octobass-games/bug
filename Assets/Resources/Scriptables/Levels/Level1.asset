@@ -17,3 +17,9 @@ MonoBehaviour:
   Sprite: {fileID: -68751727340038015, guid: 4c1d8b51259aa9e4b9c3eb6600c6adb5, type: 3}
   TwoStarInteractionCount: 2
   ThreeStarInteractionCount: 1
+  FallingSprites:
+  - {fileID: -4041604062673740648, guid: 2b16ad2a62e9c784b9ed93964c7b0c4a, type: 3}
+  - {fileID: 6099581493293703690, guid: 4c1d8b51259aa9e4b9c3eb6600c6adb5, type: 3}
+  - {fileID: 5508725064705088119, guid: 4c1d8b51259aa9e4b9c3eb6600c6adb5, type: 3}
+  - {fileID: 21300000, guid: 5f575b5e1b3f8c14699cafb9faa8bfc0, type: 3}
+  - {fileID: -7833671090200325546, guid: 4c1d8b51259aa9e4b9c3eb6600c6adb5, type: 3}

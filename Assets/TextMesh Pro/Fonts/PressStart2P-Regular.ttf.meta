@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cca19221c02e6b145a4b63416667a641
+guid: 00b637f467fc7554cbcf3828b6ba03d5
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - 'Pompiere '
+  - Press Start 2P
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
