@@ -1,22 +1,16 @@
 fileFormatVersion: 2
-guid: 52776edc549e207498f6321707c8d159
+guid: 426d082ea321ff54eb7c50b30d2ee31d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7607888284630877014
-    second: waking_0
+      213: -9136834448258697486
+    second: bubble_0
   - first:
-      213: -676814217628468856
-    second: waking_1
+      213: 1762854388791719718
+    second: bubble_1
   - first:
-      213: 2531607010332503647
-    second: waking_2
-  - first:
-      213: 9146858886147959588
-    second: waking_3
-  - first:
-      213: 7375848951233463338
-    second: waking_4
+      213: -8014315233242688854
+    second: bubble_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -118,96 +112,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: waking_0
+      name: bubble_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 65387482616a49960800000000000000
-      internalID: 7607888284630877014
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: waking_1
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 88932531e097b96f0800000000000000
-      internalID: -676814217628468856
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: waking_2
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 64
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f5ee1c1b923122320800000000000000
-      internalID: 2531607010332503647
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: waking_3
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 42b697fd1bb20fe70800000000000000
-      internalID: 9146858886147959588
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: waking_4
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 64
+        width: 40
         height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -216,8 +126,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a24453fca874c5660800000000000000
-      internalID: 7375848951233463338
+      spriteID: 2f6fcf37a71733180800000000000000
+      internalID: -9136834448258697486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bubble_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6273ba20abae67810800000000000000
+      internalID: 1762854388791719718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bubble_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2519cc1ce67c090800000000000000
+      internalID: -8014315233242688854
       vertices: []
       indices: 
       edges: []
