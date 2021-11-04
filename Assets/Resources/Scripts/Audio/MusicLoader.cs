@@ -5,13 +5,12 @@ using UnityEngine;
 public class MusicLoader : MonoBehaviour
 {
     FMOD.Studio.EventInstance musicEvent;
-    FMOD.Studio.PARAMETER_ID parameterController;
+
     [FMODUnity.EventRef]
-
     float updatedParameter;
-
     [SerializeField]
     float parameterNumber;
+
 
     public void Start()
     {
