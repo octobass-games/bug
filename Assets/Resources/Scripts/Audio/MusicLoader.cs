@@ -27,7 +27,8 @@ public class MusicLoader : MonoBehaviour
     }
     public float SetMusicParameter()
     {
-        if (GameObject.Find("PauseMenu").activeSelf)
+        if (GameObject.Find("PauseMenu").activeSelf || GameObject.Find("Level Select").activeSelf 
+                                                    || GameObject.Find("Collectables").activeSelf)
         {
             parameterNumber = 1f;
         }
