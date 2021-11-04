@@ -23,7 +23,7 @@ public class MouseMonitor : MonoBehaviour
             {
                 draggableBeneathMouse.DragStart();
             }
-            else
+            else if (ctx.performed)
             {
                 draggableBeneathMouse.DragEnd();
             }
