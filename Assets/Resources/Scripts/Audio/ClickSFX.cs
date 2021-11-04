@@ -12,10 +12,10 @@ public class ClickSFX : MonoBehaviour
             FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/clickWrong");
         }
 
-        else if (Input.GetMouseButtonDown(0) && isWrong == false)
+        if (Input.GetMouseButtonDown(0) && isWrong == false)
         {
             //FMODUnity.RuntimeManager.PlayOneShot("event:/");
         }
     }
-    }
+    
 }
