@@ -1,11 +1,4 @@
-﻿public enum StarRating
-{
-    ONE,
-    TWO,
-    THREE,
-}
-
-public class Level
+﻿public class Level
 {
     public LevelData Data;
     public bool Locked = true;
@@ -17,26 +10,28 @@ public class Level
         Locked = locked;
     }
 
-    public int GetStarRating(int interactions)
+    public int GetStarRating(int interactionCount)
     {
-        if (interactions <= Data.ThreeStarInteractionCount)
+        if (interactionCount <= Data.ThreeStarInteractionCount)
         {
             return 3;
         }
-
-        if (interactions <= Data.TwoStarInteractionCount)
+        else if (interactionCount <= Data.TwoStarInteractionCount)
         {
             return 2;
         }
+        else
+        {
+            return 1;
 
-        return 1;
+        }
     }
 
-    public void UpdateInteractionCount(int count)
+    public void UpdateInteractionCount(int interactionCount)
     {
-        if (LowestInteractionScore > count)
+        if (LowestInteractionScore > interactionCount)
         {
-            LowestInteractionScore = count;
+            LowestInteractionScore = interactionCount;
         }
     }
 }

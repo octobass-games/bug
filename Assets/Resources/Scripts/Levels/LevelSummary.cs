@@ -13,16 +13,17 @@ public class LevelSummary : MonoBehaviour
     public GameObject FallingSpritePrefab;
     public List<GameObject> FallingSpriteContainers;
 
-
-    public void ShowSummary(Level level, int interactions, UnityAction GoToNextLevel)
+    public void ShowSummary(Level level, int interactionCount, UnityAction GoToNextLevel)
     {
+        Panel.SetActive(true);
+
         Image.sprite = level.Data.Sprite;
-        StarAnimator.SetInteger("Stars", level.GetStarRating(interactions));
+        StarAnimator.SetInteger("Stars", level.GetStarRating(interactionCount));
         NextLevelButton.onClick.AddListener(GoToNextLevel);
         NextLevelButton.onClick.AddListener(() => Panel.SetActive(false));
-        FallingSpriteContainers.ForEach(g =>
+        FallingSpriteContainers.ForEach(gameObject =>
         {
-            g.DestroyChildren();
+            gameObject.DestroyChildren();
 
             level.Data.FallingSprites.Shuffle().ToList().ForEach(s =>
             {
@@ -30,16 +31,9 @@ public class LevelSummary : MonoBehaviour
                 var image = fallingObject.GetComponent<Image>();
                 image.sprite = s;
                 image.enabled = true;
-                fallingObject.transform.SetParent(g.transform);
+                fallingObject.transform.SetParent(gameObject.transform);
             });
         });
-
-
-
-     
-
-        Panel.SetActive(true);
-
     }
 
 }
