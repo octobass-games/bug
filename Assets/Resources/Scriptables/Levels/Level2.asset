@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2d507245602f67f4fb2d6e0c80bcace9, type: 3}
-  m_Name: Level1
+  m_Name: Level2
   m_EditorClassIdentifier: 
-  SceneName: Level1
-  Name: Level 1
-  Sprite: {fileID: -68751727340038015, guid: 4c1d8b51259aa9e4b9c3eb6600c6adb5, type: 3}
+  SceneName: 
+  Name: 
+  Sprite: {fileID: 0}
   TwoStarInteractionCount: 2
-  ThreeStarInteractionCount: 1
+  ThreeStarInteractionCount: 3

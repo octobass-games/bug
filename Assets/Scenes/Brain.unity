@@ -554,6 +554,7 @@ GameObject:
   - component: {fileID: 391738452}
   - component: {fileID: 391738455}
   - component: {fileID: 391738454}
+  - component: {fileID: 391738453}
   m_Layer: 0
   m_Name: Level Summary
   m_TagString: Untagged
@@ -581,6 +582,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &391738453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391738451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4222e1cdd3d9ddf4cb0869e2e78eb98b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Offset: 500
 --- !u!114 &391738454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2891,7 +2905,7 @@ MonoBehaviour:
   Panel: {fileID: 391738451}
   Image: {fileID: 1262247941}
   StarAnimator: {fileID: 1839155837}
-  NextLevelButton: {fileID: 0}
+  NextLevelButton: {fileID: 1707988298}
 --- !u!114 &1449598152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2906,6 +2920,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LevelData:
   - {fileID: 11400000, guid: aa9f5895545796749b1e3cf25389830d, type: 2}
+  - {fileID: 11400000, guid: 2686ce32a9d92aa44a2d2f7891293364, type: 2}
   LevelSummary: {fileID: 1449598151}
 --- !u!1 &1539766241
 GameObject:

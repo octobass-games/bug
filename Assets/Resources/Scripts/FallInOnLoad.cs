@@ -6,22 +6,15 @@ public class FallInOnLoad : MonoBehaviour
     public float CustomSpeed = 0;
     private float Speed ;
     private bool Complete = false;
+    public bool FallOnEnable = false;
+    public int Offset = 1;
 
-    // Use this for initialization
+
     void Start()
     {
-        if (CustomSpeed == 0)
-        {
-            Speed = Random.Range(1f, 3f);
-        }else
-        {
-            Speed = CustomSpeed;
-        }
-        OrginalPostion = transform.position;
-        transform.position = OrginalPostion + new Vector3(0, 1, 0);
+        Init();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Complete)
@@ -36,5 +29,28 @@ public class FallInOnLoad : MonoBehaviour
         {
             Complete = true;
         }
+    }
+
+    void OnEnable()
+    {
+       if (FallOnEnable)
+        {
+            Init();
+            Complete = false;
+        }    
+    }
+
+    private void Init()
+    {
+        if (CustomSpeed == 0)
+        {
+            Speed = Random.Range(1f, 3f);
+        }
+        else
+        {
+            Speed = CustomSpeed;
+        }
+        OrginalPostion = transform.position;
+        transform.position = OrginalPostion + new Vector3(0, Offset, 0);
     }
 }
