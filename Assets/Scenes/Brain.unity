@@ -722,7 +722,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4222e1cdd3d9ddf4cb0869e2e78eb98b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Offset: 1000
   Loop: 1
+  RandomiseSpeed: 1
 --- !u!114 &261332458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -988,7 +990,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4222e1cdd3d9ddf4cb0869e2e78eb98b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Offset: 500
   Loop: 0
+  RandomiseSpeed: 0
 --- !u!114 &391738454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1077,7 +1081,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4222e1cdd3d9ddf4cb0869e2e78eb98b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Offset: 1000
   Loop: 1
+  RandomiseSpeed: 1
 --- !u!114 &411811667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2066,7 +2072,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4222e1cdd3d9ddf4cb0869e2e78eb98b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Offset: 1000
   Loop: 1
+  RandomiseSpeed: 1
 --- !u!114 &725449536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2592,7 +2600,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4222e1cdd3d9ddf4cb0869e2e78eb98b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Offset: 1000
   Loop: 1
+  RandomiseSpeed: 1
 --- !u!114 &781148830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2797,7 +2807,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4222e1cdd3d9ddf4cb0869e2e78eb98b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Offset: 1000
   Loop: 1
+  RandomiseSpeed: 1
 --- !u!1 &848465133
 GameObject:
   m_ObjectHideFlags: 0
@@ -3105,7 +3117,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4222e1cdd3d9ddf4cb0869e2e78eb98b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Offset: 1000
   Loop: 1
+  RandomiseSpeed: 1
 --- !u!114 &955947698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3315,7 +3329,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4222e1cdd3d9ddf4cb0869e2e78eb98b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Offset: 1000
   Loop: 1
+  RandomiseSpeed: 1
 --- !u!114 &1053510188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4187,7 +4203,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4222e1cdd3d9ddf4cb0869e2e78eb98b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Offset: 1000
   Loop: 1
+  RandomiseSpeed: 1
 --- !u!114 &1493521484
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -5,14 +5,19 @@ public class MenuFallInOnEnabled : MonoBehaviour
     private Vector2 OrginalPostion;
     private float Speed = 300;
     private bool Complete = false;
-    private int Offset = 500;
+    public int Offset = 500;
     public bool Loop = false;
+    public bool RandomiseSpeed = false;
 
     private RectTransform rect;
     void Awake()
     {
         rect = GetComponent<RectTransform>();
         Complete = true;
+        if (RandomiseSpeed)
+        {
+            Speed = Random.Range(100, 500);
+        }
         Init();
     }
 

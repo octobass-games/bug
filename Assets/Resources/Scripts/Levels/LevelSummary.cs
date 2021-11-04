@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
@@ -23,7 +24,7 @@ public class LevelSummary : MonoBehaviour
         {
             g.DestroyChildren();
 
-            level.Data.FallingSprites.ForEach(s =>
+            level.Data.FallingSprites.Shuffle().ToList().ForEach(s =>
             {
                 GameObject fallingObject = Instantiate(FallingSpritePrefab);
                 var image = fallingObject.GetComponent<Image>();
