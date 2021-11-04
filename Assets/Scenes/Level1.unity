@@ -564,18 +564,6 @@ MonoBehaviour:
   Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1807913712}
-        m_TargetAssemblyTypeName: Buggedometer, Assembly-CSharp
-        m_MethodName: DecrementPatience
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 216925805}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 216925812}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: SetTrigger
@@ -586,6 +574,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: alarm
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1807913712}
+        m_TargetAssemblyTypeName: Buggedometer, Assembly-CSharp
+        m_MethodName: DecrementPatience
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 216925805}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &216925811
@@ -1078,7 +1078,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1807913707}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41bd04f84514ada4da78250fa0f2b72f, type: 3}
+  m_Script: {fileID: 11500000, guid: 8018f54971946934aa0462167094592d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Level: {fileID: 11400000, guid: aa9f5895545796749b1e3cf25389830d, type: 2}
