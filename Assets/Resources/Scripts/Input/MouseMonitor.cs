@@ -5,9 +5,12 @@ using UnityEngine.InputSystem;
 public class MouseMonitor : MonoBehaviour
 {
 
-    public void OnClick()
+    public void OnClick(InputAction.CallbackContext ctx)
     {
-        GetColliderBeneathMouse()?.GetComponent<OnClick>()?.Invoke();
+        if (ctx.started)
+        {
+            GetColliderBeneathMouse()?.GetComponent<OnClick>()?.Invoke();
+        }
     }
 
     public void OnDrag(InputAction.CallbackContext ctx)
