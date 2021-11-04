@@ -275,6 +275,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  IsTrigger: 0
 --- !u!114 &6944037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -429,6 +430,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  IsTrigger: 0
 --- !u!60 &66928421
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -660,6 +662,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  IsTrigger: 1
 --- !u!114 &216925811
 MonoBehaviour:
   m_ObjectHideFlags: 0

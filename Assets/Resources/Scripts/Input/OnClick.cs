@@ -5,6 +5,20 @@ using UnityEngine.Events;
 public class OnClick : MonoBehaviour
 {
     public UnityEvent Event;
+    public bool IsTrigger;
 
-    public void Invoke() => Event.Invoke();
+    private bool HasBeenTriggered;
+
+    public void Invoke()
+    {
+        if (!IsTrigger)
+        {
+            Event.Invoke();
+        }
+        else if (IsTrigger && !HasBeenTriggered)
+        {
+            Event.Invoke();
+            HasBeenTriggered = true;
+        }
+    }
 }
