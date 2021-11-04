@@ -14,13 +14,7 @@ public class Draggable : MonoBehaviour
         }
     }
 
-    public void DragStart()
-    {
-        isDragging = true;
-    }
+    public void DragStart() => isDragging = true;
 
-    public void DragEnd()
-    {
-        isDragging = false;
-    }
+    public void DragEnd() => isDragging = false;
 }

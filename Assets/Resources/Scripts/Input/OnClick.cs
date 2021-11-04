@@ -6,8 +6,5 @@ public class OnClick : MonoBehaviour
 {
     public UnityEvent Event;
 
-    public void Invoke()
-    {
-        Event.Invoke();
-    }
+    public void Invoke() => Event.Invoke();
 }
