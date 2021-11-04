@@ -16,6 +16,8 @@ public class LevelSummary : MonoBehaviour
 
     public void ShowSummary(Level level, int interactions, UnityAction GoToNextLevel)
     {
+        Panel.SetActive(true);
+
         Image.sprite = level.Data.Sprite;
         StarAnimator.SetInteger("Stars", level.GetStarRating(interactions));
         NextLevelButton.onClick.AddListener(GoToNextLevel);
@@ -38,7 +40,6 @@ public class LevelSummary : MonoBehaviour
 
      
 
-        Panel.SetActive(true);
 
     }
 
