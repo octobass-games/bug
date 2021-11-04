@@ -301,6 +301,8 @@ GameObject:
   - component: {fileID: 66928418}
   - component: {fileID: 66928417}
   - component: {fileID: 66928419}
+  - component: {fileID: 66928421}
+  - component: {fileID: 66928420}
   m_Layer: 0
   m_Name: window
   m_TagString: Untagged
@@ -388,6 +390,77 @@ MonoBehaviour:
   CustomSpeed: 0
   FallOnEnable: 0
   Offset: 1
+--- !u!114 &66928420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 66928416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8416580241c603a46ad093e0e4f0ebcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 66928417}
+        m_TargetAssemblyTypeName: UnityEngine.SpriteRenderer, UnityEngine
+        m_MethodName: set_sprite
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: -7583409310137716746, guid: 4c1d8b51259aa9e4b9c3eb6600c6adb5, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1807913713}
+        m_TargetAssemblyTypeName: LevelTracker, Assembly-CSharp
+        m_MethodName: IncrementInteractionCount
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!60 &66928421
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 66928416}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.43, y: 0.38}
+    newSize: {x: 0.43, y: 0.38}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.155, y: 0.17999999}
+      - {x: -0.175, y: 0.17}
+      - {x: -0.175, y: 0.01}
+      - {x: 0.145, y: -0.16}
+      - {x: 0.21499999, y: -0.16}
+      - {x: 0.21499999, y: 0.01}
+      - {x: -0.105, y: 0.17999999}
 --- !u!1 &78424381
 GameObject:
   m_ObjectHideFlags: 0
@@ -564,18 +637,6 @@ MonoBehaviour:
   Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1807913712}
-        m_TargetAssemblyTypeName: Buggedometer, Assembly-CSharp
-        m_MethodName: DecrementPatience
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 216925805}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 216925812}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: SetTrigger
@@ -586,6 +647,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: alarm
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1807913712}
+        m_TargetAssemblyTypeName: Buggedometer, Assembly-CSharp
+        m_MethodName: DecrementPatience
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 216925805}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &216925811
@@ -1078,7 +1151,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1807913707}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41bd04f84514ada4da78250fa0f2b72f, type: 3}
+  m_Script: {fileID: 11500000, guid: 8018f54971946934aa0462167094592d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Level: {fileID: 11400000, guid: aa9f5895545796749b1e3cf25389830d, type: 2}

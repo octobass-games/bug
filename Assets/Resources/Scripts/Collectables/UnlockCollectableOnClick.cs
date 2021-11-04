@@ -10,6 +10,9 @@ public class UnlockCollectableOnClick : MonoBehaviour
     {
         var collectables = FindObjectOfType<Collectables>();
 
-        GetComponent<OnClick>().Event.AddListener(() => collectables?.UnlockCollectable(CollectableData));
+        GetComponent<OnClick>().Event.AddListener(() => {
+            collectables?.UnlockCollectable(CollectableData);
+            gameObject.SetActive(false);
+        });
     }
 }

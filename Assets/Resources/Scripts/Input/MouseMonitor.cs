@@ -45,8 +45,5 @@ public class MouseMonitor : MonoBehaviour
         return hit.collider?.GetComponent<T>();
     }
 
-    private bool IsMouseOverUIElement()
-    {
-        return EventSystem.current.IsPointerOverGameObject();
-    }
+    private bool IsMouseOverUIElement() => EventSystem.current.IsPointerOverGameObject();
 }
