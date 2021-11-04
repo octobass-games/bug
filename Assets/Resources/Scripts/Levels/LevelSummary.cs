@@ -24,7 +24,7 @@ public class LevelSummary : MonoBehaviour
         FallingSpriteContainers.ForEach(gameObject =>
         {
             gameObject.DestroyChildren();
-
+            gameObject.GetComponent<MenuFallInOnEnabled>().Offset = level.Data.FallingSprites.Count * 200;
             level.Data.FallingSprites.Shuffle().ToList().ForEach(s =>
             {
                 GameObject fallingObject = Instantiate(FallingSpritePrefab);

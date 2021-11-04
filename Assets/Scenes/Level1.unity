@@ -275,7 +275,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  IsTrigger: 0
+  OnlyFireOnce: 0
 --- !u!114 &6944037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -443,7 +443,7 @@ MonoBehaviour:
           m_StringArgument: event:/SFX/clickWrong
           m_BoolArgument: 0
         m_CallState: 2
-  IsTrigger: 0
+  OnlyFireOnce: 0
 --- !u!60 &66928421
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -687,7 +687,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  IsTrigger: 1
+  OnlyFireOnce: 0
 --- !u!114 &216925811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1129,6 +1129,8 @@ GameObject:
   - component: {fileID: 1418987920}
   - component: {fileID: 1418987921}
   - component: {fileID: 1418987922}
+  - component: {fileID: 1418987924}
+  - component: {fileID: 1418987923}
   m_Layer: 0
   m_Name: frame
   m_TagString: Untagged
@@ -1216,6 +1218,79 @@ MonoBehaviour:
   CustomSpeed: 0
   FallOnEnable: 0
   Offset: 1
+--- !u!114 &1418987923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418987919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8416580241c603a46ad093e0e4f0ebcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1418987921}
+        m_TargetAssemblyTypeName: UnityEngine.SpriteRenderer, UnityEngine
+        m_MethodName: set_sprite
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: -732356172534689064, guid: 4c1d8b51259aa9e4b9c3eb6600c6adb5, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1807913713}
+        m_TargetAssemblyTypeName: LevelTracker, Assembly-CSharp
+        m_MethodName: IncrementInteractionCount
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnlyFireOnce: 0
+--- !u!60 &1418987924
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418987919}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.21, y: 0.3}
+    newSize: {x: 0.21, y: 0.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.005, y: 0.14999999}
+      - {x: -0.095, y: 0.13}
+      - {x: -0.095, y: -0.089999996}
+      - {x: 0.015, y: -0.14999999}
+      - {x: 0.074999996, y: -0.14999999}
+      - {x: 0.105, y: -0.14}
+      - {x: 0.105, y: 0.049999997}
+      - {x: 0.035, y: 0.14999999}
 --- !u!1 &1625945271
 GameObject:
   m_ObjectHideFlags: 0
