@@ -15,11 +15,28 @@ public class MenuController : MonoBehaviour
 
 
     public void OpenLevelSelect() => OpenMenu(Menu.LEVEL_SELECT);
-    public void OpenPause() => OpenMenu(Menu.PAUSE);
+
     public void OpenCollectables() => OpenMenu(Menu.COLLECTABLES);
+
+    public void OpenPause()
+    {
+        OpenMenu(Menu.PAUSE);
+    }
+    public void TogglePause()
+    {
+        if (!PausePanel.activeSelf)
+        {
+            OpenPause();
+        }
+        else
+        {
+            CloseMenu();
+        }
+    }
 
     public void OpenMenu(Menu menu)
     {
+        Time.timeScale = 0;
         LevelSelectPanel.SetActive(menu == Menu.LEVEL_SELECT);
         PausePanel.SetActive(menu == Menu.PAUSE);
         CollectablesPanel.SetActive(menu == Menu.COLLECTABLES);
@@ -30,6 +47,7 @@ public class MenuController : MonoBehaviour
         LevelSelectPanel.SetActive(false);
         PausePanel.SetActive(false);
         CollectablesPanel.SetActive(false);
+        Time.timeScale = 1;
     }
 
 }
