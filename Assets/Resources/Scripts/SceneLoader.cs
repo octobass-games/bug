@@ -2,9 +2,9 @@
 
 public static class SceneLoader
 {
-    public static void LoadScene(LevelData level)
+    public static void LoadScene(LevelData level, LevelData OldLevel)
     {
-        SceneManager.LoadScene(level.SceneName);
-        SceneManager.LoadScene("Brain", LoadSceneMode.Additive);
+        SceneManager.UnloadSceneAsync(OldLevel.SceneName);
+        SceneManager.LoadScene(level.SceneName, LoadSceneMode.Additive);
     }
 }

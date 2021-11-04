@@ -16,8 +16,8 @@ public class StartMenu : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("Level1");
-        SceneManager.LoadScene("Brain", LoadSceneMode.Additive);
+        SceneManager.UnloadSceneAsync("StartMenu");
+        SceneManager.LoadScene("Level1", LoadSceneMode.Additive);
     }
 
     public void LevelSelect()
