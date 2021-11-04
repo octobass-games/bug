@@ -15,6 +15,7 @@ MonoBehaviour:
   SceneName: Level1
   Name: Level 1
   Sprite: {fileID: -4041604062673740648, guid: 2b16ad2a62e9c784b9ed93964c7b0c4a, type: 3}
+  Preview: {fileID: 21300000, guid: 3bb5350a3e6ddb04699a87930aad646c, type: 3}
   TwoStarInteractionCount: 2
   ThreeStarInteractionCount: 1
   FallingSprites:
