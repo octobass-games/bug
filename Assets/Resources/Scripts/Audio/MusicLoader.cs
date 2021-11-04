@@ -20,11 +20,6 @@ public class MusicLoader : MonoBehaviour
         DontDestroyOnLoad(GameObject.Find("Music"));
     }
 
-    public void Update()
-    {
-        updatedParameter = SetMusicParameter();
-        musicEvent.setParameterByName("isPaused", updatedParameter);
-    }
     public float SetMusicParameter()
     {
         if (GameObject.Find("PauseMenu").activeSelf)
@@ -38,8 +33,14 @@ public class MusicLoader : MonoBehaviour
         
         return parameterNumber;
     }
-    
-    
+
+    public void SetMenuMusic()
+    {
+        updatedParameter = SetMusicParameter();
+        musicEvent.setParameterByName("isPaused", updatedParameter);
+    }
+
+
     //|| GameObject.Find("Level Select").activeSelf || GameObject.Find("Collectables").activeSelf
 
 }

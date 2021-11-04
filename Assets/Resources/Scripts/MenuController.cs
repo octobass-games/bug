@@ -13,6 +13,7 @@ public class MenuController : MonoBehaviour
     public GameObject PausePanel;
     public GameObject CollectablesPanel;
 
+    public MusicLoader musicLoader;
 
     public void OpenLevelSelect() => OpenMenu(Menu.LEVEL_SELECT);
 
@@ -40,6 +41,7 @@ public class MenuController : MonoBehaviour
         LevelSelectPanel.SetActive(menu == Menu.LEVEL_SELECT);
         PausePanel.SetActive(menu == Menu.PAUSE);
         CollectablesPanel.SetActive(menu == Menu.COLLECTABLES);
+        musicLoader.SetMenuMusic();
     }
 
     public void CloseMenu()
@@ -48,6 +50,7 @@ public class MenuController : MonoBehaviour
         PausePanel.SetActive(false);
         CollectablesPanel.SetActive(false);
         Time.timeScale = 1;
+        musicLoader.SetMenuMusic();
     }
 
 }

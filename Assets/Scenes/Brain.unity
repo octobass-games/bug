@@ -4181,6 +4181,7 @@ MonoBehaviour:
   LevelSelectPanel: {fileID: 763775208}
   PausePanel: {fileID: 2109265610}
   CollectablesPanel: {fileID: 1124503306}
+  musicLoader: {fileID: 1571915050}
 --- !u!114 &1449598149
 MonoBehaviour:
   m_ObjectHideFlags: 0
