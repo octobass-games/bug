@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Brain.unity
     guid: 8a5858e0761d74e43b33f8c032276298
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: e1b2732725135b04eba21db957452dad
   m_configObjects: {}

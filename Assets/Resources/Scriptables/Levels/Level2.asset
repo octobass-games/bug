@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d507245602f67f4fb2d6e0c80bcace9, type: 3}
   m_Name: Level2
   m_EditorClassIdentifier: 
-  SceneName: 
-  Name: 
+  SceneName: Level2
+  Name: Level 2
   Sprite: {fileID: 0}
   TwoStarInteractionCount: 2
   ThreeStarInteractionCount: 3
+  FallingSprites: []
