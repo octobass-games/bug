@@ -41,7 +41,7 @@ public class MenuController : MonoBehaviour
         LevelSelectPanel.SetActive(menu == Menu.LEVEL_SELECT);
         PausePanel.SetActive(menu == Menu.PAUSE);
         CollectablesPanel.SetActive(menu == Menu.COLLECTABLES);
-        musicLoader.SetMenuMusic();
+        musicLoader.SetMenuMusic(true);
     }
 
     public void CloseMenu()
@@ -50,7 +50,7 @@ public class MenuController : MonoBehaviour
         PausePanel.SetActive(false);
         CollectablesPanel.SetActive(false);
         Time.timeScale = 1;
-        musicLoader.SetMenuMusic();
+        musicLoader.SetMenuMusic(false);
     }
 
 }

@@ -34,9 +34,15 @@ public class MusicLoader : MonoBehaviour
         return parameterNumber;
     }
 
-    public void SetMenuMusic()
+    //public void SetMenuMusic()
+    //{
+    //    updatedParameter = SetMusicParameter();
+    //    musicEvent.setParameterByName("isPaused", updatedParameter);
+    //}
+
+    public void SetMenuMusic(bool MenuOpen)
     {
-        updatedParameter = SetMusicParameter();
+        updatedParameter = MenuOpen ? 1f : 0f;
         musicEvent.setParameterByName("isPaused", updatedParameter);
     }
 
