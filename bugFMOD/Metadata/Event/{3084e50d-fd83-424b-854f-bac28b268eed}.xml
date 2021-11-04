@@ -113,6 +113,9 @@
 		<property name="length">
 			<value>88.5</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{f0e7a02c-1f48-4043-bde4-f4b92d14135e}</destination>
+		</relationship>
 		<relationship name="triggerConditions">
 			<destination>{b5a25c5c-6d5a-4807-8eb6-1116c264d13f}</destination>
 		</relationship>
@@ -141,6 +144,9 @@
 		<property name="length">
 			<value>88.5</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{39e43e44-b2ac-4e72-a689-0606144f74eb}</destination>
+		</relationship>
 		<relationship name="triggerConditions">
 			<destination>{95b8ff15-38a6-4781-b72f-757f0afe1841}</destination>
 		</relationship>
@@ -186,6 +192,20 @@
 	</object>
 	<object class="MixerBusPanner" id="{06a6f402-9eea-451d-b33b-56bf1a1186a9}" />
 	<object class="MixerBusFader" id="{d3a22ae1-7498-41d4-a8f2-6b6164c3ed4f}" />
+	<object class="ADSRModulator" id="{f0e7a02c-1f48-4043-bde4-f4b92d14135e}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>700</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="ParameterCondition" id="{b5a25c5c-6d5a-4807-8eb6-1116c264d13f}">
 		<property name="minimum">
 			<value>0</value>
@@ -203,6 +223,20 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{0eecfd80-42ee-4e6b-9cfd-533153f887b9}" />
+	<object class="ADSRModulator" id="{39e43e44-b2ac-4e72-a689-0606144f74eb}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>720</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="ParameterCondition" id="{95b8ff15-38a6-4781-b72f-757f0afe1841}">
 		<property name="minimum">
 			<value>1</value>
