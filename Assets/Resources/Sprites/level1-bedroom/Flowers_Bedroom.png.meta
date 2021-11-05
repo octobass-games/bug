@@ -8,6 +8,18 @@ TextureImporter:
   - first:
       213: -7696314502343423110
     second: Flowers_Bedroom_1
+  - first:
+      213: 7920718275980537324
+    second: dresser
+  - first:
+      213: 2937313862059030987
+    second: lamp
+  - first:
+      213: 7627287618904539742
+    second: rug
+  - first:
+      213: 2339067787052784322
+    second: mirror
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -117,7 +129,7 @@ TextureImporter:
         width: 48
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -138,7 +150,7 @@ TextureImporter:
         width: 21
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -146,6 +158,90 @@ TextureImporter:
       bones: []
       spriteID: a7b0228acb2313590800000000000000
       internalID: -7696314502343423110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dresser
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 272
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceda3c56e4b0ced60800000000000000
+      internalID: 7920718275980537324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 270
+        width: 21
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9fbdd156f63c820800000000000000
+      internalID: 2937313862059030987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rug
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 191
+        width: 128
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e524a84ada199d960800000000000000
+      internalID: 7627287618904539742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 265
+        width: 21
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca17d862c9067020800000000000000
+      internalID: 2339067787052784322
       vertices: []
       indices: 
       edges: []
