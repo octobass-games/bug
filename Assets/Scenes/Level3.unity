@@ -376,7 +376,7 @@ MonoBehaviour:
   - ComponentA: {fileID: 1141638007}
     ComponentB: {fileID: 1268585327}
     Result: {fileID: 0}
-    CreationEvents:
+    OnCombination:
       m_PersistentCalls:
         m_Calls: []
 --- !u!1 &1268585327
@@ -571,8 +571,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1072840879
+  m_SortingLayer: -2
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 5818f5e426f92124899338b87082ed31, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-
 public class Combiner : MonoBehaviour
 {
     public List<Recipe> Recipes;
@@ -23,12 +22,12 @@ public class Combiner : MonoBehaviour
                 recipe.Result.SetActive(true);
             }
 
-            recipe.CreationEvents.Invoke();
+            recipe.OnCombination.Invoke();
         }
     }
 
     private Recipe FindRecipe(GameObject ingredientA, GameObject ingredientB) =>
-        Recipes.Find(recipe =>recipe.ComponentA == ingredientA && recipe.ComponentB == ingredientB || recipe.ComponentB == ingredientA && recipe.ComponentA == ingredientB);
+        Recipes.Find(recipe => recipe.ComponentA == ingredientA && recipe.ComponentB == ingredientB || recipe.ComponentB == ingredientA && recipe.ComponentA == ingredientB);
 
     private void MaybeDestroyGhost(GameObject go)
     {

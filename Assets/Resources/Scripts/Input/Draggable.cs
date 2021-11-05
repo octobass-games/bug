@@ -6,6 +6,7 @@ public class Draggable : MonoBehaviour
 {
     public GameObject Ghost;
 
+    private SpriteRenderer SpriteRenderer;
     private Vector3 PositionBeforeDragging;
     private bool IsDragging;
     private Collider2D[] OverlappingColliders = new Collider2D[1];
@@ -16,14 +17,17 @@ public class Draggable : MonoBehaviour
 
     void Start()
     {
-        var spriteRendererSprite = GetComponent<SpriteRenderer>().sprite;
+        SpriteRenderer = GetComponent<SpriteRenderer>();
+
+        var spriteRendererSprite = SpriteRenderer.sprite;
 
         Ghost = new GameObject("ghost");
         var ghostSpriteRenderer = Ghost.AddComponent<SpriteRenderer>();
         ghostSpriteRenderer.sprite = spriteRendererSprite;
         ghostSpriteRenderer.color = new Color(ghostSpriteRenderer.color.r, ghostSpriteRenderer.color.g, ghostSpriteRenderer.color.b, 0.4f);
-        Ghost.transform.SetParent(this.transform.parent);
-        Ghost.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + 1);
+        ghostSpriteRenderer.sortingLayerName = "Ghost";
+        Ghost.transform.SetParent(transform.parent);
+        Ghost.transform.position = transform.position;
     }
 
     void Update()
@@ -39,11 +43,13 @@ public class Draggable : MonoBehaviour
     {
         IsDragging = true;
         PositionBeforeDragging = transform.position;
+        SpriteRenderer.sortingLayerName = "Drag";
     }
 
     public void DragEnd()
     {
         IsDragging = false;
+        SpriteRenderer.sortingLayerName = "Default";
 
         if (GetComponent<BoxCollider2D>().OverlapCollider(ContactFilter, OverlappingColliders) > 0)
         {

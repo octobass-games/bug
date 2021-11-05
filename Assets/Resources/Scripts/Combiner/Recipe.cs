@@ -7,5 +7,5 @@ public class Recipe
     public GameObject ComponentA;
     public GameObject ComponentB;
     public GameObject Result;
-    public UnityEvent CreationEvents;
+    public UnityEvent OnCombination;
 }
