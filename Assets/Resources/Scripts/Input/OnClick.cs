@@ -2,10 +2,11 @@
 using UnityEngine.Events;
 
 [RequireComponent(typeof(Collider2D))]
+[RequireComponent(typeof(EnlargeOnHover))]
 public class OnClick : MonoBehaviour
 {
-    public UnityEvent Event;
     public bool OnlyFireOnce;
+    public UnityEvent Event;
 
     private bool HasBeenTriggered;
 
