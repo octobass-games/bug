@@ -58,16 +58,19 @@ public class Draggable : MonoBehaviour
 
     public void DragEnd()
     {
-        IsDragging = false;
-        SpriteRenderer.sortingLayerName = "Default";
+        if (IsDragging)
+        {
+            IsDragging = false;
+            SpriteRenderer.sortingLayerName = "Default";
 
-        if (GetComponent<BoxCollider2D>().OverlapCollider(ContactFilter, OverlappingColliders) > 0)
-        {
-            FindObjectOfType<Combiner>().Combine(gameObject, OverlappingColliders[0].gameObject);
-        }
-        else
-        {
-            transform.position = PositionBeforeDragging;
+            if (GetComponent<BoxCollider2D>().OverlapCollider(ContactFilter, OverlappingColliders) > 0)
+            {
+                FindObjectOfType<Combiner>().Combine(gameObject, OverlappingColliders[0].gameObject);
+            }
+            else
+            {
+                transform.position = PositionBeforeDragging;
+            }
         }
     }
 }
