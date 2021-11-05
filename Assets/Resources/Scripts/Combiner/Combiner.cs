@@ -17,8 +17,13 @@ public class Combiner : MonoBehaviour
             Destroy(componentA);
             Destroy(componentB);
 
-            recipe.Result.transform.position = componentA.transform.position;
-            recipe.Result.SetActive(true);
+            if (recipe.Result != null)
+            {
+                recipe.Result.transform.position = componentA.transform.position;
+                recipe.Result.SetActive(true);
+            }
+
+            recipe.CreationEvents.Invoke();
         }
     }
 
