@@ -39,6 +39,16 @@ public class Draggable : MonoBehaviour
         }
     }
 
+    void OnMouseEnter()
+    {
+        transform.localScale = new Vector3(1.05f, 1.05f, 1.05f);
+    }
+
+    void OnMouseExit()
+    {
+        transform.localScale = new Vector3(1, 1, 1);
+    }
+
     public void DragStart()
     {
         IsDragging = true;
@@ -48,16 +58,19 @@ public class Draggable : MonoBehaviour
 
     public void DragEnd()
     {
-        IsDragging = false;
-        SpriteRenderer.sortingLayerName = "Default";
+        if (IsDragging)
+        {
+            IsDragging = false;
+            SpriteRenderer.sortingLayerName = "Default";
 
-        if (GetComponent<BoxCollider2D>().OverlapCollider(ContactFilter, OverlappingColliders) > 0)
-        {
-            FindObjectOfType<Combiner>().Combine(gameObject, OverlappingColliders[0].gameObject);
-        }
-        else
-        {
-            transform.position = PositionBeforeDragging;
+            if (GetComponent<BoxCollider2D>().OverlapCollider(ContactFilter, OverlappingColliders) > 0)
+            {
+                FindObjectOfType<Combiner>().Combine(gameObject, OverlappingColliders[0].gameObject);
+            }
+            else
+            {
+                transform.position = PositionBeforeDragging;
+            }
         }
     }
 }
