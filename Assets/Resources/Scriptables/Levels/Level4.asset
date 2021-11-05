@@ -15,6 +15,7 @@ MonoBehaviour:
   SceneName: Level4
   Name: Level 4
   Sprite: {fileID: 0}
+  Preview: {fileID: 21300000, guid: 7999733de4ccbfc4d8038b600134801d, type: 3}
   TwoStarInteractionCount: 2
   ThreeStarInteractionCount: 3
   FallingSprites: []
