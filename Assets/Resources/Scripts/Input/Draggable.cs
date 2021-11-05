@@ -4,28 +4,31 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(Collider2D))]
 public class Draggable : MonoBehaviour
 {
-    private bool isDragging;
+    private bool IsDragging;
+    private Collider2D[] OverlappingColliders = new Collider2D[1];
+    private ContactFilter2D ContactFilter = new ContactFilter2D
+    {
+        useTriggers = true
+    };
 
     void Update()
     {
-        if (isDragging)
+        if (IsDragging)
         {
             var mouseWorldPoint = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
             transform.position = new Vector3(mouseWorldPoint.x, mouseWorldPoint.y, transform.position.z);
         }
     }
 
-    public void DragStart() => isDragging = true;
+    public void DragStart() => IsDragging = true;
 
     public void DragEnd()
     {
-        isDragging = false;
+        IsDragging = false;
 
-        var results = new Collider2D[1];
-        var contactFilter = new ContactFilter2D();
-        contactFilter.useTriggers = true;
-        int numberOfResults = GetComponent<BoxCollider2D>().OverlapCollider(contactFilter, results);
-
-        Debug.Log(numberOfResults);
+        if (GetComponent<BoxCollider2D>().OverlapCollider(ContactFilter, OverlappingColliders) > 0)
+        {
+            OverlappingColliders[0].gameObject.GetComponent<Combinable>()?.Combine(gameObject);
+        }
     }
 }
