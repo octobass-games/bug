@@ -35,6 +35,9 @@ TextureImporter:
   - first:
       213: 8132948862792318974
     second: bathroom_window
+  - first:
+      213: 2614870373251885436
+    second: plantpot
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -362,6 +365,27 @@ TextureImporter:
       bones: []
       spriteID: eff372786e90ed070800000000000000
       internalID: 8132948862792318974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantpot
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 549
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c792f5310c2e94420800000000000000
+      internalID: 2614870373251885436
       vertices: []
       indices: 
       edges: []
