@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
 
+[RequireComponent(typeof(Collider2D))]
 public class Draggable : MonoBehaviour
 {
     private bool isDragging;
@@ -16,5 +17,15 @@ public class Draggable : MonoBehaviour
 
     public void DragStart() => isDragging = true;
 
-    public void DragEnd() => isDragging = false;
+    public void DragEnd()
+    {
+        isDragging = false;
+
+        var results = new Collider2D[1];
+        var contactFilter = new ContactFilter2D();
+        contactFilter.useTriggers = true;
+        int numberOfResults = GetComponent<BoxCollider2D>().OverlapCollider(contactFilter, results);
+
+        Debug.Log(numberOfResults);
+    }
 }

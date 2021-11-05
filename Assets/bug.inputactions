@@ -14,17 +14,9 @@
                     "interactions": ""
                 },
                 {
-                    "name": "Drag Start",
+                    "name": "Drag",
                     "type": "Button",
                     "id": "417e99c1-f874-423f-bed2-0f4843ea7464",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": ""
-                },
-                {
-                    "name": "Drag End",
-                    "type": "Button",
-                    "id": "08da38e7-6786-49dc-83fd-072313442d9b",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
@@ -57,18 +49,7 @@
                     "interactions": "Press(behavior=1)",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "Drag Start",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "24d96c9f-b1fd-4e5c-90ed-2d49140eb27c",
-                    "path": "<Mouse>/rightButton",
-                    "interactions": "Press(behavior=1)",
-                    "processors": "",
-                    "groups": "Keyboard&Mouse",
-                    "action": "Drag End",
+                    "action": "Drag",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
