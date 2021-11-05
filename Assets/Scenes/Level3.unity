@@ -218,6 +218,7 @@ GameObject:
   - component: {fileID: 1141638009}
   - component: {fileID: 1141638011}
   - component: {fileID: 1141638010}
+  - component: {fileID: 1141638012}
   m_Layer: 0
   m_Name: Object A
   m_TagString: Untagged
@@ -328,6 +329,34 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.24}
   m_EdgeRadius: 0
+--- !u!114 &1141638012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141638007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04eb8884d0e41914182bfd324e9e7318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CombinableComponent: {fileID: 1268585327}
+  OnCombine:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1960092203}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1268585327
 GameObject:
   m_ObjectHideFlags: 0
@@ -521,7 +550,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 5818f5e426f92124899338b87082ed31, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
