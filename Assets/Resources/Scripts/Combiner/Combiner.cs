@@ -27,14 +27,8 @@ public class Combiner : MonoBehaviour
         }
     }
 
-    private Recipe FindRecipe(GameObject ingredientA, GameObject ingredientB)
-    {
-        var recipe = Recipes.Find(recipe =>
-            recipe.ComponentA == ingredientA && recipe.ComponentB == ingredientB || recipe.ComponentB == ingredientA && recipe.ComponentA == ingredientB
-        );
-
-        return recipe;
-    }
+    private Recipe FindRecipe(GameObject ingredientA, GameObject ingredientB) =>
+        Recipes.Find(recipe =>recipe.ComponentA == ingredientA && recipe.ComponentB == ingredientB || recipe.ComponentB == ingredientA && recipe.ComponentA == ingredientB);
 
     private void MaybeDestroyGhost(GameObject go)
     {
