@@ -4,7 +4,8 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(Collider2D))]
 public class Draggable : MonoBehaviour
 {
-    private GameObject Ghost;
+    public GameObject Ghost;
+
     private Vector3 PositionBeforeDragging;
     private bool IsDragging;
     private Collider2D[] OverlappingColliders = new Collider2D[1];
@@ -46,8 +47,7 @@ public class Draggable : MonoBehaviour
 
         if (GetComponent<BoxCollider2D>().OverlapCollider(ContactFilter, OverlappingColliders) > 0)
         {
-            OverlappingColliders[0].gameObject.GetComponent<Combinable>()?.Combine(gameObject);
-            Destroy(Ghost);
+            FindObjectOfType<Combiner>().Combine(gameObject, OverlappingColliders[0].gameObject);
         }
         else
         {
