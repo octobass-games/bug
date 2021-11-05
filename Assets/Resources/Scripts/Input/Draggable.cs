@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(Collider2D))]
 public class Draggable : MonoBehaviour
 {
+    private Vector3 PositionBeforeDragging;
     private bool IsDragging;
     private Collider2D[] OverlappingColliders = new Collider2D[1];
     private ContactFilter2D ContactFilter = new ContactFilter2D
@@ -20,7 +21,11 @@ public class Draggable : MonoBehaviour
         }
     }
 
-    public void DragStart() => IsDragging = true;
+    public void DragStart()
+    {
+        IsDragging = true;
+        PositionBeforeDragging = transform.position;
+    }
 
     public void DragEnd()
     {
@@ -29,6 +34,10 @@ public class Draggable : MonoBehaviour
         if (GetComponent<BoxCollider2D>().OverlapCollider(ContactFilter, OverlappingColliders) > 0)
         {
             OverlappingColliders[0].gameObject.GetComponent<Combinable>()?.Combine(gameObject);
+        }
+        else
+        {
+            transform.position = PositionBeforeDragging;
         }
     }
 }
