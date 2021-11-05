@@ -440,10 +440,10 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: event:/SFX/clickWrong
+          m_StringArgument: event:/SFX/glassbreak
           m_BoolArgument: 0
         m_CallState: 2
-  OnlyFireOnce: 0
+  OnlyFireOnce: 1
 --- !u!60 &66928421
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1131,6 +1131,7 @@ GameObject:
   - component: {fileID: 1418987922}
   - component: {fileID: 1418987924}
   - component: {fileID: 1418987923}
+  - component: {fileID: 1418987925}
   m_Layer: 0
   m_Name: frame
   m_TagString: Untagged
@@ -1257,7 +1258,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  OnlyFireOnce: 0
+      - m_Target: {fileID: 1418987925}
+        m_TargetAssemblyTypeName: ClickSFX, Assembly-CSharp
+        m_MethodName: PlayOneShot
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: event:/SFX/creek
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnlyFireOnce: 1
 --- !u!60 &1418987924
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1291,6 +1304,18 @@ PolygonCollider2D:
       - {x: 0.105, y: -0.14}
       - {x: 0.105, y: 0.049999997}
       - {x: 0.035, y: 0.14999999}
+--- !u!114 &1418987925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418987919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b746c1b5663d912418c528bd1d7003be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1625945271
 GameObject:
   m_ObjectHideFlags: 0
