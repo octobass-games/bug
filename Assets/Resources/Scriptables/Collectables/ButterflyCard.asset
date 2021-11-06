@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: -1145144668836272637, guid: 4e10214aae269714c9923441f606d13c, type: 3}
   Name: Butterfly
+  Colour: {r: 1, g: 1, b: 1, a: 1}

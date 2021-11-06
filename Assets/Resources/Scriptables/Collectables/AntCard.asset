@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: -2922113337684369405, guid: 4e10214aae269714c9923441f606d13c, type: 3}
   Name: Ant
+  Colour: {r: 1, g: 1, b: 1, a: 1}
