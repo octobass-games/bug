@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: -7415955986125602904, guid: 4e10214aae269714c9923441f606d13c, type: 3}
   Name: Spider
+  Colour: {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 1}

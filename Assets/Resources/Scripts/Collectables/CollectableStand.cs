@@ -23,6 +23,7 @@ public class CollectableStand: MonoBehaviour
             Debug.Log("child");
             child.gameObject.SetActive(itemActive);
         }
+        StandSprite.gameObject.SetActive(true);
 
         if (itemActive)
         {
