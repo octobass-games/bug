@@ -2,6 +2,7 @@
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Collider2D))]
+[RequireComponent(typeof(EnlargeOnHover))]
 public class Draggable : MonoBehaviour
 {
     public GameObject Ghost;
@@ -37,16 +38,6 @@ public class Draggable : MonoBehaviour
             var mouseWorldPoint = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
             transform.position = new Vector3(mouseWorldPoint.x, mouseWorldPoint.y, transform.position.z);
         }
-    }
-
-    void OnMouseEnter()
-    {
-        transform.localScale = new Vector3(1.05f, 1.05f, 1.05f);
-    }
-
-    void OnMouseExit()
-    {
-        transform.localScale = new Vector3(1, 1, 1);
     }
 
     public void DragStart()
