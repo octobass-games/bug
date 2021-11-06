@@ -7,11 +7,11 @@ public class CollectableStand: MonoBehaviour
     private Collectables Collectables;
     private Collectable collectable;
     public SpriteRenderer Sprite;
+    public SpriteRenderer StandSprite;
 
     void Start()
     {
         Collectables = FindObjectOfType<Collectables>();
-        var standSprite = GetComponent<SpriteRenderer>();
 
         collectable = Collectables.Find(CollectableData);
         Sprite.sprite = CollectableData.sprite;
@@ -20,17 +20,16 @@ public class CollectableStand: MonoBehaviour
 
         foreach (Transform child in transform)
         {
+            Debug.Log("child");
             child.gameObject.SetActive(itemActive);
         }
 
-        GetComponent<OnClick>().disabled = !itemActive;
-
         if (itemActive)
         {
-            standSprite.color = CollectableData.Colour;
+            StandSprite.color = CollectableData.Colour;
         }else
         {
-            standSprite.color = Color.white;
+            StandSprite.color = Color.white;
         }
     }
 

@@ -34,6 +34,7 @@ public class MouseMonitor : MonoBehaviour
     {
         if (IsMouseOverUIElement())
         {
+            Debug.Log("Over Ui Element");
             return null;
         }
 
