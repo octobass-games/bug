@@ -11,7 +11,7 @@
                     "id": "219624e2-8d7f-4ab0-841b-bc98e2fe2549",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "Press(behavior=1)"
                 },
                 {
                     "name": "Drag",

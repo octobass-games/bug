@@ -7,7 +7,7 @@ public class MouseMonitor : MonoBehaviour
 
     public void OnClick(InputAction.CallbackContext ctx)
     {
-        if (ctx.started)
+        if (ctx.performed)
         {
            FindObjectOfTypeBeneathMouse<OnClick>()?.Invoke();
         }
@@ -34,7 +34,6 @@ public class MouseMonitor : MonoBehaviour
     {
         if (IsMouseOverUIElement())
         {
-            Debug.Log("Over Ui Element");
             return null;
         }
 
