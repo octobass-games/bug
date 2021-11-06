@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 7024648501981196136, guid: 4e10214aae269714c9923441f606d13c, type: 3}
   Name: Ladybird
+  Colour: {r: 1, g: 0.23113209, b: 0.23113209, a: 1}

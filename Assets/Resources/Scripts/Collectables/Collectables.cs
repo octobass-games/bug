@@ -26,4 +26,28 @@ public class Collectables : MonoBehaviour
         UI.Render(data);
         collecatable.Locked = false;
     }
+
+
+    public void ShowCollectable(CollectableData data)
+    {
+        var collecatable = CollectableList.Find(c => c.Data.Name == data.Name);
+        if (collecatable == null)
+        {
+            Debug.Log("Could not find collectable: " + data.Name);
+            return;
+        }
+
+        UI.RenderAlreadyUnlocked(data);
+    }
+
+
+    public Collectable Find(CollectableData data)
+    {
+        var collecatable = CollectableList.Find(c => c.Data.Name == data.Name);
+        if (collecatable == null)
+        {
+            Debug.Log("Could not find collectable: " + data.Name);
+        }
+        return collecatable;
+    }
 }

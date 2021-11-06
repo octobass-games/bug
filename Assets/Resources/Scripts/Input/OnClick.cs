@@ -8,9 +8,15 @@ public class OnClick : MonoBehaviour
     public bool OnlyFireOnce;
 
     private bool HasBeenTriggered;
+    public bool disabled = false;
 
     public void Invoke()
     {
+        if (disabled)
+        {
+            return;
+        }
+
         if (!OnlyFireOnce)
         {
             Event.Invoke();

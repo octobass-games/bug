@@ -14,4 +14,11 @@ public class UnlockedCollectable : MonoBehaviour
         Text.text = "Unlocked " + collectable.Name + "!";
         Panel.SetActive(true);
     }
+
+    public void RenderAlreadyUnlocked(CollectableData collectable)
+    {
+        Image.sprite = collectable.sprite;
+        Text.text = collectable.Name + "!";
+        Panel.SetActive(true);
+    }
 }

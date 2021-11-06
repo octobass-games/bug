@@ -1,26 +1,43 @@
-﻿using UnityEngine;
+﻿using System.Linq;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public enum Menu
 {
     PAUSE,
-    LEVEL_SELECT,
-    COLLECTABLES
+    LEVEL_SELECT
 }
 
 public class MenuController : MonoBehaviour
 {
     public GameObject LevelSelectPanel;
     public GameObject PausePanel;
-    public GameObject CollectablesPanel;
 
     public MusicLoader musicLoader;
     public string toggleMenuSFX;
+    public Levels Levels;
 
     public void OpenLevelSelect() => OpenMenu(Menu.LEVEL_SELECT);
 
-    public void OpenCollectables() => OpenMenu(Menu.COLLECTABLES);
+    public void OpenCollectables()
+    {
+        CloseMenu();
 
-   
+        musicLoader.SetMenuMusic(true);
+        FMODUnity.RuntimeManager.PlayOneShot(toggleMenuSFX);
+        SceneManager.LoadScene("Collectables", LoadSceneMode.Additive);
+        Levels.CurrentLevelScene.GetRootGameObjects().ToList().ForEach(g => g.SetActive(false));
+    }
+
+    public void CloseCollectables()
+    {
+        CloseMenu();
+        musicLoader.SetMenuMusic(false);
+        FMODUnity.RuntimeManager.PlayOneShot(toggleMenuSFX);
+        SceneManager.UnloadSceneAsync("Collectables");
+        Levels.CurrentLevelScene.GetRootGameObjects().ToList().ForEach(g => g.SetActive(true));
+    }
+
 
     public void OpenPause()
     {
@@ -43,7 +60,6 @@ public class MenuController : MonoBehaviour
         Time.timeScale = 0;
         LevelSelectPanel.SetActive(menu == Menu.LEVEL_SELECT);
         PausePanel.SetActive(menu == Menu.PAUSE);
-        CollectablesPanel.SetActive(menu == Menu.COLLECTABLES);
         musicLoader.SetMenuMusic(true);
         FMODUnity.RuntimeManager.PlayOneShot(toggleMenuSFX);
     }
@@ -52,7 +68,6 @@ public class MenuController : MonoBehaviour
     {
         LevelSelectPanel.SetActive(false);
         PausePanel.SetActive(false);
-        CollectablesPanel.SetActive(false);
         Time.timeScale = 1;
         musicLoader.SetMenuMusic(false);
         FMODUnity.RuntimeManager.PlayOneShot(toggleMenuSFX);

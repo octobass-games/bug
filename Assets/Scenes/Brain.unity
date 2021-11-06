@@ -3800,9 +3800,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LevelSelectPanel: {fileID: 763775208}
   PausePanel: {fileID: 2109265610}
-  CollectablesPanel: {fileID: 1124503306}
   musicLoader: {fileID: 1571915050}
   toggleMenuSFX: event:/SFX/static
+  Levels: {fileID: 1449598152}
 --- !u!114 &1449598149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3881,6 +3881,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f0bdd92f9ecf3ce43be3cc57f1693c9a, type: 2}
   - {fileID: 11400000, guid: 439d148390c66a34b8adbf7be4bc0c53, type: 2}
   LevelSummary: {fileID: 1449598151}
+  CurrentLevelScene:
+    m_Handle: 0
 --- !u!114 &1449598153
 MonoBehaviour:
   m_ObjectHideFlags: 0

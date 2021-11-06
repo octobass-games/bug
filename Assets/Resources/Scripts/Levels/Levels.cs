@@ -11,6 +11,7 @@ public class Levels : MonoBehaviour
     public LevelSummary LevelSummary;
 
     public Level CurrentLevel;
+    public Scene CurrentLevelScene;
 
     void Awake()
     {
@@ -63,12 +64,15 @@ public class Levels : MonoBehaviour
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
+    private List<string> NonLevelScenes = new List<string>(){"Brain", "StartMenu", "Collectables" };
+
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (scene.name != "Brain" && scene.name != "StartMenu")
+        if (!NonLevelScenes.Contains(scene.name))
         {
             var level = FindLevel(scene.name);
             CurrentLevel = level;
+            CurrentLevelScene = scene;
         }
     }
 
