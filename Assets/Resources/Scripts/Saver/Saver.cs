@@ -17,7 +17,6 @@ public class Saver : MonoBehaviour
 
         using var fileStream = new FileStream(SaveFilePath, FileMode.Create);
         using var streamWriter = new StreamWriter(fileStream);
-        Debug.Log("saving");
 
         streamWriter.Write(json);
     }
