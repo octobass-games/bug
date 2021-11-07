@@ -4,12 +4,9 @@ using UnityEngine.SceneManagement;
 
 public class Levels : MonoBehaviour
 {
-    public List<LevelData> LevelData;
-
     public List<Level> LevelList = new List<Level>();
-
+    public List<LevelData> LevelData;
     public LevelSummary LevelSummary;
-
     public Level CurrentLevel;
     public Scene CurrentLevelScene;
 
@@ -76,4 +73,16 @@ public class Levels : MonoBehaviour
         }
     }
 
+    public void OnLoad(SaveData saveData)
+    {
+        var levels = saveData.Levels;
+
+        levels.ForEach(level =>
+        {
+            LevelData levelData = LevelData.Find(levelData => levelData.Name == level.Name);
+            level.Data = levelData;
+        });
+
+        LevelList = levels;
+    }
 }

@@ -2,6 +2,7 @@
 public class Level
 {
     public LevelData Data;
+    public string Name;
     public bool Locked = true;
     public int LowestInteractionScore;
 
@@ -9,6 +10,7 @@ public class Level
     {
         Data = data;
         Locked = locked;
+        Name = data.Name;
     }
 
     public int GetStarRating(int interactionCount)
