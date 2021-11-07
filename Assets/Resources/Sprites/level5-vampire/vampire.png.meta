@@ -1,37 +1,34 @@
 fileFormatVersion: 2
-guid: 729d008ae55ae634592abbf76cce75ce
+guid: ec126ddd0b297af4db2691129742641d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1829252513216539261
-    second: toilet
+      213: -5687666349546342197
+    second: vampire_0
   - first:
-      213: 1589212520300229117
-    second: matt
+      213: -759474169626332984
+    second: vampire_1
   - first:
-      213: 4946083512071441163
-    second: towel
+      213: -3363743018568964388
+    second: vampire_2
   - first:
-      213: 3981627578329835462
-    second: toilet roll
+      213: 3037530889436939321
+    second: vampire_3
   - first:
-      213: -8943554363031549260
-    second: plunger
+      213: -5878560389361525244
+    second: vampire_4
   - first:
-      213: 2792218891928762274
-    second: sink
+      213: 6252940227387371930
+    second: vampire_5
   - first:
-      213: -6168842133362471109
-    second: mirror
+      213: -6463779262611895369
+    second: vampire_6
   - first:
-      213: -6326504079027144499
-    second: heater
+      213: -5729593492060286100
+    second: vampire_7
   - first:
-      213: -3513351760078903058
-    second: plant
-  - first:
-      213: -5060549530480378394
-    second: hanging-plant
+      213: 6249530641454540414
+    second: vampire_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -133,34 +130,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: toilet
+      name: vampire_0
       rect:
         serializedVersion: 2
-        x: 73
-        y: 38
-        width: 27
-        height: 55
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 385dc31f7803d96e0800000000000000
-      internalID: -1829252513216539261
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: matt
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 116
-        width: 79
-        height: 44
+        x: 0
+        y: 0
+        width: 68
+        height: 102
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,20 +144,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df139110e540e0610800000000000000
-      internalID: 1589212520300229117
+      spriteID: bc8f852f6995111b0800000000000000
+      internalID: -5687666349546342197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: towel
+      name: vampire_1
       rect:
         serializedVersion: 2
-        x: 19
-        y: 78
-        width: 23
-        height: 27
+        x: 68
+        y: 0
+        width: 68
+        height: 102
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -189,20 +165,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0b4f6eafb404a440800000000000000
-      internalID: 4946083512071441163
+      spriteID: 8c0765f344ec575f0800000000000000
+      internalID: -759474169626332984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: toilet roll
+      name: vampire_2
       rect:
         serializedVersion: 2
-        x: 44
-        y: 63
-        width: 13
-        height: 13
+        x: 136
+        y: 0
+        width: 68
+        height: 102
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,20 +186,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c7af3adf25914730800000000000000
-      internalID: 3981627578329835462
+      spriteID: cd62f76eb859151d0800000000000000
+      internalID: -3363743018568964388
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plunger
+      name: vampire_3
       rect:
         serializedVersion: 2
-        x: 161
-        y: 30
-        width: 12
-        height: 24
+        x: 204
+        y: 0
+        width: 68
+        height: 102
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,20 +207,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ba0c1a11bc12e380800000000000000
-      internalID: -8943554363031549260
+      spriteID: 9344a2b104a772a20800000000000000
+      internalID: 3037530889436939321
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sink
+      name: vampire_4
       rect:
         serializedVersion: 2
-        x: 105
-        y: 33
-        width: 35
-        height: 38
+        x: 272
+        y: 0
+        width: 68
+        height: 102
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,20 +228,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a77c84d944ffb620800000000000000
-      internalID: 2792218891928762274
+      spriteID: 40e9c69c8782b6ea0800000000000000
+      internalID: -5878560389361525244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mirror
+      name: vampire_5
       rect:
         serializedVersion: 2
-        x: 117
-        y: 72
-        width: 23
-        height: 34
+        x: 340
+        y: 0
+        width: 68
+        height: 102
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -273,20 +249,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3f877d73ced36aa0800000000000000
-      internalID: -6168842133362471109
+      spriteID: a91bc2fd108e6c650800000000000000
+      internalID: 6252940227387371930
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: heater
+      name: vampire_6
       rect:
         serializedVersion: 2
-        x: 182
-        y: 54
-        width: 30
-        height: 51
+        x: 408
+        y: 0
+        width: 68
+        height: 102
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,20 +270,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc8f6833f0eb338a0800000000000000
-      internalID: -6326504079027144499
+      spriteID: 7bb4b79d10b0c46a0800000000000000
+      internalID: -6463779262611895369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plant
+      name: vampire_7
       rect:
         serializedVersion: 2
-        x: 227
-        y: 21
-        width: 39
-        height: 44
+        x: 476
+        y: 0
+        width: 68
+        height: 102
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -315,20 +291,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee8e08150311e3fc0800000000000000
-      internalID: -3513351760078903058
+      spriteID: c635b5e53156c70b0800000000000000
+      internalID: -5729593492060286100
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hanging-plant
+      name: vampire_8
       rect:
         serializedVersion: 2
-        x: 229
-        y: 75
-        width: 29
-        height: 44
+        x: 544
+        y: 0
+        width: 68
+        height: 102
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,8 +312,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ed7273930155c9b0800000000000000
-      internalID: -5060549530480378394
+      spriteID: e7621d8c10bcab650800000000000000
+      internalID: 6249530641454540414
       vertices: []
       indices: 
       edges: []

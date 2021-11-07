@@ -1,4 +1,5 @@
-﻿public class Level
+﻿[System.Serializable]
+public class Level
 {
     public LevelData Data;
     public bool Locked = true;
