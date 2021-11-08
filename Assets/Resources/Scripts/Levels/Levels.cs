@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Levels : MonoBehaviour
+public class Levels : MonoBehaviour, ILoadable
 {
     public List<Level> LevelList = new List<Level>();
     public List<LevelData> LevelData;
