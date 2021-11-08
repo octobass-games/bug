@@ -19,16 +19,7 @@ public class Draggable : MonoBehaviour
     void Start()
     {
         SpriteRenderer = GetComponent<SpriteRenderer>();
-
-        var spriteRendererSprite = SpriteRenderer.sprite;
-
-        Ghost = new GameObject("ghost");
-        var ghostSpriteRenderer = Ghost.AddComponent<SpriteRenderer>();
-        ghostSpriteRenderer.sprite = spriteRendererSprite;
-        ghostSpriteRenderer.color = new Color(ghostSpriteRenderer.color.r, ghostSpriteRenderer.color.g, ghostSpriteRenderer.color.b, 0.4f);
-        ghostSpriteRenderer.sortingLayerName = "Ghost";
-        Ghost.transform.SetParent(transform.parent);
-        Ghost.transform.position = transform.position;
+        AddGhost();
     }
 
     void Update()
@@ -63,5 +54,18 @@ public class Draggable : MonoBehaviour
                 transform.position = PositionBeforeDragging;
             }
         }
+    }
+
+    private void AddGhost()
+    {
+        Ghost = new GameObject("ghost");
+
+        var ghostSpriteRenderer = Ghost.AddComponent<SpriteRenderer>();
+        ghostSpriteRenderer.sprite = SpriteRenderer.sprite;
+        ghostSpriteRenderer.color = new Color(ghostSpriteRenderer.color.r, ghostSpriteRenderer.color.g, ghostSpriteRenderer.color.b, 0.4f);
+        ghostSpriteRenderer.sortingLayerName = "Ghost";
+
+        Ghost.transform.SetParent(transform.parent);
+        Ghost.transform.position = transform.position;
     }
 }
