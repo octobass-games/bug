@@ -2512,6 +2512,51 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!1 &1107578519
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1107578521}
+  - component: {fileID: 1107578520}
+  m_Layer: 0
+  m_Name: Saver
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1107578520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107578519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994ad7e88c830e645a3a9d09e119e20e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Levels: {fileID: 1449598152}
+  Collectables: {fileID: 1449598150}
+--- !u!4 &1107578521
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107578519}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.039355163, y: 0.013778672, z: -2.117575}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1116713167
 GameObject:
   m_ObjectHideFlags: 0
@@ -3357,6 +3402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0548a24c97933cb4aa03cf04556c0095, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LevelList: []
   LevelData:
   - {fileID: 11400000, guid: aa9f5895545796749b1e3cf25389830d, type: 2}
   - {fileID: 11400000, guid: 2686ce32a9d92aa44a2d2f7891293364, type: 2}
@@ -3364,10 +3410,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5c880f1a987396d46bf42d2c7f6021bf, type: 2}
   - {fileID: 11400000, guid: f0bdd92f9ecf3ce43be3cc57f1693c9a, type: 2}
   - {fileID: 11400000, guid: 439d148390c66a34b8adbf7be4bc0c53, type: 2}
-  LevelList: []
   LevelSummary: {fileID: 1449598151}
   CurrentLevel:
     Data: {fileID: 0}
+    Name: 
     Locked: 0
     LowestInteractionScore: 0
   CurrentLevelScene:
