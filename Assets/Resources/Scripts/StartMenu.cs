@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class StartMenu : MonoBehaviour
 {
     private MenuController MenuController;
+    private Saver Saver;
+
     void Awake()
     {
         if (!SceneManager.GetSceneByName("Brain").isLoaded)
@@ -20,8 +22,15 @@ public class StartMenu : MonoBehaviour
         SceneManager.LoadScene("Level1", LoadSceneMode.Additive);
     }
 
+    public void LoadGame()
+    {
+        FindSaver().Load();
+        LevelSelect();
+    }
+
     public void LevelSelect()
     {
+        SceneManager.UnloadSceneAsync("StartMenu");
         FindMenuController().OpenMenu(Menu.LEVEL_SELECT);
     }
 
@@ -31,6 +40,17 @@ public class StartMenu : MonoBehaviour
         {
             MenuController = FindObjectOfType<MenuController>();
         }
+
         return MenuController;
+    }
+
+    private Saver FindSaver()
+    {
+        if (Saver == null)
+        {
+            Saver = FindObjectOfType<Saver>();
+        }
+
+        return Saver;
     }
 }
