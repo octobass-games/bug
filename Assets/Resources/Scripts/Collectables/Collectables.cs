@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-public class Collectables : MonoBehaviour
+public class Collectables : MonoBehaviour, ILoadable
 {
     public List<CollectableData> CollectableData;
 
@@ -49,5 +49,19 @@ public class Collectables : MonoBehaviour
             Debug.Log("Could not find collectable: " + data.Name);
         }
         return collecatable;
+    }
+
+    public void OnLoad(SaveData saveData)
+    {
+        var collectables = saveData.Collectables;
+
+        collectables.ForEach(collectable =>
+        {
+            var collectableData = CollectableData.Find(collectableData => collectableData.Name == collectable.Name);
+
+            collectable.Data = collectableData;
+        });
+
+        CollectableList = collectables;
     }
 }

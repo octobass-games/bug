@@ -29,5 +29,6 @@ public class Saver : MonoBehaviour
         var saveData = JsonUtility.FromJson<SaveData>(json);
 
         Levels.OnLoad(saveData);
+        Collectables.OnLoad(saveData);
     }
 }
