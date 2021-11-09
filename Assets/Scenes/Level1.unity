@@ -448,7 +448,7 @@ MonoBehaviour:
       - m_Target: {fileID: 66928422}
         m_TargetAssemblyTypeName: ClickSFX, Assembly-CSharp
         m_MethodName: PlayOneShot
-        m_Mode: 5
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -503,6 +503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b746c1b5663d912418c528bd1d7003be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  path: event:/SFX/glassbreak
 --- !u!1 &78424381
 GameObject:
   m_ObjectHideFlags: 0
@@ -1270,6 +1271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b746c1b5663d912418c528bd1d7003be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  path: 
 --- !u!114 &1242129496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1660,7 +1662,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1418987925}
         m_TargetAssemblyTypeName: ClickSFX, Assembly-CSharp
         m_MethodName: PlayOneShot
-        m_Mode: 5
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1716,6 +1718,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b746c1b5663d912418c528bd1d7003be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  path: event:/SFX/creek
 --- !u!1 &1625945271
 GameObject:
   m_ObjectHideFlags: 0
