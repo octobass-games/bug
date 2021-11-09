@@ -9,7 +9,7 @@ public class MouseMonitor : MonoBehaviour
     {
         if (ctx.performed)
         {
-           FindObjectOfTypeBeneathMouse<Inspectable>()?.Invoke();
+           FindObjectOfTypeBeneathMouse<Inspectable>()?.Inspect();
         }
     }
 

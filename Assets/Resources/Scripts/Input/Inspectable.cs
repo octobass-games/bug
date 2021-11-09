@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.Serialization;
 
 [RequireComponent(typeof(Collider2D))]
 public class Inspectable : MonoBehaviour
@@ -20,7 +19,7 @@ public class Inspectable : MonoBehaviour
         }    
     }
 
-    public void Invoke()
+    public void Inspect()
     {
         if (Disabled)
         {
