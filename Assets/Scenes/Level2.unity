@@ -574,6 +574,7 @@ GameObject:
   - component: {fileID: 570483656}
   - component: {fileID: 570483657}
   - component: {fileID: 570483658}
+  - component: {fileID: 570483659}
   m_Layer: 0
   m_Name: sink
   m_TagString: Untagged
@@ -725,8 +726,33 @@ MonoBehaviour:
           m_StringArgument: toggle
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 570483659}
+        m_TargetAssemblyTypeName: ClickSFX, Assembly-CSharp
+        m_MethodName: PlayLoop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   disabled: 0
   ShouldEnlargeOnHover: 1
+--- !u!114 &570483659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570483653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b746c1b5663d912418c528bd1d7003be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  path: event:/SFX/tap high
 --- !u!1 &622213603
 GameObject:
   m_ObjectHideFlags: 0
@@ -863,7 +889,7 @@ MonoBehaviour:
       - m_Target: {fileID: 622213609}
         m_TargetAssemblyTypeName: ClickSFX, Assembly-CSharp
         m_MethodName: PlayLoop
-        m_Mode: 5
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2102,13 +2128,13 @@ MonoBehaviour:
       - m_Target: {fileID: 1892958278}
         m_TargetAssemblyTypeName: ClickSFX, Assembly-CSharp
         m_MethodName: PlayLoop
-        m_Mode: 5
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: event:/SFX/tap
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
   disabled: 0
@@ -2215,7 +2241,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1072840879
-  m_SortingLayer: -2
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e6d7191ab18b04a4aa06c34ca01d1039, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

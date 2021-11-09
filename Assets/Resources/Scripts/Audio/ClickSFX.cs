@@ -20,7 +20,7 @@ public class ClickSFX : MonoBehaviour
         FMODUnity.RuntimeManager.PlayOneShot(path);
     }
 
-    public void PlayLoop(string Path)
+    public void PlayLoop()
     {
         if (isPlaying == false)
         {
