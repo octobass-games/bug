@@ -1,9 +1,6 @@
 ﻿using UnityEngine;
 
-public class ToggleGameObject: MonoBehaviour
+public class ToggleGameObject : MonoBehaviour
 {
-    public void Toggle(GameObject obj)
-    {
-        obj.SetActive(!obj.activeSelf);
-    }
+    public void Toggle(GameObject obj) => obj.SetActive(!obj.activeSelf);
 }

@@ -5,8 +5,5 @@ public class EventInvoker: MonoBehaviour
 {
     public UnityEvent Event;
 
-    public void InvokeCustomEvent()
-    {
-        Event.Invoke();
-    }
+    public void InvokeCustomEvent() => Event.Invoke();
 }
