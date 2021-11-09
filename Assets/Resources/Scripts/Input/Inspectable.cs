@@ -1,11 +1,13 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Serialization;
 
 [RequireComponent(typeof(Collider2D))]
-public class OnClick : MonoBehaviour
+public class Inspectable : MonoBehaviour
 {
     public bool OnlyFireOnce;
-    public UnityEvent Event;
+    [FormerlySerializedAs("Event")]
+    public UnityEvent OnInspect;
 
     private bool HasBeenTriggered;
     public bool disabled = false;
@@ -28,11 +30,11 @@ public class OnClick : MonoBehaviour
 
         if (!OnlyFireOnce)
         {
-            Event.Invoke();
+            OnInspect.Invoke();
         }
         else if (OnlyFireOnce && !HasBeenTriggered)
         {
-            Event.Invoke();
+            OnInspect.Invoke();
             HasBeenTriggered = true;
         }
     }

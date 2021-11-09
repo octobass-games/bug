@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-[RequireComponent(typeof(OnClick))]
+[RequireComponent(typeof(Inspectable))]
 public class ShowCollectable : MonoBehaviour
 {
     public CollectableData CollectableData;
@@ -8,6 +8,6 @@ public class ShowCollectable : MonoBehaviour
     void Awake()
     {
         var collectables = FindObjectOfType<Collectables>();
-        GetComponent<OnClick>().Event.AddListener(() => collectables?.ShowCollectable(CollectableData));
+        GetComponent<Inspectable>().OnInspect.AddListener(() => collectables?.ShowCollectable(CollectableData));
     }
 }

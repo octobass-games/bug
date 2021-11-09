@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-[RequireComponent(typeof(OnClick))]
+[RequireComponent(typeof(Inspectable))]
 public class UnlockCollectableOnClick : MonoBehaviour
 {
     public CollectableData CollectableData;
@@ -10,7 +10,7 @@ public class UnlockCollectableOnClick : MonoBehaviour
     {
         var collectables = FindObjectOfType<Collectables>();
 
-        GetComponent<OnClick>().Event.AddListener(() => {
+        GetComponent<Inspectable>().OnInspect.AddListener(() => {
             collectables?.UnlockCollectable(CollectableData);
             gameObject.SetActive(false);
         });
