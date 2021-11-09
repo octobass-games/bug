@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class ClickSFX : MonoBehaviour
 {
-    FMOD.Studio.EventInstance loopSound;
+    FMOD.Studio.EventInstance clickSound;
 
     public string path;
 
     bool isPlaying = false;
 
+
     private void Start()
     {
-        loopSound = FMODUnity.RuntimeManager.CreateInstance(path);
+        clickSound = FMODUnity.RuntimeManager.CreateInstance(path);
     }
 
     public void PlayOneShot()
@@ -24,13 +25,13 @@ public class ClickSFX : MonoBehaviour
     {
         if (isPlaying == false)
         {
-            loopSound.start();
+            clickSound.start();
             isPlaying = true;
         }
 
         else if (isPlaying == true)
         {
-            loopSound.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            clickSound.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
             isPlaying = false;
         }
     }
