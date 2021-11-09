@@ -17,7 +17,7 @@ public class MusicLoader : MonoBehaviour
         musicEvent = FMODUnity.RuntimeManager.CreateInstance("event:/Music/All Tracks");
 
         musicEvent.start();
-        DontDestroyOnLoad(GameObject.Find("Music"));
+        //DontDestroyOnLoad(GameObject.Find("Music"));
     }
 
     public float SetMusicParameter()
