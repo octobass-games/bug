@@ -6,12 +6,11 @@ using UnityEngine.Serialization;
 public class Inspectable : MonoBehaviour
 {
     public bool OnlyFireOnce;
-    [FormerlySerializedAs("Event")]
+    public bool Disabled = false;
+    public bool ShouldEnlargeOnHover = true;
     public UnityEvent OnInspect;
 
     private bool HasBeenTriggered;
-    public bool disabled = false;
-    public bool ShouldEnlargeOnHover = true;
 
     void Awake()
     {
@@ -23,7 +22,7 @@ public class Inspectable : MonoBehaviour
 
     public void Invoke()
     {
-        if (disabled)
+        if (Disabled)
         {
             return;
         }
