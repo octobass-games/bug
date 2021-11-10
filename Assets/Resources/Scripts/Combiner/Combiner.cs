@@ -18,7 +18,10 @@ public class Combiner : MonoBehaviour
 
             if (recipe.Result != null)
             {
-                recipe.Result.transform.position = componentA.transform.position;
+                if (recipe.ShouldMoveResultPostition)
+                {
+                    recipe.Result.transform.position = componentA.transform.position;
+                }
                 recipe.Result.SetActive(true);
             }
 

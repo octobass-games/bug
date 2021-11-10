@@ -23,6 +23,9 @@ TextureImporter:
   - first:
       213: 2850165724651844866
     second: toilet_6
+  - first:
+      213: 516079872443734396
+    second: toilet_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -266,6 +269,27 @@ TextureImporter:
       bones: []
       spriteID: 205fdd030a2dd8720800000000000000
       internalID: 2850165724651844866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_7
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 0
+        width: 33
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79dcb0e8eb792700800000000000000
+      internalID: 516079872443734396
       vertices: []
       indices: 
       edges: []

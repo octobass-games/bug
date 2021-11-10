@@ -38,6 +38,12 @@ TextureImporter:
   - first:
       213: 5351756791668909574
     second: Sprite Room Decor_11
+  - first:
+      213: -5264789333954350900
+    second: roll
+  - first:
+      213: -5877542388696625535
+    second: empty roll
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -378,7 +384,7 @@ TextureImporter:
         width: 9
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -386,6 +392,48 @@ TextureImporter:
       bones: []
       spriteID: 606a5bb7272454a40800000000000000
       internalID: 5351756791668909574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roll
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 49
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0b26caef5bfe6b0800000000000000
+      internalID: -5264789333954350900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: empty roll
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 34
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ecf698656ce6ea0800000000000000
+      internalID: -5877542388696625535
       vertices: []
       indices: 
       edges: []
