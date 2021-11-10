@@ -14,5 +14,13 @@ public class UnlockCollectableOnClick : MonoBehaviour
             collectables?.UnlockCollectable(CollectableData);
             gameObject.SetActive(false);
         });
+
+        var collectable = collectables.CollectableList.Find(collectable => collectable.Name == CollectableData.Name);
+
+        if (!collectable.Locked)
+        {
+            var spriteRenderer = GetComponent<SpriteRenderer>();
+            spriteRenderer.SetOpacity(0.5f);
+        }
     }
 }
