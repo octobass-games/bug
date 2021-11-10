@@ -60,7 +60,7 @@ public class Draggable : MonoBehaviour
 
         var ghostSpriteRenderer = Ghost.AddComponent<SpriteRenderer>();
         ghostSpriteRenderer.sprite = SpriteRenderer.sprite;
-        ghostSpriteRenderer.color = new Color(ghostSpriteRenderer.color.r, ghostSpriteRenderer.color.g, ghostSpriteRenderer.color.b, 0.4f);
+        ghostSpriteRenderer.SetOpacity(0.4f);
         ghostSpriteRenderer.sortingLayerName = "Ghost";
 
         Ghost.transform.SetParent(null);
