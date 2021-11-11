@@ -29,6 +29,12 @@ TextureImporter:
   - first:
       213: 4984550684233773023
     second: bath_8
+  - first:
+      213: 7997438175107603493
+    second: bath_9
+  - first:
+      213: 3831897086400624253
+    second: bath_10
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -314,6 +320,48 @@ TextureImporter:
       bones: []
       spriteID: fdf2fa2207eac2540800000000000000
       internalID: 4984550684233773023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bath_9
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 60
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52cdf64e5ab9cfe60800000000000000
+      internalID: 7997438175107603493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bath_10
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 60
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7673ca0912ad2530800000000000000
+      internalID: 3831897086400624253
       vertices: []
       indices: 
       edges: []

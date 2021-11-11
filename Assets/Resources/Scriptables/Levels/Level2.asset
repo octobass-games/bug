@@ -14,9 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SceneName: Level2
   Name: Level 2
-  Sprite: {fileID: 0}
+  Sprite: {fileID: -1829252513216539261, guid: 729d008ae55ae634592abbf76cce75ce, type: 3}
   Preview: {fileID: 21300000, guid: 905612b268efa4847bf32e732413ab24, type: 3}
   TwoStarInteractionCount: 2
   ThreeStarInteractionCount: 3
   FallingSprites:
   - {fileID: -557185414492787049, guid: 70cab91a46f7b1f46a43bd9a2b8604ae, type: 3}
+  - {fileID: -5060549530480378394, guid: 729d008ae55ae634592abbf76cce75ce, type: 3}
+  - {fileID: -6168842133362471109, guid: 729d008ae55ae634592abbf76cce75ce, type: 3}
+  - {fileID: -3513351760078903058, guid: 729d008ae55ae634592abbf76cce75ce, type: 3}
+  - {fileID: -8943554363031549260, guid: 729d008ae55ae634592abbf76cce75ce, type: 3}
+  - {fileID: -5264789333954350900, guid: 729d008ae55ae634592abbf76cce75ce, type: 3}
+  - {fileID: 2792218891928762274, guid: 729d008ae55ae634592abbf76cce75ce, type: 3}
+  - {fileID: -1829252513216539261, guid: 729d008ae55ae634592abbf76cce75ce, type: 3}
+  - {fileID: 4946083512071441163, guid: 729d008ae55ae634592abbf76cce75ce, type: 3}
