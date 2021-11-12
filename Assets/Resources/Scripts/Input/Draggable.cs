@@ -5,8 +5,7 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(EnlargeOnHover))]
 public class Draggable : MonoBehaviour
 {
-    public GameObject Ghost;
-
+    private GameObject Ghost;
     private SpriteRenderer SpriteRenderer;
     private Vector3 StartPosition;
     private bool IsDragging;
@@ -18,9 +17,7 @@ public class Draggable : MonoBehaviour
 
     void Start()
     {
-        StartPosition = transform.position;
         SpriteRenderer = GetComponent<SpriteRenderer>();
-        AddGhost();
     }
 
     void Update()
@@ -35,7 +32,9 @@ public class Draggable : MonoBehaviour
     public void DragStart()
     {
         IsDragging = true;
+        StartPosition = transform.position;
         SpriteRenderer.sortingLayerName = "Drag";
+        AddGhost();
     }
 
     public void DragEnd()
@@ -44,6 +43,7 @@ public class Draggable : MonoBehaviour
         {
             IsDragging = false;
             SpriteRenderer.sortingLayerName = "Default";
+            DestroyGhost();
 
             if (GetComponent<Collider2D>().OverlapCollider(ContactFilter, OverlappingColliders) > 0)
             {
@@ -64,6 +64,11 @@ public class Draggable : MonoBehaviour
         ghostSpriteRenderer.sortingLayerName = "Ghost";
 
         Ghost.transform.SetParent(null);
-        Ghost.transform.position = transform.position;
+        Ghost.transform.position = StartPosition;
+    }
+
+    private void DestroyGhost()
+    {
+        Destroy(Ghost);
     }
 }

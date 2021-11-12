@@ -11,8 +11,6 @@ public class Combiner : MonoBehaviour
 
         if (recipe != null)
         {
-            MaybeDestroyGhost(componentA);
-            MaybeDestroyGhost(componentB);
             Destroy(componentA);
             Destroy(componentB);
 
@@ -31,14 +29,4 @@ public class Combiner : MonoBehaviour
 
     private Recipe FindRecipe(GameObject ingredientA, GameObject ingredientB) =>
         Recipes.Find(recipe => recipe.ComponentA == ingredientA && recipe.ComponentB == ingredientB || recipe.ComponentB == ingredientA && recipe.ComponentA == ingredientB);
-
-    private void MaybeDestroyGhost(GameObject go)
-    {
-        var ghost = go.GetComponent<Draggable>()?.Ghost;
-
-        if (ghost != null)
-        {
-            Destroy(ghost);
-        }
-    }
 }
