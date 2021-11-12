@@ -1262,6 +1262,18 @@ MonoBehaviour:
           m_StringArgument: toggle
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 570483659}
+        m_TargetAssemblyTypeName: ClickSFX, Assembly-CSharp
+        m_MethodName: PlayLoop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &570483659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1415,6 +1427,18 @@ MonoBehaviour:
       - m_Target: {fileID: 231040556}
         m_TargetAssemblyTypeName: StateSwitcher, Assembly-CSharp
         m_MethodName: ToggleThingTwo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 622213609}
+        m_TargetAssemblyTypeName: ClickSFX, Assembly-CSharp
+        m_MethodName: PlayLoop
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3435,6 +3459,18 @@ MonoBehaviour:
       - m_Target: {fileID: 231040556}
         m_TargetAssemblyTypeName: StateSwitcher, Assembly-CSharp
         m_MethodName: ToggleThingOne
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1892958278}
+        m_TargetAssemblyTypeName: ClickSFX, Assembly-CSharp
+        m_MethodName: PlayLoop
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
