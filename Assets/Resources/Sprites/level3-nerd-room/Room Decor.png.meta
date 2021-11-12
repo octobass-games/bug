@@ -44,6 +44,21 @@ TextureImporter:
   - first:
       213: 6841959371117515798
     second: game-off-light2
+  - first:
+      213: -4755476809843536193
+    second: wifi-shelf
+  - first:
+      213: -487308248914705789
+    second: wifi-on
+  - first:
+      213: 3366955441979139806
+    second: wifi-off
+  - first:
+      213: -7598927094909580511
+    second: plug-unplugged
+  - first:
+      213: 5315822386393258033
+    second: plug-plugged
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -426,7 +441,7 @@ TextureImporter:
         width: 19
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -434,6 +449,111 @@ TextureImporter:
       bones: []
       spriteID: 6145d1b3cc583fe50800000000000000
       internalID: 6841959371117515798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wifi-shelf
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 136
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe0bab7907210eb0800000000000000
+      internalID: -4755476809843536193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wifi-on
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 141
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382425fbabbbc39f0800000000000000
+      internalID: -487308248914705789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wifi-off
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 141
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed62cb5b224d9be20800000000000000
+      internalID: 3366955441979139806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug-unplugged
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 106
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bc2d961103b8690800000000000000
+      internalID: -7598927094909580511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plug-plugged
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 106
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1381a06cb4895c940800000000000000
+      internalID: 5315822386393258033
       vertices: []
       indices: 
       edges: []
