@@ -3235,6 +3235,9 @@ MonoBehaviour:
           m_StringArgument: Start
           m_BoolArgument: 0
         m_CallState: 2
+  Event2:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1405718228
 GameObject:
   m_ObjectHideFlags: 0

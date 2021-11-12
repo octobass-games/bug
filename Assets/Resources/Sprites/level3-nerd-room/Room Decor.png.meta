@@ -205,10 +205,10 @@ TextureImporter:
       name: arcade
       rect:
         serializedVersion: 2
-        x: 159
+        x: 154
         y: 0
-        width: 40
-        height: 55
+        width: 48
+        height: 58
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

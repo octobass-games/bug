@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 147346090}
   - component: {fileID: 147346092}
   - component: {fileID: 147346091}
+  - component: {fileID: 147346093}
   m_Layer: 0
   m_Name: plug
   m_TagString: Untagged
@@ -237,9 +238,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1118898513}
-        m_TargetAssemblyTypeName: UnityEngine.SpriteRenderer, UnityEngine
-        m_MethodName: set_sprite
+      - m_Target: {fileID: 1118898514}
+        m_TargetAssemblyTypeName: AddShadow, Assembly-CSharp
+        m_MethodName: UpdateSprite
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 3366955441979139806, guid: 72cd3e7446180964ca4c22c0f388ac09, type: 3}
@@ -299,6 +300,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.10657677, y: 0.13167077}
   m_EdgeRadius: 0
+--- !u!114 &147346093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147346088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
 --- !u!1 &199803809
 GameObject:
   m_ObjectHideFlags: 0
@@ -358,6 +373,7 @@ GameObject:
   - component: {fileID: 297628761}
   - component: {fileID: 297628760}
   - component: {fileID: 297628762}
+  - component: {fileID: 297628763}
   m_Layer: 0
   m_Name: can (1)
   m_TagString: Untagged
@@ -445,6 +461,20 @@ MonoBehaviour:
   CustomSpeed: 0
   FallOnEnable: 0
   Offset: 1
+--- !u!114 &297628763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297628759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
 --- !u!1 &369567827
 GameObject:
   m_ObjectHideFlags: 0
@@ -457,6 +487,7 @@ GameObject:
   - component: {fileID: 369567828}
   - component: {fileID: 369567830}
   - component: {fileID: 369567831}
+  - component: {fileID: 369567832}
   m_Layer: 0
   m_Name: Shelf
   m_TagString: Untagged
@@ -563,6 +594,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &369567832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369567827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
 --- !u!1 &372910009
 GameObject:
   m_ObjectHideFlags: 0
@@ -574,6 +619,9 @@ GameObject:
   - component: {fileID: 372910011}
   - component: {fileID: 372910010}
   - component: {fileID: 372910012}
+  - component: {fileID: 372910013}
+  - component: {fileID: 372910014}
+  - component: {fileID: 372910015}
   m_Layer: 0
   m_Name: Lamp
   m_TagString: Untagged
@@ -661,6 +709,76 @@ MonoBehaviour:
   CustomSpeed: 0
   FallOnEnable: 0
   Offset: 1
+--- !u!114 &372910013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372910009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
+--- !u!61 &372910014
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372910009}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.021321632, y: 0.13969345}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.57}
+    newSize: {x: 0.32, y: 0.57}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.23912485, y: 0.18474028}
+  m_EdgeRadius: 0
+--- !u!114 &372910015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372910009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8416580241c603a46ad093e0e4f0ebcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnlyFireOnce: 0
+  Disabled: 0
+  ShouldEnlargeOnHover: 1
+  OnInspect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1973644244}
+        m_TargetAssemblyTypeName: ShadowController, Assembly-CSharp
+        m_MethodName: ToggleShadows
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &511356246
 GameObject:
   m_ObjectHideFlags: 0
@@ -672,6 +790,7 @@ GameObject:
   - component: {fileID: 511356248}
   - component: {fileID: 511356247}
   - component: {fileID: 511356249}
+  - component: {fileID: 511356250}
   m_Layer: 0
   m_Name: Sofa
   m_TagString: Untagged
@@ -759,6 +878,20 @@ MonoBehaviour:
   CustomSpeed: 0
   FallOnEnable: 0
   Offset: 1
+--- !u!114 &511356250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 511356246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
 --- !u!1 &579249978
 GameObject:
   m_ObjectHideFlags: 0
@@ -1074,9 +1207,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1118898513}
-        m_TargetAssemblyTypeName: UnityEngine.SpriteRenderer, UnityEngine
-        m_MethodName: set_sprite
+      - m_Target: {fileID: 1118898514}
+        m_TargetAssemblyTypeName: AddShadow, Assembly-CSharp
+        m_MethodName: UpdateSprite
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: -487308248914705789, guid: 72cd3e7446180964ca4c22c0f388ac09, type: 3}
@@ -1214,6 +1347,105 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &787586138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 787586139}
+  - component: {fileID: 787586140}
+  - component: {fileID: 787586141}
+  m_Layer: 0
+  m_Name: arcade
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &787586139
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787586138}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1283812029}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &787586140
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787586138}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 6388648386946017184, guid: 72cd3e7446180964ca4c22c0f388ac09, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.48, y: 0.58}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &787586141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787586138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 0
+  CustomShadows:
+  - Sprite: {fileID: 6388648386946017184, guid: 72cd3e7446180964ca4c22c0f388ac09, type: 3}
+    Shadow: {fileID: 6388648386946017184, guid: c4dc487d3f01c9946a2976bdac4ae525, type: 3}
 --- !u!1 &809809535
 GameObject:
   m_ObjectHideFlags: 0
@@ -1225,6 +1457,7 @@ GameObject:
   - component: {fileID: 809809537}
   - component: {fileID: 809809536}
   - component: {fileID: 809809538}
+  - component: {fileID: 809809539}
   m_Layer: 0
   m_Name: Console
   m_TagString: Untagged
@@ -1312,6 +1545,20 @@ MonoBehaviour:
   CustomSpeed: 0
   FallOnEnable: 0
   Offset: 1
+--- !u!114 &809809539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809809535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
 --- !u!1 &868599431
 GameObject:
   m_ObjectHideFlags: 0
@@ -1323,6 +1570,7 @@ GameObject:
   - component: {fileID: 868599433}
   - component: {fileID: 868599432}
   - component: {fileID: 868599434}
+  - component: {fileID: 868599435}
   m_Layer: 0
   m_Name: can
   m_TagString: Untagged
@@ -1410,6 +1658,20 @@ MonoBehaviour:
   CustomSpeed: 0
   FallOnEnable: 0
   Offset: 1
+--- !u!114 &868599435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868599431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
 --- !u!1 &1029185396
 GameObject:
   m_ObjectHideFlags: 0
@@ -1421,6 +1683,7 @@ GameObject:
   - component: {fileID: 1029185398}
   - component: {fileID: 1029185397}
   - component: {fileID: 1029185399}
+  - component: {fileID: 1029185400}
   m_Layer: 0
   m_Name: Rug
   m_TagString: Untagged
@@ -1508,6 +1771,20 @@ MonoBehaviour:
   CustomSpeed: 0
   FallOnEnable: 0
   Offset: 1
+--- !u!114 &1029185400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029185396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
 --- !u!1 &1108987338
 GameObject:
   m_ObjectHideFlags: 0
@@ -1518,6 +1795,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1108987339}
   - component: {fileID: 1108987340}
+  - component: {fileID: 1108987342}
+  - component: {fileID: 1108987341}
   m_Layer: 0
   m_Name: wifi
   m_TagString: Untagged
@@ -1557,6 +1836,71 @@ MonoBehaviour:
   CustomSpeed: 0
   FallOnEnable: 0
   Offset: 1
+--- !u!114 &1108987341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108987338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
+--- !u!212 &1108987342
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108987338}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 0
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1118898511
 GameObject:
   m_ObjectHideFlags: 0
@@ -1567,6 +1911,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1118898512}
   - component: {fileID: 1118898513}
+  - component: {fileID: 1118898514}
   m_Layer: 0
   m_Name: wifi
   m_TagString: Untagged
@@ -1639,6 +1984,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1118898514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118898511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 0
+  CustomShadows:
+  - Sprite: {fileID: -487308248914705789, guid: 72cd3e7446180964ca4c22c0f388ac09, type: 3}
+    Shadow: {fileID: -487308248914705789, guid: c4dc487d3f01c9946a2976bdac4ae525, type: 3}
+  - Sprite: {fileID: 3366955441979139806, guid: 72cd3e7446180964ca4c22c0f388ac09, type: 3}
+    Shadow: {fileID: 3366955441979139806, guid: c4dc487d3f01c9946a2976bdac4ae525, type: 3}
 --- !u!1 &1265118006
 GameObject:
   m_ObjectHideFlags: 0
@@ -1748,7 +2111,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -7811954950964234238, guid: 9bdddca12c2e50a43a8cbb55b0ff9de5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1770,7 +2133,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.7, y: 0.04, z: 0.42697632}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 787586139}
   m_Father: {fileID: 1973644243}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1819,6 +2183,7 @@ GameObject:
   - component: {fileID: 1412967139}
   - component: {fileID: 1412967140}
   - component: {fileID: 1412967141}
+  - component: {fileID: 1412967142}
   m_Layer: 0
   m_Name: lunar-heist-poster
   m_TagString: Untagged
@@ -1906,6 +2271,20 @@ MonoBehaviour:
   CustomSpeed: 0
   FallOnEnable: 0
   Offset: 1
+--- !u!114 &1412967142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412967138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
 --- !u!1 &1511148463
 GameObject:
   m_ObjectHideFlags: 0
@@ -1916,6 +2295,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1511148464}
   - component: {fileID: 1511148465}
+  - component: {fileID: 1511148466}
   m_Layer: 0
   m_Name: wifi-shelf
   m_TagString: Untagged
@@ -1988,6 +2368,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1511148466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511148463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
 --- !u!1 &1586430403
 GameObject:
   m_ObjectHideFlags: 0
@@ -2067,6 +2461,7 @@ GameObject:
   - component: {fileID: 1613399358}
   - component: {fileID: 1613399357}
   - component: {fileID: 1613399359}
+  - component: {fileID: 1613399360}
   m_Layer: 0
   m_Name: pizza
   m_TagString: Untagged
@@ -2154,6 +2549,20 @@ MonoBehaviour:
   CustomSpeed: 0
   FallOnEnable: 0
   Offset: 1
+--- !u!114 &1613399360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613399356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
 --- !u!1 &1944691088
 GameObject:
   m_ObjectHideFlags: 0
@@ -2283,6 +2692,7 @@ GameObject:
   - component: {fileID: 1960092204}
   - component: {fileID: 1960092205}
   - component: {fileID: 1960092206}
+  - component: {fileID: 1960092207}
   m_Layer: 0
   m_Name: room
   m_TagString: Untagged
@@ -2370,6 +2780,20 @@ MonoBehaviour:
   CustomSpeed: 4
   FallOnEnable: 0
   Offset: 1
+--- !u!114 &1960092207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960092203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
 --- !u!1 &1973644242
 GameObject:
   m_ObjectHideFlags: 0
@@ -2379,6 +2803,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1973644243}
+  - component: {fileID: 1973644244}
   m_Layer: 0
   m_Name: Room
   m_TagString: Untagged
@@ -2415,3 +2840,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1973644244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973644242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1fbc4ad2538e6d47949a630e8d4a318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShadowColour: {r: 0.1509434, g: 0.1509434, b: 0.1509434, a: 1}
+  ShadowsOn: 1
+  OnShadowsOn:
+    m_PersistentCalls:
+      m_Calls: []
+  OnShadowsOff:
+    m_PersistentCalls:
+      m_Calls: []
