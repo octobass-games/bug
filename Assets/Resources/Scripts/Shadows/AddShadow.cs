@@ -24,8 +24,17 @@ public class AddShadow : MonoBehaviour
 
     public void UpdateSprite(Sprite sprite)
     {
-        Sprite.sprite = sprite;
-        ShadowOn(ShadowController.ShadowsOn);
+        var spriteWithShadow = CustomShadows.Find(s => s.Sprite == sprite);
+        if (spriteWithShadow != null)
+        {
+            if (ShadowController.ShadowsOn)
+            {
+                Sprite.sprite = spriteWithShadow.Shadow;
+            }else
+            {
+                Sprite.sprite = sprite;
+            }
+        }
     }
 
     public void ShadowOn(bool on)
