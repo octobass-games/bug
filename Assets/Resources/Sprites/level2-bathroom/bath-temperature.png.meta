@@ -1,88 +1,55 @@
 fileFormatVersion: 2
-guid: 70cab91a46f7b1f46a43bd9a2b8604ae
+guid: 78f836196cf0a1e4a9b0953d314668bc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -557185414492787049
-    second: bath_0
+      213: -7009318065405578834
+    second: bath-temperature_0
   - first:
-      213: -7683879464460085638
-    second: bath_1
+      213: -2359955656940963922
+    second: bath-temperature_1
   - first:
-      213: -7961657987988085112
-    second: bath_2
+      213: 4555006425099023011
+    second: bath-temperature_2
   - first:
-      213: 9023292906691625988
-    second: bath_3
+      213: -8353278443967809624
+    second: bath-temperature_3
   - first:
-      213: -905743450929973148
-    second: bath_4
+      213: -3265615004887648786
+    second: bath-temperature_4
   - first:
-      213: 2850801212753704335
-    second: bath_5
+      213: -1022235736086073172
+    second: bath-temperature_5
   - first:
-      213: 4301180798552898539
-    second: bath_6
+      213: -2235504055499745462
+    second: bath-temperature_6
   - first:
-      213: 5662301291143530053
-    second: bath_7
+      213: -432069460655884020
+    second: bath-temperature_7
   - first:
-      213: 4984550684233773023
-    second: bath_8
+      213: 6027472180214741448
+    second: bath-temperature_8
   - first:
-      213: 7997438175107603493
-    second: bath_9
+      213: -4839565406863172075
+    second: bath-temperature_9
   - first:
-      213: 3831897086400624253
-    second: bath_10
+      213: 2042626479561759403
+    second: bath-temperature_10
   - first:
-      213: 7498483320715624033
-    second: bath_11
+      213: -2692838504323341086
+    second: bath-temperature_11
   - first:
-      213: -5060007594665352090
-    second: bath_12
+      213: 474762359929013260
+    second: bath-temperature_12
   - first:
-      213: 2273667745885956704
-    second: bath_13
+      213: 8301382453624947281
+    second: bath-temperature_13
   - first:
-      213: -1986233914396177324
-    second: bath_14
+      213: 2273005228014985013
+    second: bath-temperature_14
   - first:
-      213: 2411637688874754015
-    second: bath_15
-  - first:
-      213: -37673388249928303
-    second: bath_16
-  - first:
-      213: 6356208297018366291
-    second: bath_17
-  - first:
-      213: 5147944342155358722
-    second: bath_18
-  - first:
-      213: -4288124521470685571
-    second: bath_19
-  - first:
-      213: -3228450630371505596
-    second: bath_20
-  - first:
-      213: -3961399541032822673
-    second: bath_21
-  - first:
-      213: -8540620935955017611
-    second: bath_22
-  - first:
-      213: 2797687229234755076
-    second: bath_23
-  - first:
-      213: 5402206310589140352
-    second: bath_24
-  - first:
-      213: 8133604356410783306
-    second: bath_25
-  - first:
-      213: 2441353606639880471
-    second: bath_26
+      213: 7598371558840590562
+    second: bath-temperature_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -184,7 +151,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bath_0
+      name: bath-temperature_0
       rect:
         serializedVersion: 2
         x: 0
@@ -198,14 +165,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79ee02f41da7448f0800000000000000
-      internalID: -557185414492787049
+      spriteID: ea1b5c14b56e9be90800000000000000
+      internalID: -7009318065405578834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bath_1
+      name: bath-temperature_1
       rect:
         serializedVersion: 2
         x: 60
@@ -219,14 +186,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7610f786506d5590800000000000000
-      internalID: -7683879464460085638
+      spriteID: ea73c5665d0cf3fd0800000000000000
+      internalID: -2359955656940963922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bath_2
+      name: bath-temperature_2
       rect:
         serializedVersion: 2
         x: 120
@@ -240,14 +207,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 886a1da1e32828190800000000000000
-      internalID: -7961657987988085112
+      spriteID: 3a236adc532a63f30800000000000000
+      internalID: 4555006425099023011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bath_3
+      name: bath-temperature_3
       rect:
         serializedVersion: 2
         x: 180
@@ -261,14 +228,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40408a7571d293d70800000000000000
-      internalID: 9023292906691625988
+      spriteID: 8a7fe554381331c80800000000000000
+      internalID: -8353278443967809624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bath_4
+      name: bath-temperature_4
       rect:
         serializedVersion: 2
         x: 240
@@ -282,14 +249,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 468bea551272e63f0800000000000000
-      internalID: -905743450929973148
+      spriteID: ee57c7c74743ea2d0800000000000000
+      internalID: -3265615004887648786
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bath_5
+      name: bath-temperature_5
       rect:
         serializedVersion: 2
         x: 300
@@ -303,14 +270,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f85ff6b4994109720800000000000000
-      internalID: 2850801212753704335
+      spriteID: ca031e9930a40d1f0800000000000000
+      internalID: -1022235736086073172
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bath_6
+      name: bath-temperature_6
       rect:
         serializedVersion: 2
         x: 360
@@ -324,14 +291,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bebf97cc52dd0bb30800000000000000
-      internalID: 4301180798552898539
+      spriteID: a471efdd7e4e9f0e0800000000000000
+      internalID: -2235504055499745462
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bath_7
+      name: bath-temperature_7
       rect:
         serializedVersion: 2
         x: 420
@@ -345,14 +312,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54688dd2609849e40800000000000000
-      internalID: 5662301291143530053
+      spriteID: c09bf4f5d1bf00af0800000000000000
+      internalID: -432069460655884020
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bath_8
+      name: bath-temperature_8
       rect:
         serializedVersion: 2
         x: 480
@@ -366,14 +333,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdf2fa2207eac2540800000000000000
-      internalID: 4984550684233773023
+      spriteID: 8c9bf335302e5a350800000000000000
+      internalID: 6027472180214741448
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bath_9
+      name: bath-temperature_9
       rect:
         serializedVersion: 2
         x: 540
@@ -387,14 +354,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52cdf64e5ab9cfe60800000000000000
-      internalID: 7997438175107603493
+      spriteID: 51ed6a057e866dcb0800000000000000
+      internalID: -4839565406863172075
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bath_10
+      name: bath-temperature_10
       rect:
         serializedVersion: 2
         x: 600
@@ -408,14 +375,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7673ca0912ad2530800000000000000
-      internalID: 3831897086400624253
+      spriteID: baad51bf5fdd85c10800000000000000
+      internalID: 2042626479561759403
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bath_11
+      name: bath-temperature_11
       rect:
         serializedVersion: 2
         x: 660
@@ -429,14 +396,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16e327df9d6ff0860800000000000000
-      internalID: 7498483320715624033
+      spriteID: 2e42058c5ad11aad0800000000000000
+      internalID: -2692838504323341086
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bath_12
+      name: bath-temperature_12
       rect:
         serializedVersion: 2
         x: 720
@@ -450,14 +417,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6646137d6ed37c9b0800000000000000
-      internalID: -5060007594665352090
+      spriteID: c048b48d9d1b69600800000000000000
+      internalID: 474762359929013260
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bath_13
+      name: bath-temperature_13
       rect:
         serializedVersion: 2
         x: 780
@@ -471,14 +438,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06aabcab4c0bd8f10800000000000000
-      internalID: 2273667745885956704
+      spriteID: 152c9f4eb5f643370800000000000000
+      internalID: 8301382453624947281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bath_14
+      name: bath-temperature_14
       rect:
         serializedVersion: 2
         x: 840
@@ -492,14 +459,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45c059347ca7f64e0800000000000000
-      internalID: -1986233914396177324
+      spriteID: 53f507446365b8f10800000000000000
+      internalID: 2273005228014985013
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bath_15
+      name: bath-temperature_15
       rect:
         serializedVersion: 2
         x: 900
@@ -513,239 +480,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdfd25c53bbd77120800000000000000
-      internalID: 2411637688874754015
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bath_16
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 0
-        width: 60
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 19da0e3c0482a7ff0800000000000000
-      internalID: -37673388249928303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bath_17
-      rect:
-        serializedVersion: 2
-        x: 1020
-        y: 0
-        width: 60
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3599b2ef4c9c53850800000000000000
-      internalID: 6356208297018366291
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bath_18
-      rect:
-        serializedVersion: 2
-        x: 1080
-        y: 0
-        width: 60
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 202f6adaa1c217740800000000000000
-      internalID: 5147944342155358722
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bath_19
-      rect:
-        serializedVersion: 2
-        x: 1140
-        y: 0
-        width: 60
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d7e091997758d74c0800000000000000
-      internalID: -4288124521470685571
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bath_20
-      rect:
-        serializedVersion: 2
-        x: 1200
-        y: 0
-        width: 60
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 44a02d9b14d3233d0800000000000000
-      internalID: -3228450630371505596
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bath_21
-      rect:
-        serializedVersion: 2
-        x: 1260
-        y: 0
-        width: 60
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f68d7571b184609c0800000000000000
-      internalID: -3961399541032822673
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bath_22
-      rect:
-        serializedVersion: 2
-        x: 1320
-        y: 0
-        width: 60
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5701327428e997980800000000000000
-      internalID: -8540620935955017611
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bath_23
-      rect:
-        serializedVersion: 2
-        x: 1380
-        y: 0
-        width: 60
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4063f2356b163d620800000000000000
-      internalID: 2797687229234755076
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bath_24
-      rect:
-        serializedVersion: 2
-        x: 1440
-        y: 0
-        width: 60
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 08d0a02740e78fa40800000000000000
-      internalID: 5402206310589140352
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bath_25
-      rect:
-        serializedVersion: 2
-        x: 1500
-        y: 0
-        width: 60
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a463f67811e50e070800000000000000
-      internalID: 8133604356410783306
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bath_26
-      rect:
-        serializedVersion: 2
-        x: 1560
-        y: 0
-        width: 60
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 71983ee9b2e61e120800000000000000
-      internalID: 2441353606639880471
+      spriteID: 2e0ef14cca6d27960800000000000000
+      internalID: 7598371558840590562
       vertices: []
       indices: 
       edges: []

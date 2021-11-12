@@ -14,7 +14,7 @@ AnimatorStateMachine:
     m_Position: {x: 260, y: -100, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 5368529623191095518}
-    m_Position: {x: 530, y: -30, z: 0}
+    m_Position: {x: 620, y: -110, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -33,8 +33,8 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: toggle
+  - m_ConditionMode: 2
+    m_ConditionEvent: on
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 7043592848309339611}
@@ -59,8 +59,8 @@ AnimatorController:
   m_Name: hot tap
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: toggle
-    m_Type: 9
+  - m_Name: on
+    m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
@@ -112,7 +112,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HotTap
+  m_Name: HotTapOff
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -141,7 +141,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: toggle
+    m_ConditionEvent: on
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5368529623191095518}
