@@ -454,9 +454,9 @@ MonoBehaviour:
   OnOutOfPatience:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 231040552}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: SetTrigger
+      - m_Target: {fileID: 231040557}
+        m_TargetAssemblyTypeName: AnimationUtil, Assembly-CSharp
+        m_MethodName: SetBoolTrue
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
