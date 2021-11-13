@@ -75,4 +75,9 @@ public class AddShadow : MonoBehaviour
             Sprite.sprite = spriteWithShadow.Sprite;
         }
     }
+
+    void OnDestroy()
+    {
+        ShadowController.Unregister(this);
+    }
 }

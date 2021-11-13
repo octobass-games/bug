@@ -68,6 +68,30 @@ TextureImporter:
   - first:
       213: -8206032227152542284
     second: computer-person_21
+  - first:
+      213: -8331779779312037132
+    second: computer-person_22
+  - first:
+      213: -1667856376426963568
+    second: computer-person_23
+  - first:
+      213: 7652751300106197284
+    second: computer-person_24
+  - first:
+      213: -715195908583348302
+    second: computer-person_25
+  - first:
+      213: 8513280428646448172
+    second: computer-person_26
+  - first:
+      213: -624311298930282785
+    second: computer-person_27
+  - first:
+      213: 28604528917407380
+    second: computer-person_28
+  - first:
+      213: 401147447061662443
+    second: computer-person_29
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -626,6 +650,174 @@ TextureImporter:
       bones: []
       spriteID: 4b54a25ba215e1e80800000000000000
       internalID: -8206032227152542284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: computer-person_22
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 0
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2d2533f629f5c80800000000000000
+      internalID: -8331779779312037132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: computer-person_23
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 0
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d53ba56759ad8e0800000000000000
+      internalID: -1667856376426963568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: computer-person_24
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 0
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4291d3de2c8043a60800000000000000
+      internalID: 7652751300106197284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: computer-person_25
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 0
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7a3144c1d1316f0800000000000000
+      internalID: -715195908583348302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: computer-person_26
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 0
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2cb1cec17f352670800000000000000
+      internalID: 8513280428646448172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: computer-person_27
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 0
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde6ffd6e200657f0800000000000000
+      internalID: -624311298930282785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: computer-person_28
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 0
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496e611eaaf956000800000000000000
+      internalID: 28604528917407380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: computer-person_29
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 0
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea4aac4a79219500800000000000000
+      internalID: 401147447061662443
       vertices: []
       indices: 
       edges: []

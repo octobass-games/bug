@@ -17,10 +17,17 @@ public class ShadowController : MonoBehaviour
         shadow.ShadowOn(ShadowsOn);
     }
 
+    public void Unregister(AddShadow shadow)
+    {
+        shadows.Remove(shadow);
+    }
+
     public void ToggleShadows()
     {
         ShadowsOn = !ShadowsOn;
-        shadows.ForEach(s => s.ShadowOn(ShadowsOn));
+        shadows.ForEach(s => {
+            s.ShadowOn(ShadowsOn);
+         });
 
         if (ShadowsOn)
         {
