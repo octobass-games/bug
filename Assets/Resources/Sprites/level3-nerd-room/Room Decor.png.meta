@@ -59,6 +59,15 @@ TextureImporter:
   - first:
       213: 5315822386393258033
     second: plug-plugged
+  - first:
+      213: 5739476847879747451
+    second: drink-spill-1
+  - first:
+      213: -4924818371506384682
+    second: drink-spill-2
+  - first:
+      213: -4429191941457094077
+    second: drink-spill-3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -554,6 +563,69 @@ TextureImporter:
       bones: []
       spriteID: 1381a06cb4895c940800000000000000
       internalID: 5315822386393258033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drink-spill-1
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 134
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77737ab8c7b6af40800000000000000
+      internalID: 5739476847879747451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drink-spill-2
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 134
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d05b0fa8c787abb0800000000000000
+      internalID: -4924818371506384682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drink-spill-3
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 134
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a5d6765695882c0800000000000000
+      internalID: -4429191941457094077
       vertices: []
       indices: 
       edges: []
