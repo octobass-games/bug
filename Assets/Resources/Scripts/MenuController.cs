@@ -5,13 +5,15 @@ using UnityEngine.SceneManagement;
 public enum Menu
 {
     PAUSE,
-    LEVEL_SELECT
+    LEVEL_SELECT,
+    CONTROLS
 }
 
 public class MenuController : MonoBehaviour
 {
     public GameObject LevelSelectPanel;
     public GameObject PausePanel;
+    public GameObject ControlsPanel;
 
     public MusicLoader musicLoader;
     public string toggleMenuSFX;
@@ -43,6 +45,9 @@ public class MenuController : MonoBehaviour
     {
         OpenMenu(Menu.PAUSE);
     }
+
+    public void OpenControls() => OpenMenu(Menu.CONTROLS);
+   
     public void TogglePause()
     {
         if (!PausePanel.activeSelf)
@@ -60,6 +65,7 @@ public class MenuController : MonoBehaviour
         Time.timeScale = 0;
         LevelSelectPanel.SetActive(menu == Menu.LEVEL_SELECT);
         PausePanel.SetActive(menu == Menu.PAUSE);
+        ControlsPanel.SetActive(menu == Menu.CONTROLS);
         musicLoader.SetMenuMusic(true);
         FMODUnity.RuntimeManager.PlayOneShot(toggleMenuSFX);
     }
@@ -68,6 +74,7 @@ public class MenuController : MonoBehaviour
     {
         LevelSelectPanel.SetActive(false);
         PausePanel.SetActive(false);
+        ControlsPanel.SetActive(false);
         Time.timeScale = 1;
         musicLoader.SetMenuMusic(false);
         FMODUnity.RuntimeManager.PlayOneShot(toggleMenuSFX);
