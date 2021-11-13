@@ -50,3 +50,6 @@ TagManager:
   - name: Drag
     uniqueID: 448840943
     locked: 0
+  - name: Overlay
+    uniqueID: 515369661
+    locked: 0
