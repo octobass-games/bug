@@ -10,6 +10,7 @@ public class Draggable : MonoBehaviour
     private Vector3 StartPosition;
     private bool IsDragging;
     private Collider2D[] OverlappingColliders = new Collider2D[1];
+    private CustomCursor CustomCursor;
     private ContactFilter2D ContactFilter = new ContactFilter2D
     {
         useTriggers = true
@@ -18,6 +19,7 @@ public class Draggable : MonoBehaviour
     void Start()
     {
         SpriteRenderer = GetComponent<SpriteRenderer>();
+        CustomCursor = FindObjectOfType<CustomCursor>();
     }
 
     void Update()
@@ -31,6 +33,7 @@ public class Draggable : MonoBehaviour
 
     public void DragStart()
     {
+        CustomCursor.SetDraggingCursor();
         IsDragging = true;
         StartPosition = transform.position;
         SpriteRenderer.sortingLayerName = "Drag";
@@ -71,4 +74,9 @@ public class Draggable : MonoBehaviour
     {
         Destroy(Ghost);
     }
+
+
+    void OnMouseEnter() => CustomCursor.SetDraggableCursor();
+
+    void OnMouseExit() => CustomCursor.SetNeutralCursor();
 }

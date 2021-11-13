@@ -8,11 +8,13 @@ public class Inspectable : MonoBehaviour
     public bool Disabled = false;
     public bool ShouldEnlargeOnHover = true;
     public UnityEvent OnInspect;
+    public CustomCursor CustomCursor;
 
     private bool HasBeenTriggered;
 
     void Awake()
     {
+        CustomCursor = FindObjectOfType<CustomCursor>();
         if (ShouldEnlargeOnHover)
         {
             gameObject.MaybeAddComponent<EnlargeOnHover>();
@@ -36,4 +38,8 @@ public class Inspectable : MonoBehaviour
             HasBeenTriggered = true;
         }
     }
+
+    void OnMouseEnter() => CustomCursor.SetClickableCursor();
+
+    void OnMouseExit() => CustomCursor.SetNeutralCursor();
 }
