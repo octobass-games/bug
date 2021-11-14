@@ -3454,6 +3454,7 @@ GameObject:
   - component: {fileID: 1008392475}
   - component: {fileID: 1008392476}
   - component: {fileID: 1008392477}
+  - component: {fileID: 1008392478}
   m_Layer: 0
   m_Name: dog-eat
   m_TagString: Untagged
@@ -3578,6 +3579,20 @@ MonoBehaviour:
   Event3:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1008392478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008392473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
 --- !u!1 &1029185396
 GameObject:
   m_ObjectHideFlags: 0
