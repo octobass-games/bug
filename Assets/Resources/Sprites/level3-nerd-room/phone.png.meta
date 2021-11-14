@@ -11,6 +11,9 @@ TextureImporter:
   - first:
       213: 345920178342225779
     second: phone_2
+  - first:
+      213: -1144105141512529592
+    second: phone_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -120,7 +123,7 @@ TextureImporter:
         width: 20
         height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -136,12 +139,12 @@ TextureImporter:
       name: phone_1
       rect:
         serializedVersion: 2
-        x: 21
+        x: 20
         y: 0
         width: 20
         height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -157,12 +160,12 @@ TextureImporter:
       name: phone_2
       rect:
         serializedVersion: 2
-        x: 42
+        x: 40
         y: 0
         width: 20
         height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -170,6 +173,27 @@ TextureImporter:
       bones: []
       spriteID: 3776ab6c194fcc400800000000000000
       internalID: 345920178342225779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phone_3
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849927e7f625f10f0800000000000000
+      internalID: -1144105141512529592
       vertices: []
       indices: 
       edges: []
