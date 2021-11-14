@@ -7,7 +7,7 @@ public class FallInOnLoad : MonoBehaviour
     private float Speed ;
     private bool Complete = false;
     public bool FallOnEnable = false;
-    public int Offset = 1;
+    private int OffsetFall = 100;
 
 
     void Start()
@@ -44,13 +44,13 @@ public class FallInOnLoad : MonoBehaviour
     {
         if (CustomSpeed == 0)
         {
-            Speed = Random.Range(1f, 3f);
+            Speed = Random.Range(100f, 300f);
         }
         else
         {
             Speed = CustomSpeed;
         }
         OrginalPostion = transform.position;
-        transform.position = OrginalPostion + new Vector3(0, Offset, 0);
+        transform.position = OrginalPostion + new Vector3(0, OffsetFall, 0);
     }
 }

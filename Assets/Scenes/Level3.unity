@@ -438,7 +438,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CustomSpeed: 0
   FallOnEnable: 0
-  Offset: 1
 --- !u!1 &297628759
 GameObject:
   m_ObjectHideFlags: 0
@@ -540,7 +539,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CustomSpeed: 0
   FallOnEnable: 0
-  Offset: 1
 --- !u!114 &297628763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -704,7 +702,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CustomSpeed: 0
   FallOnEnable: 0
-  Offset: 1
 --- !u!95 &369567831
 Animator:
   serializedVersion: 3
@@ -838,7 +835,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CustomSpeed: 0
   FallOnEnable: 0
-  Offset: 1
 --- !u!114 &372910013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1008,7 +1004,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CustomSpeed: 0
   FallOnEnable: 0
-  Offset: 1
 --- !u!114 &511356250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1957,7 +1952,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CustomSpeed: 0
   FallOnEnable: 0
-  Offset: 1
 --- !u!114 &809809539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2070,7 +2064,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CustomSpeed: 0
   FallOnEnable: 0
-  Offset: 1
 --- !u!114 &1029185400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2137,7 +2130,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CustomSpeed: 0
   FallOnEnable: 0
-  Offset: 1
 --- !u!114 &1108987341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2578,7 +2570,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CustomSpeed: 0
   FallOnEnable: 0
-  Offset: 1
 --- !u!95 &1283812031
 Animator:
   serializedVersion: 3
@@ -2696,7 +2687,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CustomSpeed: 0
   FallOnEnable: 0
-  Offset: 1
 --- !u!114 &1412967142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3352,9 +3342,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4fa7331ed313904d97a8b11eade503a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CustomSpeed: 1
+  CustomSpeed: 100
   FallOnEnable: 0
-  Offset: 1
 --- !u!114 &1613399360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3662,7 +3651,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CustomSpeed: 0
   FallOnEnable: 0
-  Offset: 1
 --- !u!95 &1944691092
 Animator:
   serializedVersion: 3
@@ -3778,9 +3766,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4fa7331ed313904d97a8b11eade503a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CustomSpeed: 4
+  CustomSpeed: 400
   FallOnEnable: 0
-  Offset: 1
 --- !u!114 &1960092207
 MonoBehaviour:
   m_ObjectHideFlags: 0

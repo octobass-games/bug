@@ -228,7 +228,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CustomSpeed: 0
   FallOnEnable: 0
-  Offset: 1
 --- !u!60 &48614685
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -405,7 +404,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CustomSpeed: 0
   FallOnEnable: 0
-  Offset: 1
 --- !u!114 &66928420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -749,7 +747,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CustomSpeed: 0
   FallOnEnable: 0
-  Offset: 1
 --- !u!95 &216925812
 Animator:
   serializedVersion: 3
@@ -865,9 +862,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4fa7331ed313904d97a8b11eade503a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CustomSpeed: 4
+  CustomSpeed: 400
   FallOnEnable: 0
-  Offset: 1
 --- !u!1 &374554346
 GameObject:
   m_ObjectHideFlags: 0
@@ -914,7 +910,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CustomSpeed: 0
   FallOnEnable: 0
-  Offset: 1
 --- !u!212 &374554349
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1192,7 +1187,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CustomSpeed: 0
   FallOnEnable: 0
-  Offset: 1
 --- !u!1 &860357263
 GameObject:
   m_ObjectHideFlags: 0
@@ -1358,7 +1352,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CustomSpeed: 0
   FallOnEnable: 0
-  Offset: 1
 --- !u!1 &899165262
 GameObject:
   m_ObjectHideFlags: 3
@@ -1627,7 +1620,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CustomSpeed: 0
   FallOnEnable: 0
-  Offset: 1
 --- !u!1 &1390613894
 GameObject:
   m_ObjectHideFlags: 0
@@ -1853,7 +1845,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CustomSpeed: 0
   FallOnEnable: 0
-  Offset: 1
 --- !u!114 &1418987923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2052,7 +2043,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CustomSpeed: 0
   FallOnEnable: 0
-  Offset: 1
 --- !u!1 &1807913707
 GameObject:
   m_ObjectHideFlags: 0
@@ -2175,7 +2165,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CustomSpeed: 0
   FallOnEnable: 0
-  Offset: 1
 --- !u!114 &1807913712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2321,7 +2310,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CustomSpeed: 0
   FallOnEnable: 0
-  Offset: 1
 --- !u!1001 &474536873254938865
 PrefabInstance:
   m_ObjectHideFlags: 0
