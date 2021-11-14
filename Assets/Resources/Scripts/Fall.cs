@@ -13,20 +13,7 @@ public class Fall : MonoBehaviour
     public bool InitialRoom;
 
     private bool IsPushing;
-    private Transform TargetPosition;
-
-    void Awake()
-    {
-        transform.position = new Vector3(transform.position.x, transform.position.y + 1.8f, transform.position.z);
-    }
-
-    void Start()
-    {
-        if (InitialRoom)
-        {
-            Push();
-        }
-    }
+    public Transform TargetPosition;
 
     void Update()
     {
@@ -51,12 +38,6 @@ public class Fall : MonoBehaviour
             }
         }
     }
-
-    public void Push()
-    {
-        StartCoroutine(StartPushing());
-    }
-
     void OnEnable()
     {
         transform.position = InitialPosition.position;
@@ -64,6 +45,12 @@ public class Fall : MonoBehaviour
         TargetPosition = RestingPosition;
 
         Push();
+    }
+
+    public void Push()
+    {
+        Debug.Log("Hello" + this);
+        StartCoroutine(StartPushing());
     }
 
     private IEnumerator StartPushing()
