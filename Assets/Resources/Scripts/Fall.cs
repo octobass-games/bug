@@ -13,13 +13,14 @@ public class Fall : MonoBehaviour
     public bool InitialRoom;
 
     private bool IsPushing;
+    private Transform TargetPosition;
 
-    private void Awake()
+    void Awake()
     {
-        transform.position = InitialPosition.position;
+        transform.position = new Vector3(transform.position.x, transform.position.y + 1.8f, transform.position.z);
     }
 
-    private void Start()
+    void Start()
     {
         if (InitialRoom)
         {
@@ -31,27 +32,21 @@ public class Fall : MonoBehaviour
     {
         if (IsPushing)
         {
-            var destination = IsFallingToRestingPosition ? RestingPosition : FinalPosition;
-
             float step = Speed * Time.deltaTime;
 
-            transform.position = Vector3.MoveTowards(transform.position, destination.position, step);
+            transform.position = Vector3.MoveTowards(transform.position, TargetPosition.position, step);
 
-            if (transform.position == destination.position)
+            if (transform.position == TargetPosition.position)
             {
                 IsPushing = false;
 
-                bool isAtFinalPosition = !IsFallingToRestingPosition;
-
-                if (isAtFinalPosition)
+                if (TargetPosition == RestingPosition)
                 {
-                    transform.position = InitialPosition.position;
-                    IsFallingToRestingPosition = true;
-                    gameObject.SetActive(false);
+                    TargetPosition = FinalPosition;
                 }
                 else
                 {
-                    IsFallingToRestingPosition = false;
+                    gameObject.SetActive(false);
                 }
             }
         }
@@ -60,6 +55,15 @@ public class Fall : MonoBehaviour
     public void Push()
     {
         StartCoroutine(StartPushing());
+    }
+
+    void OnEnable()
+    {
+        transform.position = InitialPosition.position;
+
+        TargetPosition = RestingPosition;
+
+        Push();
     }
 
     private IEnumerator StartPushing()
