@@ -74,6 +74,9 @@ TextureImporter:
   - first:
       213: -7630304801720765141
     second: open-pizza
+  - first:
+      213: -4085300114545976737
+    second: Room Decor_24
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -674,6 +677,27 @@ TextureImporter:
       bones: []
       spriteID: b25f97db536bb1690800000000000000
       internalID: -7630304801720765141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room Decor_24
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 42
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5adf9fc0391e47c0800000000000000
+      internalID: -4085300114545976737
       vertices: []
       indices: 
       edges: []
