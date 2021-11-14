@@ -82,7 +82,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 1
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -268,10 +268,10 @@ TextureImporter:
       name: window
       rect:
         serializedVersion: 2
-        x: 205
-        y: 561
-        width: 43
-        height: 38
+        x: 211
+        y: 566
+        width: 36
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,10 +289,10 @@ TextureImporter:
       name: broken_window
       rect:
         serializedVersion: 2
-        x: 252
-        y: 561
-        width: 43
-        height: 38
+        x: 258
+        y: 566
+        width: 36
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,10 +352,10 @@ TextureImporter:
       name: bathroom_window
       rect:
         serializedVersion: 2
-        x: 358
+        x: 363
         y: 560
-        width: 35
-        height: 29
+        width: 26
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -373,12 +373,12 @@ TextureImporter:
       name: plantpot
       rect:
         serializedVersion: 2
-        x: 399
-        y: 549
-        width: 31
-        height: 43
+        x: 404
+        y: 550
+        width: 22
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

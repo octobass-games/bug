@@ -136,7 +136,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 1
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -198,8 +198,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 55
-        height: 55
+        width: 54
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,10 +217,10 @@ TextureImporter:
       name: computer-person_1
       rect:
         serializedVersion: 2
-        x: 55
+        x: 54
         y: 0
-        width: 55
-        height: 55
+        width: 54
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,10 +238,10 @@ TextureImporter:
       name: computer-person_2
       rect:
         serializedVersion: 2
-        x: 110
+        x: 108
         y: 0
-        width: 55
-        height: 55
+        width: 54
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,10 +259,10 @@ TextureImporter:
       name: computer-person_3
       rect:
         serializedVersion: 2
-        x: 165
+        x: 162
         y: 0
-        width: 55
-        height: 55
+        width: 54
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,10 +280,10 @@ TextureImporter:
       name: computer-person_4
       rect:
         serializedVersion: 2
-        x: 220
+        x: 216
         y: 0
-        width: 55
-        height: 55
+        width: 54
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -301,10 +301,10 @@ TextureImporter:
       name: computer-person_5
       rect:
         serializedVersion: 2
-        x: 275
+        x: 270
         y: 0
-        width: 55
-        height: 55
+        width: 54
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -322,10 +322,10 @@ TextureImporter:
       name: computer-person_6
       rect:
         serializedVersion: 2
-        x: 330
+        x: 324
         y: 0
-        width: 55
-        height: 55
+        width: 54
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,10 +343,10 @@ TextureImporter:
       name: computer-person_7
       rect:
         serializedVersion: 2
-        x: 385
+        x: 378
         y: 0
-        width: 55
-        height: 55
+        width: 54
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -364,10 +364,10 @@ TextureImporter:
       name: computer-person_8
       rect:
         serializedVersion: 2
-        x: 440
+        x: 432
         y: 0
-        width: 55
-        height: 55
+        width: 54
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -385,10 +385,10 @@ TextureImporter:
       name: computer-person_9
       rect:
         serializedVersion: 2
-        x: 495
+        x: 486
         y: 0
-        width: 55
-        height: 55
+        width: 54
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -406,10 +406,10 @@ TextureImporter:
       name: computer-person_10
       rect:
         serializedVersion: 2
-        x: 550
+        x: 540
         y: 0
-        width: 55
-        height: 55
+        width: 54
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -427,10 +427,10 @@ TextureImporter:
       name: computer-person_11
       rect:
         serializedVersion: 2
-        x: 605
+        x: 594
         y: 0
-        width: 55
-        height: 55
+        width: 54
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -448,10 +448,10 @@ TextureImporter:
       name: computer-person_12
       rect:
         serializedVersion: 2
-        x: 660
+        x: 648
         y: 0
-        width: 55
-        height: 55
+        width: 54
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -469,10 +469,10 @@ TextureImporter:
       name: computer-person_13
       rect:
         serializedVersion: 2
-        x: 715
+        x: 702
         y: 0
-        width: 55
-        height: 55
+        width: 54
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,10 +490,10 @@ TextureImporter:
       name: computer-person_14
       rect:
         serializedVersion: 2
-        x: 770
+        x: 756
         y: 0
-        width: 55
-        height: 55
+        width: 54
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -511,10 +511,10 @@ TextureImporter:
       name: computer-person_15
       rect:
         serializedVersion: 2
-        x: 825
+        x: 810
         y: 0
-        width: 55
-        height: 55
+        width: 54
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -532,10 +532,10 @@ TextureImporter:
       name: computer-person_16
       rect:
         serializedVersion: 2
-        x: 880
+        x: 864
         y: 0
-        width: 55
-        height: 55
+        width: 54
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -553,10 +553,10 @@ TextureImporter:
       name: computer-person_17
       rect:
         serializedVersion: 2
-        x: 935
+        x: 918
         y: 0
-        width: 55
-        height: 55
+        width: 54
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -574,10 +574,10 @@ TextureImporter:
       name: computer-person_18
       rect:
         serializedVersion: 2
-        x: 990
+        x: 972
         y: 0
-        width: 55
-        height: 55
+        width: 54
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -595,10 +595,10 @@ TextureImporter:
       name: computer-person_19
       rect:
         serializedVersion: 2
-        x: 1045
+        x: 1026
         y: 0
-        width: 55
-        height: 55
+        width: 54
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -616,10 +616,10 @@ TextureImporter:
       name: computer-person_20
       rect:
         serializedVersion: 2
-        x: 1100
+        x: 1080
         y: 0
-        width: 55
-        height: 55
+        width: 54
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -637,10 +637,10 @@ TextureImporter:
       name: computer-person_21
       rect:
         serializedVersion: 2
-        x: 1155
+        x: 1134
         y: 0
-        width: 55
-        height: 55
+        width: 54
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -658,10 +658,10 @@ TextureImporter:
       name: computer-person_22
       rect:
         serializedVersion: 2
-        x: 1210
+        x: 1188
         y: 0
-        width: 55
-        height: 55
+        width: 54
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -679,10 +679,10 @@ TextureImporter:
       name: computer-person_23
       rect:
         serializedVersion: 2
-        x: 1265
+        x: 1242
         y: 0
-        width: 55
-        height: 55
+        width: 54
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -700,10 +700,10 @@ TextureImporter:
       name: computer-person_24
       rect:
         serializedVersion: 2
-        x: 1320
+        x: 1296
         y: 0
-        width: 55
-        height: 55
+        width: 54
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -721,10 +721,10 @@ TextureImporter:
       name: computer-person_25
       rect:
         serializedVersion: 2
-        x: 1375
+        x: 1350
         y: 0
-        width: 55
-        height: 55
+        width: 54
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -742,10 +742,10 @@ TextureImporter:
       name: computer-person_26
       rect:
         serializedVersion: 2
-        x: 1430
+        x: 1404
         y: 0
-        width: 55
-        height: 55
+        width: 54
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -763,10 +763,10 @@ TextureImporter:
       name: computer-person_27
       rect:
         serializedVersion: 2
-        x: 1485
+        x: 1458
         y: 0
-        width: 55
-        height: 55
+        width: 54
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -784,10 +784,10 @@ TextureImporter:
       name: computer-person_28
       rect:
         serializedVersion: 2
-        x: 1540
+        x: 1512
         y: 0
-        width: 55
-        height: 55
+        width: 54
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -805,10 +805,10 @@ TextureImporter:
       name: computer-person_29
       rect:
         serializedVersion: 2
-        x: 1595
+        x: 1566
         y: 0
-        width: 55
-        height: 55
+        width: 54
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

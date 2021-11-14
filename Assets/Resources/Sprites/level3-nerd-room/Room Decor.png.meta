@@ -118,7 +118,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 1
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -178,9 +178,9 @@ TextureImporter:
       name: shelf
       rect:
         serializedVersion: 2
-        x: 32
+        x: 31
         y: 116
-        width: 31
+        width: 32
         height: 44
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -199,10 +199,10 @@ TextureImporter:
       name: lamp
       rect:
         serializedVersion: 2
-        x: 201
+        x: 206
         y: 0
-        width: 32
-        height: 57
+        width: 24
+        height: 52
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -243,7 +243,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 31
-        width: 75
+        width: 64
         height: 56
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -262,10 +262,10 @@ TextureImporter:
       name: rug
       rect:
         serializedVersion: 2
-        x: 88
-        y: 2
-        width: 67
-        height: 33
+        x: 89
+        y: 1
+        width: 66
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -367,9 +367,9 @@ TextureImporter:
       name: game-off-light
       rect:
         serializedVersion: 2
-        x: 269
+        x: 268
         y: 141
-        width: 19
+        width: 20
         height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -388,9 +388,9 @@ TextureImporter:
       name: shelf2
       rect:
         serializedVersion: 2
-        x: 64
+        x: 63
         y: 116
-        width: 31
+        width: 32
         height: 44
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -409,9 +409,9 @@ TextureImporter:
       name: shelf3
       rect:
         serializedVersion: 2
-        x: 96
+        x: 95
         y: 116
-        width: 31
+        width: 32
         height: 44
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -430,9 +430,9 @@ TextureImporter:
       name: shelf4
       rect:
         serializedVersion: 2
-        x: 128
+        x: 127
         y: 116
-        width: 31
+        width: 32
         height: 44
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -451,9 +451,9 @@ TextureImporter:
       name: game-off-light2
       rect:
         serializedVersion: 2
-        x: 249
+        x: 248
         y: 141
-        width: 19
+        width: 20
         height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -472,9 +472,9 @@ TextureImporter:
       name: wifi-shelf
       rect:
         serializedVersion: 2
-        x: 160
+        x: 159
         y: 136
-        width: 23
+        width: 24
         height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -494,9 +494,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 184
-        y: 141
-        width: 15
-        height: 19
+        y: 140
+        width: 16
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -515,9 +515,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 200
-        y: 141
-        width: 15
-        height: 19
+        y: 140
+        width: 16
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -537,7 +537,7 @@ TextureImporter:
         serializedVersion: 2
         x: 160
         y: 106
-        width: 17
+        width: 18
         height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -558,7 +558,7 @@ TextureImporter:
         serializedVersion: 2
         x: 180
         y: 106
-        width: 17
+        width: 18
         height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -577,9 +577,9 @@ TextureImporter:
       name: drink-spill-1
       rect:
         serializedVersion: 2
-        x: 219
+        x: 218
         y: 134
-        width: 9
+        width: 10
         height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -598,9 +598,9 @@ TextureImporter:
       name: drink-spill-2
       rect:
         serializedVersion: 2
-        x: 229
+        x: 228
         y: 134
-        width: 9
+        width: 10
         height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -619,9 +619,9 @@ TextureImporter:
       name: drink-spill-3
       rect:
         serializedVersion: 2
-        x: 239
+        x: 238
         y: 134
-        width: 9
+        width: 10
         height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -666,7 +666,7 @@ TextureImporter:
         width: 24
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
