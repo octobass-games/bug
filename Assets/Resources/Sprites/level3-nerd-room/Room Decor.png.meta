@@ -77,6 +77,9 @@ TextureImporter:
   - first:
       213: -4085300114545976737
     second: Room Decor_24
+  - first:
+      213: 8776739839710368960
+    second: pizz
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -698,6 +701,27 @@ TextureImporter:
       bones: []
       spriteID: f5adf9fc0391e47c0800000000000000
       internalID: -4085300114545976737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pizz
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 82
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c494ff026e3dc970800000000000000
+      internalID: 8776739839710368960
       vertices: []
       indices: 
       edges: []
