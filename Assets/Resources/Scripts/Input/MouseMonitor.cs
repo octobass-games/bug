@@ -4,28 +4,33 @@ using UnityEngine.InputSystem;
 
 public class MouseMonitor : MonoBehaviour
 {
+    private Draggable Draggable;
 
     public void OnClick(InputAction.CallbackContext ctx)
     {
         if (ctx.performed)
         {
-           FindObjectOfTypeBeneathMouse<Inspectable>()?.Inspect();
+            FindObjectOfTypeBeneathMouse<Inspectable>()?.Inspect();
         }
     }
 
     public void OnDrag(InputAction.CallbackContext ctx)
     {
-        var draggableBeneathMouse = FindObjectOfTypeBeneathMouse<Draggable>();
-
-        if (draggableBeneathMouse)
+        if (ctx.started)
         {
-            if (ctx.started)
+            Draggable = FindObjectOfTypeBeneathMouse<Draggable>();
+
+            if (Draggable != null)
             {
-                draggableBeneathMouse.DragStart();
+                Draggable.DragStart();
             }
-            else if (ctx.performed)
+        }
+        else if (ctx.performed)
+        {
+            if (Draggable != null)
             {
-                draggableBeneathMouse.DragEnd();
+                Draggable.DragEnd();
+                Draggable = null;
             }
         }
     }
