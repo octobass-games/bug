@@ -13,52 +13,43 @@ public class Fall : MonoBehaviour
     public bool InitialRoom;
 
     private bool IsPushing;
-
-    private void Awake()
-    {
-        transform.position = InitialPosition.position;
-    }
-
-    private void Start()
-    {
-        if (InitialRoom)
-        {
-            Push();
-        }
-    }
+    public Transform TargetPosition;
 
     void Update()
     {
         if (IsPushing)
         {
-            var destination = IsFallingToRestingPosition ? RestingPosition : FinalPosition;
-
             float step = Speed * Time.deltaTime;
 
-            transform.position = Vector3.MoveTowards(transform.position, destination.position, step);
+            transform.position = Vector3.MoveTowards(transform.position, TargetPosition.position, step);
 
-            if (transform.position == destination.position)
+            if (transform.position == TargetPosition.position)
             {
                 IsPushing = false;
 
-                bool isAtFinalPosition = !IsFallingToRestingPosition;
-
-                if (isAtFinalPosition)
+                if (TargetPosition == RestingPosition)
                 {
-                    transform.position = InitialPosition.position;
-                    IsFallingToRestingPosition = true;
-                    gameObject.SetActive(false);
+                    TargetPosition = FinalPosition;
                 }
                 else
                 {
-                    IsFallingToRestingPosition = false;
+                    gameObject.SetActive(false);
                 }
             }
         }
     }
+    void OnEnable()
+    {
+        transform.position = InitialPosition.position;
+
+        TargetPosition = RestingPosition;
+
+        Push();
+    }
 
     public void Push()
     {
+        Debug.Log("Hello" + this);
         StartCoroutine(StartPushing());
     }
 
