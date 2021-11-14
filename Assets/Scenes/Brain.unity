@@ -4095,6 +4095,9 @@ MonoBehaviour:
   Event2:
     m_PersistentCalls:
       m_Calls: []
+  Event3:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1396637812
 MonoBehaviour:
   m_ObjectHideFlags: 0
