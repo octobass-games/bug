@@ -9,11 +9,9 @@ public class Fall : MonoBehaviour
     public Transform FinalPosition;
     public float Speed = 1;
     public float PreFallDelaySeconds;
-    public bool IsFallingToRestingPosition = false;
-    public bool InitialRoom;
 
     private bool IsPushing;
-    public Transform TargetPosition;
+    private Transform TargetPosition;
 
     void Update()
     {
@@ -49,13 +47,12 @@ public class Fall : MonoBehaviour
 
     public void Push()
     {
-        Debug.Log("Hello" + this);
         StartCoroutine(StartPushing());
     }
 
     private IEnumerator StartPushing()
     {
-        yield return new WaitForSeconds(PreFallDelaySeconds);
+        yield return new WaitForSeconds(TargetPosition == RestingPosition ? 0 : PreFallDelaySeconds);
 
         IsPushing = true;
     }
