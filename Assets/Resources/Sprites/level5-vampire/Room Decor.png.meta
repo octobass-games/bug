@@ -5,6 +5,9 @@ TextureImporter:
   - first:
       213: 2585966209250083019
     second: bottles
+  - first:
+      213: -6556922700306349592
+    second: crate
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -122,6 +125,27 @@ TextureImporter:
       bones: []
       spriteID: bc0c387f09233e320800000000000000
       internalID: 2585966209250083019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crate
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 19
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e18b8c4b812105a0800000000000000
+      internalID: -6556922700306349592
       vertices: []
       indices: 
       edges: []
