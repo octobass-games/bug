@@ -19,7 +19,6 @@ public class Levels : MonoBehaviour, ILoadable
 
     public void CompleteLevel(LevelData data, int interactionCount)
     {
-        Debug.Log("Complete level");
         var level = FindLevel(data);
         level.UpdateInteractionCount(interactionCount);
         var nextLevel = NextLevel(data);
