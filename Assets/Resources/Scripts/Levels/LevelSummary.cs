@@ -20,6 +20,7 @@ public class LevelSummary : MonoBehaviour
         Text.text = level.Data.Name + " Complete!";
         Image.sprite = level.Data.Sprite;
         StarAnimator.SetInteger("Stars", level.GetStarRating(interactionCount));
+        NextLevelButton.onClick.RemoveAllListeners();
         NextLevelButton.onClick.AddListener(GoToNextLevel);
         NextLevelButton.onClick.AddListener(() => Panel.SetActive(false));
         FallingSpriteContainers.ForEach(gameObject =>
