@@ -9,7 +9,7 @@ public class RoomSwitcher : MonoBehaviour
 {
     public List<GameObject> Rooms;
     public List<GameObject> RoomsCamera;
-    public Dictionary<GameObject, List<FallInOnLoad>> Fallins = new Dictionary<GameObject, List<FallInOnLoad>>();
+    public Dictionary<GameObject, List<Fall>> Fallins = new Dictionary<GameObject, List<Fall>>();
 
     private Coroutine coroutine;
 
@@ -19,7 +19,7 @@ public class RoomSwitcher : MonoBehaviour
     {
         Rooms.ForEach(r =>
         {
-            Fallins.Add(r, r.GetComponentsInChildren<FallInOnLoad>().ToList());
+            Fallins.Add(r, r.GetComponentsInChildren<Fall>().ToList());
             r.gameObject.SetActive(false);
         });
 

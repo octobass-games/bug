@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class FallInOnLoad : MonoBehaviour
+public class Fall : MonoBehaviour
 {
     public float CustomSpeed = 0;
 
@@ -19,11 +19,11 @@ public class FallInOnLoad : MonoBehaviour
     {
         if (IsFalling)
         {
-            Fall();
+            fall();
         }
     }
 
-    private void Fall()
+    private void fall()
     {
         float step = CustomSpeed * Time.deltaTime;
         transform.position = Vector3.MoveTowards(transform.position, TargetPosition, step);
