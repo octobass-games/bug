@@ -9,11 +9,9 @@ public class Fall : MonoBehaviour
     public Transform FinalPosition;
     public float Speed = 1;
     public float PreFallDelaySeconds;
-    public bool IsFallingToRestingPosition = false;
-    public bool InitialRoom;
 
     private bool IsPushing;
-    public Transform TargetPosition;
+    private Transform TargetPosition;
 
     void Update()
     {
