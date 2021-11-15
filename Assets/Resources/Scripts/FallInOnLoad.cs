@@ -2,55 +2,49 @@
 
 public class FallInOnLoad : MonoBehaviour
 {
-    private Vector3 OrginalPostion;
     public float CustomSpeed = 0;
-    private float Speed ;
-    private bool Complete = false;
-    public bool FallOnEnable = false;
-    private int OffsetFall = 100;
 
+    private Vector3 ScenePosition;
+    private Vector3 TargetPosition;
+    private bool IsFalling = false;
 
-    void Start()
+    void Awake()
     {
-        Init();
+        ScenePosition = transform.position;
+        CustomSpeed = CustomSpeed == 0 ? Random.Range(50f, 150f) : CustomSpeed;
+        FallIn();
     }
 
     void Update()
     {
-        if (Complete)
+        if (IsFalling)
         {
-            return;
-        }
-
-        float step = Speed * Time.deltaTime;
-        transform.position = Vector3.MoveTowards(transform.position, OrginalPostion, step);
-
-        if(transform.position == OrginalPostion)
-        {
-            Complete = true;
+            Fall();
         }
     }
 
-    void OnEnable()
+    private void Fall()
     {
-       if (FallOnEnable)
+        float step = CustomSpeed * Time.deltaTime;
+        transform.position = Vector3.MoveTowards(transform.position, TargetPosition, step);
+
+        if (transform.position == TargetPosition)
         {
-            Init();
-            Complete = false;
-        }    
+            IsFalling = false;
+        }
     }
 
-    private void Init()
+
+    public void FallIn()
     {
-        if (CustomSpeed == 0)
-        {
-            Speed = Random.Range(100f, 300f);
-        }
-        else
-        {
-            Speed = CustomSpeed;
-        }
-        OrginalPostion = transform.position;
-        transform.position = OrginalPostion + new Vector3(0, OffsetFall, 0);
+        TargetPosition = ScenePosition;
+        transform.position = ScenePosition + new Vector3(0, 100, 0);
+        IsFalling = true;
+    }
+
+    public void FallOut()
+    {
+        TargetPosition = transform.position - new Vector3(0, 400, 0);
+        IsFalling = true;
     }
 }
