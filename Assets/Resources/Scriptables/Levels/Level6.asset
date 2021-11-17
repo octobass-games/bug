@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SceneName: Level6
   Name: Level 6
-  Sprite: {fileID: 0}
+  Sprite: {fileID: -8889717225063706515, guid: 94ca88f94fee97f4b98fc1fe41b14ac3, type: 3}
+  Preview: {fileID: 21300000, guid: 7c21689a29c68b64c8a89460ef1ff8e8, type: 3}
   TwoStarInteractionCount: 2
   ThreeStarInteractionCount: 3
-  FallingSprites: []
+  FallingSprites:
+  - {fileID: -8387707523414323565, guid: 9d98f4e98850a134cb1e1a99947a9772, type: 3}
