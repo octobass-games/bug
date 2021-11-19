@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: d9a61aaf68e42ae4c94f7e46e4ad4e63
+guid: 540728aa11c68cc40832cbf7cb048bdb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3273322321335084247
-    second: laptop
+      213: -8747671294724880515
+    second: cafe-person_0
+  - first:
+      213: -4385930554431868259
+    second: cafe-person_1
+  - first:
+      213: -746794625613183566
+    second: cafe-person_2
+  - first:
+      213: -2476109360301042607
+    second: cafe-person_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -106,85 +115,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: counter
+      name: cafe-person_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 100
-        width: 94
+        y: 0
+        width: 58
         height: 60
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4fa0b4929d385720800000000000000
-      internalID: 2835083665198853966
+      spriteID: d77ca0afd470a9680800000000000000
+      internalID: -8747671294724880515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cafe-table
+      name: cafe-person_1
       rect:
         serializedVersion: 2
-        x: 227
+        x: 58
         y: 0
-        width: 36
-        height: 32
+        width: 58
+        height: 60
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2c0512f0f1f967b0800000000000000
-      internalID: -5230383475058209746
+      spriteID: d927e8df56b0223c0800000000000000
+      internalID: -4385930554431868259
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cafe-stool
+      name: cafe-person_2
       rect:
         serializedVersion: 2
-        x: 269
-        y: 1
-        width: 14
-        height: 18
+        x: 116
+        y: 0
+        width: 58
+        height: 60
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b5c30b08c32c9090800000000000000
-      internalID: -8026501093795838544
+      spriteID: 2b5c724ae3ad2a5f0800000000000000
+      internalID: -746794625613183566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: laptop
+      name: cafe-person_3
       rect:
         serializedVersion: 2
-        x: 196
-        y: 2
-        width: 23
-        height: 24
+        x: 174
+        y: 0
+        width: 58
+        height: 60
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92b177901b2d292d0800000000000000
-      internalID: -3273322321335084247
+      spriteID: 1549c32e7a713add0800000000000000
+      internalID: -2476109360301042607
       vertices: []
       indices: 
       edges: []
