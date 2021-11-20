@@ -12,5 +12,6 @@ public class Pickupable : MonoBehaviour
 
         inspectable.OnInspect.AddListener(() => inventory.Add(gameObject));
         inspectable.OnInspect.AddListener(() => fall.enabled = false);
+        inspectable.OnlyFireOnce = true;
     }
 }
