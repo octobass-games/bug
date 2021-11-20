@@ -9,52 +9,41 @@ public class RoomSwitcher : MonoBehaviour
 {
     public List<GameObject> Rooms;
     public List<GameObject> RoomsCamera;
-    public Dictionary<GameObject, List<Fall>> Fallins = new Dictionary<GameObject, List<Fall>>();
-
-    private Coroutine coroutine;
-
     public int CurrentRoomIndex = 0;
 
-    void Start()
-    {
-        Rooms.ForEach(r =>
-        {
-            Fallins.Add(r, r.GetComponentsInChildren<Fall>().ToList());
-            r.gameObject.SetActive(false);
-        });
+    private Coroutine FallOutCoroutine;
 
+    void Awake()
+    {
+        Rooms.ForEach(room => room.gameObject.SetActive(false));
         Rooms[CurrentRoomIndex].SetActive(true);
     }
 
     public void NextRoom()
     {
-        var oldRoom = Rooms[CurrentRoomIndex];
-        var oldFallins = Fallins[oldRoom];
+        var currentRoom = Rooms[CurrentRoomIndex];
+        var currentFallIns = currentRoom.GetComponentsInChildren<Fall>().ToList();
         RoomsCamera[CurrentRoomIndex].SetActive(false);
 
         CurrentRoomIndex = Rooms.NextIndex(CurrentRoomIndex);
-
-        var room = Rooms[CurrentRoomIndex];
-        room.SetActive(true);
+        var newRoom = Rooms[CurrentRoomIndex];
+        newRoom.SetActive(true);
         RoomsCamera[CurrentRoomIndex].SetActive(true);
-        var fallIns = Fallins[room];
+        var fallIns = newRoom.GetComponentsInChildren<Fall>().ToList();
 
-        if (coroutine != null)
+        if (FallOutCoroutine != null)
         {
-            StopCoroutine(coroutine);
+            StopCoroutine(FallOutCoroutine);
         }
 
-        coroutine = StartCoroutine(WaitThen(() => oldFallins.ForEach(f => f.FallOut())));
+        FallOutCoroutine = StartCoroutine(WaitThen(() => currentFallIns.ForEach(f => f.FallOut())));
 
         fallIns.ForEach(f => f.FallIn());
     }
-
-
 
     IEnumerator WaitThen(Action cb)
     {
         yield return new WaitForSeconds(1);
         cb();
     }
-
 }

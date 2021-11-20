@@ -27,7 +27,5 @@ public class Inventory : MonoBehaviour
         inventoryItemBackground.transform.SetParent(transform.parent);
         var inventoryItemBackgroundCenter = inventoryItemBackground.GetComponent<SpriteRenderer>().bounds.center;
         item.transform.position = new Vector3(inventoryItemBackgroundCenter.x, inventoryItemBackgroundCenter.y, item.transform.position.z);
-
-        // item.GetComponent<Inspectable>().enabled = false;
     }
 }
