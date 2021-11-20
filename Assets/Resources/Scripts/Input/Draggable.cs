@@ -55,7 +55,7 @@ public class Draggable : MonoBehaviour
                 FindObjectOfType<Combiner>()?.Combine(gameObject, OverlappingColliders[0].gameObject);
             }
 
-            transform.position = StartPosition;
+            transform.position = Ghost.transform.position;
         }
     }
 
@@ -69,7 +69,7 @@ public class Draggable : MonoBehaviour
         ghostSpriteRenderer.sortingLayerName = "Ghost";
         Ghost.transform.localScale = transform.localScale;
 
-        Ghost.transform.SetParent(null);
+        Ghost.transform.SetParent(transform.parent);
         Ghost.transform.position = StartPosition;
     }
 
