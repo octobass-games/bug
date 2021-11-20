@@ -5,6 +5,12 @@ TextureImporter:
   - first:
       213: -3273322321335084247
     second: laptop
+  - first:
+      213: -3439610864000847866
+    second: cafe-door
+  - first:
+      213: 8181015520748992525
+    second: cafesign
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -185,6 +191,48 @@ TextureImporter:
       bones: []
       spriteID: 92b177901b2d292d0800000000000000
       internalID: -3273322321335084247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cafe-door
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600b7ad942c0440d0800000000000000
+      internalID: -3439610864000847866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cafesign
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d087330754ec88170800000000000000
+      internalID: 8181015520748992525
       vertices: []
       indices: 
       edges: []
