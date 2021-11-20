@@ -1600,6 +1600,7 @@ GameObject:
   - component: {fileID: 989412822}
   - component: {fileID: 989412825}
   - component: {fileID: 989412826}
+  - component: {fileID: 989412824}
   m_Layer: 0
   m_Name: bike
   m_TagString: Untagged
@@ -1685,6 +1686,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &989412824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989412820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8416580241c603a46ad093e0e4f0ebcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnlyFireOnce: 0
+  Disabled: 0
+  ShouldEnlargeOnHover: 1
+  OnInspect:
+    m_PersistentCalls:
+      m_Calls: []
+  CustomCursor: {fileID: 0}
 --- !u!61 &989412825
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2217,7 +2237,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 5731308892463096867, guid: 7b08c6345413bd14ea7121051f00d6a0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
