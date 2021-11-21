@@ -15,16 +15,33 @@ public class Saver : MonoBehaviour
         var saveData = new SaveData(Levels.LevelList, Collectables.CollectableList);
         var json = JsonUtility.ToJson(saveData);
 
-        using var fileStream = new FileStream(SaveFilePath, FileMode.Create);
-        using var streamWriter = new StreamWriter(fileStream);
+        if (Application.platform != RuntimePlatform.WebGLPlayer)
+        {
+            using var fileStream = new FileStream(SaveFilePath, FileMode.Create);
+            using var streamWriter = new StreamWriter(fileStream);
 
-        streamWriter.Write(json);
+            streamWriter.Write(json);
+        }
+        else
+        {
+            PlayerPrefs.SetString("save-data", json);
+            PlayerPrefs.Save();
+        }
     }
 
     public void Load()
     {
-        using var streamReader = new StreamReader(SaveFilePath);
-        var json = streamReader.ReadToEnd();
+        string json;
+
+        if (Application.platform != RuntimePlatform.WebGLPlayer)
+        {
+            using var streamReader = new StreamReader(SaveFilePath);
+            json = streamReader.ReadToEnd();
+        }
+        else
+        {
+            json = PlayerPrefs.GetString("save-data");
+        }
 
         var saveData = JsonUtility.FromJson<SaveData>(json);
 
