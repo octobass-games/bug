@@ -20,7 +20,6 @@ public class CollectableStand: MonoBehaviour
 
         foreach (Transform child in transform)
         {
-            Debug.Log("child");
             child.gameObject.SetActive(itemActive);
         }
         StandSprite.gameObject.SetActive(true);
