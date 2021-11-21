@@ -1,43 +1,28 @@
 fileFormatVersion: 2
-guid: 2e3ce71458405ed43b7ac5ca444a5281
+guid: 73cc721fdf0f31243acdb5a4e2411a52
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2585966209250083019
-    second: bottles
+      213: -6779590591900457544
+    second: bottles_0
   - first:
-      213: -6556922700306349592
-    second: crate
+      213: 7594275173553943072
+    second: bottles_1
   - first:
-      213: 6388648386946017184
-    second: Room Decor_2
+      213: 6429458398668218664
+    second: bottles_2
   - first:
-      213: -8796781772508936136
-    second: Room Decor_3
+      213: 9147563461599771157
+    second: bottles_3
   - first:
-      213: 7362403104124658649
-    second: Room Decor_7
+      213: 4430192901405515771
+    second: bottles_4
   - first:
-      213: 8092274032446165547
-    second: garlic1
+      213: 923583905629700305
+    second: bottles_5
   - first:
-      213: -7891647650922392976
-    second: garlic2
-  - first:
-      213: 9104525522013418442
-    second: throwable
-  - first:
-      213: -3406095566554901437
-    second: curtainclosed
-  - first:
-      213: 335263834784367102
-    second: curtainopen
-  - first:
-      213: 3647316521000842000
-    second: painting
-  - first:
-      213: -3404830080255134940
-    second: Room Decor_11
+      213: -3230069266627192850
+    second: bottles_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -139,244 +124,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bottles
+      name: bottles_0
       rect:
         serializedVersion: 2
-        x: 143
-        y: 106
-        width: 34
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc0c387f09233e320800000000000000
-      internalID: 2585966209250083019
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: crate
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 19
-        width: 28
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8e18b8c4b812105a0800000000000000
-      internalID: -6556922700306349592
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Room Decor_2
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 132
-        width: 23
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0a72ac20cd909a850800000000000000
-      internalID: 6388648386946017184
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Room Decor_3
-      rect:
-        serializedVersion: 2
-        x: 46
-        y: 107
-        width: 18
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83849f2d59d8be580800000000000000
-      internalID: -8796781772508936136
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Room Decor_7
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 17
-        width: 23
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d365929d928c2660800000000000000
-      internalID: 7362403104124658649
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: garlic1
-      rect:
-        serializedVersion: 2
-        x: 134
-        y: 19
-        width: 8
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b2252199b588d4070800000000000000
-      internalID: 8092274032446165547
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: garlic2
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 18
-        width: 30
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0729932f54c3b7290800000000000000
-      internalID: -7891647650922392976
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: throwable
-      rect:
-        serializedVersion: 2
-        x: 211
-        y: 22
-        width: 8
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac3761479b5c95e70800000000000000
-      internalID: 9104525522013418442
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: curtainclosed
-      rect:
-        serializedVersion: 2
-        x: 268
-        y: 102
-        width: 20
-        height: 58
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3445674e02e1bb0d0800000000000000
-      internalID: -3406095566554901437
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: curtainopen
-      rect:
-        serializedVersion: 2
-        x: 247
-        y: 102
-        width: 20
-        height: 58
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ef18b527ea817a400800000000000000
-      internalID: 335263834784367102
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: painting
-      rect:
-        serializedVersion: 2
-        x: 231
-        y: 130
-        width: 14
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0133ba13d0fdd9230800000000000000
-      internalID: 3647316521000842000
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Room Decor_11
-      rect:
-        serializedVersion: 2
-        x: 106
-        y: 106
-        width: 34
-        height: 40
+        x: 0
+        y: 0
+        width: 38
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -384,8 +138,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 423f3d1e41d9fb0d0800000000000000
-      internalID: -3404830080255134940
+      spriteID: 8b56137c64e0ae1a0800000000000000
+      internalID: -6779590591900457544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bottles_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022304eb809446960800000000000000
+      internalID: 7594275173553943072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bottles_2
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 0
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82165ce49560a3950800000000000000
+      internalID: 6429458398668218664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bottles_3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 0
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a3ff0a08ca2fe70800000000000000
+      internalID: 9147563461599771157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bottles_4
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff9bbeb8f43b7d30800000000000000
+      internalID: 4430192901405515771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bottles_5
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 0
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d083573baa31dc00800000000000000
+      internalID: 923583905629700305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bottles_6
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 0
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee797ca9d1d7c23d0800000000000000
+      internalID: -3230069266627192850
       vertices: []
       indices: 
       edges: []
