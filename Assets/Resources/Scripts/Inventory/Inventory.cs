@@ -15,6 +15,10 @@ public class Inventory : MonoBehaviour
     public void Add(GameObject item)
     {
         Items.Add(item);
+
+        Destroy(item.GetComponent<Pickupable>());
+        Destroy(item.GetComponent<Inspectable>());
+
         Draw();
     }
 

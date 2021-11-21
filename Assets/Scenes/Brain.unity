@@ -4949,19 +4949,7 @@ MonoBehaviour:
     m_ActionId: 219624e2-8d7f-4ab0-841b-bc98e2fe2549
     m_ActionName: Player/Inspect[/Mouse/leftButton]
   - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1449598149}
-        m_TargetAssemblyTypeName: MouseMonitor, Assembly-CSharp
-        m_MethodName: OnDrag
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_ActionId: 417e99c1-f874-423f-bed2-0f4843ea7464
     m_ActionName: Player/Drag[/Mouse/rightButton]
   - m_PersistentCalls:

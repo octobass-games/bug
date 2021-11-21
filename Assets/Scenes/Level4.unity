@@ -990,19 +990,7 @@ MonoBehaviour:
     ShouldMoveResultPostition: 0
     OnCombination:
       m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 97671079}
-          m_TargetAssemblyTypeName: Inventory, Assembly-CSharp
-          m_MethodName: Remove
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 534829562}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+        m_Calls: []
 --- !u!4 &673621887
 Transform:
   m_ObjectHideFlags: 0

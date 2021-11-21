@@ -8,14 +8,6 @@ public class MouseMonitor : MonoBehaviour
 
     public void OnClick(InputAction.CallbackContext ctx)
     {
-        if (ctx.performed)
-        {
-            FindObjectOfTypeBeneathMouse<Inspectable>()?.Inspect();
-        }
-    }
-
-    public void OnDrag(InputAction.CallbackContext ctx)
-    {
         if (ctx.started)
         {
             Draggable = FindObjectOfTypeBeneathMouse<Draggable>();
@@ -31,6 +23,10 @@ public class MouseMonitor : MonoBehaviour
             {
                 Draggable.DragEnd();
                 Draggable = null;
+            }
+            else
+            {
+                FindObjectOfTypeBeneathMouse<Inspectable>()?.Inspect();
             }
         }
     }

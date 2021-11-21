@@ -7,10 +7,7 @@ public class Combiner : MonoBehaviour
 
     private Inventory Inventory;
 
-    void Awake()
-    {
-        Inventory = FindObjectOfType<Inventory>();
-    }
+    void Awake() => Inventory = FindObjectOfType<Inventory>();
 
     public void Combine(GameObject componentA, GameObject componentB)
     {
