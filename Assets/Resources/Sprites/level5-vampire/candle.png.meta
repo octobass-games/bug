@@ -1,28 +1,28 @@
 fileFormatVersion: 2
-guid: 2e3ce71458405ed43b7ac5ca444a5281
+guid: ed0cde97911fb7649bd83bd97a636724
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2585966209250083019
-    second: bottles
+      213: 1365539031471768751
+    second: candle_0
   - first:
-      213: -6556922700306349592
-    second: crate
+      213: 3164754189931214212
+    second: candle_1
   - first:
-      213: 6388648386946017184
-    second: Room Decor_2
+      213: 765352457440723577
+    second: candle_2
   - first:
-      213: -8796781772508936136
-    second: Room Decor_3
+      213: 8724906649512049868
+    second: candle_3
   - first:
-      213: 7362403104124658649
-    second: Room Decor_7
+      213: -2738225903744057452
+    second: candle_4
   - first:
-      213: 8092274032446165547
-    second: garlic1
+      213: -1815409441862610991
+    second: candle_5
   - first:
-      213: -7891647650922392976
-    second: garlic2
+      213: -5378706160299087858
+    second: candle_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -124,55 +124,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bottles
+      name: candle_0
       rect:
         serializedVersion: 2
-        x: 143
-        y: 106
-        width: 34
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc0c387f09233e320800000000000000
-      internalID: 2585966209250083019
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: crate
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 19
-        width: 28
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8e18b8c4b812105a0800000000000000
-      internalID: -6556922700306349592
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Room Decor_2
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 132
-        width: 23
-        height: 24
+        x: 0
+        y: 0
+        width: 22
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,20 +138,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a72ac20cd909a850800000000000000
-      internalID: 6388648386946017184
+      spriteID: fa44ec1a38e53f210800000000000000
+      internalID: 1365539031471768751
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Room Decor_3
+      name: candle_1
       rect:
         serializedVersion: 2
-        x: 46
-        y: 107
-        width: 18
-        height: 40
+        x: 22
+        y: 0
+        width: 22
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -201,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83849f2d59d8be580800000000000000
-      internalID: -8796781772508936136
+      spriteID: 485774c0b277beb20800000000000000
+      internalID: 3164754189931214212
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Room Decor_7
+      name: candle_2
       rect:
         serializedVersion: 2
-        x: 17
-        y: 17
-        width: 23
-        height: 24
+        x: 44
+        y: 0
+        width: 22
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,20 +180,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d365929d928c2660800000000000000
-      internalID: 7362403104124658649
+      spriteID: 9720ab941041f9a00800000000000000
+      internalID: 765352457440723577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: garlic1
+      name: candle_3
       rect:
         serializedVersion: 2
-        x: 134
-        y: 19
-        width: 8
-        height: 14
+        x: 66
+        y: 0
+        width: 22
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -243,20 +201,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2252199b588d4070800000000000000
-      internalID: 8092274032446165547
+      spriteID: cccfb960f58151970800000000000000
+      internalID: 8724906649512049868
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: garlic2
+      name: candle_4
       rect:
         serializedVersion: 2
-        x: 148
-        y: 18
-        width: 30
-        height: 28
+        x: 88
+        y: 0
+        width: 22
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -264,8 +222,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0729932f54c3b7290800000000000000
-      internalID: -7891647650922392976
+      spriteID: 49fff8c5c0edff9d0800000000000000
+      internalID: -2738225903744057452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candle_5
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df83e72bbe5ec6e0800000000000000
+      internalID: -1815409441862610991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candle_6
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08ea2cae3ffa55b0800000000000000
+      internalID: -5378706160299087858
       vertices: []
       indices: 
       edges: []

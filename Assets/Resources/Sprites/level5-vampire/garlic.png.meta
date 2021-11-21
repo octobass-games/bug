@@ -1,46 +1,58 @@
 fileFormatVersion: 2
-guid: ec126ddd0b297af4db2691129742641d
+guid: 14db8994f06b66746a315033e88cca04
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5687666349546342197
-    second: vampire_0
+      213: -8944997348610683000
+    second: garlic_0
   - first:
-      213: -759474169626332984
-    second: vampire_1
+      213: -7911289458208741825
+    second: garlic_1
   - first:
-      213: -3363743018568964388
-    second: vampire_2
+      213: 5064693017542058593
+    second: garlic_2
   - first:
-      213: 3037530889436939321
-    second: vampire_3
+      213: -4675738729478783976
+    second: garlic_3
   - first:
-      213: -5878560389361525244
-    second: vampire_4
+      213: -4895132365106214850
+    second: garlic_4
   - first:
-      213: 6252940227387371930
-    second: vampire_5
+      213: -4768732736316084109
+    second: garlic_5
   - first:
-      213: -6463779262611895369
-    second: vampire_6
+      213: -5217244582118678272
+    second: garlic_6
   - first:
-      213: -5729593492060286100
-    second: vampire_7
+      213: -8284253514668521142
+    second: garlic_7
   - first:
-      213: 6249530641454540414
-    second: vampire_8
+      213: -5406492435523162730
+    second: garlic_8
   - first:
-      213: 6202805170978057109
-    second: vampire_9
+      213: 6971652138406925141
+    second: garlic_9
   - first:
-      213: 3558812061103744855
-    second: vampire_10
+      213: -3766769951811662654
+    second: garlic_10
   - first:
-      213: -6865926629987480397
-    second: vampire_11
+      213: 7831754333483092405
+    second: garlic_11
   - first:
-      213: -5345236658286197239
-    second: vampire_12
+      213: -6617486831376330098
+    second: garlic_12
+  - first:
+      213: -4164721194859438597
+    second: garlic_13
+  - first:
+      213: 2443989883693668762
+    second: garlic_14
+  - first:
+      213: 1701183575312902155
+    second: garlic_15
+  - first:
+      213: -2920091120054133630
+    second: garlic_16
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -142,181 +154,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: vampire_0
+      name: garlic_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 68
-        height: 102
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc8f852f6995111b0800000000000000
-      internalID: -5687666349546342197
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vampire_1
-      rect:
-        serializedVersion: 2
-        x: 68
-        y: 0
-        width: 68
-        height: 102
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8c0765f344ec575f0800000000000000
-      internalID: -759474169626332984
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vampire_2
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 0
-        width: 68
-        height: 102
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd62f76eb859151d0800000000000000
-      internalID: -3363743018568964388
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vampire_3
-      rect:
-        serializedVersion: 2
-        x: 204
-        y: 0
-        width: 68
-        height: 102
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9344a2b104a772a20800000000000000
-      internalID: 3037530889436939321
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vampire_4
-      rect:
-        serializedVersion: 2
-        x: 272
-        y: 0
-        width: 68
-        height: 102
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 40e9c69c8782b6ea0800000000000000
-      internalID: -5878560389361525244
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vampire_5
-      rect:
-        serializedVersion: 2
-        x: 340
-        y: 0
-        width: 68
-        height: 102
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a91bc2fd108e6c650800000000000000
-      internalID: 6252940227387371930
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vampire_6
-      rect:
-        serializedVersion: 2
-        x: 408
-        y: 0
-        width: 68
-        height: 102
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7bb4b79d10b0c46a0800000000000000
-      internalID: -6463779262611895369
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vampire_7
-      rect:
-        serializedVersion: 2
-        x: 476
-        y: 0
-        width: 68
-        height: 102
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c635b5e53156c70b0800000000000000
-      internalID: -5729593492060286100
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vampire_8
-      rect:
-        serializedVersion: 2
-        x: 544
-        y: 0
-        width: 68
-        height: 102
+        width: 56
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -324,20 +168,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7621d8c10bcab650800000000000000
-      internalID: 6249530641454540414
+      spriteID: 88fcf37dd4cfcd380800000000000000
+      internalID: -8944997348610683000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vampire_9
+      name: garlic_1
       rect:
         serializedVersion: 2
-        x: 612
+        x: 56
         y: 0
-        width: 68
-        height: 102
+        width: 56
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -345,20 +189,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59b6a1b607ac41650800000000000000
-      internalID: 6202805170978057109
+      spriteID: f36ec205724753290800000000000000
+      internalID: -7911289458208741825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vampire_10
+      name: garlic_2
       rect:
         serializedVersion: 2
-        x: 680
+        x: 112
         y: 0
-        width: 68
-        height: 102
+        width: 56
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -366,20 +210,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 757e674d6b0736130800000000000000
-      internalID: 3558812061103744855
+      spriteID: 162eefe2777694640800000000000000
+      internalID: 5064693017542058593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vampire_11
+      name: garlic_3
       rect:
         serializedVersion: 2
-        x: 748
+        x: 168
         y: 0
-        width: 68
-        height: 102
+        width: 56
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -387,20 +231,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bc83b57b1457b0a0800000000000000
-      internalID: -6865926629987480397
+      spriteID: 81c71ee06607c1fb0800000000000000
+      internalID: -4675738729478783976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vampire_12
+      name: garlic_4
       rect:
         serializedVersion: 2
-        x: 816
+        x: 224
         y: 0
-        width: 68
-        height: 102
+        width: 56
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -408,8 +252,260 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 906847e5497e1d5b0800000000000000
-      internalID: -5345236658286197239
+      spriteID: e388359ac0ff01cb0800000000000000
+      internalID: -4895132365106214850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garlic_5
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3707a1797de02ddb0800000000000000
+      internalID: -4768732736316084109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garlic_6
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0012c78d1bf9897b0800000000000000
+      internalID: -5217244582118678272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garlic_7
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49c6ecf15b680d80800000000000000
+      internalID: -8284253514668521142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garlic_8
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d2ec356c748f4b0800000000000000
+      internalID: -5406492435523162730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garlic_9
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5535657bea840c060800000000000000
+      internalID: 6971652138406925141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garlic_10
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc86af9faeb9bbc0800000000000000
+      internalID: -3766769951811662654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garlic_11
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9c267621bffac60800000000000000
+      internalID: 7831754333483092405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garlic_12
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e821dfda9c6f924a0800000000000000
+      internalID: -6617486831376330098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garlic_13
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfddcdf8320f336c0800000000000000
+      internalID: -4164721194859438597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garlic_14
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a999534b9dbcae120800000000000000
+      internalID: 2443989883693668762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garlic_15
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b082140d271db9710800000000000000
+      internalID: 1701183575312902155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garlic_16
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c966df890c977d0800000000000000
+      internalID: -2920091120054133630
       vertices: []
       indices: 
       edges: []
