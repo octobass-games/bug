@@ -13,12 +13,18 @@ public class ClickSFX : MonoBehaviour
 
     private void Start()
     {
-        clickSound = FMODUnity.RuntimeManager.CreateInstance(path);
+        if (path != "")
+        {
+            clickSound = FMODUnity.RuntimeManager.CreateInstance(path);
+        }
     }
 
     public void PlayOneShot()
     {
-        FMODUnity.RuntimeManager.PlayOneShot(path);
+        if (path != "")
+        {
+            FMODUnity.RuntimeManager.PlayOneShot(path);
+        }
     }
 
     public void PlayLoop()
