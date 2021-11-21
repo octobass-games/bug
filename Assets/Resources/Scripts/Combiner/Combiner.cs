@@ -5,25 +5,36 @@ public class Combiner : MonoBehaviour
 {
     public List<Recipe> Recipes;
 
+    private Inventory Inventory;
+
+    void Awake()
+    {
+        Inventory = FindObjectOfType<Inventory>();
+    }
+
     public void Combine(GameObject componentA, GameObject componentB)
     {
         var recipe = FindRecipe(componentA, componentB);
 
         if (recipe != null)
         {
-            Destroy(componentA);
-            Destroy(componentB);
-
             if (recipe.Result != null)
             {
                 if (recipe.ShouldMoveResultPostition)
                 {
                     recipe.Result.transform.position = componentA.transform.position;
                 }
+
                 recipe.Result.SetActive(true);
             }
 
             recipe.OnCombination.Invoke();
+
+            Inventory?.Remove(componentA);
+            Inventory?.Remove(componentB);
+
+            Destroy(componentA);
+            Destroy(componentB);
         }
     }
 
