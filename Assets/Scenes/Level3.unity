@@ -6314,6 +6314,7 @@ GameObject:
   - component: {fileID: 1931436560}
   - component: {fileID: 1931436561}
   - component: {fileID: 1931436562}
+  - component: {fileID: 1931436564}
   - component: {fileID: 1931436563}
   m_Layer: 0
   m_Name: dog-sleep
@@ -6447,6 +6448,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 28, y: 16}
   m_EdgeRadius: 0
+--- !u!114 &1931436564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931436558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7c357c9fd78b0645a25ee021d9d3ed7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IntervalTime: 5
+  path: event:/SFX/sleeping
 --- !u!1 &1944691088
 GameObject:
   m_ObjectHideFlags: 0
