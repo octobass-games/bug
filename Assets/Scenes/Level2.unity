@@ -190,6 +190,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4368337870591375757, guid: 036a3ed605455334f9d77a221bd878f0, type: 3}
   m_PrefabInstance: {fileID: 6475828}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6475831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6475830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7c357c9fd78b0645a25ee021d9d3ed7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IntervalTime: 5
+  path: event:/SFX/sleeping
 --- !u!1 &97990517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1125,6 +1139,29 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3480602951290358977, guid: f0f1942c070ad7d4a84ebd2f3ba20a88, type: 3}
   m_PrefabInstance: {fileID: 412398696}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &412398699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412398698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/fannoyedvoice
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 0
+  TriggerOnce: 1
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &552679986
 GameObject:
   m_ObjectHideFlags: 0
