@@ -306,7 +306,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomSpeed: 0
-  FallOnEnable: 0
 --- !u!1 &231040549
 GameObject:
   m_ObjectHideFlags: 0
@@ -434,7 +433,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomSpeed: 0
-  FallOnEnable: 0
 --- !u!114 &231040554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1397,7 +1395,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomSpeed: 0
-  FallOnEnable: 0
 --- !u!60 &570483657
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1987,7 +1984,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomSpeed: 0
-  FallOnEnable: 0
 --- !u!1 &696538576
 GameObject:
   m_ObjectHideFlags: 0
@@ -2084,7 +2080,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomSpeed: 0
-  FallOnEnable: 0
 --- !u!1 &727644752
 GameObject:
   m_ObjectHideFlags: 0
@@ -2263,7 +2258,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomSpeed: 0
-  FallOnEnable: 0
 --- !u!1 &1040993941
 GameObject:
   m_ObjectHideFlags: 0
@@ -2383,7 +2377,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomSpeed: 0
-  FallOnEnable: 0
 --- !u!114 &1040993946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2454,6 +2447,7 @@ GameObject:
   - component: {fileID: 1044545999}
   - component: {fileID: 1044546000}
   - component: {fileID: 1044546001}
+  - component: {fileID: 1044546002}
   - component: {fileID: 1044545998}
   m_Layer: 0
   m_Name: toilet roll toilet
@@ -2629,7 +2623,32 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1044546002}
+        m_TargetAssemblyTypeName: ClickSFX, Assembly-CSharp
+        m_MethodName: PlayOneShot
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   CustomCursor: {fileID: 0}
+--- !u!114 &1044546002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044545996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b746c1b5663d912418c528bd1d7003be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  path: event:/SFX/flush
 --- !u!1 &1118088854
 GameObject:
   m_ObjectHideFlags: 0
@@ -2677,7 +2696,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomSpeed: 0
-  FallOnEnable: 0
 --- !u!1 &1165472192
 GameObject:
   m_ObjectHideFlags: 0
@@ -2774,7 +2792,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomSpeed: 0
-  FallOnEnable: 0
 --- !u!1 &1268767711
 GameObject:
   m_ObjectHideFlags: 0
@@ -2789,6 +2806,7 @@ GameObject:
   - component: {fileID: 1268767715}
   - component: {fileID: 1268767717}
   - component: {fileID: 1268767716}
+  - component: {fileID: 1268767718}
   m_Layer: 0
   m_Name: normal toilet
   m_TagString: Untagged
@@ -2874,7 +2892,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomSpeed: 0
-  FallOnEnable: 0
 --- !u!114 &1268767715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2903,6 +2920,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: flush
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1268767718}
+        m_TargetAssemblyTypeName: ClickSFX, Assembly-CSharp
+        m_MethodName: PlayOneShot
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
@@ -2966,6 +2995,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1268767718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268767711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b746c1b5663d912418c528bd1d7003be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  path: event:/SFX/flush
 --- !u!1 &1354048144
 GameObject:
   m_ObjectHideFlags: 0
@@ -3062,7 +3104,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomSpeed: 0
-  FallOnEnable: 0
 --- !u!1 &1358071339
 GameObject:
   m_ObjectHideFlags: 0
@@ -3292,7 +3333,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomSpeed: 0
-  FallOnEnable: 0
 --- !u!1 &1464701581
 GameObject:
   m_ObjectHideFlags: 0
@@ -3917,7 +3957,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomSpeed: 600
-  FallOnEnable: 0
 --- !u!1 &1973644242
 GameObject:
   m_ObjectHideFlags: 0
@@ -4092,7 +4131,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomSpeed: 0
-  FallOnEnable: 0
 --- !u!1 &2064001627
 GameObject:
   m_ObjectHideFlags: 0
@@ -4291,4 +4329,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomSpeed: 0
-  FallOnEnable: 0
