@@ -1,31 +1,28 @@
 fileFormatVersion: 2
-guid: 3af1c044ea454f34a8e8d319d11a16e4
+guid: a9c25c41d38c89f48bc9ea2f44ed84de
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5852135935505538600
-    second: garden-bench
+      213: -1893240340674252486
+    second: bunny-on-hutch_0
   - first:
-      213: 6580706180292963874
-    second: flower-bed
+      213: 7091547053741174091
+    second: bunny-on-hutch_1
   - first:
-      213: 711061946136450388
-    second: rabbit-hutch
+      213: 1782802561096314256
+    second: bunny-on-hutch_2
   - first:
-      213: -5205570905279116615
-    second: red-cushion
+      213: -3175252718051326615
+    second: bunny-on-hutch_3
   - first:
-      213: -3062193336436783412
-    second: white-cushion
+      213: 5156151653179923743
+    second: bunny-on-hutch_4
   - first:
-      213: -5819481625698966781
-    second: carrot
+      213: 4171637516508719873
+    second: bunny-on-hutch_5
   - first:
-      213: -3665240723269962499
-    second: carrot-bag
-  - first:
-      213: -1818099164645460120
-    second: carrot-bag-open
+      213: -6405401766886909605
+    second: bunny-on-hutch_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -116,7 +113,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -127,169 +124,148 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: garden-bench
+      name: bunny-on-hutch_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 126
-        width: 40
-        height: 34
+        x: 49
+        y: 0
+        width: 49
+        height: 45
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82e1b1d90a6f63150800000000000000
-      internalID: 5852135935505538600
+      spriteID: a31fba3e0fbd9b5e0800000000000000
+      internalID: -1893240340674252486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flower-bed
+      name: bunny-on-hutch_1
       rect:
         serializedVersion: 2
-        x: 200
-        y: 108
-        width: 88
-        height: 52
+        x: 98
+        y: 0
+        width: 49
+        height: 45
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22e6497a76d535b50800000000000000
-      internalID: 6580706180292963874
+      spriteID: b4de536097c3a6260800000000000000
+      internalID: 7091547053741174091
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rabbit-hutch
+      name: bunny-on-hutch_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 45
-        width: 36
-        height: 42
+        x: 147
+        y: 0
+        width: 49
+        height: 45
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 455d2c892133ed900800000000000000
-      internalID: 711061946136450388
+      spriteID: 09d6dcecb79cdb810800000000000000
+      internalID: 1782802561096314256
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: red-cushion
+      name: bunny-on-hutch_3
       rect:
         serializedVersion: 2
-        x: 3
-        y: 104
-        width: 24
-        height: 14
+        x: 196
+        y: 0
+        width: 49
+        height: 45
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bacab987d812c7b0800000000000000
-      internalID: -5205570905279116615
+      spriteID: 9650574e97c3fe3d0800000000000000
+      internalID: -3175252718051326615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: white-cushion
+      name: bunny-on-hutch_4
       rect:
         serializedVersion: 2
-        x: 3
-        y: 88
-        width: 24
-        height: 14
+        x: 245
+        y: 0
+        width: 49
+        height: 45
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc60e1c7267e085d0800000000000000
-      internalID: -3062193336436783412
+      spriteID: f1d15df2c945e8740800000000000000
+      internalID: 5156151653179923743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: carrot
+      name: bunny-on-hutch_5
       rect:
         serializedVersion: 2
-        x: 6
-        y: 30
-        width: 6
-        height: 8
+        x: 294
+        y: 0
+        width: 49
+        height: 45
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 303ec4b5b4c0d3fa0800000000000000
-      internalID: -5819481625698966781
+      spriteID: 10be13f0832a4e930800000000000000
+      internalID: 4171637516508719873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: carrot-bag
+      name: bunny-on-hutch_6
       rect:
         serializedVersion: 2
-        x: 54
-        y: 125
-        width: 24
-        height: 28
+        x: 343
+        y: 0
+        width: 49
+        height: 45
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df4b2314bf2722dc0800000000000000
-      internalID: -3665240723269962499
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: carrot-bag-open
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 125
-        width: 24
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8677fd44170d4c6e0800000000000000
-      internalID: -1818099164645460120
+      spriteID: b59db01c7017b17a0800000000000000
+      internalID: -6405401766886909605
       vertices: []
       indices: 
       edges: []
