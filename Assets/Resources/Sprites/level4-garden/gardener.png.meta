@@ -14,6 +14,12 @@ TextureImporter:
   - first:
       213: 2169336612052761742
     second: gardener_3
+  - first:
+      213: 1339462372284697167
+    second: gardener_4
+  - first:
+      213: -3983415286484394048
+    second: gardener_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -194,6 +200,48 @@ TextureImporter:
       bones: []
       spriteID: e8c77afa7280b1e10800000000000000
       internalID: 2169336612052761742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gardener_4
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 75
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a080a4ee9b69210800000000000000
+      internalID: 1339462372284697167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gardener_5
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 0
+        width: 75
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf9c38e6e018b8c0800000000000000
+      internalID: -3983415286484394048
       vertices: []
       indices: 
       edges: []
