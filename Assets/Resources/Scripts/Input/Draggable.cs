@@ -78,7 +78,7 @@ public class Draggable : MonoBehaviour
         Destroy(Ghost);
     }
 
-    void OnMouseEnter() => CustomCursor.SetDraggableCursor();
+    void OnMouseEnter() => CustomCursor?.SetDraggableCursor();
 
-    void OnMouseExit() => CustomCursor.SetNeutralCursor();
+    void OnMouseExit() => CustomCursor?.SetNeutralCursor();
 }

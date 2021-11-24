@@ -211,6 +211,7 @@ GameObject:
   - component: {fileID: 279897468}
   - component: {fileID: 279897466}
   - component: {fileID: 279897469}
+  - component: {fileID: 279897470}
   m_Layer: 0
   m_Name: crate drinks
   m_TagString: Untagged
@@ -383,6 +384,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b30e27baef0aea642a1062824838847e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &279897470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279897464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
+  ShadowId: default
 --- !u!1 &300406414
 GameObject:
   m_ObjectHideFlags: 0
@@ -477,7 +493,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &440028547
 GameObject:
@@ -538,6 +554,7 @@ GameObject:
   - component: {fileID: 441337141}
   - component: {fileID: 441337140}
   - component: {fileID: 441337142}
+  - component: {fileID: 441337143}
   m_Layer: 0
   m_Name: painting
   m_TagString: Untagged
@@ -715,6 +732,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b30e27baef0aea642a1062824838847e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &441337143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441337137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
+  ShadowId: vampire
 --- !u!1 &513285354
 GameObject:
   m_ObjectHideFlags: 0
@@ -1049,6 +1081,7 @@ GameObject:
   m_Component:
   - component: {fileID: 668607535}
   - component: {fileID: 668607538}
+  - component: {fileID: 668607536}
   m_Layer: 0
   m_Name: curtainopen
   m_TagString: Untagged
@@ -1070,6 +1103,21 @@ Transform:
   m_Father: {fileID: 1677159460}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &668607536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668607534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
+  ShadowId: vampire
 --- !u!212 &668607538
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1134,6 +1182,7 @@ GameObject:
   - component: {fileID: 681740734}
   - component: {fileID: 681740735}
   - component: {fileID: 681740736}
+  - component: {fileID: 681740737}
   m_Layer: 0
   m_Name: shutter
   m_TagString: Untagged
@@ -1286,6 +1335,103 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+--- !u!114 &681740737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681740731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
+  ShadowId: default
+--- !u!1 &713227632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 713227633}
+  - component: {fileID: 713227634}
+  m_Layer: 0
+  m_Name: border
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &713227633
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713227632}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1960092204}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &713227634
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713227632}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 1072840879
+  m_SortingLayer: -1
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 3aea910792659904ea9bd9e92c349c3b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 288, y: 160}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &734924734
 GameObject:
   m_ObjectHideFlags: 0
@@ -1299,6 +1445,7 @@ GameObject:
   - component: {fileID: 734924736}
   - component: {fileID: 734924738}
   - component: {fileID: 734924739}
+  - component: {fileID: 734924740}
   m_Layer: 0
   m_Name: bottles
   m_TagString: Untagged
@@ -1472,6 +1619,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b30e27baef0aea642a1062824838847e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &734924740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734924734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
+  ShadowId: default
 --- !u!1 &808005710
 GameObject:
   m_ObjectHideFlags: 0
@@ -1516,6 +1678,8 @@ GameObject:
   - component: {fileID: 903824054}
   - component: {fileID: 903824055}
   - component: {fileID: 903824056}
+  - component: {fileID: 903824058}
+  - component: {fileID: 903824057}
   m_Layer: 0
   m_Name: key-no-pickup
   m_TagString: Untagged
@@ -1601,6 +1765,72 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+--- !u!114 &903824057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 903824053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
+  ShadowId: vampire
+--- !u!212 &903824058
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 903824053}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 0
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &926172777
 GameObject:
   m_ObjectHideFlags: 0
@@ -1799,6 +2029,7 @@ GameObject:
   - component: {fileID: 935326147}
   - component: {fileID: 935326148}
   - component: {fileID: 935326149}
+  - component: {fileID: 935326150}
   m_Layer: 0
   m_Name: crate
   m_TagString: Untagged
@@ -1884,6 +2115,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomSpeed: 0
+--- !u!114 &935326150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935326146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
+  ShadowId: default
 --- !u!1 &1143950497
 GameObject:
   m_ObjectHideFlags: 0
@@ -1897,6 +2143,7 @@ GameObject:
   - component: {fileID: 1143950499}
   - component: {fileID: 1143950502}
   - component: {fileID: 1143950501}
+  - component: {fileID: 1143950503}
   m_Layer: 0
   m_Name: glass
   m_TagString: Untagged
@@ -2022,6 +2269,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed76756373337974c8c701fff0865b20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1143950503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143950497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
+  ShadowId: default
 --- !u!1 &1150817402
 GameObject:
   m_ObjectHideFlags: 0
@@ -2150,6 +2412,106 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1221891423
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1221891424}
+  - component: {fileID: 1221891425}
+  - component: {fileID: 1221891426}
+  m_Layer: 0
+  m_Name: vampite-room
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1221891424
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221891423}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1960092204}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1221891425
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221891423}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 1072840879
+  m_SortingLayer: -1
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 116732873d2c15647b9fe68b1639b9b2, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 288, y: 160}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &1221891426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221891423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 0
+  CustomShadows:
+  - Sprite: {fileID: 21300000, guid: 116732873d2c15647b9fe68b1639b9b2, type: 3}
+    Shadow: {fileID: 21300000, guid: 9c2788985f3580947afca6435ae78dad, type: 3}
+  ShadowId: vampire
 --- !u!1 &1247980060
 GameObject:
   m_ObjectHideFlags: 0
@@ -2160,6 +2522,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1247980061}
   - component: {fileID: 1247980063}
+  - component: {fileID: 1247980062}
   m_Layer: 0
   m_Name: paintingFalling
   m_TagString: Untagged
@@ -2181,6 +2544,21 @@ Transform:
   m_Father: {fileID: 1677159460}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1247980062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247980060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
+  ShadowId: vampire
 --- !u!212 &1247980063
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2243,6 +2621,7 @@ GameObject:
   - component: {fileID: 1275319980}
   - component: {fileID: 1275319983}
   - component: {fileID: 1275319981}
+  - component: {fileID: 1275319982}
   m_Layer: 0
   m_Name: bottles fall over
   m_TagString: Untagged
@@ -2283,6 +2662,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1275319982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1275319979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
+  ShadowId: default
 --- !u!212 &1275319983
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2344,6 +2738,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1290832600}
   - component: {fileID: 1290832602}
+  - component: {fileID: 1290832601}
   m_Layer: 0
   m_Name: open
   m_TagString: Untagged
@@ -2366,6 +2761,21 @@ Transform:
   m_Father: {fileID: 513285355}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1290832601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290832599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
+  ShadowId: default
 --- !u!212 &1290832602
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2498,6 +2908,7 @@ GameObject:
   - component: {fileID: 1484719670}
   - component: {fileID: 1484719669}
   - component: {fileID: 1484719673}
+  - component: {fileID: 1484719674}
   m_Layer: 0
   m_Name: bottle
   m_TagString: Untagged
@@ -2636,6 +3047,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomSpeed: 0
+--- !u!114 &1484719674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484719667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
+  ShadowId: default
 --- !u!1001 &1487477855
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2959,6 +3385,7 @@ GameObject:
   - component: {fileID: 1613492982}
   - component: {fileID: 1613492981}
   - component: {fileID: 1613492983}
+  - component: {fileID: 1613492984}
   m_Layer: 0
   m_Name: curtainclosed
   m_TagString: Untagged
@@ -3139,6 +3566,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b30e27baef0aea642a1062824838847e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1613492984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613492978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
+  ShadowId: vampire
 --- !u!1 &1632141005
 GameObject:
   m_ObjectHideFlags: 0
@@ -3180,6 +3622,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1677159460}
   - component: {fileID: 1677159462}
+  - component: {fileID: 1677159461}
   m_Layer: 0
   m_Name: partition
   m_TagString: Untagged
@@ -3205,6 +3648,21 @@ Transform:
   m_Father: {fileID: 1960092204}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1677159461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1677159459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
+  ShadowId: vampire
 --- !u!212 &1677159462
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3266,6 +3724,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1741083281}
   - component: {fileID: 1741083282}
+  - component: {fileID: 1741083283}
   m_Layer: 0
   m_Name: shutter open
   m_TagString: Untagged
@@ -3338,6 +3797,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1741083283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741083280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
+  ShadowId: default
 --- !u!1 &1741951245
 GameObject:
   m_ObjectHideFlags: 0
@@ -3352,6 +3826,7 @@ GameObject:
   - component: {fileID: 1741951249}
   - component: {fileID: 1741951250}
   - component: {fileID: 1741951251}
+  - component: {fileID: 1741951252}
   m_Layer: 0
   m_Name: vampire
   m_TagString: Untagged
@@ -3514,6 +3989,21 @@ MonoBehaviour:
   Event3:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1741951252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741951245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
+  ShadowId: vampire
 --- !u!1 &1823019697
 GameObject:
   m_ObjectHideFlags: 0
@@ -3525,6 +4015,9 @@ GameObject:
   - component: {fileID: 1823019698}
   - component: {fileID: 1823019700}
   - component: {fileID: 1823019699}
+  - component: {fileID: 1823019701}
+  - component: {fileID: 1823019703}
+  - component: {fileID: 1823019702}
   m_Layer: 0
   m_Name: crate (2)
   m_TagString: Untagged
@@ -3610,6 +4103,78 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1823019701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1823019697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
+  ShadowId: default
+--- !u!114 &1823019702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1823019697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8416580241c603a46ad093e0e4f0ebcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnlyFireOnce: 0
+  Disabled: 0
+  ShouldEnlargeOnHover: 1
+  OnInspect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1863952156}
+        m_TargetAssemblyTypeName: ShadowController, Assembly-CSharp
+        m_MethodName: ToggleShadows
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  CustomCursor: {fileID: 0}
+--- !u!61 &1823019703
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1823019697}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 42, y: 32}
+    newSize: {x: 28, y: 28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 42, y: 32}
+  m_EdgeRadius: 0
 --- !u!1 &1828517814
 GameObject:
   m_ObjectHideFlags: 0
@@ -3623,6 +4188,7 @@ GameObject:
   - component: {fileID: 1828517819}
   - component: {fileID: 1828517818}
   - component: {fileID: 1828517817}
+  - component: {fileID: 1828517820}
   m_Layer: 0
   m_Name: key
   m_TagString: Untagged
@@ -3748,6 +4314,21 @@ PolygonCollider2D:
       - {x: -4, y: -2}
       - {x: 4, y: -2}
       - {x: 4, y: 2}
+--- !u!114 &1828517820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828517814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
+  ShadowId: vampire
 --- !u!1 &1857215801
 GameObject:
   m_ObjectHideFlags: 0
@@ -3796,7 +4377,19 @@ MonoBehaviour:
       m_Calls: []
   OnThingTwoOn:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1863952156}
+        m_TargetAssemblyTypeName: ShadowController, Assembly-CSharp
+        m_MethodName: LightOnViaId
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: default
+          m_BoolArgument: 0
+        m_CallState: 2
   OnBothOn:
     m_PersistentCalls:
       m_Calls:
@@ -3836,9 +4429,72 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1863952156}
+        m_TargetAssemblyTypeName: ShadowController, Assembly-CSharp
+        m_MethodName: LightOn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   OnBothOff:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &1863952155
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1863952157}
+  - component: {fileID: 1863952156}
+  m_Layer: 0
+  m_Name: Shadow Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1863952156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863952155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1fbc4ad2538e6d47949a630e8d4a318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShadowColour: {r: 0.6509434, g: 0.6509434, b: 0.6509434, a: 1}
+  ShadowsOn: 1
+  OnShadowsOn:
+    m_PersistentCalls:
+      m_Calls: []
+  OnShadowsOff:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &1863952157
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863952155}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1958390797
 GameObject:
   m_ObjectHideFlags: 0
@@ -3850,6 +4506,7 @@ GameObject:
   - component: {fileID: 1958390798}
   - component: {fileID: 1958390799}
   - component: {fileID: 1958390800}
+  - component: {fileID: 1958390801}
   m_Layer: 0
   m_Name: garlic
   m_TagString: Untagged
@@ -3963,6 +4620,21 @@ PolygonCollider2D:
       - {x: -13, y: -23}
       - {x: -9, y: -17}
       - {x: -3, y: -16}
+--- !u!114 &1958390801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958390797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
+  ShadowId: default
 --- !u!1 &1959911988
 GameObject:
   m_ObjectHideFlags: 0
@@ -4076,7 +4748,7 @@ GameObject:
   - component: {fileID: 1960092204}
   - component: {fileID: 1960092205}
   - component: {fileID: 1960092206}
-  - component: {fileID: 1960092207}
+  - component: {fileID: 1960092208}
   m_Layer: 0
   m_Name: room
   m_TagString: Untagged
@@ -4099,6 +4771,8 @@ Transform:
   - {fileID: 1677159460}
   - {fileID: 681740732}
   - {fileID: 1741083281}
+  - {fileID: 1221891424}
+  - {fileID: 713227633}
   m_Father: {fileID: 1973644243}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4142,7 +4816,7 @@ SpriteRenderer:
   m_SortingLayerID: 1072840879
   m_SortingLayer: -1
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: b6493308116887549b1939a04968d403, type: 3}
+  m_Sprite: {fileID: 21300000, guid: abd96fc2d60b0a4458d521357b3c74f8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4166,7 +4840,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomSpeed: 400
---- !u!114 &1960092207
+--- !u!114 &1960092208
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4175,9 +4849,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1960092203}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87607c4d3bd3d3f4daffb8f8e5fc72db, type: 3}
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AutoShadow: 0
+  CustomShadows:
+  - Sprite: {fileID: 21300000, guid: abd96fc2d60b0a4458d521357b3c74f8, type: 3}
+    Shadow: {fileID: 21300000, guid: 240d7dbe458f45940872d0141493bb96, type: 3}
+  ShadowId: default
 --- !u!1 &1973644242
 GameObject:
   m_ObjectHideFlags: 0
@@ -4229,6 +4908,7 @@ GameObject:
   - component: {fileID: 2003113760}
   - component: {fileID: 2003113759}
   - component: {fileID: 2003113758}
+  - component: {fileID: 2003113761}
   m_Layer: 0
   m_Name: glasswine
   m_TagString: Untagged
@@ -4354,6 +5034,21 @@ PolygonCollider2D:
       - {x: -3, y: -6}
       - {x: 3, y: -6}
       - {x: 3, y: 6}
+--- !u!114 &2003113761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003113755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
+  ShadowId: default
 --- !u!1 &2017784427
 GameObject:
   m_ObjectHideFlags: 0
@@ -4368,6 +5063,7 @@ GameObject:
   - component: {fileID: 2017784432}
   - component: {fileID: 2017784431}
   - component: {fileID: 2017784433}
+  - component: {fileID: 2017784434}
   m_Layer: 0
   m_Name: lid
   m_TagString: Untagged
@@ -4538,6 +5234,21 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+--- !u!114 &2017784434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017784427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
+  ShadowId: vampire
 --- !u!114 &2022032848 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5848676012762609508, guid: 688ba1be6db29ae43b0e30b82db049a2, type: 3}
@@ -4851,6 +5562,7 @@ GameObject:
   - component: {fileID: 2134738642}
   - component: {fileID: 2134738643}
   - component: {fileID: 2134738644}
+  - component: {fileID: 2134738645}
   m_Layer: 0
   m_Name: candle
   m_TagString: Untagged
@@ -4938,3 +5650,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomSpeed: 0
+--- !u!114 &2134738645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134738641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa0207639a375c48b2637bb6bec73c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShadow: 1
+  CustomShadows: []
+  ShadowId: default

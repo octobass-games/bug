@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -25,14 +26,39 @@ public class ShadowController : MonoBehaviour
     public void ToggleShadows()
     {
         ShadowsOn = !ShadowsOn;
-        shadows.ForEach(s => {
-            s.ShadowOn(ShadowsOn);
-         });
+        UpdateShadows();
+    }
 
+    public void LightOnViaId(string id)
+    {
+        ShadowsOn = !ShadowsOn;
+        shadows.Where(s => s.GetId() == id).ToList().ForEach(s => s.ShadowOn(ShadowsOn));
+        InvokeHooks();
+    }
+
+
+    public void LightOn()
+    {
+        ShadowsOn = false;
+        UpdateShadows();
+    }
+
+
+    private void UpdateShadows()
+    {
+        shadows.ForEach(s =>  s.ShadowOn(ShadowsOn));
+
+        InvokeHooks();
+    }
+
+    private void InvokeHooks()
+    {
         if (ShadowsOn)
         {
             OnShadowsOn.Invoke();
-        } else {
+        }
+        else
+        {
             OnShadowsOff.Invoke();
         }
     }

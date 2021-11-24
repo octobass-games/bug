@@ -8,9 +8,12 @@ public class AddShadow : MonoBehaviour
     public bool AutoShadow = true;
     private ShadowController ShadowController;
     public List<SpriteWithShadow> CustomShadows;
+    public string ShadowId = "default";
 
     private SpriteRenderer Sprite;
     private Color OriginalColour;
+
+    public string GetId () => ShadowId;
 
     void Awake()
     {
