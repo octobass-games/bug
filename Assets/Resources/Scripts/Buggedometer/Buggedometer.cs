@@ -9,6 +9,7 @@ public class Buggedometer : MonoBehaviour
     private int MaxPatience;
     public int OutOfPatienceDelaySeconds;
     public UnityEvent OnOutOfPatience;
+    public UnityEvent OnOutOfPatienceImmediate;
     public BuggedometerRenderer BuggedometerRenderer;
 
     private HashSet<GameObject> PatienceDroppers = new HashSet<GameObject>();
@@ -56,6 +57,7 @@ public class Buggedometer : MonoBehaviour
 
     private IEnumerator OutOfPatience()
     {
+        OnOutOfPatienceImmediate.Invoke();
         yield return new WaitForSeconds(OutOfPatienceDelaySeconds);
 
         OnOutOfPatience.Invoke();
