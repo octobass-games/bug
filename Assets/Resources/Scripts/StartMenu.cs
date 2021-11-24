@@ -8,8 +8,13 @@ public class StartMenu : MonoBehaviour
     private MenuController MenuController;
     private Saver Saver;
 
-    void Awake()
+    IEnumerator Start()
     {
+        while (!FMODUnity.RuntimeManager.HasBankLoaded("Music"))
+        {
+            yield return null;
+        }
+
         if (!SceneManager.GetSceneByName("Brain").isLoaded)
         {
             SceneManager.LoadScene("Brain", LoadSceneMode.Additive);
