@@ -14,6 +14,9 @@ TextureImporter:
   - first:
       213: 7776042233586733692
     second: bike
+  - first:
+      213: -7503285139047926022
+    second: scissors
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -182,6 +185,27 @@ TextureImporter:
       bones: []
       spriteID: c725f53563d0aeb60800000000000000
       internalID: 7776042233586733692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scissors
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 23
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6b49e8be9fed790800000000000000
+      internalID: -7503285139047926022
       vertices: []
       indices: 
       edges: []
