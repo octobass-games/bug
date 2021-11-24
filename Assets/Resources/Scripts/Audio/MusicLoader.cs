@@ -14,9 +14,8 @@ public class MusicLoader : MonoBehaviour
 
     public void Start()
     {
-        musicEvent = FMODUnity.RuntimeManager.CreateInstance("event:/Music/All Tracks");
+        StartCoroutine(LoadMusic());
 
-        musicEvent.start();
         //DontDestroyOnLoad(GameObject.Find("Music"));
     }
 
@@ -38,6 +37,18 @@ public class MusicLoader : MonoBehaviour
     {
         updatedParameter = MenuOpen ? 1f : 0f;
         musicEvent.setParameterByName("isPaused", updatedParameter);
+    }
+
+    private IEnumerator LoadMusic()
+    {
+        while (!FMODUnity.RuntimeManager.HasBankLoaded("Music"))
+        {
+            yield return null;
+        }
+
+        musicEvent = FMODUnity.RuntimeManager.CreateInstance("event:/Music/All Tracks");
+
+        musicEvent.start();
     }
 
 
