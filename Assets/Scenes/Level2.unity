@@ -3501,7 +3501,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/SFX/falling
+  Event: event:/SFX/falling 2 (shorter)
   PlayEvent: 1
   StopEvent: 0
   AllowFadeout: 1
