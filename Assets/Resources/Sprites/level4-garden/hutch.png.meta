@@ -1,25 +1,31 @@
 fileFormatVersion: 2
-guid: 017d6cbb5818b144099bec537d466f0b
+guid: 226f98337ee7a4b419c85ebc86a05739
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3814675262500174174
-    second: gardener_0
+      213: -6720473267567730206
+    second: hutch_0
   - first:
-      213: 850683912423927996
-    second: gardener_1
+      213: -6148088972434579090
+    second: hutch_1
   - first:
-      213: 6144362691870298675
-    second: gardener_2
+      213: 8598830364040367979
+    second: hutch_2
   - first:
-      213: 2169336612052761742
-    second: gardener_3
+      213: 5413860167519210864
+    second: hutch_3
   - first:
-      213: 1339462372284697167
-    second: gardener_4
+      213: 3807654839987119916
+    second: hutch_4
   - first:
-      213: -3983415286484394048
-    second: gardener_5
+      213: -1693239869415464479
+    second: hutch_5
+  - first:
+      213: -1174084957213075616
+    second: hutch_6
+  - first:
+      213: 5234358095653073676
+    second: hutch_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -64,7 +70,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1.2
+  spritePixelsToUnits: 1
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,13 +127,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gardener_0
+      name: hutch_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 75
-        height: 74
+        width: 49
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,20 +141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e59fac2b0f270f430800000000000000
-      internalID: 3814675262500174174
+      spriteID: 2e1ed147b251cb2a0800000000000000
+      internalID: -6720473267567730206
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gardener_1
+      name: hutch_1
       rect:
         serializedVersion: 2
-        x: 75
+        x: 49
         y: 0
-        width: 75
-        height: 74
+        width: 49
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb0fa20e28c3ecb00800000000000000
-      internalID: 850683912423927996
+      spriteID: e616a8e47a99daaa0800000000000000
+      internalID: -6148088972434579090
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gardener_2
+      name: hutch_2
       rect:
         serializedVersion: 2
-        x: 150
+        x: 98
         y: 0
-        width: 75
-        height: 74
+        width: 49
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,20 +183,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33297146059254550800000000000000
-      internalID: 6144362691870298675
+      spriteID: b6f087458ae255770800000000000000
+      internalID: 8598830364040367979
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gardener_3
+      name: hutch_3
       rect:
         serializedVersion: 2
-        x: 225
+        x: 147
         y: 0
-        width: 75
-        height: 74
+        width: 49
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,20 +204,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8c77afa7280b1e10800000000000000
-      internalID: 2169336612052761742
+      spriteID: 07d8e947325e12b40800000000000000
+      internalID: 5413860167519210864
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gardener_4
+      name: hutch_4
       rect:
         serializedVersion: 2
-        x: 300
+        x: 196
         y: 0
-        width: 75
-        height: 74
+        width: 49
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,20 +225,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4a080a4ee9b69210800000000000000
-      internalID: 1339462372284697167
+      spriteID: c27aab437e187d430800000000000000
+      internalID: 3807654839987119916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gardener_5
+      name: hutch_5
       rect:
         serializedVersion: 2
-        x: 375
+        x: 245
         y: 0
-        width: 75
-        height: 74
+        width: 49
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,8 +246,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0cf9c38e6e018b8c0800000000000000
-      internalID: -3983415286484394048
+      spriteID: 1e166f75f476088e0800000000000000
+      internalID: -1693239869415464479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutch_6
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 0
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0675f25b3ffc4bfe0800000000000000
+      internalID: -1174084957213075616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutch_7
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 0
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03779684fc24a840800000000000000
+      internalID: 5234358095653073676
       vertices: []
       indices: 
       edges: []

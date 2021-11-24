@@ -1,25 +1,28 @@
 fileFormatVersion: 2
-guid: 017d6cbb5818b144099bec537d466f0b
+guid: a9c25c41d38c89f48bc9ea2f44ed84de
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3814675262500174174
-    second: gardener_0
+      213: -1893240340674252486
+    second: bunny-on-hutch_0
   - first:
-      213: 850683912423927996
-    second: gardener_1
+      213: 7091547053741174091
+    second: bunny-on-hutch_1
   - first:
-      213: 6144362691870298675
-    second: gardener_2
+      213: 1782802561096314256
+    second: bunny-on-hutch_2
   - first:
-      213: 2169336612052761742
-    second: gardener_3
+      213: -3175252718051326615
+    second: bunny-on-hutch_3
   - first:
-      213: 1339462372284697167
-    second: gardener_4
+      213: 5156151653179923743
+    second: bunny-on-hutch_4
   - first:
-      213: -3983415286484394048
-    second: gardener_5
+      213: 4171637516508719873
+    second: bunny-on-hutch_5
+  - first:
+      213: -6405401766886909605
+    second: bunny-on-hutch_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -64,7 +67,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1.2
+  spritePixelsToUnits: 1
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,13 +124,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gardener_0
+      name: bunny-on-hutch_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 49
         y: 0
-        width: 75
-        height: 74
+        width: 49
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,20 +138,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e59fac2b0f270f430800000000000000
-      internalID: 3814675262500174174
+      spriteID: a31fba3e0fbd9b5e0800000000000000
+      internalID: -1893240340674252486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gardener_1
+      name: bunny-on-hutch_1
       rect:
         serializedVersion: 2
-        x: 75
+        x: 98
         y: 0
-        width: 75
-        height: 74
+        width: 49
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb0fa20e28c3ecb00800000000000000
-      internalID: 850683912423927996
+      spriteID: b4de536097c3a6260800000000000000
+      internalID: 7091547053741174091
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gardener_2
+      name: bunny-on-hutch_2
       rect:
         serializedVersion: 2
-        x: 150
+        x: 147
         y: 0
-        width: 75
-        height: 74
+        width: 49
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,20 +180,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33297146059254550800000000000000
-      internalID: 6144362691870298675
+      spriteID: 09d6dcecb79cdb810800000000000000
+      internalID: 1782802561096314256
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gardener_3
+      name: bunny-on-hutch_3
       rect:
         serializedVersion: 2
-        x: 225
+        x: 196
         y: 0
-        width: 75
-        height: 74
+        width: 49
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,20 +201,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8c77afa7280b1e10800000000000000
-      internalID: 2169336612052761742
+      spriteID: 9650574e97c3fe3d0800000000000000
+      internalID: -3175252718051326615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gardener_4
+      name: bunny-on-hutch_4
       rect:
         serializedVersion: 2
-        x: 300
+        x: 245
         y: 0
-        width: 75
-        height: 74
+        width: 49
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,20 +222,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4a080a4ee9b69210800000000000000
-      internalID: 1339462372284697167
+      spriteID: f1d15df2c945e8740800000000000000
+      internalID: 5156151653179923743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gardener_5
+      name: bunny-on-hutch_5
       rect:
         serializedVersion: 2
-        x: 375
+        x: 294
         y: 0
-        width: 75
-        height: 74
+        width: 49
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,8 +243,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0cf9c38e6e018b8c0800000000000000
-      internalID: -3983415286484394048
+      spriteID: 10be13f0832a4e930800000000000000
+      internalID: 4171637516508719873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny-on-hutch_6
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 0
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59db01c7017b17a0800000000000000
+      internalID: -6405401766886909605
       vertices: []
       indices: 
       edges: []
