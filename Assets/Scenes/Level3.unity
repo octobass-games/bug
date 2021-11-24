@@ -653,6 +653,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AutoShadow: 1
   CustomShadows: []
+  ShadowId: default
 --- !u!1001 &159531214
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -981,6 +982,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AutoShadow: 1
   CustomShadows: []
+  ShadowId: default
 --- !u!114 &297628764
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1162,6 +1164,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AutoShadow: 1
   CustomShadows: []
+  ShadowId: default
 --- !u!1 &372910009
 GameObject:
   m_ObjectHideFlags: 0
@@ -1177,6 +1180,7 @@ GameObject:
   - component: {fileID: 372910015}
   - component: {fileID: 372910014}
   - component: {fileID: 372910016}
+  - component: {fileID: 372910017}
   m_Layer: 0
   m_Name: Lamp
   m_TagString: Untagged
@@ -1276,6 +1280,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AutoShadow: 1
   CustomShadows: []
+  ShadowId: default
 --- !u!61 &372910014
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1332,18 +1337,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 372910016}
-        m_TargetAssemblyTypeName: ClickSFX, Assembly-CSharp
-        m_MethodName: PlayOneShot
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   CustomCursor: {fileID: 0}
 --- !u!114 &372910016
 MonoBehaviour:
@@ -1358,6 +1351,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   path: event:/SFX/switch
+--- !u!114 &372910017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372910009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: -1
+  OverrideMaxDistance: -1
 --- !u!1 &389256295
 GameObject:
   m_ObjectHideFlags: 0
@@ -1635,6 +1651,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AutoShadow: 1
   CustomShadows: []
+  ShadowId: default
 --- !u!1 &561325008
 GameObject:
   m_ObjectHideFlags: 0
@@ -1902,6 +1919,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AutoShadow: 1
   CustomShadows: []
+  ShadowId: default
 --- !u!1 &615323248
 GameObject:
   m_ObjectHideFlags: 0
@@ -2019,6 +2037,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AutoShadow: 1
   CustomShadows: []
+  ShadowId: default
 --- !u!1 &628595570
 GameObject:
   m_ObjectHideFlags: 0
@@ -2922,6 +2941,7 @@ MonoBehaviour:
   CustomShadows:
   - Sprite: {fileID: 6388648386946017184, guid: 72cd3e7446180964ca4c22c0f388ac09, type: 3}
     Shadow: {fileID: 6388648386946017184, guid: c4dc487d3f01c9946a2976bdac4ae525, type: 3}
+  ShadowId: default
 --- !u!1 &809809535
 GameObject:
   m_ObjectHideFlags: 0
@@ -3033,6 +3053,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AutoShadow: 1
   CustomShadows: []
+  ShadowId: default
 --- !u!1 &863869955
 GameObject:
   m_ObjectHideFlags: 0
@@ -3162,6 +3183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AutoShadow: 1
   CustomShadows: []
+  ShadowId: default
 --- !u!212 &866736451
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3636,6 +3658,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AutoShadow: 1
   CustomShadows: []
+  ShadowId: default
 --- !u!1 &1029185396
 GameObject:
   m_ObjectHideFlags: 0
@@ -3747,6 +3770,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AutoShadow: 1
   CustomShadows: []
+  ShadowId: default
 --- !u!1 &1034100534
 GameObject:
   m_ObjectHideFlags: 0
@@ -3999,6 +4023,7 @@ MonoBehaviour:
     Shadow: {fileID: -487308248914705789, guid: c4dc487d3f01c9946a2976bdac4ae525, type: 3}
   - Sprite: {fileID: 3366955441979139806, guid: 72cd3e7446180964ca4c22c0f388ac09, type: 3}
     Shadow: {fileID: 3366955441979139806, guid: c4dc487d3f01c9946a2976bdac4ae525, type: 3}
+  ShadowId: default
 --- !u!61 &1118898515
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4273,6 +4298,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AutoShadow: 1
   CustomShadows: []
+  ShadowId: default
 --- !u!61 &1225285062
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4836,6 +4862,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AutoShadow: 1
   CustomShadows: []
+  ShadowId: default
 --- !u!1 &1413133078
 GameObject:
   m_ObjectHideFlags: 0
@@ -4882,6 +4909,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AutoShadow: 1
   CustomShadows: []
+  ShadowId: default
 --- !u!212 &1413133081
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4980,6 +5008,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AutoShadow: 1
   CustomShadows: []
+  ShadowId: default
 --- !u!212 &1451126764
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5130,6 +5159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AutoShadow: 1
   CustomShadows: []
+  ShadowId: default
 --- !u!1 &1494611279
 GameObject:
   m_ObjectHideFlags: 3
@@ -5314,6 +5344,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AutoShadow: 1
   CustomShadows: []
+  ShadowId: default
 --- !u!1 &1529375080
 GameObject:
   m_ObjectHideFlags: 0
@@ -5753,6 +5784,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AutoShadow: 1
   CustomShadows: []
+  ShadowId: default
 --- !u!1 &1614498905
 GameObject:
   m_ObjectHideFlags: 0
@@ -6422,6 +6454,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AutoShadow: 1
   CustomShadows: []
+  ShadowId: default
 --- !u!61 &1931436563
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6689,6 +6722,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AutoShadow: 1
   CustomShadows: []
+  ShadowId: default
 --- !u!1 &1965111443
 GameObject:
   m_ObjectHideFlags: 0
@@ -6738,6 +6772,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AutoShadow: 1
   CustomShadows: []
+  ShadowId: default
 --- !u!212 &1965111446
 SpriteRenderer:
   m_ObjectHideFlags: 0
