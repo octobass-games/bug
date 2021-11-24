@@ -1554,7 +1554,6 @@ GameObject:
   - component: {fileID: 622213605}
   - component: {fileID: 622213606}
   - component: {fileID: 622213607}
-  - component: {fileID: 622213609}
   - component: {fileID: 622213610}
   - component: {fileID: 622213611}
   - component: {fileID: 622213608}
@@ -1679,18 +1678,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 622213609}
-        m_TargetAssemblyTypeName: ClickSFX, Assembly-CSharp
-        m_MethodName: PlayLoop
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   CustomCursor: {fileID: 0}
 --- !u!61 &622213608
 BoxCollider2D:
@@ -1718,19 +1705,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.0127316, y: 8}
   m_EdgeRadius: 0
---- !u!114 &622213609
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 622213603}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b746c1b5663d912418c528bd1d7003be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  path: event:/SFX/tap
 --- !u!114 &622213610
 MonoBehaviour:
   m_ObjectHideFlags: 0
