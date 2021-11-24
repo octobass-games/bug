@@ -803,6 +803,7 @@ GameObject:
   m_Component:
   - component: {fileID: 638604301}
   - component: {fileID: 638604302}
+  - component: {fileID: 638604303}
   m_Layer: 0
   m_Name: vampire
   m_TagString: Untagged
@@ -844,12 +845,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e627bd3d9917dec41ba301cc40d0a835, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Patience: 3
-  OutOfPatienceDelaySeconds: 0
+  Patience: 2
+  OutOfPatienceDelaySeconds: 2
   OnOutOfPatience:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 638604303}
+        m_TargetAssemblyTypeName: LevelTracker, Assembly-CSharp
+        m_MethodName: CompleteLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   BuggedometerRenderer: {fileID: 2022032848}
+--- !u!114 &638604303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638604300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8018f54971946934aa0462167094592d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Level: {fileID: 11400000, guid: f0bdd92f9ecf3ce43be3cc57f1693c9a, type: 2}
 --- !u!1 &647241424
 GameObject:
   m_ObjectHideFlags: 0
@@ -4016,8 +4042,6 @@ GameObject:
   - component: {fileID: 1823019700}
   - component: {fileID: 1823019699}
   - component: {fileID: 1823019701}
-  - component: {fileID: 1823019703}
-  - component: {fileID: 1823019702}
   m_Layer: 0
   m_Name: crate (2)
   m_TagString: Untagged
@@ -4118,63 +4142,6 @@ MonoBehaviour:
   AutoShadow: 1
   CustomShadows: []
   ShadowId: default
---- !u!114 &1823019702
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1823019697}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8416580241c603a46ad093e0e4f0ebcb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnlyFireOnce: 0
-  Disabled: 0
-  ShouldEnlargeOnHover: 1
-  OnInspect:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1863952156}
-        m_TargetAssemblyTypeName: ShadowController, Assembly-CSharp
-        m_MethodName: ToggleShadows
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  CustomCursor: {fileID: 0}
---- !u!61 &1823019703
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1823019697}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 42, y: 32}
-    newSize: {x: 28, y: 28}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 42, y: 32}
-  m_EdgeRadius: 0
 --- !u!1 &1828517814
 GameObject:
   m_ObjectHideFlags: 0
@@ -4436,6 +4403,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 638604302}
+        m_TargetAssemblyTypeName: Buggedometer, Assembly-CSharp
+        m_MethodName: DecrementPatience
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1857215801}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

@@ -60,7 +60,10 @@ public class AddShadow : MonoBehaviour
         } else if (CustomShadows.Count > 0)
         {
            var spriteWithShadow = CustomShadows.Find(s => s.Sprite == Sprite.sprite);
-           Sprite.sprite = spriteWithShadow.Shadow;
+            if (spriteWithShadow != null)
+            {
+                Sprite.sprite = spriteWithShadow.Shadow;
+            }
         }
 
 
@@ -75,7 +78,11 @@ public class AddShadow : MonoBehaviour
         else if (CustomShadows.Count > 0)
         {
             var spriteWithShadow = CustomShadows.Find(s => s.Shadow == Sprite.sprite);
-            Sprite.sprite = spriteWithShadow.Sprite;
+
+            if (spriteWithShadow != null)
+            {
+                Sprite.sprite = spriteWithShadow.Sprite;
+            }
         }
     }
 
