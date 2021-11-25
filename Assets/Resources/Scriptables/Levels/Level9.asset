@@ -19,3 +19,4 @@ MonoBehaviour:
   TwoStarInteractionCount: 2
   ThreeStarInteractionCount: 3
   FallingSprites: []
+  MusicSelector: 8

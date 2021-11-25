@@ -20,3 +20,4 @@ MonoBehaviour:
   ThreeStarInteractionCount: 3
   FallingSprites:
   - {fileID: -3229044062601895648, guid: 723a9d3d78965fc45a3a459ca30447f0, type: 3}
+  MusicSelector: 6
