@@ -19,7 +19,7 @@
 			<value>0</value>
 		</property>
 		<property name="seekSpeed">
-			<value>24</value>
+			<value>250</value>
 		</property>
 	</object>
 </objects>
