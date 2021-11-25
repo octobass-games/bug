@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -15,16 +14,12 @@ public class StartMenu : MonoBehaviour
             yield return null;
         }
 
-        if (!SceneManager.GetSceneByName("Brain").isLoaded)
-        {
-            SceneManager.LoadScene("Brain", LoadSceneMode.Additive);
-        }
+        SceneLoader.MaybeLoadScene("Brain");
     }
 
     public void StartGame()
     {
-        SceneManager.UnloadSceneAsync("StartMenu");
-        SceneManager.LoadScene("Level1", LoadSceneMode.Additive);
+        SceneLoader.SwitchScene("StartMenu", "Level1");
     }
 
     public void LoadGame()
@@ -33,11 +28,8 @@ public class StartMenu : MonoBehaviour
         LevelSelect();
     }
 
-    public void LevelSelect()
-    {
-        SceneManager.UnloadSceneAsync("StartMenu");
-        FindMenuController().OpenMenu(Menu.LEVEL_SELECT);
-    }
+    public void LevelSelect() =>
+        SceneLoader.UnloadSceneAsync("StartMenu", action => FindMenuController().OpenMenu(Menu.LEVEL_SELECT));
 
     private MenuController FindMenuController()
     {

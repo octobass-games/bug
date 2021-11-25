@@ -1,17 +1,32 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public static class SceneLoader
 {
-    public static void LoadScene(LevelData level, LevelData OldLevel)
+    public static void UnloadSceneAsync(string scene, Action<AsyncOperation> onCompleted)
     {
-        Debug.Log("load level: " + level);
-        Debug.Log("Unload level: " + OldLevel);
-        if (OldLevel)
-        {
-            SceneManager.UnloadSceneAsync(OldLevel.SceneName);
-        }
+        var unload = SceneManager.UnloadSceneAsync(scene);
 
-        SceneManager.LoadScene(level.SceneName, LoadSceneMode.Additive);
+        unload.completed += onCompleted;
+    }
+
+    public static void SwitchScene(LevelData currentLevel, LevelData newLevel)
+    {
+        if (currentLevel)
+        {
+            SwitchScene(currentLevel.Name, newLevel.Name);
+        }
+    }
+
+    public static void SwitchScene(string currentScene, string newScene) =>
+        UnloadSceneAsync(currentScene, action => SceneManager.LoadScene(newScene, LoadSceneMode.Additive));
+
+    public static void MaybeLoadScene(string scene)
+    {
+        if (!SceneManager.GetSceneByName(scene).isLoaded)
+        {
+            SceneManager.LoadScene(scene, LoadSceneMode.Additive);
+        }
     }
 }

@@ -27,7 +27,7 @@ public class Levels : MonoBehaviour, ILoadable
             nextLevel.Locked = false;
         }
 
-        LevelSummary.ShowSummary(level, interactionCount, () => SceneLoader.LoadScene(nextLevel?.Data, data));
+        LevelSummary.ShowSummary(level, interactionCount, () => SceneLoader.SwitchScene(data, nextLevel?.Data));
     }
 
     public void UnlockLevel(LevelData data)
