@@ -11,6 +11,21 @@ TextureImporter:
   - first:
       213: -5076717403280853713
     second: kettle
+  - first:
+      213: 3821852035773465522
+    second: plant
+  - first:
+      213: 2479058207210053554
+    second: plant-2
+  - first:
+      213: -4056461489033973076
+    second: papers
+  - first:
+      213: 853052010665547790
+    second: filing
+  - first:
+      213: 570994608245863220
+    second: clock
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -162,7 +177,7 @@ TextureImporter:
         width: 24
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -170,6 +185,111 @@ TextureImporter:
       bones: []
       spriteID: f25b6685b60eb89b0800000000000000
       internalID: -5076717403280853713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 64
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b381607d22f90530800000000000000
+      internalID: 3821852035773465522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant-2
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 17
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf954a0e42676220800000000000000
+      internalID: 2479058207210053554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papers
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 42
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2f31d84cd84b7c0800000000000000
+      internalID: -4056461489033973076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: filing
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 73
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0817a6b846a6db00800000000000000
+      internalID: 853052010665547790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 115
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433782922949ce700800000000000000
+      internalID: 570994608245863220
       vertices: []
       indices: 
       edges: []

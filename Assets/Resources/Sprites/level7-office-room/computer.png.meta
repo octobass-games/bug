@@ -20,6 +20,15 @@ TextureImporter:
   - first:
       213: 6774277999510416888
     second: recycle-bin
+  - first:
+      213: -284366523399243086
+    second: computer_6
+  - first:
+      213: 2430229790005330974
+    second: deleting-super-important-files
+  - first:
+      213: -3627175666306648184
+    second: deleting-super-important-files-bar
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -125,11 +134,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 402
+        y: 804
         width: 234
         height: 134
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -146,11 +155,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 268
+        y: 670
         width: 234
         height: 134
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -167,11 +176,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 134
+        y: 404
         width: 234
         height: 134
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -188,11 +197,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 7
-        y: 84
+        y: 352
         width: 76
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -209,11 +218,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 9
-        y: 56
+        y: 323
         width: 54
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -229,12 +238,12 @@ TextureImporter:
       name: recycle-bin
       rect:
         serializedVersion: 2
-        x: 189
-        y: 16
+        x: 188
+        y: 283
         width: 38
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -242,6 +251,69 @@ TextureImporter:
       bones: []
       spriteID: 8fdef8ae2f1130e50800000000000000
       internalID: 6774277999510416888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: computer_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 538
+        width: 234
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba76c2572abd0cf0800000000000000
+      internalID: -284366523399243086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deleting-super-important-files
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 141
+        width: 222
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1407db3e19e9b120800000000000000
+      internalID: 2430229790005330974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deleting-super-important-files-bar
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 58
+        width: 112
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887f9d7f2fea9adc0800000000000000
+      internalID: -3627175666306648184
       vertices: []
       indices: 
       edges: []
