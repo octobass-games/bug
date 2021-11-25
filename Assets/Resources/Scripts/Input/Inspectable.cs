@@ -38,8 +38,4 @@ public class Inspectable : MonoBehaviour
             HasBeenTriggered = true;
         }
     }
-
-    void OnMouseEnter() => CustomCursor.SetClickableCursor();
-
-    void OnMouseExit() => CustomCursor.SetNeutralCursor();
 }

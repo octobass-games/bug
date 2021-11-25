@@ -8,20 +8,28 @@ public class CustomCursor : MonoBehaviour
     public Texture2D Draggable;
     public Texture2D Neutral;
 
-    void Awake()
+    private Texture2D CurrentTexture;
+
+    void Awake() => MaybeSetNeutralCursor();
+
+    public void MaybeSetNeutralCursor() => SetCursor(Neutral);
+
+    public void SetDraggingCursor()
     {
-        SetNeutralCursor();
+        SetCursor(Dragging);
     }
 
-    public void SetNeutralCursor() => SetCursor(Neutral);
-    public void SetDraggingCursor() => SetCursor(Dragging);
-    public void SetDraggableCursor() => SetCursor(Draggable);
-    public void SetClickableCursor() => SetCursor(Clickable);
+    public void MaybeSetDraggableCursor() => SetCursor(Draggable);
+    public void MaybeSetClickableCursor() => SetCursor(Clickable);
 
     private void SetCursor(Texture2D texture)
     {
-        Vector2 cursorOffset = new Vector2(texture.width / 2, 0);
-        Cursor.SetCursor(texture, cursorOffset, CursorMode.Auto);
-    }
+        if (CurrentTexture != texture)
+        {
+            CurrentTexture = texture;
 
+            Vector2 cursorOffset = new Vector2(texture.width / 2, 0);
+            Cursor.SetCursor(texture, cursorOffset, CursorMode.Auto);
+        }
+    }
 }
