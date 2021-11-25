@@ -81,10 +81,15 @@ public class MouseMonitor : MonoBehaviour
 
         var mousePosition = Mouse.current.position.ReadValue();
 
-        var ray = Camera.main.ScreenPointToRay(mousePosition);
-        var hit = Physics2D.Raycast(ray.origin, ray.direction);
+        if (Camera.main != null)
+        {
+            var ray = Camera.main.ScreenPointToRay(mousePosition);
+            var hit = Physics2D.Raycast(ray.origin, ray.direction);
 
-        return hit.collider?.GetComponent<T>();
+            return hit.collider?.GetComponent<T>();
+        }
+
+        return null;
     }
 
     private bool IsMouseOverUIElement() => EventSystem.current.IsPointerOverGameObject();
