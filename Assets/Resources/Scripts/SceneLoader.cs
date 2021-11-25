@@ -15,7 +15,7 @@ public static class SceneLoader
     {
         if (currentLevel)
         {
-            SwitchScene(currentLevel.Name, newLevel.Name);
+            SwitchScene(currentLevel.SceneName, newLevel.SceneName);
         }
     }
 
