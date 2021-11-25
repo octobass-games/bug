@@ -38,6 +38,18 @@ TextureImporter:
   - first:
       213: -3404830080255134940
     second: seeds
+  - first:
+      213: 2929001826419329405
+    second: lightson
+  - first:
+      213: 6841959371117515798
+    second: lightsoff
+  - first:
+      213: -4755476809843536193
+    second: door-shadow
+  - first:
+      213: -487308248914705789
+    second: vanity-shadow
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -386,6 +398,90 @@ TextureImporter:
       bones: []
       spriteID: 423f3d1e41d9fb0d0800000000000000
       internalID: -3404830080255134940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightson
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79c13284a7e5a820800000000000000
+      internalID: 2929001826419329405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightsoff
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6145d1b3cc583fe50800000000000000
+      internalID: 6841959371117515798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-shadow
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 108
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe0bab7907210eb0800000000000000
+      internalID: -4755476809843536193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vanity-shadow
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 0
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382425fbabbbc39f0800000000000000
+      internalID: -487308248914705789
       vertices: []
       indices: 
       edges: []
