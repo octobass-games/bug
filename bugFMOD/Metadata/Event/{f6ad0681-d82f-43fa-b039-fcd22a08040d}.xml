@@ -92,6 +92,9 @@
 		<property name="length">
 			<value>89.615192743764169</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{c963adba-b351-4cae-8754-c4449c93f289}</destination>
+		</relationship>
 		<relationship name="triggerConditions">
 			<destination>{9d0c31e7-be84-49f4-a740-7699d4437382}</destination>
 			<destination>{83ea8fed-310c-4c07-aae2-dfc343a1b9d5}</destination>
@@ -121,6 +124,17 @@
 	</object>
 	<object class="MixerBusPanner" id="{a364a40b-2d4b-4bc1-b120-0aa49188f0f8}" />
 	<object class="MixerBusFader" id="{43fb4ce4-8e4c-4600-8add-62df5d55b9e2}" />
+	<object class="ADSRModulator" id="{c963adba-b351-4cae-8754-c4449c93f289}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="ParameterCondition" id="{9d0c31e7-be84-49f4-a740-7699d4437382}">
 		<property name="minimum">
 			<value>0</value>
