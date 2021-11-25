@@ -90,11 +90,14 @@
 	<object class="MixerBusPanner" id="{356cfd74-64dd-41d0-95ad-fec914216839}" />
 	<object class="SingleSound" id="{0d9c57f9-50ba-46dc-bff3-3973b2b8cb11}">
 		<property name="length">
-			<value>3</value>
+			<value>2.125</value>
 		</property>
 		<property name="pitch">
 			<value>5.5</value>
 		</property>
+		<relationship name="fadeOutCurve">
+			<destination>{79b45cbf-d1a5-430a-83f6-7ae3aed2dfb1}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{7d8ab7f2-3ee4-4847-93de-3227e1467818}</destination>
 		</relationship>
@@ -125,6 +128,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{869a1ce9-3c36-46cf-9833-090ec656a344}" />
 	<object class="MixerBusFader" id="{e51f37de-773c-4964-abb9-5973dbbced6c}" />
+	<object class="FadeCurve" id="{79b45cbf-d1a5-430a-83f6-7ae3aed2dfb1}">
+		<relationship name="startPoint">
+			<destination>{1b4f6f72-4a1a-48e2-b37d-9f8c6829f9ee}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{ee219a6e-3508-454f-a132-972e39dbc653}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{63eb3e72-7a0e-4e02-bdb8-116669d46a8d}">
 		<relationship name="effects">
 			<destination>{067dbced-5fe5-4300-a973-20c35c58e469}</destination>
@@ -146,6 +157,25 @@
 	<object class="PitchShifterEffect" id="{8a67323b-4026-4475-80fe-18323672a92b}">
 		<property name="pitch">
 			<value>1.25999999</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{1b4f6f72-4a1a-48e2-b37d-9f8c6829f9ee}">
+		<property name="position">
+			<value>0.46875</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+		<property name="curveShape">
+			<value>-1.00000048</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{ee219a6e-3508-454f-a132-972e39dbc653}">
+		<property name="position">
+			<value>2.125</value>
+		</property>
+		<property name="value">
+			<value>0</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{067dbced-5fe5-4300-a973-20c35c58e469}" />
