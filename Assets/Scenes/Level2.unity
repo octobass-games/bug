@@ -512,6 +512,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  OnOutOfPatienceImmediate:
+    m_PersistentCalls:
+      m_Calls: []
   BuggedometerRenderer: {fileID: 1766593058}
 --- !u!114 &231040555
 MonoBehaviour:

@@ -27,3 +27,4 @@ MonoBehaviour:
   - {fileID: 695635169631814426, guid: 2750f424d885f8d45a23b4cc714a2efb, type: 3}
   - {fileID: -7696314502343423110, guid: 2750f424d885f8d45a23b4cc714a2efb, type: 3}
   - {fileID: 980155311395259703, guid: 4c1d8b51259aa9e4b9c3eb6600c6adb5, type: 3}
+  MusicSelector: 0
