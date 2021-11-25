@@ -1,46 +1,58 @@
 fileFormatVersion: 2
-guid: 9d98f4e98850a134cb1e1a99947a9772
+guid: 2cc752fba395a1949b3f414fcbe710ce
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1246437309453518837
-    second: anime-girl_0
+      213: -892205824917954395
+    second: satelite_0
   - first:
-      213: 7947489581063918571
-    second: anime-girl_1
+      213: 2634635433401102674
+    second: satelite_1
   - first:
-      213: -8387707523414323565
-    second: anime-girl_2
+      213: 7497889566921244136
+    second: satelite_2
   - first:
-      213: 8809768443961942538
-    second: anime-girl_3
+      213: -2276280857944731074
+    second: satelite_3
   - first:
-      213: -8666967326060538238
-    second: anime-girl_4
+      213: 6302796978293105631
+    second: satelite_4
   - first:
-      213: -6533576213007305923
-    second: anime-girl_5
+      213: -7033682414800738865
+    second: satelite_5
   - first:
-      213: -3264364943420784155
-    second: anime-girl_6
+      213: -8995929686693449280
+    second: satelite_6
   - first:
-      213: 5677528243934048165
-    second: anime-girl_7
+      213: -8288524473357888831
+    second: satelite_7
   - first:
-      213: -7010980325301183057
-    second: anime-girl_8
+      213: -5064425779774001933
+    second: satelite_8
   - first:
-      213: 3297929086340193541
-    second: anime-girl_9
+      213: -4377022200378693367
+    second: satelite_9
   - first:
-      213: -7029020562047348864
-    second: anime-girl_10
+      213: 1544935397856792335
+    second: satelite_10
   - first:
-      213: -8099088536479160726
-    second: anime-girl_11
+      213: -1009247488579732105
+    second: satelite_11
   - first:
-      213: 4187107996619495317
-    second: anime-girl_12
+      213: 5908518083974476461
+    second: satelite_12
+  - first:
+      213: -5103728529057970624
+    second: satelite_13
+  - first:
+      213: -3448017026670740955
+    second: satelite_14
+  - first:
+      213: -4671949828530700552
+    second: satelite_15
+  - first:
+      213: 3925829001090975498
+    second: satelite_16
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -142,12 +154,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: anime-girl_0
+      name: satelite_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 80
+        width: 82
         height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -156,19 +168,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f745c8012c3c4110800000000000000
-      internalID: 1246437309453518837
+      spriteID: 5a02b33878f3e93f0800000000000000
+      internalID: -892205824917954395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anime-girl_1
+      name: satelite_1
       rect:
         serializedVersion: 2
-        x: 80
+        x: 82
         y: 0
-        width: 80
+        width: 82
         height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -177,19 +189,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be3de679aa72b4e60800000000000000
-      internalID: 7947489581063918571
+      spriteID: 251b780c7fa109420800000000000000
+      internalID: 2634635433401102674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anime-girl_2
+      name: satelite_2
       rect:
         serializedVersion: 2
-        x: 160
+        x: 164
         y: 0
-        width: 80
+        width: 82
         height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -198,19 +210,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39e840b8270e89b80800000000000000
-      internalID: -8387707523414323565
+      spriteID: 8edb279e5dadd0860800000000000000
+      internalID: 7497889566921244136
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anime-girl_3
+      name: satelite_3
       rect:
         serializedVersion: 2
-        x: 240
+        x: 246
         y: 0
-        width: 80
+        width: 82
         height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -219,19 +231,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a022ccf39b5924a70800000000000000
-      internalID: 8809768443961942538
+      spriteID: e32de25be960960e0800000000000000
+      internalID: -2276280857944731074
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anime-girl_4
+      name: satelite_4
       rect:
         serializedVersion: 2
-        x: 320
+        x: 328
         y: 0
-        width: 80
+        width: 82
         height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -240,19 +252,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2869e32f22fb8b780800000000000000
-      internalID: -8666967326060538238
+      spriteID: fd3e0964578087750800000000000000
+      internalID: 6302796978293105631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anime-girl_5
+      name: satelite_5
       rect:
         serializedVersion: 2
-        x: 400
+        x: 410
         y: 0
-        width: 80
+        width: 82
         height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -261,19 +273,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d33f1c6fc031455a0800000000000000
-      internalID: -6533576213007305923
+      spriteID: fc5e3ea1c17536e90800000000000000
+      internalID: -7033682414800738865
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anime-girl_6
+      name: satelite_6
       rect:
         serializedVersion: 2
-        x: 480
+        x: 492
         y: 0
-        width: 80
+        width: 82
         height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -282,19 +294,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e18a2a1165a2b2d0800000000000000
-      internalID: -3264364943420784155
+      spriteID: 0c1fe38cc99082380800000000000000
+      internalID: -8995929686693449280
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anime-girl_7
+      name: satelite_7
       rect:
         serializedVersion: 2
-        x: 560
+        x: 574
         y: 0
-        width: 80
+        width: 82
         height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -303,19 +315,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5afafe56bd1aace40800000000000000
-      internalID: 5677528243934048165
+      spriteID: 1c21f5de7ee39fc80800000000000000
+      internalID: -8288524473357888831
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anime-girl_8
+      name: satelite_8
       rect:
         serializedVersion: 2
-        x: 640
+        x: 656
         y: 0
-        width: 80
+        width: 82
         height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -324,19 +336,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fad9b273a8ef3be90800000000000000
-      internalID: -7010980325301183057
+      spriteID: 3fc6d35f59b87b9b0800000000000000
+      internalID: -5064425779774001933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anime-girl_9
+      name: satelite_9
       rect:
         serializedVersion: 2
-        x: 720
+        x: 738
         y: 0
-        width: 80
+        width: 82
         height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -345,19 +357,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50d5cb5e70994cd20800000000000000
-      internalID: 3297929086340193541
+      spriteID: 909ed6ccf71b143c0800000000000000
+      internalID: -4377022200378693367
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anime-girl_10
+      name: satelite_10
       rect:
         serializedVersion: 2
-        x: 800
+        x: 820
         y: 0
-        width: 80
+        width: 82
         height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -366,19 +378,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08f40484a07e37e90800000000000000
-      internalID: -7029020562047348864
+      spriteID: f0f4e261f86b07510800000000000000
+      internalID: 1544935397856792335
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anime-girl_11
+      name: satelite_11
       rect:
         serializedVersion: 2
-        x: 880
+        x: 902
         y: 0
-        width: 80
+        width: 82
         height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -387,19 +399,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a66a8ba03e14a9f80800000000000000
-      internalID: -8099088536479160726
+      spriteID: 77dffb0a1ce6ef1f0800000000000000
+      internalID: -1009247488579732105
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anime-girl_12
+      name: satelite_12
       rect:
         serializedVersion: 2
-        x: 960
+        x: 984
         y: 0
-        width: 80
+        width: 82
         height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -408,8 +420,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 597d3b6e9889b1a30800000000000000
-      internalID: 4187107996619495317
+      spriteID: da2354884e54ff150800000000000000
+      internalID: 5908518083974476461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satelite_13
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 0
+        width: 82
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046097b81f9eb29b0800000000000000
+      internalID: -5103728529057970624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satelite_14
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 0
+        width: 82
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52abac958ce2620d0800000000000000
+      internalID: -3448017026670740955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satelite_15
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 0
+        width: 82
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fefafd4266e92fb0800000000000000
+      internalID: -4671949828530700552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satelite_16
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 0
+        width: 82
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0744f23da85b7630800000000000000
+      internalID: 3925829001090975498
       vertices: []
       indices: 
       edges: []

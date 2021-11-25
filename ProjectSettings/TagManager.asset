@@ -38,6 +38,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BackRoom
+    uniqueID: 425961531
+    locked: 0
+  - name: BackRoomItems
+    uniqueID: 788621633
+    locked: 0
   - name: Room
     uniqueID: 1072840879
     locked: 0
