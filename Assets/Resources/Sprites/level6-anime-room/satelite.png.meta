@@ -1,43 +1,58 @@
 fileFormatVersion: 2
-guid: 5113c43ff6854eb4d9c44a70415e7ec1
+guid: 2cc752fba395a1949b3f414fcbe710ce
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2585966209250083019
-    second: bed
+      213: -892205824917954395
+    second: satelite_0
   - first:
-      213: -6556922700306349592
-    second: wardrobe
+      213: 2634635433401102674
+    second: satelite_1
   - first:
-      213: 6388648386946017184
-    second: vanity
+      213: 7497889566921244136
+    second: satelite_2
   - first:
-      213: -8796781772508936136
-    second: pig1
+      213: -2276280857944731074
+    second: satelite_3
   - first:
-      213: 9104525522013418442
-    second: pig2
+      213: 6302796978293105631
+    second: satelite_4
   - first:
-      213: -3406095566554901437
-    second: pig3
+      213: -7033682414800738865
+    second: satelite_5
   - first:
-      213: 335263834784367102
-    second: tower
+      213: -8995929686693449280
+    second: satelite_6
   - first:
-      213: 7362403104124658649
-    second: dress
+      213: -8288524473357888831
+    second: satelite_7
   - first:
-      213: 8092274032446165547
-    second: door
+      213: -5064425779774001933
+    second: satelite_8
   - first:
-      213: -7891647650922392976
-    second: open-seed-bag
+      213: -4377022200378693367
+    second: satelite_9
   - first:
-      213: 3647316521000842000
-    second: closed-seed-bag
+      213: 1544935397856792335
+    second: satelite_10
   - first:
-      213: -3404830080255134940
-    second: seeds
+      213: -1009247488579732105
+    second: satelite_11
+  - first:
+      213: 5908518083974476461
+    second: satelite_12
+  - first:
+      213: -5103728529057970624
+    second: satelite_13
+  - first:
+      213: -3448017026670740955
+    second: satelite_14
+  - first:
+      213: -4671949828530700552
+    second: satelite_15
+  - first:
+      213: 3925829001090975498
+    second: satelite_16
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -139,253 +154,358 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bed
+      name: satelite_0
       rect:
         serializedVersion: 2
-        x: 185
-        y: 108
-        width: 52
-        height: 52
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc0c387f09233e320800000000000000
-      internalID: 2585966209250083019
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wardrobe
-      rect:
-        serializedVersion: 2
-        x: 243
-        y: 100
-        width: 45
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8e18b8c4b812105a0800000000000000
-      internalID: -6556922700306349592
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vanity
-      rect:
-        serializedVersion: 2
-        x: 219
-        y: 57
-        width: 32
-        height: 38
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0a72ac20cd909a850800000000000000
-      internalID: 6388648386946017184
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pig1
-      rect:
-        serializedVersion: 2
-        x: 262
-        y: 60
-        width: 26
-        height: 26
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83849f2d59d8be580800000000000000
-      internalID: -8796781772508936136
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pig2
-      rect:
-        serializedVersion: 2
-        x: 262
-        y: 29
-        width: 26
-        height: 26
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac3761479b5c95e70800000000000000
-      internalID: 9104525522013418442
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pig3
-      rect:
-        serializedVersion: 2
-        x: 262
+        x: 0
         y: 0
-        width: 26
-        height: 26
+        width: 82
+        height: 72
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3445674e02e1bb0d0800000000000000
-      internalID: -3406095566554901437
+      spriteID: 5a02b33878f3e93f0800000000000000
+      internalID: -892205824917954395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tower
+      name: satelite_1
       rect:
         serializedVersion: 2
-        x: 234
-        y: 23
-        width: 12
-        height: 28
+        x: 82
+        y: 0
+        width: 82
+        height: 72
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef18b527ea817a400800000000000000
-      internalID: 335263834784367102
+      spriteID: 251b780c7fa109420800000000000000
+      internalID: 2634635433401102674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dress
+      name: satelite_2
       rect:
         serializedVersion: 2
-        x: 207
-        y: 22
-        width: 22
-        height: 32
+        x: 164
+        y: 0
+        width: 82
+        height: 72
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d365929d928c2660800000000000000
-      internalID: 7362403104124658649
+      spriteID: 8edb279e5dadd0860800000000000000
+      internalID: 7497889566921244136
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: door
+      name: satelite_3
       rect:
         serializedVersion: 2
-        x: 158
-        y: 108
-        width: 26
-        height: 52
+        x: 246
+        y: 0
+        width: 82
+        height: 72
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2252199b588d4070800000000000000
-      internalID: 8092274032446165547
+      spriteID: e32de25be960960e0800000000000000
+      internalID: -2276280857944731074
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: open-seed-bag
+      name: satelite_4
       rect:
         serializedVersion: 2
-        x: 175
-        y: 60
-        width: 22
-        height: 26
+        x: 328
+        y: 0
+        width: 82
+        height: 72
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0729932f54c3b7290800000000000000
-      internalID: -7891647650922392976
+      spriteID: fd3e0964578087750800000000000000
+      internalID: 6302796978293105631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: closed-seed-bag
+      name: satelite_5
       rect:
         serializedVersion: 2
-        x: 150
-        y: 60
-        width: 22
-        height: 26
+        x: 410
+        y: 0
+        width: 82
+        height: 72
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0133ba13d0fdd9230800000000000000
-      internalID: 3647316521000842000
+      spriteID: fc5e3ea1c17536e90800000000000000
+      internalID: -7033682414800738865
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: seeds
+      name: satelite_6
       rect:
         serializedVersion: 2
-        x: 173
-        y: 52
-        width: 12
-        height: 8
+        x: 492
+        y: 0
+        width: 82
+        height: 72
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 423f3d1e41d9fb0d0800000000000000
-      internalID: -3404830080255134940
+      spriteID: 0c1fe38cc99082380800000000000000
+      internalID: -8995929686693449280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satelite_7
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 0
+        width: 82
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c21f5de7ee39fc80800000000000000
+      internalID: -8288524473357888831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satelite_8
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 0
+        width: 82
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc6d35f59b87b9b0800000000000000
+      internalID: -5064425779774001933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satelite_9
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 0
+        width: 82
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909ed6ccf71b143c0800000000000000
+      internalID: -4377022200378693367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satelite_10
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 0
+        width: 82
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f4e261f86b07510800000000000000
+      internalID: 1544935397856792335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satelite_11
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 0
+        width: 82
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77dffb0a1ce6ef1f0800000000000000
+      internalID: -1009247488579732105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satelite_12
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 0
+        width: 82
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2354884e54ff150800000000000000
+      internalID: 5908518083974476461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satelite_13
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 0
+        width: 82
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046097b81f9eb29b0800000000000000
+      internalID: -5103728529057970624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satelite_14
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 0
+        width: 82
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52abac958ce2620d0800000000000000
+      internalID: -3448017026670740955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satelite_15
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 0
+        width: 82
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fefafd4266e92fb0800000000000000
+      internalID: -4671949828530700552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: satelite_16
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 0
+        width: 82
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0744f23da85b7630800000000000000
+      internalID: 3925829001090975498
       vertices: []
       indices: 
       edges: []
