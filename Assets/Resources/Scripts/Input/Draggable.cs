@@ -34,7 +34,6 @@ public class Draggable : MonoBehaviour
 
     public void DragStart()
     {
-        CustomCursor.SetDraggingCursor();
         IsDragging = true;
         StartPosition = transform.position;
         StartSortingLayerName = SpriteRenderer.sortingLayerName;
@@ -77,8 +76,4 @@ public class Draggable : MonoBehaviour
     {
         Destroy(Ghost);
     }
-
-    void OnMouseEnter() => CustomCursor?.SetDraggableCursor();
-
-    void OnMouseExit() => CustomCursor?.SetNeutralCursor();
 }

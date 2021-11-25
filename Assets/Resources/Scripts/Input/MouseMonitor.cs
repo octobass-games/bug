@@ -4,7 +4,48 @@ using UnityEngine.InputSystem;
 
 public class MouseMonitor : MonoBehaviour
 {
+    private CustomCursor CustomCursor;
     private Draggable Draggable;
+
+    void Start()
+    {
+        CustomCursor = FindObjectOfType<CustomCursor>();
+    }
+
+    void Update()
+    {
+        var gameObjectBeneathMouse = FindObjectOfTypeBeneathMouse<Collider2D>()?.gameObject;
+
+        if (gameObjectBeneathMouse != null && gameObjectBeneathMouse != Draggable?.gameObject)
+        {
+            if (gameObjectBeneathMouse.GetComponent<Inspectable>() != null)
+            {
+                if (Draggable != null)
+                {
+                    CustomCursor.MaybeSetDraggableCursor();
+                }
+                else
+                {
+                    CustomCursor.MaybeSetClickableCursor();
+                }
+            }
+            else if (gameObjectBeneathMouse.GetComponent<Draggable>() != null)
+            {
+                if (Draggable == null)
+                {
+                    CustomCursor.MaybeSetDraggableCursor();
+                }
+            }
+        }
+        else if (Draggable != null)
+        {
+            CustomCursor.SetDraggingCursor();
+        }
+        else
+        {
+            CustomCursor.MaybeSetNeutralCursor();
+        }
+    }
 
     public void OnClick(InputAction.CallbackContext ctx)
     {
