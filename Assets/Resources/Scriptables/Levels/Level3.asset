@@ -21,3 +21,4 @@ MonoBehaviour:
   FallingSprites:
   - {fileID: 1152356169552002576, guid: fc2eaacfd3af5cd4daf15e76918c9bdd, type: 3}
   - {fileID: -4113270377206143430, guid: 84e66959b3944da41b86f88ec2e2599f, type: 3}
+  MusicSelector: 2

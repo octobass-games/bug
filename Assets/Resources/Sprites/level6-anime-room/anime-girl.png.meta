@@ -29,6 +29,18 @@ TextureImporter:
   - first:
       213: -7010980325301183057
     second: anime-girl_8
+  - first:
+      213: 3297929086340193541
+    second: anime-girl_9
+  - first:
+      213: -7029020562047348864
+    second: anime-girl_10
+  - first:
+      213: -8099088536479160726
+    second: anime-girl_11
+  - first:
+      213: 4187107996619495317
+    second: anime-girl_12
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -137,7 +149,7 @@ TextureImporter:
         y: 0
         width: 80
         height: 72
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -158,7 +170,7 @@ TextureImporter:
         y: 0
         width: 80
         height: 72
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -179,7 +191,7 @@ TextureImporter:
         y: 0
         width: 80
         height: 72
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -200,7 +212,7 @@ TextureImporter:
         y: 0
         width: 80
         height: 72
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -221,7 +233,7 @@ TextureImporter:
         y: 0
         width: 80
         height: 72
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -242,7 +254,7 @@ TextureImporter:
         y: 0
         width: 80
         height: 72
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -263,7 +275,7 @@ TextureImporter:
         y: 0
         width: 80
         height: 72
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -284,7 +296,7 @@ TextureImporter:
         y: 0
         width: 80
         height: 72
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -305,7 +317,7 @@ TextureImporter:
         y: 0
         width: 80
         height: 72
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -314,6 +326,90 @@ TextureImporter:
       bones: []
       spriteID: fad9b273a8ef3be90800000000000000
       internalID: -7010980325301183057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anime-girl_9
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 80
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d5cb5e70994cd20800000000000000
+      internalID: 3297929086340193541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anime-girl_10
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 80
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f40484a07e37e90800000000000000
+      internalID: -7029020562047348864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anime-girl_11
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 0
+        width: 80
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66a8ba03e14a9f80800000000000000
+      internalID: -8099088536479160726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anime-girl_12
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 80
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597d3b6e9889b1a30800000000000000
+      internalID: 4187107996619495317
       vertices: []
       indices: 
       edges: []

@@ -13,4 +13,6 @@ public class LevelData : ScriptableObject
     public int ThreeStarInteractionCount = 3;
 
     public List<Sprite> FallingSprites;
+
+    public float MusicSelector;
 }

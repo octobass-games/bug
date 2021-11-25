@@ -8,8 +8,6 @@ public class PlaySoundEveryNSeconds : MonoBehaviour
     private float time;
 
     public string path;
-    //public AudioSource AudioSource;
-    //public AudioClip[] Sounds;
 
     FMOD.Studio.EventInstance soundEvent;
 
