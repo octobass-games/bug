@@ -47,6 +47,9 @@ TextureImporter:
   - first:
       213: 6596094041798289998
     second: full-drawer
+  - first:
+      213: 2984044210788178668
+    second: alarm
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -450,7 +453,7 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -458,6 +461,27 @@ TextureImporter:
       bones: []
       spriteID: e4a257a55980a8b50800000000000000
       internalID: 6596094041798289998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 60
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea171a4664796920800000000000000
+      internalID: 2984044210788178668
       vertices: []
       indices: 
       edges: []
