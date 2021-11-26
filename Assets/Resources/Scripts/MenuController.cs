@@ -57,13 +57,16 @@ public class MenuController : MonoBehaviour
     {
         if (ctx.started)
         {
-            if (Panels.Count == 0)
+            if (!SceneManager.GetSceneByName("StartMenu").isLoaded)
             {
-                OpenPause();
-            }
-            else
-            {
-                CloseMenus();
+                if (Panels.Count == 0)
+                {
+                    OpenPause();
+                }
+                else
+                {
+                    CloseMenus();
+                }
             }
         }
     }
