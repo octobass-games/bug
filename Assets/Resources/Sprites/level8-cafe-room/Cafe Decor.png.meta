@@ -29,6 +29,15 @@ TextureImporter:
   - first:
       213: 8988521518562393099
     second: sink
+  - first:
+      213: -486693307399506459
+    second: hooks
+  - first:
+      213: -4486636574961306933
+    second: hooks-one-removed
+  - first:
+      213: 1771358040851408410
+    second: hook
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -264,7 +273,7 @@ TextureImporter:
         width: 30
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -285,7 +294,7 @@ TextureImporter:
         width: 16
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -306,7 +315,7 @@ TextureImporter:
         width: 14
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -314,6 +323,69 @@ TextureImporter:
       bones: []
       spriteID: b0cbdd9a2b4adbc70800000000000000
       internalID: 8988521518562393099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooks
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 9
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e574e9f30bee39f0800000000000000
+      internalID: -486693307399506459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooks-one-removed
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 12
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2f7296ec34cb1c0800000000000000
+      internalID: -4486636574961306933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hook
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16eafac0c0259810800000000000000
+      internalID: 1771358040851408410
       vertices: []
       indices: 
       edges: []
