@@ -29,4 +29,12 @@ public static class SceneLoader
             SceneManager.LoadScene(scene, LoadSceneMode.Additive);
         }
     }
+
+    public static void MaybeUnloadScene(string scene)
+    {
+        if (SceneManager.GetSceneByName(scene).isLoaded)
+        {
+            SceneManager.UnloadSceneAsync(scene);
+        }
+    }
 }

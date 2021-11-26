@@ -44,7 +44,8 @@ public class LevelSelect : MonoBehaviour
 
     private void LoadScene()
     {
+        SceneLoader.MaybeUnloadScene("Collectables");
         SceneLoader.SwitchScene(Levels.CurrentLevel.Data, LevelData);
-        MenuController.CloseMenu();
+        MenuController.CloseMenus();
     }
 }
