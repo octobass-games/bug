@@ -26,6 +26,27 @@ TextureImporter:
   - first:
       213: 570994608245863220
     second: clock
+  - first:
+      213: 3245371048450344749
+    second: filing-drawer-1
+  - first:
+      213: 8841838431019534613
+    second: filing-drawer-2
+  - first:
+      213: 914068295962818155
+    second: filing-drawer-3
+  - first:
+      213: -347990177986514444
+    second: filing-drawer-4
+  - first:
+      213: 7943086508474930066
+    second: clock-9am
+  - first:
+      213: 6838582620338557605
+    second: giant-paper-stack
+  - first:
+      213: 6596094041798289998
+    second: full-drawer
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -198,7 +219,7 @@ TextureImporter:
         width: 28
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -219,7 +240,7 @@ TextureImporter:
         width: 9
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -240,7 +261,7 @@ TextureImporter:
         width: 18
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -261,7 +282,7 @@ TextureImporter:
         width: 20
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -278,11 +299,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 218
-        y: 115
+        y: 116
         width: 14
-        height: 16
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -290,6 +311,153 @@ TextureImporter:
       bones: []
       spriteID: 433782922949ce700800000000000000
       internalID: 570994608245863220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: filing-drawer-1
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 132
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27483b16cfd90d20800000000000000
+      internalID: 3245371048450344749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: filing-drawer-2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 116
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519015af43584ba70800000000000000
+      internalID: 8841838431019534613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: filing-drawer-3
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 132
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b667f41b54c6fac00800000000000000
+      internalID: 914068295962818155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: filing-drawer-4
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 116
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1f9cfd6c0bb2bf0800000000000000
+      internalID: -347990177986514444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock-9am
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 132
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29398dd58138b3e60800000000000000
+      internalID: 7943086508474930066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant-paper-stack
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 74
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2907c29a687ee50800000000000000
+      internalID: 6838582620338557605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-drawer
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 132
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a257a55980a8b50800000000000000
+      internalID: 6596094041798289998
       vertices: []
       indices: 
       edges: []
