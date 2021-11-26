@@ -3892,6 +3892,10 @@ PrefabInstance:
       propertyPath: m_AspectRatio
       value: 0.7
       objectReference: {fileID: 0}
+    - target: {fileID: 9166189107347045115, guid: 9a2f18391bac3974d904b122f80f6d80, type: 3}
+      propertyPath: m_UpdateMode
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 9166189107347045118, guid: 9a2f18391bac3974d904b122f80f6d80, type: 3}
       propertyPath: m_Name
       value: Stars
