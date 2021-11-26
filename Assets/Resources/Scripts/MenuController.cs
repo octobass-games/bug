@@ -28,8 +28,8 @@ public class MenuController : MonoBehaviour
 
     public void OpenCollectables()
     {
-        CloseMenu();
-
+        // CloseMenu();
+        HideMenus();
         musicLoader.SetMenuMusic(true);
         FMODUnity.RuntimeManager.PlayOneShot(toggleMenuSFX);
         SceneManager.LoadScene("Collectables", LoadSceneMode.Additive);
@@ -38,7 +38,7 @@ public class MenuController : MonoBehaviour
 
     public void CloseCollectables()
     {
-        CloseMenu();
+        // CloseMenu();
         musicLoader.SetMenuMusic(false);
         FMODUnity.RuntimeManager.PlayOneShot(toggleMenuSFX);
         SceneManager.UnloadSceneAsync("Collectables");
@@ -133,5 +133,11 @@ public class MenuController : MonoBehaviour
 
         musicLoader.SetMenuMusic(false);
         FMODUnity.RuntimeManager.PlayOneShot(toggleMenuSFX);
+    }
+
+    private void HideMenus()
+    {
+        Time.timeScale = 1;
+        Panels.ToList().ForEach(panel => panel.SetActive(false));
     }
 }
