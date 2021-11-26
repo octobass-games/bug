@@ -45,7 +45,9 @@ public class Inventory : MonoBehaviour
             var inventoryItemBackgroundCenter = inventoryItemBackground.GetComponent<SpriteRenderer>().bounds.center;
 
             item.MaybeAddComponent<Draggable>();
-            item.GetComponent<SpriteRenderer>().sortingLayerName = "Inventory";
+            var sprite = item.GetComponent<SpriteRenderer>();
+            sprite.sortingLayerName = "Inventory";
+            sprite.color = new Color(sprite.color.r, sprite.color.g, sprite.color.b);
             item.transform.SetParent(transform);
             item.transform.localScale = new Vector3(0.75f, 0.75f, 0.75f);
             item.transform.position = new Vector3(inventoryItemBackgroundCenter.x, inventoryItemBackgroundCenter.y, item.transform.position.z);
