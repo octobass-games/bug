@@ -22,23 +22,23 @@ public class MouseMonitor : MonoBehaviour
             {
                 if (Draggable != null)
                 {
-                    CustomCursor.MaybeSetDraggableCursor();
+                    CustomCursor.SetDraggableCursor();
                 }
                 else
                 {
-                    CustomCursor.MaybeSetClickableCursor();
+                    CustomCursor.SetClickableCursor();
                 }
             }
             else if (gameObjectBeneathMouse.GetComponent<Draggable>() != null)
             {
                 if (Draggable == null)
                 {
-                    CustomCursor.MaybeSetDraggableCursor();
+                    CustomCursor.SetDraggableCursor();
                 }
             }
             else
             {
-                CustomCursor.MaybeSetNeutralCursor();
+                CustomCursor.SetNeutralCursor();
             }
         }
         else if (Draggable != null)
@@ -47,7 +47,7 @@ public class MouseMonitor : MonoBehaviour
         }
         else
         {
-            CustomCursor.MaybeSetNeutralCursor();
+            CustomCursor.SetNeutralCursor();
         }
     }
 

@@ -11,6 +11,6 @@ public class CursorProxy : MonoBehaviour
 
     public void ResetCursor()
     {
-        CustomCursor.MaybeSetNeutralCursor();
+        CustomCursor.SetNeutralCursor();
     }
 }
