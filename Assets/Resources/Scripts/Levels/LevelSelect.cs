@@ -5,6 +5,7 @@ public class LevelSelect : MonoBehaviour
 {
 
     public LevelData LevelData;
+    public Animator Stars;
     private Levels Levels;
     private Level Level;
     private MenuController MenuController;
@@ -47,5 +48,18 @@ public class LevelSelect : MonoBehaviour
         SceneLoader.MaybeUnloadScene("Collectables");
         SceneLoader.SwitchScene(Levels.CurrentLevel.Data, LevelData);
         MenuController.CloseMenus();
+    }
+
+    public void UpdateStars()
+    {
+        Stars.gameObject.SetActive(true);
+        Stars.SetInteger("Stars", Level.GetStarRating(Level.LowestInteractionScore));
+        Stars.SetTrigger("Start");
+    }
+
+    public void CloseStars()
+    {
+        Stars.SetTrigger("End");
+        Stars.gameObject.SetActive(false);
     }
 }

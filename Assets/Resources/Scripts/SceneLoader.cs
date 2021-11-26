@@ -17,6 +17,10 @@ public static class SceneLoader
         {
             SwitchScene(currentLevel.SceneName, newLevel.SceneName);
         }
+        else
+        {
+            SceneManager.LoadScene(newLevel.SceneName, LoadSceneMode.Additive);
+        }
     }
 
     public static void SwitchScene(string currentScene, string newScene) =>

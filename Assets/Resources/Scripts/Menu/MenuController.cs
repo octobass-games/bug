@@ -26,7 +26,7 @@ public class MenuController : MonoBehaviour
 
     public void CloseCollectables()
     {
-        CloseMenus();
+        GoBackInMenus();
         FMODUnity.RuntimeManager.PlayOneShot(toggleMenuSFX);
         MusicEmitter.SetParameter("isPaused", 0f);
         SceneManager.UnloadSceneAsync("Collectables");
@@ -50,7 +50,7 @@ public class MenuController : MonoBehaviour
                     }
                     else
                     {
-                        CloseMenus();
+                        GoBackInMenus();
                     }
                 }
             }
@@ -115,7 +115,7 @@ public class MenuController : MonoBehaviour
         FMODUnity.RuntimeManager.PlayOneShot(toggleMenuSFX);
     }
 
-    public void CloseMenus()
+    public void GoBackInMenus()
     {
         Time.timeScale = 1;
 
@@ -128,6 +128,19 @@ public class MenuController : MonoBehaviour
 
             var menu = MenuHistory.Pop();
             menu.SetActive(false);
+        }
+
+        MusicEmitter.SetParameter("isPaused", 0f);
+        FMODUnity.RuntimeManager.PlayOneShot(toggleMenuSFX);
+    }
+
+    public void CloseMenus()
+    {
+        Time.timeScale = 1;
+
+        while (MenuHistory.Count > 0)
+        {
+            MenuHistory.Pop().SetActive(false);
         }
 
         MusicEmitter.SetParameter("isPaused", 0f);
