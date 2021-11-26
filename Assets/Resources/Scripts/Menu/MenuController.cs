@@ -13,7 +13,7 @@ public class MenuController : MonoBehaviour
     public string toggleMenuSFX;
     public Levels Levels;
 
-    private Stack<GameObject> Panels = new Stack<GameObject>();
+    private Stack<GameObject> MenuHistory = new Stack<GameObject>();
 
     public void OpenCollectables()
     {
@@ -26,6 +26,7 @@ public class MenuController : MonoBehaviour
 
     public void CloseCollectables()
     {
+        CloseMenus();
         FMODUnity.RuntimeManager.PlayOneShot(toggleMenuSFX);
         MusicEmitter.SetParameter("isPaused", 0f);
         SceneManager.UnloadSceneAsync("Collectables");
@@ -37,13 +38,20 @@ public class MenuController : MonoBehaviour
         {
             if (!SceneManager.GetSceneByName("StartMenu").isLoaded)
             {
-                if (Panels.Count == 0)
+                if (MenuHistory.Count == 0)
                 {
                     OpenPause();
                 }
                 else
                 {
-                    CloseMenus();
+                    if (SceneManager.GetSceneByName("Collectables").isLoaded)
+                    {
+                        CloseCollectables();
+                    }
+                    else
+                    {
+                        CloseMenus();
+                    }
                 }
             }
         }
@@ -57,25 +65,25 @@ public class MenuController : MonoBehaviour
     {
         Time.timeScale = 0;
 
-        if (Panels.Count() > 0)
+        if (MenuHistory.Count() > 0)
         {
-            Panels.Peek().SetActive(false);
+            MenuHistory.Peek().SetActive(false);
         }
 
         switch (menu)
         {
             case Menu.CONTROLS:
-                Panels.Push(ControlsPanel);
+                MenuHistory.Push(ControlsPanel);
                 break;
             case Menu.LEVEL_SELECT:
-                Panels.Push(LevelSelectPanel);
+                MenuHistory.Push(LevelSelectPanel);
                 break;
             case Menu.PAUSE:
-                Panels.Push(PausePanel);
+                MenuHistory.Push(PausePanel);
                 break;
         }
 
-        Panels.Peek().SetActive(true);
+        MenuHistory.Peek().SetActive(true);
 
         MusicEmitter.SetParameter("isPaused", 1f);
         FMODUnity.RuntimeManager.PlayOneShot(toggleMenuSFX);
@@ -85,17 +93,17 @@ public class MenuController : MonoBehaviour
     {
         Time.timeScale = 1;
 
-        var currentPanel = Panels.Pop();
+        var currentPanel = MenuHistory.Pop();
 
-        if (Panels.Count == 0 && currentPanel == PausePanel)
+        if (MenuHistory.Count == 0 && currentPanel == PausePanel)
         {
             currentPanel.SetActive(false);
             MusicEmitter.SetParameter("isPaused", 0f);
         }
-        else if (Panels.Count > 0)
+        else if (MenuHistory.Count > 0)
         {
             currentPanel.SetActive(false);
-            Panels.Peek().SetActive(true);
+            MenuHistory.Peek().SetActive(true);
         }
         else
         {
@@ -111,9 +119,9 @@ public class MenuController : MonoBehaviour
     {
         Time.timeScale = 1;
 
-        while (Panels.Count > 0)
+        while (MenuHistory.Count > 0)
         {
-            Panels.Pop().SetActive(false);
+            MenuHistory.Pop().SetActive(false);
         }
 
         MusicEmitter.SetParameter("isPaused", 0f);
@@ -123,7 +131,7 @@ public class MenuController : MonoBehaviour
     private void HideMenus()
     {
         Time.timeScale = 1;
-        Panels.ToList().ForEach(panel => panel.SetActive(false));
+        MenuHistory.ToList().ForEach(panel => panel.SetActive(false));
     }
 
     private void OpenPause() => OpenMenu(Menu.PAUSE);
