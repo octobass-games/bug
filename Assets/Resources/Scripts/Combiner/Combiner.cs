@@ -30,6 +30,11 @@ public class Combiner : MonoBehaviour
             Inventory?.Remove(componentA);
             Inventory?.Remove(componentB);
 
+            if (recipe.ShouldPlaceInInventoryOnCombination)
+            {
+                Inventory.Add(recipe.Result);
+            }
+
             Destroy(componentA);
             Destroy(componentB);
         }

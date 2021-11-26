@@ -8,5 +8,7 @@ public class Recipe
     public GameObject ComponentB;
     public GameObject Result;
     public bool ShouldMoveResultPostition = false;
+    public bool ShouldPlaceInInventoryOnCombination = false;
+
     public UnityEvent OnCombination;
 }
