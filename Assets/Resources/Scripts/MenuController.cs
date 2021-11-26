@@ -105,7 +105,7 @@ public class MenuController : MonoBehaviour
         if (Panels.Count == 0 && currentPanel == PausePanel)
         {
             currentPanel.SetActive(false);
-            MusicEmitter.SetParameter("isPaused", 1f);
+            MusicEmitter.SetParameter("isPaused", 0f);
         }
         else if (Panels.Count > 0)
         {
@@ -116,7 +116,7 @@ public class MenuController : MonoBehaviour
         {
             currentPanel.SetActive(false);
             SceneManager.LoadScene("StartMenu", LoadSceneMode.Additive);
-            MusicEmitter.SetParameter("isPaused", 1f);
+            MusicEmitter.SetParameter("isPaused", 0f);
         }
 
         FMODUnity.RuntimeManager.PlayOneShot(toggleMenuSFX);
