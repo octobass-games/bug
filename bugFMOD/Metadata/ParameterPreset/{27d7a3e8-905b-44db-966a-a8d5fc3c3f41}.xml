@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{27d7a3e8-905b-44db-966a-a8d5fc3c3f41}">
+		<property name="name">
+			<value>inOrOut</value>
+		</property>
+		<relationship name="folder">
+			<destination>{c48a7927-b30b-482b-b658-b1ff3abf3f39}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{afeb2735-3b50-4862-ab5d-054a89955e6c}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{afeb2735-3b50-4862-ab5d-054a89955e6c}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>25</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{300edc46-4de4-4d7d-a019-f544658811fd}</destination>
+		</relationship>
+	</object>
+	<object class="ADSRModulator" id="{300edc46-4de4-4d7d-a019-f544658811fd}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="initialValue">
+			<value>-100</value>
+		</property>
+		<property name="finalValue">
+			<value>-100</value>
+		</property>
+	</object>
+</objects>
