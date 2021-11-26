@@ -121,7 +121,13 @@ public class MenuController : MonoBehaviour
 
         while (MenuHistory.Count > 0)
         {
-            MenuHistory.Pop().SetActive(false);
+            if (MenuHistory.Count == 1 && MenuHistory.Peek() != PausePanel)
+            {
+                SceneManager.LoadScene("StartMenu", LoadSceneMode.Additive);
+            }
+
+            var menu = MenuHistory.Pop();
+            menu.SetActive(false);
         }
 
         MusicEmitter.SetParameter("isPaused", 0f);
