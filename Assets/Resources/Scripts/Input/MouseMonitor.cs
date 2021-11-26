@@ -36,6 +36,10 @@ public class MouseMonitor : MonoBehaviour
                     CustomCursor.MaybeSetDraggableCursor();
                 }
             }
+            else
+            {
+                CustomCursor.MaybeSetNeutralCursor();
+            }
         }
         else if (Draggable != null)
         {
