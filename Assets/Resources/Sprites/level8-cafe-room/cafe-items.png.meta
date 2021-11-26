@@ -11,6 +11,9 @@ TextureImporter:
   - first:
       213: 8181015520748992525
     second: cafesign
+  - first:
+      213: -9011350913930777813
+    second: thin-counter
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -233,6 +236,27 @@ TextureImporter:
       bones: []
       spriteID: d087330754ec88170800000000000000
       internalID: 8181015520748992525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-counter
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 100
+        width: 92
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ba3c4861041f280800000000000000
+      internalID: -9011350913930777813
       vertices: []
       indices: 
       edges: []
