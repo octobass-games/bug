@@ -53,6 +53,12 @@ TextureImporter:
   - first:
       213: -8218457302376422261
     second: computer-office_16
+  - first:
+      213: 6676503308994738309
+    second: computer-office_17
+  - first:
+      213: -2267376300282088003
+    second: computer-office_18
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -506,6 +512,48 @@ TextureImporter:
       bones: []
       spriteID: b84632270ac22fd80800000000000000
       internalID: -8218457302376422261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: computer-office_17
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 0
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588f95ac264b7ac50800000000000000
+      internalID: 6676503308994738309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: computer-office_18
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5fb899449a880e0800000000000000
+      internalID: -2267376300282088003
       vertices: []
       indices: 
       edges: []
