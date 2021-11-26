@@ -14,6 +14,12 @@ TextureImporter:
   - first:
       213: -3698237195675903198
     second: office-person_3
+  - first:
+      213: -4509200666096624235
+    second: office-person_4
+  - first:
+      213: -7179098552970793126
+    second: office-person_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -194,6 +200,48 @@ TextureImporter:
       bones: []
       spriteID: 22bd9985dd83dacc0800000000000000
       internalID: -3698237195675903198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: office-person_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d1b5c82e91c61c0800000000000000
+      internalID: -4509200666096624235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: office-person_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5fa7ae07e7be5c90800000000000000
+      internalID: -7179098552970793126
       vertices: []
       indices: 
       edges: []
