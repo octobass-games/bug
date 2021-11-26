@@ -39,6 +39,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: MoreBackRoom
+    uniqueID: 2020346265
+    locked: 0
+  - name: MoreBackRoomItems
+    uniqueID: 2784015583
+    locked: 0
   - name: BackRoom
     uniqueID: 425961531
     locked: 0

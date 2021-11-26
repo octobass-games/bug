@@ -1,13 +1,7 @@
 fileFormatVersion: 2
-guid: b6e7225a1075ce74db7dc220b7d5610f
+guid: e4af126d58d1e94459506ad86b1d9111
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 4926179978663827011
-    second: pool-door
-  - first:
-      213: 2663457744262461636
-    second: door
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -47,7 +41,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -107,49 +101,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: pool-door
-      rect:
-        serializedVersion: 2
-        x: 51
-        y: 66
-        width: 20
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 34616ef279e4d5440800000000000000
-      internalID: 4926179978663827011
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: door
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 116
-        width: 20
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c8f601f4b086f420800000000000000
-      internalID: 2663457744262461636
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
