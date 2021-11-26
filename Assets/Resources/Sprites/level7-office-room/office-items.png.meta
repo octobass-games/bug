@@ -11,6 +11,21 @@ TextureImporter:
   - first:
       213: -5025546190849614457
     second: server-door
+  - first:
+      213: 4355206434132055404
+    second: deadline-update-alarm-off
+  - first:
+      213: -7359781228607510809
+    second: lunch-alarm-off
+  - first:
+      213: 1857388659347451348
+    second: deadline-update-alarm-on
+  - first:
+      213: 6862068565974518851
+    second: lunch-alarm-on
+  - first:
+      213: 2079656202104137654
+    second: top-bar
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -116,7 +131,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 83
+        y: 107
         width: 48
         height: 50
       alignment: 0
@@ -137,7 +152,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 85
+        y: 109
         width: 48
         height: 48
       alignment: 0
@@ -158,11 +173,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 197
-        y: 0
+        y: 24
         width: 20
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -170,6 +185,111 @@ TextureImporter:
       bones: []
       spriteID: 78d571cad5ca14ab0800000000000000
       internalID: -5025546190849614457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline-update-alarm-off
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 91
+        width: 190
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65dfed4d2dc07c30800000000000000
+      internalID: 4355206434132055404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lunch-alarm-off
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 73
+        width: 190
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6e24467fdccd990800000000000000
+      internalID: -7359781228607510809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline-update-alarm-on
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 53
+        width: 190
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd6e321525c6c910800000000000000
+      internalID: 1857388659347451348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lunch-alarm-on
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 35
+        width: 190
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c09430107fa3f50800000000000000
+      internalID: 6862068565974518851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top-bar
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 222
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7ea5d1c4c6cdc10800000000000000
+      internalID: 2079656202104137654
       vertices: []
       indices: 
       edges: []
