@@ -3960,7 +3960,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1449598148}
         m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
-        m_MethodName: OpenPause
+        m_MethodName: CloseMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

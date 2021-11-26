@@ -1,5 +1,7 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public enum Menu
@@ -18,6 +20,9 @@ public class MenuController : MonoBehaviour
     public MusicLoader musicLoader;
     public string toggleMenuSFX;
     public Levels Levels;
+
+    private Stack<GameObject> Panels = new Stack<GameObject>();
+
 
     public void OpenLevelSelect() => OpenMenu(Menu.LEVEL_SELECT);
 
@@ -43,41 +48,90 @@ public class MenuController : MonoBehaviour
 
     public void OpenPause()
     {
+        Panels.Clear();
         OpenMenu(Menu.PAUSE);
     }
 
     public void OpenControls() => OpenMenu(Menu.CONTROLS);
-   
-    public void TogglePause()
+
+    public void TogglePause(InputAction.CallbackContext ctx)
     {
-        if (!PausePanel.activeSelf)
+        if (ctx.started)
         {
-            OpenPause();
-        }
-        else
-        {
-            CloseMenu();
+            if (Panels.Count == 0)
+            {
+                OpenPause();
+            }
+            else
+            {
+                CloseMenus();
+            }
         }
     }
 
     public void OpenMenu(Menu menu)
     {
         Time.timeScale = 0;
-        LevelSelectPanel.SetActive(menu == Menu.LEVEL_SELECT);
-        PausePanel.SetActive(menu == Menu.PAUSE);
-        ControlsPanel.SetActive(menu == Menu.CONTROLS);
+
+        if (Panels.Count() > 0)
+        {
+            Panels.Peek().SetActive(false);
+        }
+
+        switch (menu)
+        {
+            case Menu.CONTROLS:
+                Panels.Push(ControlsPanel);
+                break;
+            case Menu.LEVEL_SELECT:
+                Panels.Push(LevelSelectPanel);
+                break;
+            case Menu.PAUSE:
+                Panels.Push(PausePanel);
+                break;
+        }
+
+        Panels.Peek().SetActive(true);
+
         musicLoader.SetMenuMusic(true);
         FMODUnity.RuntimeManager.PlayOneShot(toggleMenuSFX);
     }
 
     public void CloseMenu()
     {
-        LevelSelectPanel.SetActive(false);
-        PausePanel.SetActive(false);
-        ControlsPanel.SetActive(false);
         Time.timeScale = 1;
+
+        var currentPanel = Panels.Pop();
+
+        if (Panels.Count == 0 && currentPanel == PausePanel)
+        {
+            currentPanel.SetActive(false);
+        }
+        else if (Panels.Count > 0)
+        {
+            currentPanel.SetActive(false);
+            Panels.Peek().SetActive(true);
+        }
+        else
+        {
+            currentPanel.SetActive(false);
+            SceneManager.LoadScene("StartMenu", LoadSceneMode.Additive);
+        }
+
         musicLoader.SetMenuMusic(false);
         FMODUnity.RuntimeManager.PlayOneShot(toggleMenuSFX);
     }
 
+    public void CloseMenus()
+    {
+        Time.timeScale = 1;
+
+        while (Panels.Count > 0)
+        {
+            Panels.Pop().SetActive(false);
+        }
+
+        musicLoader.SetMenuMusic(false);
+        FMODUnity.RuntimeManager.PlayOneShot(toggleMenuSFX);
+    }
 }

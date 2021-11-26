@@ -57,7 +57,7 @@
                     "name": "",
                     "id": "2b1936b1-b6a0-4214-9eb6-7233d51a9b8d",
                     "path": "<Keyboard>/escape",
-                    "interactions": "",
+                    "interactions": "Press",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "Pause",
