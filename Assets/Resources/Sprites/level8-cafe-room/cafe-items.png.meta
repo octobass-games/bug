@@ -38,6 +38,12 @@ TextureImporter:
   - first:
       213: 2632525997001635573
     second: stringandhook
+  - first:
+      213: 6814538788233164602
+    second: smelly-fish
+  - first:
+      213: 3647139657443746182
+    second: bunting-2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -449,6 +455,48 @@ TextureImporter:
       bones: []
       spriteID: 5f67341527c988420800000000000000
       internalID: 2632525997001635573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smelly-fish
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 5
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3732c44cea129e50800000000000000
+      internalID: 6814538788233164602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunting-2
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 54
+        width: 110
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681ac20f13e3d9230800000000000000
+      internalID: 3647139657443746182
       vertices: []
       indices: 
       edges: []
