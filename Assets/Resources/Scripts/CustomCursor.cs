@@ -10,17 +10,14 @@ public class CustomCursor : MonoBehaviour
 
     private Texture2D CurrentTexture;
 
-    void Awake() => MaybeSetNeutralCursor();
+    void Awake() => SetNeutralCursor();
 
-    public void MaybeSetNeutralCursor() => SetCursor(Neutral);
+    public void SetNeutralCursor() => SetCursor(Neutral);
 
-    public void SetDraggingCursor()
-    {
-        SetCursor(Dragging);
-    }
+    public void SetDraggingCursor() => SetCursor(Dragging);
 
-    public void MaybeSetDraggableCursor() => SetCursor(Draggable);
-    public void MaybeSetClickableCursor() => SetCursor(Clickable);
+    public void SetDraggableCursor() => SetCursor(Draggable);
+    public void SetClickableCursor() => SetCursor(Clickable);
 
     private void SetCursor(Texture2D texture)
     {
