@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 24872301}
   - component: {fileID: 24872300}
   - component: {fileID: 24872302}
+  - component: {fileID: 24872303}
   m_Layer: 0
   m_Name: CM vcam1
   m_TagString: Untagged
@@ -214,6 +215,25 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 0
   OverrideMaxDistance: 0
+--- !u!114 &24872303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24872299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Emitters:
+  - Target: {fileID: 2019228096}
+    Params:
+    - Name: inOrOut
+      Value: 0
+  TriggerEvent: 11
 --- !u!1 &25144063
 GameObject:
   m_ObjectHideFlags: 0
@@ -3495,6 +3515,7 @@ GameObject:
   - component: {fileID: 1572310933}
   - component: {fileID: 1572310932}
   - component: {fileID: 1572310934}
+  - component: {fileID: 1572310935}
   m_Layer: 0
   m_Name: CM vcam2
   m_TagString: Untagged
@@ -3575,6 +3596,25 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 0
   OverrideMaxDistance: 0
+--- !u!114 &1572310935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572310931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Emitters:
+  - Target: {fileID: 2019228096}
+    Params:
+    - Name: inOrOut
+      Value: 1
+  TriggerEvent: 11
 --- !u!1 &1592557481
 GameObject:
   m_ObjectHideFlags: 0
@@ -4236,6 +4276,7 @@ GameObject:
   - component: {fileID: 2019228093}
   - component: {fileID: 2019228095}
   - component: {fileID: 2019228094}
+  - component: {fileID: 2019228096}
   m_Layer: 0
   m_Name: wire
   m_TagString: Untagged
@@ -4352,6 +4393,29 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2019228096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019228092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/lawnmow
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &2096614713
 GameObject:
   m_ObjectHideFlags: 0
