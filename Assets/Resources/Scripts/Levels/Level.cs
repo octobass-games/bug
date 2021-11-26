@@ -32,7 +32,7 @@ public class Level
 
     public void UpdateInteractionCount(int interactionCount)
     {
-        if (LowestInteractionScore > interactionCount)
+        if (LowestInteractionScore == 0 || LowestInteractionScore > interactionCount)
         {
             LowestInteractionScore = interactionCount;
         }
