@@ -1,31 +1,19 @@
 fileFormatVersion: 2
-guid: 5703509ec86c5a54baeca21e171e4937
+guid: bc87f7fd7116e0a45a4cf9480c77233f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8116706097069704030
-    second: pool-person_0
+      213: -6514249923156813770
+    second: play
   - first:
-      213: 9197957399130783085
-    second: pool-person_1
+      213: -2603594978610747406
+    second: level-select
   - first:
-      213: -1915353977791446341
-    second: pool-person_2
+      213: 5988823504805139456
+    second: load
   - first:
-      213: 4937330677768499208
-    second: pool-person_3
-  - first:
-      213: 4500172120286681628
-    second: pool-person_4
-  - first:
-      213: 1021335072851861875
-    second: pool-person_5
-  - first:
-      213: -1142860264973172692
-    second: pool-person_6
-  - first:
-      213: 2318289242770665504
-    second: pool-person_7
+      213: 7784802573013522063
+    second: credits
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -127,76 +115,76 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pool-person_0
+      name: play
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 52
-        height: 62
+        x: 16
+        y: 59
+        width: 42
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2acb9e11fcaab5f80800000000000000
-      internalID: -8116706097069704030
+      spriteID: 6385f18753cb895a0800000000000000
+      internalID: -6514249923156813770
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pool-person_1
+      name: level-select
       rect:
         serializedVersion: 2
-        x: 52
-        y: 0
-        width: 52
-        height: 62
+        x: 6
+        y: 33
+        width: 58
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6dbd5a8585b5af70800000000000000
-      internalID: 9197957399130783085
+      spriteID: 2f76ae0592c2edbd0800000000000000
+      internalID: -2603594978610747406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pool-person_2
+      name: load
       rect:
         serializedVersion: 2
-        x: 104
-        y: 0
-        width: 52
-        height: 62
+        x: 17
+        y: 18
+        width: 39
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb20c9684bb4b65e0800000000000000
-      internalID: -1915353977791446341
+      spriteID: 0049b6a5f339c1350800000000000000
+      internalID: 5988823504805139456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pool-person_3
+      name: credits
       rect:
         serializedVersion: 2
-        x: 156
-        y: 0
-        width: 52
-        height: 62
+        x: 2
+        y: 3
+        width: 66
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,92 +192,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 800b703a71ce48440800000000000000
-      internalID: 4937330677768499208
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pool-person_4
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 0
-        width: 52
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c1addc153b2d37e30800000000000000
-      internalID: 4500172120286681628
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pool-person_5
-      rect:
-        serializedVersion: 2
-        x: 260
-        y: 0
-        width: 52
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 371abf566d28c2e00800000000000000
-      internalID: 1021335072851861875
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pool-person_6
-      rect:
-        serializedVersion: 2
-        x: 312
-        y: 0
-        width: 52
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c208d56e4aeb320f0800000000000000
-      internalID: -1142860264973172692
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pool-person_7
-      rect:
-        serializedVersion: 2
-        x: 364
-        y: 0
-        width: 52
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 02074f198c73c2020800000000000000
-      internalID: 2318289242770665504
+      spriteID: f86940bc1bc290c60800000000000000
+      internalID: 7784802573013522063
       vertices: []
       indices: 
       edges: []

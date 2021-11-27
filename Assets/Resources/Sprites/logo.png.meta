@@ -1,31 +1,43 @@
 fileFormatVersion: 2
-guid: 5703509ec86c5a54baeca21e171e4937
+guid: 1f130e1bd3b8e6144b48f4040c8485dd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8116706097069704030
-    second: pool-person_0
+      213: -4320295261928297051
+    second: logo_0
   - first:
-      213: 9197957399130783085
-    second: pool-person_1
+      213: 5470614613321624601
+    second: logo_1
   - first:
-      213: -1915353977791446341
-    second: pool-person_2
+      213: 4560591551370500262
+    second: logo_2
   - first:
-      213: 4937330677768499208
-    second: pool-person_3
+      213: 6640445872580291462
+    second: logo_3
   - first:
-      213: 4500172120286681628
-    second: pool-person_4
+      213: 7220771215297418599
+    second: logo_4
   - first:
-      213: 1021335072851861875
-    second: pool-person_5
+      213: -8223382129855978605
+    second: logo_5
   - first:
-      213: -1142860264973172692
-    second: pool-person_6
+      213: -1318215486492414624
+    second: logo_6
   - first:
-      213: 2318289242770665504
-    second: pool-person_7
+      213: 2547678001213806659
+    second: logo_7
+  - first:
+      213: 7966619702581107187
+    second: logo_8
+  - first:
+      213: -4158264754640302621
+    second: logo_9
+  - first:
+      213: -456560011164628789
+    second: logo_10
+  - first:
+      213: 8265423726798506560
+    second: logo_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -127,160 +139,244 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pool-person_0
+      name: logo_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 52
-        height: 62
+        width: 70
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2acb9e11fcaab5f80800000000000000
-      internalID: -8116706097069704030
+      spriteID: 5ade5f3695a3b04c0800000000000000
+      internalID: -4320295261928297051
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pool-person_1
+      name: logo_1
       rect:
         serializedVersion: 2
-        x: 52
+        x: 70
         y: 0
-        width: 52
-        height: 62
+        width: 70
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6dbd5a8585b5af70800000000000000
-      internalID: 9197957399130783085
+      spriteID: 91ca81a91078beb40800000000000000
+      internalID: 5470614613321624601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pool-person_2
+      name: logo_2
       rect:
         serializedVersion: 2
-        x: 104
+        x: 140
         y: 0
-        width: 52
-        height: 62
+        width: 70
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb20c9684bb4b65e0800000000000000
-      internalID: -1915353977791446341
+      spriteID: 6a816195ad97a4f30800000000000000
+      internalID: 4560591551370500262
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pool-person_3
+      name: logo_3
       rect:
         serializedVersion: 2
-        x: 156
+        x: 210
         y: 0
-        width: 52
-        height: 62
+        width: 70
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 800b703a71ce48440800000000000000
-      internalID: 4937330677768499208
+      spriteID: 68b6b59a65a972c50800000000000000
+      internalID: 6640445872580291462
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pool-person_4
+      name: logo_4
       rect:
         serializedVersion: 2
-        x: 208
+        x: 280
         y: 0
-        width: 52
-        height: 62
+        width: 70
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1addc153b2d37e30800000000000000
-      internalID: 4500172120286681628
+      spriteID: 7651b2cb925553460800000000000000
+      internalID: 7220771215297418599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pool-person_5
+      name: logo_5
       rect:
         serializedVersion: 2
-        x: 260
+        x: 350
         y: 0
-        width: 52
-        height: 62
+        width: 70
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 371abf566d28c2e00800000000000000
-      internalID: 1021335072851861875
+      spriteID: 393a3a1b58da0ed80800000000000000
+      internalID: -8223382129855978605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pool-person_6
+      name: logo_6
       rect:
         serializedVersion: 2
-        x: 312
+        x: 420
         y: 0
-        width: 52
-        height: 62
+        width: 70
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c208d56e4aeb320f0800000000000000
-      internalID: -1142860264973172692
+      spriteID: 06d633ecff1c4bde0800000000000000
+      internalID: -1318215486492414624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pool-person_7
+      name: logo_7
       rect:
         serializedVersion: 2
-        x: 364
+        x: 490
         y: 0
-        width: 52
-        height: 62
+        width: 70
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3481d68d4ab2b5320800000000000000
+      internalID: 2547678001213806659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_8
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 70
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f999f8196e1f8e60800000000000000
+      internalID: 7966619702581107187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_9
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 0
+        width: 70
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed43a1bc30ea46c0800000000000000
+      internalID: -4158264754640302621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_10
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 70
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc842ebb619f9a9f0800000000000000
+      internalID: -456560011164628789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_11
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 0
+        width: 70
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,8 +384,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02074f198c73c2020800000000000000
-      internalID: 2318289242770665504
+      spriteID: 04a09e1661fa4b270800000000000000
+      internalID: 8265423726798506560
       vertices: []
       indices: 
       edges: []
