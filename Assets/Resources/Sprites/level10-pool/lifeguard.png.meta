@@ -1,31 +1,22 @@
 fileFormatVersion: 2
-guid: b6e7225a1075ce74db7dc220b7d5610f
+guid: d1f5af741c5df0443bd971de0d97dd88
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4926179978663827011
-    second: pool-door
+      213: -5371377738824662582
+    second: lifeguard_0
   - first:
-      213: 2663457744262461636
-    second: door
+      213: -3908437876619488131
+    second: lifeguard_1
   - first:
-      213: 5857064513777038847
-    second: timetable
+      213: 7839608336068073971
+    second: lifeguard_2
   - first:
-      213: -8851607971113122654
-    second: key
+      213: 7222060903116351950
+    second: lifeguard_3
   - first:
-      213: -412169067781694416
-    second: drawers
-  - first:
-      213: -4697085601876516397
-    second: lifeguard
-  - first:
-      213: 5238399496367124078
-    second: wave-machine
-  - first:
-      213: 6448416895050410193
-    second: lifeguard-chair
+      213: 1246187967077875402
+    second: lifeguard_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -127,169 +118,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pool-door
-      rect:
-        serializedVersion: 2
-        x: 51
-        y: 66
-        width: 20
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 34616ef279e4d5440800000000000000
-      internalID: 4926179978663827011
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: door
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 116
-        width: 20
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c8f601f4b086f420800000000000000
-      internalID: 2663457744262461636
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: timetable
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 135
-        width: 18
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ff5f93aa429784150800000000000000
-      internalID: 5857064513777038847
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: key
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 153
-        width: 8
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2a449c6b275c82580800000000000000
-      internalID: -8851607971113122654
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: drawers
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 123
-        width: 30
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 03cd777aa6ea74af0800000000000000
-      internalID: -412169067781694416
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: lifeguard
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 11
-        width: 24
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d16c84088990deb0800000000000000
-      internalID: -4697085601876516397
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wave-machine
-      rect:
-        serializedVersion: 2
-        x: 130
-        y: 130
-        width: 20
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6e2c84769882b840800000000000000
-      internalID: 5238399496367124078
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: lifeguard-chair
+      name: lifeguard_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 30
-        height: 68
+        width: 66
+        height: 93
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d86b1930016d7950800000000000000
-      internalID: 6448416895050410193
+      spriteID: ac14ae2c7680575b0800000000000000
+      internalID: -5371377738824662582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeguard_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 66
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74d961857072c9c0800000000000000
+      internalID: -3908437876619488131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeguard_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 66
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f95781ee32ebcc60800000000000000
+      internalID: 7839608336068073971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeguard_3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 66
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9ac74902ae93460800000000000000
+      internalID: 7222060903116351950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeguard_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 66
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acefa0d7a595b4110800000000000000
+      internalID: 1246187967077875402
       vertices: []
       indices: 
       edges: []
