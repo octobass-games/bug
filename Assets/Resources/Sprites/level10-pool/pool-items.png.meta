@@ -26,6 +26,15 @@ TextureImporter:
   - first:
       213: 6448416895050410193
     second: lifeguard-chair
+  - first:
+      213: -366215978195347293
+    second: wave-machine-off
+  - first:
+      213: 8764451645013125384
+    second: wave-machine-covered
+  - first:
+      213: 5013767452279788402
+    second: wave-machine-on
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -290,6 +299,69 @@ TextureImporter:
       bones: []
       spriteID: 1d86b1930016d7950800000000000000
       internalID: 6448416895050410193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave-machine-off
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 88
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a818941280faeaf0800000000000000
+      internalID: -366215978195347293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave-machine-covered
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 88
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8096818c55691a970800000000000000
+      internalID: 8764451645013125384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave-machine-on
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 90
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2735d8b0fea749540800000000000000
+      internalID: 5013767452279788402
       vertices: []
       indices: 
       edges: []
