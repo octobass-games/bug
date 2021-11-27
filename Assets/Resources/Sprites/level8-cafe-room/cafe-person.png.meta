@@ -14,6 +14,12 @@ TextureImporter:
   - first:
       213: -2476109360301042607
     second: cafe-person_3
+  - first:
+      213: 6009803953797182910
+    second: cafe-person_4
+  - first:
+      213: -4648817285027366342
+    second: cafe-person_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -194,6 +200,48 @@ TextureImporter:
       bones: []
       spriteID: 1549c32e7a713add0800000000000000
       internalID: -2476109360301042607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cafe-person_4
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 0
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5b1dbcadc176350800000000000000
+      internalID: 6009803953797182910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cafe-person_5
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 0
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a7f3c4f451c7fb0800000000000000
+      internalID: -4648817285027366342
       vertices: []
       indices: 
       edges: []
