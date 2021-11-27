@@ -8,6 +8,24 @@ TextureImporter:
   - first:
       213: 2663457744262461636
     second: door
+  - first:
+      213: 5857064513777038847
+    second: timetable
+  - first:
+      213: -8851607971113122654
+    second: key
+  - first:
+      213: -412169067781694416
+    second: drawers
+  - first:
+      213: -4697085601876516397
+    second: lifeguard
+  - first:
+      213: 5238399496367124078
+    second: wave-machine
+  - first:
+      213: 6448416895050410193
+    second: lifeguard-chair
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -138,7 +156,7 @@ TextureImporter:
         width: 20
         height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -146,6 +164,132 @@ TextureImporter:
       bones: []
       spriteID: 4c8f601f4b086f420800000000000000
       internalID: 2663457744262461636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timetable
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 135
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5f93aa429784150800000000000000
+      internalID: 5857064513777038847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 153
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a449c6b275c82580800000000000000
+      internalID: -8851607971113122654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drawers
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 123
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03cd777aa6ea74af0800000000000000
+      internalID: -412169067781694416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeguard
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 11
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d16c84088990deb0800000000000000
+      internalID: -4697085601876516397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave-machine
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 130
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e2c84769882b840800000000000000
+      internalID: 5238399496367124078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeguard-chair
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 23
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d86b1930016d7950800000000000000
+      internalID: 6448416895050410193
       vertices: []
       indices: 
       edges: []
