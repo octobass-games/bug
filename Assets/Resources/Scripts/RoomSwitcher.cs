@@ -40,6 +40,28 @@ public class RoomSwitcher : MonoBehaviour
         fallIns.ForEach(f => f.FallIn());
     }
 
+    public void GoToIndex(int index)
+    {
+        var currentRoom = Rooms[CurrentRoomIndex];
+        var currentFallIns = currentRoom.GetComponentsInChildren<Fall>().ToList();
+        RoomsCamera[CurrentRoomIndex].SetActive(false);
+
+        CurrentRoomIndex = index;
+        var newRoom = Rooms[CurrentRoomIndex];
+        newRoom.SetActive(true);
+        RoomsCamera[CurrentRoomIndex].SetActive(true);
+        var fallIns = newRoom.GetComponentsInChildren<Fall>().ToList();
+
+        if (FallOutCoroutine != null)
+        {
+            StopCoroutine(FallOutCoroutine);
+        }
+
+        FallOutCoroutine = StartCoroutine(WaitThen(() => currentFallIns.ForEach(f => f.FallOut())));
+
+        fallIns.ForEach(f => f.FallIn());
+    }
+
     IEnumerator WaitThen(Action cb)
     {
         yield return new WaitForSeconds(1);
