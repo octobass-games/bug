@@ -11,6 +11,7 @@ public class RoomSwitcher : MonoBehaviour
     public int CurrentRoomIndex = 0;
 
     private Coroutine FallOutCoroutine;
+    private int LastRoomIndex;
 
     void Awake()
     {
@@ -46,16 +47,18 @@ public class RoomSwitcher : MonoBehaviour
         var currentFallIns = currentRoom.GetComponentsInChildren<Fall>().ToList();
         RoomsCamera[CurrentRoomIndex].SetActive(false);
 
+        if (FallOutCoroutine != null && LastRoomIndex == index)
+        {
+            StopCoroutine(FallOutCoroutine);
+        }
+
+        LastRoomIndex = CurrentRoomIndex;
         CurrentRoomIndex = index;
         var newRoom = Rooms[CurrentRoomIndex];
         newRoom.SetActive(true);
         RoomsCamera[CurrentRoomIndex].SetActive(true);
         var fallIns = newRoom.GetComponentsInChildren<Fall>().ToList();
 
-        if (FallOutCoroutine != null)
-        {
-            StopCoroutine(FallOutCoroutine);
-        }
 
         FallOutCoroutine = StartCoroutine(WaitThen(() => currentFallIns.ForEach(f => f.FallOut())));
 
