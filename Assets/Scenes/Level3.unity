@@ -3746,6 +3746,7 @@ GameObject:
   - component: {fileID: 1008392476}
   - component: {fileID: 1008392477}
   - component: {fileID: 1008392478}
+  - component: {fileID: 1008392479}
   m_Layer: 0
   m_Name: dog-eat
   m_TagString: Untagged
@@ -3885,6 +3886,29 @@ MonoBehaviour:
   AutoShadow: 1
   CustomShadows: []
   ShadowId: default
+--- !u!114 &1008392479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008392473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/dogeat
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1029185396
 GameObject:
   m_ObjectHideFlags: 0
@@ -6623,6 +6647,7 @@ GameObject:
   - component: {fileID: 1710249132}
   - component: {fileID: 1710249134}
   - component: {fileID: 1710249133}
+  - component: {fileID: 1710249135}
   m_Layer: 0
   m_Name: take photo
   m_TagString: Untagged
@@ -6674,6 +6699,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1710249135}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   CustomCursor: {fileID: 0}
 --- !u!61 &1710249134
 BoxCollider2D:
@@ -6701,6 +6738,29 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 20.342514, y: 13.154469}
   m_EdgeRadius: 0
+--- !u!114 &1710249135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1710249131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/camera
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!114 &1790847682 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5848676012762609508, guid: 688ba1be6db29ae43b0e30b82db049a2, type: 3}
