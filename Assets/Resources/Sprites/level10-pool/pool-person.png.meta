@@ -14,6 +14,18 @@ TextureImporter:
   - first:
       213: 4937330677768499208
     second: pool-person_3
+  - first:
+      213: 4500172120286681628
+    second: pool-person_4
+  - first:
+      213: 1021335072851861875
+    second: pool-person_5
+  - first:
+      213: -1142860264973172692
+    second: pool-person_6
+  - first:
+      213: 2318289242770665504
+    second: pool-person_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -194,6 +206,90 @@ TextureImporter:
       bones: []
       spriteID: 800b703a71ce48440800000000000000
       internalID: 4937330677768499208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pool-person_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1addc153b2d37e30800000000000000
+      internalID: 4500172120286681628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pool-person_5
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371abf566d28c2e00800000000000000
+      internalID: 1021335072851861875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pool-person_6
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c208d56e4aeb320f0800000000000000
+      internalID: -1142860264973172692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pool-person_7
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 0
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02074f198c73c2020800000000000000
+      internalID: 2318289242770665504
       vertices: []
       indices: 
       edges: []
