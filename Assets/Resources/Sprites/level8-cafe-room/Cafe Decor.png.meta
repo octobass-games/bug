@@ -38,6 +38,18 @@ TextureImporter:
   - first:
       213: 1771358040851408410
     second: hook
+  - first:
+      213: 1331560129137581679
+    second: microwave-on-1
+  - first:
+      213: -1158768212399677828
+    second: microwave-on-2
+  - first:
+      213: -1272605460436230855
+    second: microwave-on-3
+  - first:
+      213: 1923956142667751793
+    second: microwave-on-4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -289,7 +301,7 @@ TextureImporter:
       name: microwave
       rect:
         serializedVersion: 2
-        x: 63
+        x: 64
         y: 146
         width: 16
         height: 14
@@ -378,7 +390,7 @@ TextureImporter:
         width: 5
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -386,6 +398,90 @@ TextureImporter:
       bones: []
       spriteID: a16eafac0c0259810800000000000000
       internalID: 1771358040851408410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: microwave-on-1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 146
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e915ee1e6aa7210800000000000000
+      internalID: 1331560129137581679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: microwave-on-2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 146
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e17e2437a3befe0800000000000000
+      internalID: -1158768212399677828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: microwave-on-3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 146
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93dd977831cc65ee0800000000000000
+      internalID: -1272605460436230855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: microwave-on-4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 146
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171642f0be343ba10800000000000000
+      internalID: 1923956142667751793
       vertices: []
       indices: 
       edges: []
