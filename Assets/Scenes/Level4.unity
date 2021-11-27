@@ -1712,6 +1712,7 @@ MonoBehaviour:
     ComponentB: {fileID: 2096614713}
     Result: {fileID: 1540063258}
     ShouldMoveResultPostition: 0
+    ShouldPlaceInInventoryOnCombination: 0
     OnCombination:
       m_PersistentCalls:
         m_Calls:
@@ -1731,6 +1732,7 @@ MonoBehaviour:
     ComponentB: {fileID: 992788448}
     Result: {fileID: 2017774253}
     ShouldMoveResultPostition: 0
+    ShouldPlaceInInventoryOnCombination: 0
     OnCombination:
       m_PersistentCalls:
         m_Calls: []
@@ -1738,6 +1740,7 @@ MonoBehaviour:
     ComponentB: {fileID: 156477309}
     Result: {fileID: 1961766673}
     ShouldMoveResultPostition: 0
+    ShouldPlaceInInventoryOnCombination: 0
     OnCombination:
       m_PersistentCalls:
         m_Calls:
@@ -2898,6 +2901,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1106009464}
   - component: {fileID: 1106009465}
+  - component: {fileID: 1106009466}
   m_Layer: 0
   m_Name: carrot-bag-open
   m_TagString: Untagged
@@ -2970,6 +2974,29 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1106009466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106009463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/open3
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1150633054
 GameObject:
   m_ObjectHideFlags: 0
@@ -3631,6 +3658,7 @@ GameObject:
   - component: {fileID: 1592557485}
   - component: {fileID: 1592557489}
   - component: {fileID: 1592557488}
+  - component: {fileID: 1592557490}
   m_Layer: 0
   m_Name: rabbit-hutch bunny eat
   m_TagString: Untagged
@@ -3816,6 +3844,29 @@ MonoBehaviour:
   Event: event:/SFX/pop
   PlayEvent: 15
   StopEvent: 16
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!114 &1592557490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592557481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/rabbitappear
+  PlayEvent: 11
+  StopEvent: 12
   AllowFadeout: 0
   TriggerOnce: 0
   Preload: 0
@@ -4117,6 +4168,7 @@ GameObject:
   - component: {fileID: 2017774255}
   - component: {fileID: 2017774256}
   - component: {fileID: 2017774257}
+  - component: {fileID: 2017774258}
   m_Layer: 0
   m_Name: flower-bed-eaten
   m_TagString: Untagged
@@ -4265,6 +4317,29 @@ MonoBehaviour:
   Event3:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2017774258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017774253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/rabbit eat
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &2019228092
 GameObject:
   m_ObjectHideFlags: 0
