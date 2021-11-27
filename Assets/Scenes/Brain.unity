@@ -6764,6 +6764,7 @@ GameObject:
   - component: {fileID: 2103966050}
   - component: {fileID: 2103966052}
   - component: {fileID: 2103966051}
+  - component: {fileID: 2103966053}
   m_Layer: 0
   m_Name: Level Complete!
   m_TagString: Untagged
@@ -6887,6 +6888,29 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2103966049}
   m_CullTransparentMesh: 1
+--- !u!114 &2103966053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103966049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/levelcomplete
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &2109265610
 GameObject:
   m_ObjectHideFlags: 0
