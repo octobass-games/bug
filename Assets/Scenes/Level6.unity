@@ -4438,6 +4438,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1792559398}
   - component: {fileID: 1792559399}
+  - component: {fileID: 1792559400}
   m_Layer: 0
   m_Name: open-seed-bag
   m_TagString: Untagged
@@ -4510,6 +4511,29 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1792559400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792559397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/open2
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1795626042
 GameObject:
   m_ObjectHideFlags: 0
@@ -4993,6 +5017,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 656880690}
     m_Modifications:
+    - target: {fileID: 5848676012762609508, guid: 688ba1be6db29ae43b0e30b82db049a2, type: 3}
+      propertyPath: path
+      value: event:/SFX/progress
+      objectReference: {fileID: 0}
     - target: {fileID: 5848676012762609509, guid: 688ba1be6db29ae43b0e30b82db049a2, type: 3}
       propertyPath: m_RootOrder
       value: 0

@@ -8,6 +8,9 @@ public class BuggedometerRenderer : MonoBehaviour
     private float Speed = 3;
     private float z;
 
+    FMOD.Studio.EventInstance progressSound;
+    public string path;
+
     void Awake()
     {
         z = Bar.transform.lossyScale.z;
@@ -41,6 +44,8 @@ public class BuggedometerRenderer : MonoBehaviour
         if (Bar.transform.localScale == Aim)
         {
             inProgress = false;
+
+            FMODUnity.RuntimeManager.PlayOneShot(path);
         }
     }
 }

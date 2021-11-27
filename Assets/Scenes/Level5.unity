@@ -5905,6 +5905,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 656880690}
     m_Modifications:
+    - target: {fileID: 5848676012762609508, guid: 688ba1be6db29ae43b0e30b82db049a2, type: 3}
+      propertyPath: path
+      value: event:/SFX/progress
+      objectReference: {fileID: 0}
     - target: {fileID: 5848676012762609509, guid: 688ba1be6db29ae43b0e30b82db049a2, type: 3}
       propertyPath: m_RootOrder
       value: 0
