@@ -582,6 +582,7 @@ GameObject:
   - component: {fileID: 441337140}
   - component: {fileID: 441337142}
   - component: {fileID: 441337143}
+  - component: {fileID: 441337144}
   m_Layer: 0
   m_Name: painting
   m_TagString: Untagged
@@ -720,6 +721,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 441337144}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   CustomCursor: {fileID: 0}
 --- !u!61 &441337141
 BoxCollider2D:
@@ -774,6 +787,29 @@ MonoBehaviour:
   AutoShadow: 1
   CustomShadows: []
   ShadowId: vampire
+--- !u!114 &441337144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441337137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/woodfall
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &513285354
 GameObject:
   m_ObjectHideFlags: 0
@@ -1239,6 +1275,7 @@ GameObject:
   - component: {fileID: 681740735}
   - component: {fileID: 681740736}
   - component: {fileID: 681740737}
+  - component: {fileID: 681740738}
   m_Layer: 0
   m_Name: shutter
   m_TagString: Untagged
@@ -1390,6 +1427,18 @@ MonoBehaviour:
           m_StringArgument: shake
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 681740738}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   CustomCursor: {fileID: 0}
 --- !u!114 &681740737
 MonoBehaviour:
@@ -1406,6 +1455,29 @@ MonoBehaviour:
   AutoShadow: 1
   CustomShadows: []
   ShadowId: default
+--- !u!114 &681740738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681740731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/locked
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &713227632
 GameObject:
   m_ObjectHideFlags: 0
