@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class LevelSelect : MonoBehaviour
+public class LevelSelect : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
 
     public LevelData LevelData;
@@ -36,7 +37,8 @@ public class LevelSelect : MonoBehaviour
         {
             Button.enabled = false;
             Image.sprite = LockedSprite;
-        }else
+        }
+        else
         {
             Button.enabled = true;
             Image.sprite = LevelData.Preview;
@@ -61,5 +63,21 @@ public class LevelSelect : MonoBehaviour
     {
         Stars.SetTrigger("End");
         Stars.gameObject.SetActive(false);
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        if (!Level.Locked)
+        {
+            UpdateStars();
+        }
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        if (!Level.Locked)
+        {
+            CloseStars();
+        }
     }
 }
