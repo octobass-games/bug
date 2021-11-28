@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 291873576671700859}
   - component: {fileID: 291873576671700856}
   - component: {fileID: 291873576671700857}
+  - component: {fileID: 4048092714678125827}
   m_Layer: 0
   m_Name: Level
   m_TagString: Untagged
@@ -134,4 +135,49 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LevelData: {fileID: 0}
-  Levels: {fileID: 0}
+  Stars: {fileID: 0}
+--- !u!114 &4048092714678125827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291873576671700861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 291873576671700857}
+          m_TargetAssemblyTypeName: LevelSelect, Assembly-CSharp
+          m_MethodName: UpdateStars
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 291873576671700857}
+          m_TargetAssemblyTypeName: LevelSelect, Assembly-CSharp
+          m_MethodName: CloseStars
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
