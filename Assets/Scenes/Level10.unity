@@ -2058,6 +2058,42 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 553785075}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1820984647}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: wave
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1645630358}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   CustomCursor: {fileID: 0}
 --- !u!61 &981681763
 BoxCollider2D:
@@ -2270,7 +2306,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1062060432}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2, y: 4, z: 0}
+  m_LocalPosition: {x: -2, y: 4, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1961480141}
@@ -3230,7 +3266,6 @@ GameObject:
   - component: {fileID: 1427395410}
   - component: {fileID: 1427395413}
   - component: {fileID: 1427395412}
-  - component: {fileID: 1427395411}
   m_Layer: 0
   m_Name: wave-machine-on
   m_TagString: Untagged
@@ -3252,25 +3287,6 @@ Transform:
   m_Father: {fileID: 602568169}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1427395411
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1427395409}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8416580241c603a46ad093e0e4f0ebcb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnlyFireOnce: 0
-  Disabled: 0
-  ShouldEnlargeOnHover: 1
-  OnInspect:
-    m_PersistentCalls:
-      m_Calls: []
-  CustomCursor: {fileID: 0}
 --- !u!61 &1427395412
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4031,6 +4047,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1645630358 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4368337870591375757, guid: 036a3ed605455334f9d77a221bd878f0, type: 3}
+  m_PrefabInstance: {fileID: 1012019414}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1662973746
 GameObject:
   m_ObjectHideFlags: 0
@@ -4312,6 +4333,7 @@ GameObject:
   - component: {fileID: 1820984646}
   - component: {fileID: 1820984647}
   - component: {fileID: 1820984648}
+  - component: {fileID: 1820984649}
   m_Layer: 0
   m_Name: pool-person
   m_TagString: Untagged
@@ -4417,6 +4439,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomSpeed: 0
+--- !u!114 &1820984649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820984644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e627bd3d9917dec41ba301cc40d0a835, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Patience: 1
+  OutOfPatienceDelaySeconds: 1
+  OnOutOfPatience:
+    m_PersistentCalls:
+      m_Calls: []
+  OnOutOfPatienceImmediate:
+    m_PersistentCalls:
+      m_Calls: []
+  BuggedometerRenderer: {fileID: 0}
 --- !u!1 &1951885033
 GameObject:
   m_ObjectHideFlags: 0
