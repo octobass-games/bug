@@ -367,6 +367,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 291873576671700857, guid: dc6527aa5ead6b841b8dccb13541d0fe, type: 3}
+      propertyPath: Stars
+      value: 
+      objectReference: {fileID: 1645337035}
+    - target: {fileID: 291873576671700857, guid: dc6527aa5ead6b841b8dccb13541d0fe, type: 3}
       propertyPath: Levels
       value: 
       objectReference: {fileID: 1449598152}
@@ -1182,6 +1186,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 291873576671700857, guid: dc6527aa5ead6b841b8dccb13541d0fe, type: 3}
+      propertyPath: Stars
+      value: 
+      objectReference: {fileID: 1645337035}
+    - target: {fileID: 291873576671700857, guid: dc6527aa5ead6b841b8dccb13541d0fe, type: 3}
       propertyPath: Levels
       value: 
       objectReference: {fileID: 1449598152}
@@ -1456,6 +1464,10 @@ PrefabInstance:
       propertyPath: m_Colors.m_NormalColor.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 291873576671700857, guid: dc6527aa5ead6b841b8dccb13541d0fe, type: 3}
+      propertyPath: Stars
+      value: 
+      objectReference: {fileID: 1645337035}
     - target: {fileID: 291873576671700857, guid: dc6527aa5ead6b841b8dccb13541d0fe, type: 3}
       propertyPath: Levels
       value: 
@@ -3941,6 +3953,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 291873576671700857, guid: dc6527aa5ead6b841b8dccb13541d0fe, type: 3}
+      propertyPath: Stars
+      value: 
+      objectReference: {fileID: 1645337035}
+    - target: {fileID: 291873576671700857, guid: dc6527aa5ead6b841b8dccb13541d0fe, type: 3}
       propertyPath: Levels
       value: 
       objectReference: {fileID: 1449598152}
@@ -5664,6 +5680,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 291873576671700857, guid: dc6527aa5ead6b841b8dccb13541d0fe, type: 3}
+      propertyPath: Stars
+      value: 
+      objectReference: {fileID: 1645337035}
+    - target: {fileID: 291873576671700857, guid: dc6527aa5ead6b841b8dccb13541d0fe, type: 3}
       propertyPath: Levels
       value: 
       objectReference: {fileID: 1449598152}
@@ -5805,6 +5825,10 @@ PrefabInstance:
       propertyPath: m_Colors.m_NormalColor.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 291873576671700857, guid: dc6527aa5ead6b841b8dccb13541d0fe, type: 3}
+      propertyPath: Stars
+      value: 
+      objectReference: {fileID: 1645337035}
     - target: {fileID: 291873576671700857, guid: dc6527aa5ead6b841b8dccb13541d0fe, type: 3}
       propertyPath: Levels
       value: 
@@ -6288,6 +6312,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 291873576671700857, guid: dc6527aa5ead6b841b8dccb13541d0fe, type: 3}
+      propertyPath: Stars
+      value: 
+      objectReference: {fileID: 1645337035}
+    - target: {fileID: 291873576671700857, guid: dc6527aa5ead6b841b8dccb13541d0fe, type: 3}
       propertyPath: Levels
       value: 
       objectReference: {fileID: 1449598152}
@@ -6671,6 +6699,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 291873576671700857, guid: dc6527aa5ead6b841b8dccb13541d0fe, type: 3}
+      propertyPath: Stars
+      value: 
+      objectReference: {fileID: 1645337035}
+    - target: {fileID: 291873576671700857, guid: dc6527aa5ead6b841b8dccb13541d0fe, type: 3}
       propertyPath: Levels
       value: 
       objectReference: {fileID: 1449598152}
@@ -6812,6 +6844,10 @@ PrefabInstance:
       propertyPath: m_Colors.m_NormalColor.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 291873576671700857, guid: dc6527aa5ead6b841b8dccb13541d0fe, type: 3}
+      propertyPath: Stars
+      value: 
+      objectReference: {fileID: 1645337035}
     - target: {fileID: 291873576671700857, guid: dc6527aa5ead6b841b8dccb13541d0fe, type: 3}
       propertyPath: Levels
       value: 
