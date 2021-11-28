@@ -41,6 +41,24 @@ TextureImporter:
   - first:
       213: -1092708500938534310
     second: vertical-key
+  - first:
+      213: -6016654179815991431
+    second: file-drawer
+  - first:
+      213: -148779165187698679
+    second: file-with-password
+  - first:
+      213: -2821783057578122930
+    second: file
+  - first:
+      213: 297455580384994046
+    second: psasword
+  - first:
+      213: 7473879672746025593
+    second: drawer-2
+  - first:
+      213: 3885030147170697844
+    second: empty-drawer
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -410,6 +428,132 @@ TextureImporter:
       bones: []
       spriteID: a525286686be5d0f0800000000000000
       internalID: -1092708500938534310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: file-drawer
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 55
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977d2bba6ec808ca0800000000000000
+      internalID: -6016654179815991431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: file-with-password
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 56
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9001205332e6fedf0800000000000000
+      internalID: -148779165187698679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: file
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 35
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4127d3724307d8d0800000000000000
+      internalID: -2821783057578122930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: psasword
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 32
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef22e4d3646c02400800000000000000
+      internalID: 297455580384994046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drawer-2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 33
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9722a0cc6fd88b760800000000000000
+      internalID: 7473879672746025593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: empty-drawer
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 54
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4720bc7c5566ae530800000000000000
+      internalID: 3885030147170697844
       vertices: []
       indices: 
       edges: []
