@@ -2630,7 +2630,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &763775209
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5674,7 +5674,7 @@ PrefabInstance:
     - target: {fileID: 291873576671700859, guid: dc6527aa5ead6b841b8dccb13541d0fe, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 905612b268efa4847bf32e732413ab24, type: 3}
+      objectReference: {fileID: 21300000, guid: 05a65117dec31d045ae8a487c4127188, type: 3}
     - target: {fileID: 291873576671700860, guid: dc6527aa5ead6b841b8dccb13541d0fe, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -6298,7 +6298,7 @@ PrefabInstance:
     - target: {fileID: 291873576671700859, guid: dc6527aa5ead6b841b8dccb13541d0fe, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 905612b268efa4847bf32e732413ab24, type: 3}
+      objectReference: {fileID: 21300000, guid: 7999733de4ccbfc4d8038b600134801d, type: 3}
     - target: {fileID: 291873576671700860, guid: dc6527aa5ead6b841b8dccb13541d0fe, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -6681,7 +6681,7 @@ PrefabInstance:
     - target: {fileID: 291873576671700859, guid: dc6527aa5ead6b841b8dccb13541d0fe, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 905612b268efa4847bf32e732413ab24, type: 3}
+      objectReference: {fileID: 21300000, guid: 4a9d7fa844e601446b6ae28e4c54a903, type: 3}
     - target: {fileID: 291873576671700860, guid: dc6527aa5ead6b841b8dccb13541d0fe, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
