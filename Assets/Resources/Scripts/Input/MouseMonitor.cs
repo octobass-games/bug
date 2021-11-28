@@ -14,6 +14,11 @@ public class MouseMonitor : MonoBehaviour
 
     void Update()
     {
+        if (IsMouseOverUIElement())
+        {
+            return;
+        }
+
         var gameObjectBeneathMouse = FindObjectOfTypeBeneathMouse<Collider2D>()?.gameObject;
 
         if (gameObjectBeneathMouse != null && gameObjectBeneathMouse != Draggable?.gameObject)
