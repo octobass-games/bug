@@ -5,13 +5,14 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(EnlargeOnHover))]
 public class Draggable : MonoBehaviour
 {
-    private GameObject Ghost;
-    private SpriteRenderer SpriteRenderer;
+    protected GameObject Ghost;
+    protected SpriteRenderer SpriteRenderer;
     private Vector3 StartPosition;
-    private bool IsDragging;
+    protected bool IsDragging;
     private Collider2D[] OverlappingColliders = new Collider2D[1];
     private CustomCursor CustomCursor;
-    private string StartSortingLayerName;
+    protected string StartSortingLayerName;
+    protected Collider2D Collider;
     private ContactFilter2D ContactFilter = new ContactFilter2D
     {
         useTriggers = true
@@ -20,6 +21,7 @@ public class Draggable : MonoBehaviour
     void Start()
     {
         SpriteRenderer = GetComponent<SpriteRenderer>();
+        Collider = GetComponent<Collider2D>();
         CustomCursor = FindObjectOfType<CustomCursor>();
     }
 
@@ -41,7 +43,7 @@ public class Draggable : MonoBehaviour
         AddGhost();
     }
 
-    public void DragEnd()
+    public virtual void DragEnd()
     {
         if (IsDragging)
         {
@@ -72,7 +74,7 @@ public class Draggable : MonoBehaviour
         Ghost.transform.position = StartPosition;
     }
 
-    private void DestroyGhost()
+    protected void DestroyGhost()
     {
         Destroy(Ghost);
     }

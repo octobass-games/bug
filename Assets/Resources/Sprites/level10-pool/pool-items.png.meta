@@ -19,7 +19,7 @@ TextureImporter:
     second: drawers
   - first:
       213: -4697085601876516397
-    second: lifeguard
+    second: clock
   - first:
       213: 5238399496367124078
     second: wave-machine
@@ -247,13 +247,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lifeguard
+      name: clock
       rect:
         serializedVersion: 2
-        x: 44
-        y: 11
-        width: 24
-        height: 32
+        x: 81
+        y: 3
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -381,7 +381,7 @@ TextureImporter:
         width: 4
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -402,7 +402,7 @@ TextureImporter:
         width: 4
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
