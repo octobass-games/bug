@@ -352,8 +352,8 @@ TextureImporter:
       name: pool-noodles
       rect:
         serializedVersion: 2
-        x: 96
-        y: 25
+        x: 99
+        y: 9
         width: 38
         height: 44
       alignment: 0
@@ -378,7 +378,7 @@ TextureImporter:
         width: 34
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
