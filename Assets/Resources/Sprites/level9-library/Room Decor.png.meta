@@ -80,6 +80,9 @@ TextureImporter:
   - first:
       213: 8776739839710368960
     second: skull
+  - first:
+      213: -5124269357633907043
+    second: magic-circle
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -184,10 +187,10 @@ TextureImporter:
       name: stool
       rect:
         serializedVersion: 2
-        x: 30
-        y: 87
-        width: 24
-        height: 24
+        x: 20
+        y: 77
+        width: 44
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -714,7 +717,7 @@ TextureImporter:
         width: 8
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -722,6 +725,27 @@ TextureImporter:
       bones: []
       spriteID: 0c494ff026e3dc970800000000000000
       internalID: 8776739839710368960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-circle
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 72
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96dfc43b20f2e8b0800000000000000
+      internalID: -5124269357633907043
       vertices: []
       indices: 
       edges: []
