@@ -17,6 +17,21 @@ TextureImporter:
   - first:
       213: -2922113337684369405
     second: card-ant
+  - first:
+      213: 5610456433865955097
+    second: card-moth
+  - first:
+      213: 3929718611160277314
+    second: card-worm
+  - first:
+      213: -657809462729225012
+    second: card-fly
+  - first:
+      213: 2364552672744995599
+    second: card-beetle
+  - first:
+      213: -8096500043677648198
+    second: card-snail
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -210,7 +225,7 @@ TextureImporter:
         width: 39
         height: 67
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -218,6 +233,111 @@ TextureImporter:
       bones: []
       spriteID: 30064e1c6619277d0800000000000000
       internalID: -2922113337684369405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: card-moth
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 33
+        width: 39
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9179260b6685cdd40800000000000000
+      internalID: 5610456433865955097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: card-worm
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 33
+        width: 39
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241237d914a298630800000000000000
+      internalID: 3929718611160277314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: card-fly
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 33
+        width: 39
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc422467cdfed6f0800000000000000
+      internalID: -657809462729225012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: card-beetle
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 33
+        width: 39
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b7aafb02490d020800000000000000
+      internalID: 2364552672744995599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: card-snail
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 33
+        width: 39
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abab8ac7b1473af80800000000000000
+      internalID: -8096500043677648198
       vertices: []
       indices: 
       edges: []
