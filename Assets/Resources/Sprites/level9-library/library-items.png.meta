@@ -8,6 +8,21 @@ TextureImporter:
   - first:
       213: -6802730313453060891
     second: bookcase
+  - first:
+      213: 8776919266935199894
+    second: chalkboard
+  - first:
+      213: 5019311471171371265
+    second: blue-chalk
+  - first:
+      213: -7575784444263098849
+    second: white-chalk
+  - first:
+      213: -3890543982666059575
+    second: pink-chalk
+  - first:
+      213: -8487341235551391363
+    second: chalk
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -138,7 +153,7 @@ TextureImporter:
         width: 70
         height: 66
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -146,6 +161,111 @@ TextureImporter:
       bones: []
       spriteID: 5ec39d382d8d791a0800000000000000
       internalID: -6802730313453060891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalkboard
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 14
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69854f73291edc970800000000000000
+      internalID: 8776919266935199894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue-chalk
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 3
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1018638803d28a540800000000000000
+      internalID: 5019311471171371265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white-chalk
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1694c8af286dd690800000000000000
+      internalID: -7575784444263098849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-chalk
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 3
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0f72a5cd2020ac0800000000000000
+      internalID: -3890543982666059575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d713f673d18e63a80800000000000000
+      internalID: -8487341235551391363
       vertices: []
       indices: 
       edges: []
