@@ -1438,7 +1438,7 @@ MonoBehaviour:
   Event: event:/SFX/pop
   PlayEvent: 0
   StopEvent: 0
-  AllowFadeout: 0
+  AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
   Params: []
@@ -5620,8 +5620,8 @@ GameObject:
   - component: {fileID: 1181015631}
   - component: {fileID: 1181015634}
   - component: {fileID: 1181015633}
-  - component: {fileID: 1181015635}
   - component: {fileID: 1181015632}
+  - component: {fileID: 1181015635}
   m_Layer: 0
   m_Name: candles-lit
   m_TagString: Untagged
@@ -5767,7 +5767,7 @@ MonoBehaviour:
   Event: event:/SFX/pop
   PlayEvent: 0
   StopEvent: 0
-  AllowFadeout: 0
+  AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
   Params: []

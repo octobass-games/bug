@@ -518,7 +518,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/SFX/pop
+  Event: event:/SFX/phonetap
   PlayEvent: 0
   StopEvent: 0
   AllowFadeout: 0
@@ -1108,7 +1108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/SFX/pop
+  Event: event:/SFX/phonetap
   PlayEvent: 0
   StopEvent: 0
   AllowFadeout: 0
@@ -1325,7 +1325,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/SFX/pop
+  Event: event:/SFX/phonetap
   PlayEvent: 0
   StopEvent: 0
   AllowFadeout: 0
@@ -1836,7 +1836,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/SFX/pop
+  Event: event:/SFX/phonetap
   PlayEvent: 0
   StopEvent: 0
   AllowFadeout: 0
