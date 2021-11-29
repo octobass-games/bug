@@ -10,6 +10,7 @@ public class Inventory : MonoBehaviour
     public Transform SpawnPoint;
 
     private const int SpaceBetweenItems = -40;
+    private const string PopEvent = "event:/SFX/pop";
     private List<GameObject> Backgrounds = new List<GameObject>();
 
     public void Add(GameObject item)
@@ -18,6 +19,7 @@ public class Inventory : MonoBehaviour
 
         Destroy(item.GetComponent<Pickupable>());
         Destroy(item.GetComponent<Inspectable>());
+
 
         Draw();
     }
@@ -43,6 +45,14 @@ public class Inventory : MonoBehaviour
             inventoryItemBackground.transform.position = new Vector3(SpawnPoint.position.x, SpawnPoint.position.y + yOffset, InventoryItemBackground.transform.position.z);
             inventoryItemBackground.transform.SetParent(transform.parent);
             var inventoryItemBackgroundCenter = inventoryItemBackground.GetComponent<SpriteRenderer>().bounds.center;
+
+            var onDragStartEmitter = item.AddComponent<FMODUnity.StudioEventEmitter>();
+            onDragStartEmitter.Event = PopEvent;
+            onDragStartEmitter.PlayEvent = FMODUnity.EmitterGameEvent.MouseDown;
+
+            var onDragEndEmitter = item.AddComponent<FMODUnity.StudioEventEmitter>();
+            onDragEndEmitter.Event = PopEvent;
+            onDragEndEmitter.PlayEvent = FMODUnity.EmitterGameEvent.MouseUp;
 
             item.MaybeAddComponent<Draggable>();
             var sprite = item.GetComponent<SpriteRenderer>();
