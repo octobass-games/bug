@@ -600,6 +600,7 @@ GameObject:
   - component: {fileID: 299146295}
   - component: {fileID: 299146294}
   - component: {fileID: 299146297}
+  - component: {fileID: 299146298}
   m_Layer: 0
   m_Name: Close
   m_TagString: Untagged
@@ -682,6 +683,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 299146298}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &299146295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -732,6 +745,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a65cd694c93d74b46a57356987382efb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &299146298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299146292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/phonetap
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!224 &331344441 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 291873576671700860, guid: dc6527aa5ead6b841b8dccb13541d0fe, type: 3}
@@ -765,7 +801,6 @@ GameObject:
   - component: {fileID: 391738452}
   - component: {fileID: 391738455}
   - component: {fileID: 391738453}
-  - component: {fileID: 391738454}
   m_Layer: 0
   m_Name: Level Summary
   m_TagString: Untagged
@@ -808,29 +843,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_AspectMode: 3
   m_AspectRatio: 1
---- !u!114 &391738454
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 391738451}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: 
-  PlayEvent: 11
-  StopEvent: 12
-  AllowFadeout: 0
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
 --- !u!222 &391738455
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2258,6 +2270,7 @@ GameObject:
   - component: {fileID: 727156431}
   - component: {fileID: 727156430}
   - component: {fileID: 727156433}
+  - component: {fileID: 727156434}
   m_Layer: 0
   m_Name: Close
   m_TagString: Untagged
@@ -2340,6 +2353,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 727156434}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &727156431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2390,6 +2415,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a65cd694c93d74b46a57356987382efb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &727156434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727156428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/phonetap
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &734950009 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 291873576671700861, guid: dc6527aa5ead6b841b8dccb13541d0fe, type: 3}
@@ -3394,6 +3442,7 @@ GameObject:
   - component: {fileID: 1051694204}
   - component: {fileID: 1051694203}
   - component: {fileID: 1051694206}
+  - component: {fileID: 1051694207}
   m_Layer: 0
   m_Name: Collectables Button
   m_TagString: Untagged
@@ -3476,6 +3525,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1051694207}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1051694204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3526,6 +3587,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a65cd694c93d74b46a57356987382efb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1051694207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051694201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/phonetap
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1053510185
 GameObject:
   m_ObjectHideFlags: 0
@@ -3620,6 +3704,7 @@ GameObject:
   - component: {fileID: 1068247368}
   - component: {fileID: 1068247367}
   - component: {fileID: 1068247370}
+  - component: {fileID: 1068247371}
   m_Layer: 0
   m_Name: Controls Button
   m_TagString: Untagged
@@ -3702,6 +3787,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1068247371}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1068247368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3752,6 +3849,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a65cd694c93d74b46a57356987382efb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1068247371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068247365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/phonetap
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1001 &1073005891
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4173,6 +4293,7 @@ GameObject:
   - component: {fileID: 1174197304}
   - component: {fileID: 1174197303}
   - component: {fileID: 1174197306}
+  - component: {fileID: 1174197307}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -4255,6 +4376,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1174197307}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1174197304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4305,6 +4438,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a65cd694c93d74b46a57356987382efb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1174197307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174197301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/phonetap
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1185808492
 GameObject:
   m_ObjectHideFlags: 0
@@ -6736,6 +6892,7 @@ GameObject:
   - component: {fileID: 2018372512}
   - component: {fileID: 2018372511}
   - component: {fileID: 2018372514}
+  - component: {fileID: 2018372515}
   m_Layer: 0
   m_Name: Save
   m_TagString: Untagged
@@ -6818,6 +6975,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2018372515}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2018372512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6868,6 +7037,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a65cd694c93d74b46a57356987382efb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2018372515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2018372509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/phonetap
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &2045739648
 GameObject:
   m_ObjectHideFlags: 0
@@ -6881,6 +7073,7 @@ GameObject:
   - component: {fileID: 2045739651}
   - component: {fileID: 2045739650}
   - component: {fileID: 2045739653}
+  - component: {fileID: 2045739654}
   m_Layer: 0
   m_Name: Level Select Button
   m_TagString: Untagged
@@ -6963,6 +7156,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2045739654}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2045739651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7013,6 +7218,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a65cd694c93d74b46a57356987382efb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2045739654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045739648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/phonetap
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &2103966049
 GameObject:
   m_ObjectHideFlags: 0
