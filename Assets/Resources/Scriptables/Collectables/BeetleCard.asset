@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: BeetleCard
   m_EditorClassIdentifier: 
   sprite: {fileID: 2364552672744995599, guid: 4e10214aae269714c9923441f606d13c, type: 3}
-  Name: 
-  Colour: {r: 0, g: 0, b: 0, a: 0}
+  Name: Beetle
+  Colour: {r: 0.7843138, g: 0.6509804, b: 0.854902, a: 1}

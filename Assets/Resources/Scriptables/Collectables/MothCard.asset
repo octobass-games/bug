@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: MothCard
   m_EditorClassIdentifier: 
   sprite: {fileID: 5610456433865955097, guid: 4e10214aae269714c9923441f606d13c, type: 3}
-  Name: 
-  Colour: {r: 0, g: 0, b: 0, a: 0}
+  Name: Moth
+  Colour: {r: 0.9529412, g: 0.5343192, b: 0.26666668, a: 1}

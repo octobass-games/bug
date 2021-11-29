@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: FlyCard
   m_EditorClassIdentifier: 
   sprite: {fileID: -657809462729225012, guid: 4e10214aae269714c9923441f606d13c, type: 3}
-  Name: 
-  Colour: {r: 0, g: 0, b: 0, a: 0}
+  Name: Fly
+  Colour: {r: 0.9622642, g: 0.8097432, b: 0.28595585, a: 1}
