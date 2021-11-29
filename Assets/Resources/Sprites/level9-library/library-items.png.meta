@@ -44,6 +44,21 @@ TextureImporter:
   - first:
       213: -4576035403620111083
     second: matches
+  - first:
+      213: 7105634706527819042
+    second: alarm-ring-4
+  - first:
+      213: -8135605059274038446
+    second: alarm-ring-3
+  - first:
+      213: 6420986775064115277
+    second: alarm-ring-2
+  - first:
+      213: 3694337166892697596
+    second: alarm-ring-1
+  - first:
+      213: 845756029984679842
+    second: alarm-no-ring
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -426,7 +441,7 @@ TextureImporter:
         width: 12
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -434,6 +449,111 @@ TextureImporter:
       bones: []
       spriteID: 51dac979b08ae70c0800000000000000
       internalID: -4576035403620111083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm-ring-4
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225174a4e194c9260800000000000000
+      internalID: 7105634706527819042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm-ring-3
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 16
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253a9198d46881f80800000000000000
+      internalID: -8135605059274038446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm-ring-2
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 32
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d487d2bb37deb1950800000000000000
+      internalID: 6420986775064115277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm-ring-1
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 48
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf78921741ce44330800000000000000
+      internalID: 3694337166892697596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm-no-ring
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 64
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7a1e5d0aabcbb00800000000000000
+      internalID: 845756029984679842
       vertices: []
       indices: 
       edges: []
