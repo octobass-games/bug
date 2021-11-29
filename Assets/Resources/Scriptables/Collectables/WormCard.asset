@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: WormCard
   m_EditorClassIdentifier: 
   sprite: {fileID: 3929718611160277314, guid: 4e10214aae269714c9923441f606d13c, type: 3}
-  Name: 
+  Name: Worm
   Colour: {r: 1, g: 0.63529414, b: 0.78039217, a: 1}

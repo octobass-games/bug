@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: SnailCard
   m_EditorClassIdentifier: 
   sprite: {fileID: -8096500043677648198, guid: 4e10214aae269714c9923441f606d13c, type: 3}
-  Name: 
-  Colour: {r: 0, g: 0, b: 0, a: 0}
+  Name: Snail
+  Colour: {r: 0.38416696, g: 0.6868451, b: 0.9150943, a: 1}
