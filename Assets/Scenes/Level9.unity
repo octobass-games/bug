@@ -381,6 +381,7 @@ GameObject:
   - component: {fileID: 123415992}
   - component: {fileID: 123415991}
   - component: {fileID: 123415993}
+  - component: {fileID: 123415994}
   m_Layer: 0
   m_Name: grimoire
   m_TagString: Untagged
@@ -513,8 +514,43 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 123415994}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   CustomCursor: {fileID: 0}
   IncrementInteractionCount: 1
+--- !u!114 &123415994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123415989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/spell
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &144675005
 GameObject:
   m_ObjectHideFlags: 0
@@ -2755,7 +2791,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/SFX/spell
+  Event: event:/SFX/chair move
   PlayEvent: 0
   StopEvent: 0
   AllowFadeout: 0
@@ -9304,6 +9340,7 @@ GameObject:
   - component: {fileID: 1938824819}
   - component: {fileID: 1938824821}
   - component: {fileID: 1938824820}
+  - component: {fileID: 1938824822}
   m_Layer: 0
   m_Name: grimoire
   m_TagString: Untagged
@@ -9406,6 +9443,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1938824822}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   CustomCursor: {fileID: 0}
   IncrementInteractionCount: 1
 --- !u!61 &1938824821
@@ -9434,6 +9483,29 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 234, y: 134}
   m_EdgeRadius: 0
+--- !u!114 &1938824822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938824817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/spell
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1960092203
 GameObject:
   m_ObjectHideFlags: 0
