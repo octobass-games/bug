@@ -71,7 +71,7 @@ public class LevelSelect : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        if (!Level.Locked)
+        if (!Level.Locked && Level.LowestInteractionScore != 0)
         {
             UpdateStars();
         }
@@ -79,7 +79,7 @@ public class LevelSelect : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        if (!Level.Locked)
+        if (!Level.Locked && Level.LowestInteractionScore != 0)
         {
             CloseStars();
         }
