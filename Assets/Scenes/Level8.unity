@@ -421,6 +421,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!1 &155931078
 GameObject:
   m_ObjectHideFlags: 0
@@ -644,6 +645,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!60 &188810665
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1233,6 +1235,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!1 &276042695
 GameObject:
   m_ObjectHideFlags: 0
@@ -2100,6 +2103,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!60 &468302098
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2847,6 +2851,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!60 &679531320
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3589,6 +3594,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!60 &993865640
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5029,6 +5035,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!1 &1331494802
 GameObject:
   m_ObjectHideFlags: 0
@@ -5790,6 +5797,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!60 &1523982766
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -6742,7 +6750,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 7665576593215913659, guid: a2d8de28ba7aa4d4faa733c6ba2dedb4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6922,6 +6930,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!60 &1773303952
 PolygonCollider2D:
   m_ObjectHideFlags: 0
