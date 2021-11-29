@@ -14,6 +14,7 @@ public class LevelSelect : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
     private Sprite LockedSprite;
     private Button Button;
     private Image Image;
+    private ButtonCursor ButtonCursor;
 
     void Awake()
     {
@@ -23,6 +24,7 @@ public class LevelSelect : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
         Button = GetComponent<Button>();
         Image = GetComponent<Image>();
+        ButtonCursor = GetComponent<ButtonCursor>();
         Button.onClick.AddListener(this.LoadScene);
         Image.alphaHitTestMinimumThreshold = 0.1f;
 
@@ -37,11 +39,13 @@ public class LevelSelect : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         {
             Button.enabled = false;
             Image.sprite = LockedSprite;
+            ButtonCursor.enabled = false;
         }
         else
         {
             Button.enabled = true;
             Image.sprite = LevelData.Preview;
+            ButtonCursor.enabled = true;
         }
     }
 
