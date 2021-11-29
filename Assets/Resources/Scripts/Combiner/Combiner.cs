@@ -35,8 +35,15 @@ public class Combiner : MonoBehaviour
                 Inventory.Add(recipe.Result);
             }
 
-            Destroy(componentA);
-            Destroy(componentB);
+            if (recipe.ShouldDestroyComponentAOnCompletion)
+            {
+                Destroy(componentA);
+            }
+
+            if (recipe.ShouldDestroyComponentBOnCompletion)
+            {
+                Destroy(componentB);
+            }
         }
     }
 
