@@ -1231,6 +1231,7 @@ GameObject:
   - component: {fileID: 229765732}
   - component: {fileID: 229765731}
   - component: {fileID: 229765730}
+  - component: {fileID: 229765733}
   m_Layer: 0
   m_Name: white-chalk
   m_TagString: Untagged
@@ -1286,6 +1287,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 229765733}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1373,6 +1386,29 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &229765733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229765728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/pop
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &349186736
 GameObject:
   m_ObjectHideFlags: 0
@@ -1385,6 +1421,7 @@ GameObject:
   - component: {fileID: 349186738}
   - component: {fileID: 349186740}
   - component: {fileID: 349186739}
+  - component: {fileID: 349186741}
   m_Layer: 0
   m_Name: boxwithnothing
   m_TagString: Untagged
@@ -1499,6 +1536,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 349186741}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   CustomCursor: {fileID: 0}
   IncrementInteractionCount: 1
 --- !u!60 &349186740
@@ -1534,6 +1583,29 @@ PolygonCollider2D:
       - {x: 12, y: -9}
       - {x: 12, y: 7}
       - {x: 8, y: 13}
+--- !u!114 &349186741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349186736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/open2
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &358779283
 GameObject:
   m_ObjectHideFlags: 3
@@ -1975,6 +2047,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4368337870591375754, guid: 036a3ed605455334f9d77a221bd878f0, type: 3}
   m_PrefabInstance: {fileID: 476546454}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &476546456 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4368337870591375757, guid: 036a3ed605455334f9d77a221bd878f0, type: 3}
+  m_PrefabInstance: {fileID: 476546454}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &476546457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476546456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7c357c9fd78b0645a25ee021d9d3ed7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IntervalTime: 5
+  path: event:/SFX/sleeping
 --- !u!1 &481397390
 GameObject:
   m_ObjectHideFlags: 0
@@ -2313,6 +2404,7 @@ GameObject:
   m_Component:
   - component: {fileID: 566081262}
   - component: {fileID: 566081263}
+  - component: {fileID: 566081264}
   m_Layer: 0
   m_Name: magic-circle
   m_TagString: Untagged
@@ -2385,6 +2477,29 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &566081264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566081261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/draw
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &580840938
 GameObject:
   m_ObjectHideFlags: 0
@@ -2479,6 +2594,7 @@ GameObject:
   - component: {fileID: 609340015}
   - component: {fileID: 609340017}
   - component: {fileID: 609340016}
+  - component: {fileID: 609340018}
   m_Layer: 0
   m_Name: ladder
   m_TagString: Untagged
@@ -2581,6 +2697,18 @@ MonoBehaviour:
           m_StringArgument: move
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 609340018}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   CustomCursor: {fileID: 0}
   IncrementInteractionCount: 1
 --- !u!60 &609340017
@@ -2614,6 +2742,29 @@ PolygonCollider2D:
       - {x: 3, y: -31}
       - {x: 9, y: -30}
       - {x: 9, y: 31}
+--- !u!114 &609340018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609340013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/spell
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &645326287
 GameObject:
   m_ObjectHideFlags: 0
@@ -2992,6 +3143,8 @@ GameObject:
   - component: {fileID: 675093925}
   - component: {fileID: 675093926}
   - component: {fileID: 675093924}
+  - component: {fileID: 675093928}
+  - component: {fileID: 675093927}
   m_Layer: 0
   m_Name: matches
   m_TagString: Untagged
@@ -3114,6 +3267,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed76756373337974c8c701fff0865b20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &675093927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675093921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/pop
+  PlayEvent: 16
+  StopEvent: 15
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!114 &675093928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675093921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/pop
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &683006388
 GameObject:
   m_ObjectHideFlags: 0
@@ -5189,6 +5388,7 @@ GameObject:
   - component: {fileID: 1153002487}
   - component: {fileID: 1153002486}
   - component: {fileID: 1153002488}
+  - component: {fileID: 1153002489}
   m_Layer: 0
   m_Name: demon
   m_TagString: Untagged
@@ -5300,6 +5500,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1153002489}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   Event2:
     m_PersistentCalls:
       m_Calls: []
@@ -5338,6 +5550,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Animator: {fileID: 1153002487}
+--- !u!114 &1153002489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153002483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/ghost
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1181015630
 GameObject:
   m_ObjectHideFlags: 0
@@ -5349,6 +5584,8 @@ GameObject:
   - component: {fileID: 1181015631}
   - component: {fileID: 1181015634}
   - component: {fileID: 1181015633}
+  - component: {fileID: 1181015635}
+  - component: {fileID: 1181015632}
   m_Layer: 0
   m_Name: candles-lit
   m_TagString: Untagged
@@ -5373,6 +5610,29 @@ Transform:
   m_Father: {fileID: 1467670541}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1181015632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181015630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/candle
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!114 &1181015633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5415,6 +5675,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1181015635}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   CustomCursor: {fileID: 0}
   IncrementInteractionCount: 1
 --- !u!61 &1181015634
@@ -5443,6 +5715,29 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 21.287262, y: 20.723724}
   m_EdgeRadius: 0
+--- !u!114 &1181015635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181015630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/pop
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1213381552
 GameObject:
   m_ObjectHideFlags: 0
@@ -6187,6 +6482,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1470079589}
   - component: {fileID: 1470079588}
+  - component: {fileID: 1470079590}
   m_Layer: 0
   m_Name: CM vcam1
   m_TagString: Untagged
@@ -6244,6 +6540,29 @@ Transform:
   m_Father: {fileID: 1529620102}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1470079590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470079587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/falling
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1478002508
 GameObject:
   m_ObjectHideFlags: 0
@@ -6888,6 +7207,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1628452501}
   - component: {fileID: 1628452500}
+  - component: {fileID: 1628452502}
   m_Layer: 0
   m_Name: CM vcam2
   m_TagString: Untagged
@@ -6945,6 +7265,29 @@ Transform:
   m_Father: {fileID: 1529620102}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1628452502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628452499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/falling
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1632141005
 GameObject:
   m_ObjectHideFlags: 0
@@ -7801,6 +8144,8 @@ GameObject:
   - component: {fileID: 1799153741}
   - component: {fileID: 1799153740}
   - component: {fileID: 1799153739}
+  - component: {fileID: 1799153743}
+  - component: {fileID: 1799153742}
   m_Layer: 0
   m_Name: skull
   m_TagString: Untagged
@@ -7928,6 +8273,52 @@ PolygonCollider2D:
       - {x: 2, y: -5}
       - {x: 4, y: -3}
       - {x: 4, y: 5}
+--- !u!114 &1799153742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799153736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/pop
+  PlayEvent: 16
+  StopEvent: 15
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!114 &1799153743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799153736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/pop
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1804570605
 GameObject:
   m_ObjectHideFlags: 0
@@ -9187,6 +9578,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2010580443}
+  - component: {fileID: 2010580444}
   m_Layer: 0
   m_Name: candles
   m_TagString: Untagged
@@ -9211,6 +9603,29 @@ Transform:
   m_Father: {fileID: 1129264223}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2010580444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010580442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/candle
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &2012511896
 GameObject:
   m_ObjectHideFlags: 0
@@ -9561,6 +9976,7 @@ GameObject:
   - component: {fileID: 2066139431}
   - component: {fileID: 2066139433}
   - component: {fileID: 2066139432}
+  - component: {fileID: 2066139434}
   m_Layer: 0
   m_Name: alarm-ring
   m_TagString: Untagged
@@ -9652,6 +10068,29 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2066139434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066139430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/alarmNoLoop
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &2105878054
 GameObject:
   m_ObjectHideFlags: 0
