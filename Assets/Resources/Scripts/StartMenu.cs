@@ -5,6 +5,7 @@ public class StartMenu : MonoBehaviour
 {
     private MenuController MenuController;
     private Saver Saver;
+    public GameObject ContinueButton;
 
     IEnumerator Start()
     {
@@ -14,6 +15,8 @@ public class StartMenu : MonoBehaviour
         }
 
         SceneLoader.MaybeLoadScene("Brain");
+
+        ContinueButton.SetActive(Saver.HasSaveData());
     }
 
     public void StartGame()
@@ -26,6 +29,13 @@ public class StartMenu : MonoBehaviour
         FindSaver().Load();
         LevelSelect();
     }
+
+    public void Collectables()
+    {
+        FindSaver().Load();
+        SceneLoader.SwitchScene("StartMenu", "Collectables");
+    }
+
 
     public void LevelSelect() =>
         SceneLoader.UnloadSceneAsync("StartMenu", action => FindMenuController().OpenMenu(Menu.LEVEL_SELECT));

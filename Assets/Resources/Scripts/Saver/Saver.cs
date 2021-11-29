@@ -6,9 +6,7 @@ public class Saver : MonoBehaviour
     public Levels Levels;
     public Collectables Collectables;
 
-    private string SaveFilePath;
-
-    void Awake() => SaveFilePath = Application.persistentDataPath + "/save-data.json";
+    private static string SaveFilePath = Application.persistentDataPath + "/save-data.json";
 
     public void Save()
     {
@@ -47,5 +45,17 @@ public class Saver : MonoBehaviour
 
         Levels.OnLoad(saveData);
         Collectables.OnLoad(saveData);
+    }
+
+    public static bool HasSaveData()
+    {
+        if (Application.platform != RuntimePlatform.WebGLPlayer)
+        {
+            return File.Exists(SaveFilePath);
+        }
+        else
+        {
+            return PlayerPrefs.GetString("save-data") != null;
+        }
     }
 }
