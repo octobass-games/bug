@@ -542,6 +542,7 @@ GameObject:
   - component: {fileID: 188810665}
   - component: {fileID: 188810664}
   - component: {fileID: 188810663}
+  - component: {fileID: 188810666}
   m_Layer: 0
   m_Name: hook
   m_TagString: Untagged
@@ -679,6 +680,29 @@ PolygonCollider2D:
       - {x: 8.187676, y: -5.688717}
       - {x: 10.049098, y: 0.23468018}
       - {x: 2.5, y: 3}
+--- !u!114 &188810666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188810660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/pop
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &193019980
 GameObject:
   m_ObjectHideFlags: 0
@@ -1089,6 +1113,7 @@ GameObject:
   - component: {fileID: 258695421}
   - component: {fileID: 258695423}
   - component: {fileID: 258695422}
+  - component: {fileID: 258695424}
   m_Layer: 0
   m_Name: twig
   m_TagString: Untagged
@@ -1236,6 +1261,29 @@ MonoBehaviour:
       m_Calls: []
   CustomCursor: {fileID: 0}
   IncrementInteractionCount: 1
+--- !u!114 &258695424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 258695417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/pop
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &276042695
 GameObject:
   m_ObjectHideFlags: 0
@@ -3375,6 +3423,8 @@ GameObject:
   - component: {fileID: 967286394}
   - component: {fileID: 967286395}
   - component: {fileID: 967286396}
+  - component: {fileID: 967286398}
+  - component: {fileID: 967286397}
   m_Layer: 0
   m_Name: twigandstring
   m_TagString: Untagged
@@ -3483,6 +3533,52 @@ PolygonCollider2D:
       - {x: -1, y: -13}
       - {x: 0, y: -7}
       - {x: 8, y: -15}
+--- !u!114 &967286397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967286393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/pop
+  PlayEvent: 16
+  StopEvent: 15
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!114 &967286398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967286393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/pop
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &991107825
 GameObject:
   m_ObjectHideFlags: 0
@@ -3880,6 +3976,8 @@ GameObject:
   - component: {fileID: 1093652966}
   - component: {fileID: 1093652967}
   - component: {fileID: 1093652968}
+  - component: {fileID: 1093652970}
+  - component: {fileID: 1093652969}
   m_Layer: 0
   m_Name: stringandhook
   m_TagString: Untagged
@@ -3984,6 +4082,52 @@ PolygonCollider2D:
       - {x: 8, y: -9}
       - {x: 8, y: 1}
       - {x: 1, y: 14}
+--- !u!114 &1093652969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093652965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/pop
+  PlayEvent: 16
+  StopEvent: 15
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!114 &1093652970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093652965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/pop
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1116979182
 GameObject:
   m_ObjectHideFlags: 0
@@ -4636,6 +4780,7 @@ GameObject:
   - component: {fileID: 1259178967}
   - component: {fileID: 1259178968}
   - component: {fileID: 1259178969}
+  - component: {fileID: 1259178970}
   m_Layer: 0
   m_Name: pond-fish
   m_TagString: Untagged
@@ -4766,12 +4911,47 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1259178970}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   Event2:
     m_PersistentCalls:
       m_Calls: []
   Event3:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1259178970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259178965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/ding
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1295627976
 GameObject:
   m_ObjectHideFlags: 0
@@ -8102,6 +8282,8 @@ GameObject:
   - component: {fileID: 2121575416}
   - component: {fileID: 2121575417}
   - component: {fileID: 2121575418}
+  - component: {fileID: 2121575420}
+  - component: {fileID: 2121575419}
   m_Layer: 0
   m_Name: fishing-rod
   m_TagString: Untagged
@@ -8210,3 +8392,49 @@ PolygonCollider2D:
       - {x: 10, y: -14}
       - {x: 10, y: -1}
       - {x: 6, y: 17}
+--- !u!114 &2121575419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121575415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/pop
+  PlayEvent: 16
+  StopEvent: 15
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!114 &2121575420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121575415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/pop
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
