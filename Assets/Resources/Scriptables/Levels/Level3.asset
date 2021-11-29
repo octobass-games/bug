@@ -16,8 +16,8 @@ MonoBehaviour:
   Name: Level 3
   Sprite: {fileID: 1152356169552002576, guid: fc2eaacfd3af5cd4daf15e76918c9bdd, type: 3}
   Preview: {fileID: 21300000, guid: 4a9d7fa844e601446b6ae28e4c54a903, type: 3}
-  TwoStarInteractionCount: 2
-  ThreeStarInteractionCount: 3
+  TwoStarInteractionCount: 10
+  ThreeStarInteractionCount: 8
   FallingSprites:
   - {fileID: 1152356169552002576, guid: fc2eaacfd3af5cd4daf15e76918c9bdd, type: 3}
   - {fileID: -4113270377206143430, guid: 84e66959b3944da41b86f88ec2e2599f, type: 3}

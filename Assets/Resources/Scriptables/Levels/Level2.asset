@@ -16,7 +16,7 @@ MonoBehaviour:
   Name: Level 2
   Sprite: {fileID: -1829252513216539261, guid: 729d008ae55ae634592abbf76cce75ce, type: 3}
   Preview: {fileID: 21300000, guid: 905612b268efa4847bf32e732413ab24, type: 3}
-  TwoStarInteractionCount: 2
+  TwoStarInteractionCount: 5
   ThreeStarInteractionCount: 3
   FallingSprites:
   - {fileID: -557185414492787049, guid: 70cab91a46f7b1f46a43bd9a2b8604ae, type: 3}

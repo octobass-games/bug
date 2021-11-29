@@ -16,8 +16,8 @@ MonoBehaviour:
   Name: Level 8
   Sprite: {fileID: -7762515462469808251, guid: d9a61aaf68e42ae4c94f7e46e4ad4e63, type: 3}
   Preview: {fileID: 21300000, guid: c9af67d5fd573d444bc02fbda4cbf002, type: 3}
-  TwoStarInteractionCount: 2
-  ThreeStarInteractionCount: 3
+  TwoStarInteractionCount: 16
+  ThreeStarInteractionCount: 14
   FallingSprites:
   - {fileID: 8181015520748992525, guid: d9a61aaf68e42ae4c94f7e46e4ad4e63, type: 3}
   - {fileID: -7762515462469808251, guid: d9a61aaf68e42ae4c94f7e46e4ad4e63, type: 3}
