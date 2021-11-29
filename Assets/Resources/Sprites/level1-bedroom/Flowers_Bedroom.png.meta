@@ -20,6 +20,21 @@ TextureImporter:
   - first:
       213: 2339067787052784322
     second: mirror
+  - first:
+      213: 3362099671554463383
+    second: painting
+  - first:
+      213: 6030083909492660127
+    second: washing-basket
+  - first:
+      213: -364256570716978258
+    second: shelf
+  - first:
+      213: -1566248932397099836
+    second: bench
+  - first:
+      213: 2275576133453322803
+    second: clock
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -242,6 +257,111 @@ TextureImporter:
       bones: []
       spriteID: 2ca17d862c9067020800000000000000
       internalID: 2339067787052784322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: painting
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 191
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796167e86d398ae20800000000000000
+      internalID: 3362099671554463383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: washing-basket
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 194
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97db1fed592fa350800000000000000
+      internalID: 6030083909492660127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shelf
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 140
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3005f2496e1faf0800000000000000
+      internalID: -364256570716978258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bench
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 141
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4d2a2f4e0934ae0800000000000000
+      internalID: -1566248932397099836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 284
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a97d5df68749f10800000000000000
+      internalID: 2275576133453322803
       vertices: []
       indices: 
       edges: []
