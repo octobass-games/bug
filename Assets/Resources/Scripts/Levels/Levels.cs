@@ -25,12 +25,15 @@ public class Levels : MonoBehaviour, ILoadable
         if (nextLevel != null)
         {
             nextLevel.Locked = false;
-        }
-
-        LevelSummary.ShowSummary(level, interactionCount, () => {
-            FindObjectOfType<Saver>()?.Save();
-            SceneLoader.SwitchScene(data, nextLevel?.Data);
+            LevelSummary.ShowSummary(level, interactionCount, () => {
+                FindObjectOfType<Saver>()?.Save();
+                SceneLoader.SwitchScene(data, nextLevel?.Data);
             });
+        }
+        else
+        {
+            LevelSummary.ShowSummaryAsEndLevel(level, interactionCount);
+        }
     }
 
     public void UnlockLevel(LevelData data)
@@ -42,6 +45,11 @@ public class Levels : MonoBehaviour, ILoadable
     private Level NextLevel(LevelData data)
     {
         var index = LevelList.FindIndex(l => l.Data == data);
+
+        if (index >= LevelList.Count -1)
+        {
+            return null;
+        }
         return LevelList[index + 1];
     }
 
