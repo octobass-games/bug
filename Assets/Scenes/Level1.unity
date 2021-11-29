@@ -364,7 +364,6 @@ GameObject:
   - component: {fileID: 66928417}
   - component: {fileID: 66928419}
   - component: {fileID: 66928420}
-  - component: {fileID: 66928422}
   - component: {fileID: 66928421}
   - component: {fileID: 66928423}
   m_Layer: 0
@@ -528,19 +527,6 @@ PolygonCollider2D:
       - {x: 21.5, y: -16}
       - {x: 21.5, y: 1}
       - {x: -10.5, y: 18}
---- !u!114 &66928422
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 66928416}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b746c1b5663d912418c528bd1d7003be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  path: event:/SFX/glassbreak
 --- !u!114 &66928423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1518,7 +1504,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1242129494}
-  - component: {fileID: 1242129495}
   - component: {fileID: 1242129496}
   m_Layer: 0
   m_Name: SFX
@@ -1541,19 +1526,6 @@ Transform:
   m_Father: {fileID: 78424382}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1242129495
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1242129493}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b746c1b5663d912418c528bd1d7003be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  path: 
 --- !u!114 &1242129496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1810,7 +1782,6 @@ GameObject:
   - component: {fileID: 1418987921}
   - component: {fileID: 1418987922}
   - component: {fileID: 1418987923}
-  - component: {fileID: 1418987925}
   - component: {fileID: 1418987924}
   - component: {fileID: 1418987926}
   m_Layer: 0
@@ -1975,19 +1946,6 @@ PolygonCollider2D:
       - {x: 10.5, y: -14}
       - {x: 10.5, y: 5}
       - {x: 3.5, y: 15}
---- !u!114 &1418987925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1418987919}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b746c1b5663d912418c528bd1d7003be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  path: event:/SFX/creek
 --- !u!114 &1418987926
 MonoBehaviour:
   m_ObjectHideFlags: 0
