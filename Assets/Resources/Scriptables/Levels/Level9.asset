@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SceneName: Level9
   Name: Level 9
-  Sprite: {fileID: 4809279013553918489, guid: bffa5f7f75faf204195a4d0af67fe5ee, type: 3}
+  Sprite: {fileID: 21300000, guid: 1e6ea1e70c6c5d542a71fecb34343019, type: 3}
   Preview: {fileID: 0}
   TwoStarInteractionCount: 14
   ThreeStarInteractionCount: 12
