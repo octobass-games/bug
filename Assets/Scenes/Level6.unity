@@ -262,6 +262,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!60 &74171129
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -367,6 +368,8 @@ MonoBehaviour:
     Result: {fileID: 1667124648}
     ShouldMoveResultPostition: 0
     ShouldPlaceInInventoryOnCombination: 0
+    ShouldDestroyComponentAOnCompletion: 1
+    ShouldDestroyComponentBOnCompletion: 1
     OnCombination:
       m_PersistentCalls:
         m_Calls: []
@@ -1014,6 +1017,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!60 &424279200
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1273,6 +1277,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!60 &529301616
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2250,6 +2255,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!60 &935641419
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3778,6 +3784,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!60 &1615000108
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4031,6 +4038,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!60 &1638207647
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5265,6 +5273,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!60 &2057414422
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5342,7 +5351,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2105878055}
-  - component: {fileID: 2105878057}
   - component: {fileID: 2105878056}
   m_Layer: 0
   m_Name: SFX
@@ -5388,19 +5396,6 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 0
   OverrideMaxDistance: 0
---- !u!114 &2105878057
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2105878054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b746c1b5663d912418c528bd1d7003be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  path: 
 --- !u!1 &2116670533
 GameObject:
   m_ObjectHideFlags: 0

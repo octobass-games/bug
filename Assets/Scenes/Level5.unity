@@ -311,6 +311,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!212 &279897467
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -457,6 +458,8 @@ MonoBehaviour:
     Result: {fileID: 926172777}
     ShouldMoveResultPostition: 0
     ShouldPlaceInInventoryOnCombination: 0
+    ShouldDestroyComponentAOnCompletion: 1
+    ShouldDestroyComponentBOnCompletion: 1
     OnCombination:
       m_PersistentCalls:
         m_Calls: []
@@ -465,6 +468,8 @@ MonoBehaviour:
     Result: {fileID: 2003113755}
     ShouldMoveResultPostition: 1
     ShouldPlaceInInventoryOnCombination: 0
+    ShouldDestroyComponentAOnCompletion: 1
+    ShouldDestroyComponentBOnCompletion: 1
     OnCombination:
       m_PersistentCalls:
         m_Calls: []
@@ -473,6 +478,8 @@ MonoBehaviour:
     Result: {fileID: 1828517814}
     ShouldMoveResultPostition: 0
     ShouldPlaceInInventoryOnCombination: 0
+    ShouldDestroyComponentAOnCompletion: 1
+    ShouldDestroyComponentBOnCompletion: 1
     OnCombination:
       m_PersistentCalls:
         m_Calls:
@@ -493,6 +500,8 @@ MonoBehaviour:
     Result: {fileID: 1741083280}
     ShouldMoveResultPostition: 0
     ShouldPlaceInInventoryOnCombination: 0
+    ShouldDestroyComponentAOnCompletion: 1
+    ShouldDestroyComponentBOnCompletion: 1
     OnCombination:
       m_PersistentCalls:
         m_Calls:
@@ -734,6 +743,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!61 &441337141
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1464,6 +1474,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!114 &681740737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1759,6 +1770,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!114 &734924739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1917,6 +1929,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!114 &903824057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3905,6 +3918,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!60 &1613492982
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5663,6 +5677,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!114 &2017784434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5973,7 +5988,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2105878055}
-  - component: {fileID: 2105878057}
   - component: {fileID: 2105878056}
   m_Layer: 0
   m_Name: SFX
@@ -6019,19 +6033,6 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 0
   OverrideMaxDistance: 0
---- !u!114 &2105878057
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2105878054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b746c1b5663d912418c528bd1d7003be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  path: 
 --- !u!1 &2134738641
 GameObject:
   m_ObjectHideFlags: 0

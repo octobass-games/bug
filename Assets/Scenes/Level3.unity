@@ -637,6 +637,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!61 &147346092
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -845,6 +846,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!1 &199803809
 GameObject:
   m_ObjectHideFlags: 0
@@ -1437,6 +1439,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!114 &372910017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2331,6 +2334,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!61 &652659383
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2786,6 +2790,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!61 &711872670
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3577,6 +3582,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!114 &925580555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3675,6 +3681,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!61 &1006523351
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4064,6 +4071,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!61 &1034100537
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4575,6 +4583,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!1 &1249548355
 GameObject:
   m_ObjectHideFlags: 0
@@ -4712,6 +4721,8 @@ MonoBehaviour:
     Result: {fileID: 1451126761}
     ShouldMoveResultPostition: 0
     ShouldPlaceInInventoryOnCombination: 0
+    ShouldDestroyComponentAOnCompletion: 1
+    ShouldDestroyComponentBOnCompletion: 1
     OnCombination:
       m_PersistentCalls:
         m_Calls:
@@ -4768,6 +4779,8 @@ MonoBehaviour:
     Result: {fileID: 1008392473}
     ShouldMoveResultPostition: 0
     ShouldPlaceInInventoryOnCombination: 0
+    ShouldDestroyComponentAOnCompletion: 1
+    ShouldDestroyComponentBOnCompletion: 1
     OnCombination:
       m_PersistentCalls:
         m_Calls: []
@@ -5808,7 +5821,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1586430404}
-  - component: {fileID: 1586430406}
   - component: {fileID: 1586430405}
   m_Layer: 0
   m_Name: SFX
@@ -5854,19 +5866,6 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 0
   OverrideMaxDistance: 0
---- !u!114 &1586430406
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1586430403}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b746c1b5663d912418c528bd1d7003be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  path: 
 --- !u!1 &1603826441
 GameObject:
   m_ObjectHideFlags: 0
@@ -5968,6 +5967,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!1 &1613399356
 GameObject:
   m_ObjectHideFlags: 0
@@ -6510,6 +6510,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!61 &1664306515
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6680,6 +6681,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!61 &1710249134
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7547,6 +7549,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!1 &2004070719
 GameObject:
   m_ObjectHideFlags: 0
@@ -7648,6 +7651,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!1 &2066303162
 GameObject:
   m_ObjectHideFlags: 0
@@ -7735,6 +7739,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!61 &2066303165
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7908,6 +7913,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!61 &2106844629
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8009,6 +8015,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!61 &2107313899
 BoxCollider2D:
   m_ObjectHideFlags: 0
