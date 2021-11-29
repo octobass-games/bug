@@ -57,7 +57,7 @@ public class Saver : MonoBehaviour
         }
         else
         {
-            return PlayerPrefs.GetString("save-data") != null;
+            return PlayerPrefs.GetString("save-data") != "";
         }
     }
 }
