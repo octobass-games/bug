@@ -22,6 +22,7 @@ public class LevelSummary : MonoBehaviour
         StarAnimator.SetInteger("Stars", level.GetStarRating(interactionCount));
         NextLevelButton.onClick.RemoveAllListeners();
         NextLevelButton.onClick.AddListener(GoToNextLevel);
+        Debug.Log(interactionCount);
         NextLevelButton.onClick.AddListener(() => Panel.SetActive(false));
         FallingSpriteContainers.ForEach(gameObject =>
         {

@@ -9,12 +9,21 @@ public class Inspectable : MonoBehaviour
     public bool ShouldEnlargeOnHover = true;
     public UnityEvent OnInspect;
     public CustomCursor CustomCursor;
+    public bool IncrementInteractionCount = true;
 
     private bool HasBeenTriggered;
+    private LevelTracker LevelTracker;
 
     void Awake()
     {
         CustomCursor = FindObjectOfType<CustomCursor>();
+        LevelTracker = FindObjectOfType<LevelTracker>();
+
+        if (IncrementInteractionCount)
+        {
+            OnInspect.AddListener(() => LevelTracker?.IncrementInteractionCount());
+        }
+
         if (ShouldEnlargeOnHover)
         {
             gameObject.MaybeAddComponent<EnlargeOnHover>();
