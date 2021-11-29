@@ -83,6 +83,12 @@ TextureImporter:
   - first:
       213: -5124269357633907043
     second: magic-circle
+  - first:
+      213: -18585881503825473
+    second: chalk-packet
+  - first:
+      213: 2695961379243542972
+    second: chalk
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -738,7 +744,7 @@ TextureImporter:
         width: 22
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -746,6 +752,48 @@ TextureImporter:
       bones: []
       spriteID: d96dfc43b20f2e8b0800000000000000
       internalID: -5124269357633907043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk-packet
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1802f3d38fdbff0800000000000000
+      internalID: -18585881503825473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 2
+        width: 2
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9cbf1379af96520800000000000000
+      internalID: 2695961379243542972
       vertices: []
       indices: 
       edges: []

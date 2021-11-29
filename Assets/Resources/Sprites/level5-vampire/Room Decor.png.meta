@@ -37,7 +37,7 @@ TextureImporter:
     second: painting
   - first:
       213: -3404830080255134940
-    second: Room Decor_11
+    second: open-bo
   - first:
       213: 2929001826419329405
     second: shutter
@@ -68,6 +68,12 @@ TextureImporter:
   - first:
       213: -4429191941457094077
     second: shutter_open
+  - first:
+      213: -7074703203976490035
+    second: closed-box
+  - first:
+      213: -7630304801720765141
+    second: open-box
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -400,7 +406,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Room Decor_11
+      name: open-bo
       rect:
         serializedVersion: 2
         x: 106
@@ -626,6 +632,48 @@ TextureImporter:
       bones: []
       spriteID: 34a5d6765695882c0800000000000000
       internalID: -4429191941457094077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: closed-box
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 88
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3d9ab5bea91dd90800000000000000
+      internalID: -7074703203976490035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open-box
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 87
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25f97db536bb1690800000000000000
+      internalID: -7630304801720765141
       vertices: []
       indices: 
       edges: []
