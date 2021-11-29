@@ -14,6 +14,21 @@ TextureImporter:
   - first:
       213: 7784802573013522063
     second: credits
+  - first:
+      213: 7052723869441870344
+    second: pause
+  - first:
+      213: 7778691313258942968
+    second: collectables
+  - first:
+      213: -576222392486240172
+    second: controls
+  - first:
+      213: -1001128473645107264
+    second: save
+  - first:
+      213: 827987394261879107
+    second: close
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -119,7 +134,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 59
+        y: 131
         width: 42
         height: 10
       alignment: 0
@@ -140,7 +155,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 6
-        y: 33
+        y: 105
         width: 58
         height: 20
       alignment: 0
@@ -161,7 +176,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 17
-        y: 18
+        y: 90
         width: 39
         height: 10
       alignment: 0
@@ -182,11 +197,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2
-        y: 3
+        y: 75
         width: 66
-        height: 9
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,6 +209,111 @@ TextureImporter:
       bones: []
       spriteID: f86940bc1bc290c60800000000000000
       internalID: 7784802573013522063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pause
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 59
+        width: 54
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a40090efe40e160800000000000000
+      internalID: 7052723869441870344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectables
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 45
+        width: 118
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f15730498673fb60800000000000000
+      internalID: 7778691313258942968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controls
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 30
+        width: 82
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4506b3879c8d008f0800000000000000
+      internalID: -576222392486240172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: save
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 15
+        width: 42
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7bad915f64b12f0800000000000000
+      internalID: -1001128473645107264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: close
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1
+        width: 46
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3490b71f52a9d7b00800000000000000
+      internalID: 827987394261879107
       vertices: []
       indices: 
       edges: []
