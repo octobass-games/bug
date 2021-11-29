@@ -361,6 +361,7 @@ Transform:
   - {fileID: 667299959}
   - {fileID: 2064001628}
   - {fileID: 1358071340}
+  - {fileID: 1039844980}
   m_Father: {fileID: 1973644243}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -802,6 +803,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1039844978}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   OnBothOff:
     m_PersistentCalls:
       m_Calls:
@@ -884,6 +897,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 231040549}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1039844978}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1544,6 +1569,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!1 &622213603
 GameObject:
   m_ObjectHideFlags: 0
@@ -1681,6 +1707,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!61 &622213608
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2295,6 +2322,60 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomSpeed: 0
+--- !u!1 &1039844978
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1039844980}
+  - component: {fileID: 1039844979}
+  m_Layer: 0
+  m_Name: tap-sound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1039844979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039844978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/tap
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!4 &1039844980
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039844978}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 231040550}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1040993941
 GameObject:
   m_ObjectHideFlags: 0
@@ -2446,6 +2527,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!61 &1040993948
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2673,6 +2755,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!114 &1044546002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2994,6 +3077,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!60 &1268767716
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3467,7 +3551,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1581271661}
-  - component: {fileID: 1581271663}
   - component: {fileID: 1581271662}
   m_Layer: 0
   m_Name: SFX
@@ -3513,19 +3596,6 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 0
   OverrideMaxDistance: 0
---- !u!114 &1581271663
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1581271660}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b746c1b5663d912418c528bd1d7003be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  path: 
 --- !u!1001 &1766593056
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3805,9 +3875,7 @@ GameObject:
   - component: {fileID: 1892958276}
   - component: {fileID: 1892958277}
   - component: {fileID: 1892958279}
-  - component: {fileID: 1892958280}
   - component: {fileID: 1892958274}
-  - component: {fileID: 1892958278}
   m_Layer: 0
   m_Name: hot tap
   m_TagString: Untagged
@@ -3936,19 +4004,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1892958278}
-        m_TargetAssemblyTypeName: ClickSFX, Assembly-CSharp
-        m_MethodName: PlayLoop
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!95 &1892958277
 Animator:
   serializedVersion: 3
@@ -3968,19 +4025,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1892958278
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1892958272}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b746c1b5663d912418c528bd1d7003be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  path: event:/SFX/tap
 --- !u!114 &1892958279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3994,18 +4038,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Animator: {fileID: 1892958277}
---- !u!114 &1892958280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1892958272}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0a7339b2d1a9a04593224785078515b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1960092203
 GameObject:
   m_ObjectHideFlags: 0
@@ -4166,6 +4198,8 @@ MonoBehaviour:
     Result: {fileID: 1044545996}
     ShouldMoveResultPostition: 0
     ShouldPlaceInInventoryOnCombination: 0
+    ShouldDestroyComponentAOnCompletion: 1
+    ShouldDestroyComponentBOnCompletion: 1
     OnCombination:
       m_PersistentCalls:
         m_Calls:
