@@ -35,6 +35,9 @@ TextureImporter:
   - first:
       213: -8971054447262947728
     second: next level
+  - first:
+      213: 170108340464960886
+    second: newgame
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -354,7 +357,7 @@ TextureImporter:
         width: 98
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -362,6 +365,27 @@ TextureImporter:
       bones: []
       spriteID: 076243ac289608380800000000000000
       internalID: -8971054447262947728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newgame
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 103
+        width: 92
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675ceb662a85c5200800000000000000
+      internalID: 170108340464960886
       vertices: []
       indices: 
       edges: []
