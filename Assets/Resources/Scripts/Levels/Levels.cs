@@ -32,7 +32,11 @@ public class Levels : MonoBehaviour, ILoadable
         }
         else
         {
-            LevelSummary.ShowSummaryAsEndLevel(level, interactionCount);
+            LevelSummary.ShowSummaryAsEndLevel(level, interactionCount, () =>
+            {
+                SceneLoader.SwitchScene(data, "Credits");
+
+            });
         }
     }
 

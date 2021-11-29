@@ -23,6 +23,19 @@ public static class SceneLoader
         }
     }
 
+    
+    public static void SwitchScene(LevelData currentLevel, string newLevel)
+    {
+        if (currentLevel)
+        {
+            SwitchScene(currentLevel.SceneName, newLevel);
+        }
+        else
+        {
+            SceneManager.LoadScene(newLevel, LoadSceneMode.Additive);
+        }
+    }
+
     public static void SwitchScene(string currentScene, string newScene) =>
         UnloadSceneAsync(currentScene, action => SceneManager.LoadScene(newScene, LoadSceneMode.Additive));
 

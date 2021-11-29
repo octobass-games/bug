@@ -29,7 +29,7 @@ public class LevelSummary : MonoBehaviour
         FallingItems(level);
     }
 
-    public void ShowSummaryAsEndLevel(Level level, int interactionCount)
+    public void ShowSummaryAsEndLevel(Level level, int interactionCount, UnityAction GoToCredits)
     {
         NextLevelButton.gameObject.SetActive(false);
         Panel.SetActive(true);
@@ -38,7 +38,9 @@ public class LevelSummary : MonoBehaviour
         StarAnimator.SetInteger("Stars", level.GetStarRating(interactionCount));
         CreditsButton.gameObject.SetActive(true);
         CreditsButton.onClick.RemoveAllListeners();
-        CreditsButton.onClick.AddListener(() => SceneManager.LoadScene("StartMenu"));
+        CreditsButton.onClick.AddListener(GoToCredits);
+        CreditsButton.onClick.AddListener(() => Panel.SetActive(false));
+
         FallingItems(level);
     }
 

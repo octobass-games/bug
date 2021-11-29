@@ -38,6 +38,21 @@ TextureImporter:
   - first:
       213: 170108340464960886
     second: newgame
+  - first:
+      213: -7951029402569522674
+    second: adam
+  - first:
+      213: 2389031316650061204
+    second: megan
+  - first:
+      213: 321870704700071952
+    second: halden
+  - first:
+      213: 3450182602739598057
+    second: odette
+  - first:
+      213: 3885163344328010641
+    second: thanks for playing
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -378,7 +393,7 @@ TextureImporter:
         width: 92
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -386,6 +401,111 @@ TextureImporter:
       bones: []
       spriteID: 675ceb662a85c5200800000000000000
       internalID: 170108340464960886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 87
+        width: 48
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02482d72e448a190800000000000000
+      internalID: -7951029402569522674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megan
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 73
+        width: 60
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49de53a235b872120800000000000000
+      internalID: 2389031316650061204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halden
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 60
+        width: 66
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010a04953b3877400800000000000000
+      internalID: 321870704700071952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: odette
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 47
+        width: 62
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2c68e1cc281ef20800000000000000
+      internalID: 3450182602739598057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thanks for playing
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 9
+        width: 114
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b2a092a7fdae530800000000000000
+      internalID: 3885163344328010641
       vertices: []
       indices: 
       edges: []

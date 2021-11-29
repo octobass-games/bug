@@ -36,6 +36,11 @@ public class StartMenu : MonoBehaviour
         SceneLoader.SwitchScene("StartMenu", "Collectables");
     }
 
+    public void Credits()
+    {
+        SceneLoader.SwitchScene("StartMenu", "Credits");
+    }
+
 
     public void LevelSelect() =>
         SceneLoader.UnloadSceneAsync("StartMenu", action => FindMenuController().OpenMenu(Menu.LEVEL_SELECT));
