@@ -2698,7 +2698,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e627bd3d9917dec41ba301cc40d0a835, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Patience: 0
+  Patience: 2
   OutOfPatienceDelaySeconds: 0
   OnOutOfPatience:
     m_PersistentCalls:
