@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{bcf70033-69de-4448-92ea-af10d682312b}">
+		<property name="assetPath">
+			<value>waterplop2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.22</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{02b3a45d-f8e8-4071-bc4d-87e14874f33e}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -421,6 +421,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!1 &155931078
 GameObject:
   m_ObjectHideFlags: 0
@@ -644,6 +645,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!60 &188810665
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1233,6 +1235,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!1 &276042695
 GameObject:
   m_ObjectHideFlags: 0
@@ -2100,6 +2103,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!60 &468302098
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2168,6 +2172,8 @@ MonoBehaviour:
     Result: {fileID: 1678722470}
     ShouldMoveResultPostition: 0
     ShouldPlaceInInventoryOnCombination: 0
+    ShouldDestroyComponentAOnCompletion: 1
+    ShouldDestroyComponentBOnCompletion: 1
     OnCombination:
       m_PersistentCalls:
         m_Calls:
@@ -2188,6 +2194,8 @@ MonoBehaviour:
     Result: {fileID: 1093652965}
     ShouldMoveResultPostition: 0
     ShouldPlaceInInventoryOnCombination: 1
+    ShouldDestroyComponentAOnCompletion: 1
+    ShouldDestroyComponentBOnCompletion: 1
     OnCombination:
       m_PersistentCalls:
         m_Calls: []
@@ -2196,6 +2204,8 @@ MonoBehaviour:
     Result: {fileID: 967286393}
     ShouldMoveResultPostition: 0
     ShouldPlaceInInventoryOnCombination: 1
+    ShouldDestroyComponentAOnCompletion: 1
+    ShouldDestroyComponentBOnCompletion: 1
     OnCombination:
       m_PersistentCalls:
         m_Calls: []
@@ -2204,6 +2214,8 @@ MonoBehaviour:
     Result: {fileID: 2121575415}
     ShouldMoveResultPostition: 0
     ShouldPlaceInInventoryOnCombination: 1
+    ShouldDestroyComponentAOnCompletion: 1
+    ShouldDestroyComponentBOnCompletion: 1
     OnCombination:
       m_PersistentCalls:
         m_Calls: []
@@ -2212,6 +2224,8 @@ MonoBehaviour:
     Result: {fileID: 2121575415}
     ShouldMoveResultPostition: 0
     ShouldPlaceInInventoryOnCombination: 1
+    ShouldDestroyComponentAOnCompletion: 1
+    ShouldDestroyComponentBOnCompletion: 1
     OnCombination:
       m_PersistentCalls:
         m_Calls: []
@@ -2220,6 +2234,8 @@ MonoBehaviour:
     Result: {fileID: 1259178965}
     ShouldMoveResultPostition: 0
     ShouldPlaceInInventoryOnCombination: 0
+    ShouldDestroyComponentAOnCompletion: 1
+    ShouldDestroyComponentBOnCompletion: 1
     OnCombination:
       m_PersistentCalls:
         m_Calls: []
@@ -2228,6 +2244,8 @@ MonoBehaviour:
     Result: {fileID: 204128465}
     ShouldMoveResultPostition: 0
     ShouldPlaceInInventoryOnCombination: 0
+    ShouldDestroyComponentAOnCompletion: 1
+    ShouldDestroyComponentBOnCompletion: 1
     OnCombination:
       m_PersistentCalls:
         m_Calls: []
@@ -2236,6 +2254,8 @@ MonoBehaviour:
     Result: {fileID: 1116979182}
     ShouldMoveResultPostition: 0
     ShouldPlaceInInventoryOnCombination: 0
+    ShouldDestroyComponentAOnCompletion: 1
+    ShouldDestroyComponentBOnCompletion: 1
     OnCombination:
       m_PersistentCalls:
         m_Calls:
@@ -2847,6 +2867,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!60 &679531320
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3589,6 +3610,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!60 &993865640
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5029,6 +5051,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!1 &1331494802
 GameObject:
   m_ObjectHideFlags: 0
@@ -5790,6 +5813,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!60 &1523982766
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -6663,6 +6687,7 @@ GameObject:
   - component: {fileID: 1770979641}
   - component: {fileID: 1770979640}
   - component: {fileID: 1770979642}
+  - component: {fileID: 1770979638}
   m_Layer: 0
   m_Name: other-person-unplug
   m_TagString: Untagged
@@ -6684,6 +6709,29 @@ Transform:
   m_Father: {fileID: 1507819737}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1770979638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770979636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/unpluggedmuisc
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!95 &1770979640
 Animator:
   serializedVersion: 3
@@ -6800,6 +6848,7 @@ GameObject:
   - component: {fileID: 1773303950}
   - component: {fileID: 1773303952}
   - component: {fileID: 1773303951}
+  - component: {fileID: 1773303953}
   m_Layer: 0
   m_Name: pond
   m_TagString: Untagged
@@ -6921,7 +6970,20 @@ MonoBehaviour:
           m_StringArgument: shine
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1773303953}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!60 &1773303952
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -6954,6 +7016,29 @@ PolygonCollider2D:
       - {x: 14.927048, y: -4.1094275}
       - {x: -5.4608994, y: 3.8905735}
       - {x: -19.145905, y: -0.7042637}
+--- !u!114 &1773303953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1773303947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/WaterSFX/waterplop3
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1798750849
 GameObject:
   m_ObjectHideFlags: 0
