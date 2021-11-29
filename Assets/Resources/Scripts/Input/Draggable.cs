@@ -11,6 +11,7 @@ public class Draggable : MonoBehaviour
     protected bool IsDragging;
     private Collider2D[] OverlappingColliders = new Collider2D[1];
     private CustomCursor CustomCursor;
+    private LevelTracker LevelTracker;
     protected string StartSortingLayerName;
     protected Collider2D Collider;
     private ContactFilter2D ContactFilter = new ContactFilter2D
@@ -23,6 +24,7 @@ public class Draggable : MonoBehaviour
         SpriteRenderer = GetComponent<SpriteRenderer>();
         Collider = GetComponent<Collider2D>();
         CustomCursor = FindObjectOfType<CustomCursor>();
+        LevelTracker = FindObjectOfType<LevelTracker>();
     }
 
     void Update()
@@ -40,6 +42,7 @@ public class Draggable : MonoBehaviour
         StartPosition = transform.position;
         StartSortingLayerName = SpriteRenderer.sortingLayerName;
         SpriteRenderer.sortingLayerName = "Drag";
+        LevelTracker?.IncrementInteractionCount();
         AddGhost();
     }
 
