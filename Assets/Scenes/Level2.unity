@@ -1491,6 +1491,7 @@ GameObject:
   - component: {fileID: 564869614}
   - component: {fileID: 564869616}
   - component: {fileID: 564869615}
+  - component: {fileID: 564869617}
   m_Layer: 0
   m_Name: towel
   m_TagString: Untagged
@@ -1605,6 +1606,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 564869617}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   CustomCursor: {fileID: 0}
   IncrementInteractionCount: 1
 --- !u!60 &564869616
@@ -1639,6 +1652,29 @@ PolygonCollider2D:
       - {x: 9, y: -8}
       - {x: 9, y: 6}
       - {x: 2, y: 11}
+--- !u!114 &564869617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564869612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/pillowfall
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &570483653
 GameObject:
   m_ObjectHideFlags: 0
@@ -2482,6 +2518,7 @@ GameObject:
   - component: {fileID: 741803171}
   - component: {fileID: 741803173}
   - component: {fileID: 741803172}
+  - component: {fileID: 741803174}
   m_Layer: 0
   m_Name: hanging-plant
   m_TagString: Untagged
@@ -2616,6 +2653,18 @@ MonoBehaviour:
           m_StringArgument: swing
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 741803174}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   CustomCursor: {fileID: 0}
   IncrementInteractionCount: 1
 --- !u!60 &741803173
@@ -2651,6 +2700,29 @@ PolygonCollider2D:
       - {x: 7, y: -17}
       - {x: 7, y: 4}
       - {x: 4, y: 16}
+--- !u!114 &741803174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741803167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/swing
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1039844978
 GameObject:
   m_ObjectHideFlags: 0
@@ -3757,6 +3829,7 @@ GameObject:
   - component: {fileID: 1447678092}
   - component: {fileID: 1447678094}
   - component: {fileID: 1447678093}
+  - component: {fileID: 1447678095}
   m_Layer: 0
   m_Name: mirror
   m_TagString: Untagged
@@ -3891,6 +3964,18 @@ MonoBehaviour:
           m_StringArgument: shine
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1447678095}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   CustomCursor: {fileID: 0}
   IncrementInteractionCount: 1
 --- !u!60 &1447678094
@@ -3922,6 +4007,29 @@ PolygonCollider2D:
       - {x: -5.5163193, y: -9.626106}
       - {x: 7, y: -15}
       - {x: 6.9010887, y: 9.329369}
+--- !u!114 &1447678095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447678088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/shine
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1464701581
 GameObject:
   m_ObjectHideFlags: 0
