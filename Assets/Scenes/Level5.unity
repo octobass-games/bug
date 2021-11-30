@@ -4407,6 +4407,7 @@ GameObject:
   - component: {fileID: 1700952046}
   - component: {fileID: 1700952048}
   - component: {fileID: 1700952047}
+  - component: {fileID: 1700952049}
   m_Layer: 0
   m_Name: blood-stand
   m_TagString: Untagged
@@ -4541,6 +4542,18 @@ MonoBehaviour:
           m_StringArgument: shine
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1700952049}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   CustomCursor: {fileID: 0}
   IncrementInteractionCount: 1
 --- !u!60 &1700952048
@@ -4573,6 +4586,29 @@ PolygonCollider2D:
       - {x: 6, y: -10}
       - {x: 8, y: -8}
       - {x: 8, y: 10}
+--- !u!114 &1700952049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700952042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/shine
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1741083280
 GameObject:
   m_ObjectHideFlags: 0
@@ -4876,6 +4912,7 @@ GameObject:
   - component: {fileID: 1801064341}
   - component: {fileID: 1801064343}
   - component: {fileID: 1801064344}
+  - component: {fileID: 1801064345}
   m_Layer: 0
   m_Name: crate closed
   m_TagString: Untagged
@@ -5037,8 +5074,43 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1801064345}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   CustomCursor: {fileID: 0}
   IncrementInteractionCount: 1
+--- !u!114 &1801064345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801064339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/open2
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1823019697
 GameObject:
   m_ObjectHideFlags: 0
@@ -6183,6 +6255,7 @@ GameObject:
   - component: {fileID: 2017784431}
   - component: {fileID: 2017784433}
   - component: {fileID: 2017784434}
+  - component: {fileID: 2017784435}
   m_Layer: 0
   m_Name: lid
   m_TagString: Untagged
@@ -6352,6 +6425,18 @@ MonoBehaviour:
           m_StringArgument: try-open
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2017784435}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   CustomCursor: {fileID: 0}
   IncrementInteractionCount: 1
 --- !u!114 &2017784434
@@ -6369,6 +6454,29 @@ MonoBehaviour:
   AutoShadow: 1
   CustomShadows: []
   ShadowId: vampire
+--- !u!114 &2017784435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017784427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/openclose
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!114 &2022032848 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5848676012762609508, guid: 688ba1be6db29ae43b0e30b82db049a2, type: 3}
