@@ -14,12 +14,12 @@ public class LevelSummary : MonoBehaviour
     public Button CreditsButton;
     public GameObject FallingSpritePrefab;
     public List<GameObject> FallingSpriteContainers;
-    public TMPro.TextMeshProUGUI Text;
+    public Image LevelCompleteImage;
 
     public void ShowSummary(Level level, int interactionCount, UnityAction GoToNextLevel)
     {
         Panel.SetActive(true);
-        Text.text = level.Data.Name + " Complete!";
+        LevelCompleteImage.sprite = level.Data.LevelCompleteSprite;
         Image.sprite = level.Data.Sprite;
         StarAnimator.SetInteger("Stars", level.GetStarRating(interactionCount));
         NextLevelButton.onClick.RemoveAllListeners();
@@ -33,7 +33,7 @@ public class LevelSummary : MonoBehaviour
     {
         NextLevelButton.gameObject.SetActive(false);
         Panel.SetActive(true);
-        Text.text = level.Data.Name + " Complete!";
+        LevelCompleteImage.sprite = level.Data.LevelCompleteSprite;
         Image.sprite = level.Data.Sprite;
         StarAnimator.SetInteger("Stars", level.GetStarRating(interactionCount));
         CreditsButton.gameObject.SetActive(true);

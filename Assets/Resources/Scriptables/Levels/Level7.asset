@@ -15,7 +15,8 @@ MonoBehaviour:
   SceneName: Level7
   Name: Level 7
   Sprite: {fileID: -5373001643418983644, guid: 723a9d3d78965fc45a3a459ca30447f0, type: 3}
-  Preview: {fileID: 21300000, guid: 5848d8805818c0748b905d7392ecff55, type: 3}
+  Preview: {fileID: 21300000, guid: a1c2b785abe2188418672e05eac28196, type: 3}
+  LevelCompleteSprite: {fileID: -4007959139156207299, guid: bc87f7fd7116e0a45a4cf9480c77233f, type: 3}
   TwoStarInteractionCount: 14
   ThreeStarInteractionCount: 13
   FallingSprites:

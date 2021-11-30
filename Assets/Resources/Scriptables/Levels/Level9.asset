@@ -15,7 +15,8 @@ MonoBehaviour:
   SceneName: Level9
   Name: Level 9
   Sprite: {fileID: 21300000, guid: 1e6ea1e70c6c5d542a71fecb34343019, type: 3}
-  Preview: {fileID: 0}
+  Preview: {fileID: 21300000, guid: 6b672bb1d0b61654383c0d8fabb6ed0a, type: 3}
+  LevelCompleteSprite: {fileID: 5584542674851666832, guid: bc87f7fd7116e0a45a4cf9480c77233f, type: 3}
   TwoStarInteractionCount: 14
   ThreeStarInteractionCount: 12
   FallingSprites: []

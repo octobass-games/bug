@@ -8,6 +8,7 @@ public class LevelData : ScriptableObject
     public string Name;
     public Sprite Sprite;
     public Sprite Preview;
+    public Sprite LevelCompleteSprite;
 
     public int TwoStarInteractionCount = 2;
     public int ThreeStarInteractionCount = 3;
