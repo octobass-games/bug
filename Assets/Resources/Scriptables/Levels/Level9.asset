@@ -19,5 +19,12 @@ MonoBehaviour:
   LevelCompleteSprite: {fileID: 5584542674851666832, guid: bc87f7fd7116e0a45a4cf9480c77233f, type: 3}
   TwoStarInteractionCount: 14
   ThreeStarInteractionCount: 12
-  FallingSprites: []
+  FallingSprites:
+  - {fileID: 845756029984679842, guid: ee1f03be5ac97b64c8a6c54991346fcf, type: 3}
+  - {fileID: -5985583604570518442, guid: ee1f03be5ac97b64c8a6c54991346fcf, type: 3}
+  - {fileID: 8776919266935199894, guid: ee1f03be5ac97b64c8a6c54991346fcf, type: 3}
+  - {fileID: 2862135527380116329, guid: 3a0fa51b925b14342888e2c3dc39dd69, type: 3}
+  - {fileID: -7590262256670714136, guid: 3a0fa51b925b14342888e2c3dc39dd69, type: 3}
+  - {fileID: 5000582825369113565, guid: 3a0fa51b925b14342888e2c3dc39dd69, type: 3}
+  - {fileID: 8776739839710368960, guid: 3a0fa51b925b14342888e2c3dc39dd69, type: 3}
   MusicSelector: 8

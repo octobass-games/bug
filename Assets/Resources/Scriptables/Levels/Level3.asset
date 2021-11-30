@@ -22,4 +22,10 @@ MonoBehaviour:
   FallingSprites:
   - {fileID: 1152356169552002576, guid: fc2eaacfd3af5cd4daf15e76918c9bdd, type: 3}
   - {fileID: -4113270377206143430, guid: 84e66959b3944da41b86f88ec2e2599f, type: 3}
+  - {fileID: 1480917699468073914, guid: 78016c77a4284c349862f4240c48a7f5, type: 3}
+  - {fileID: 7362403104124658649, guid: 72cd3e7446180964ca4c22c0f388ac09, type: 3}
+  - {fileID: -4085300114545976737, guid: 72cd3e7446180964ca4c22c0f388ac09, type: 3}
+  - {fileID: 6388648386946017184, guid: 72cd3e7446180964ca4c22c0f388ac09, type: 3}
+  - {fileID: -7891647650922392976, guid: 72cd3e7446180964ca4c22c0f388ac09, type: 3}
+  - {fileID: 8776739839710368960, guid: 72cd3e7446180964ca4c22c0f388ac09, type: 3}
   MusicSelector: 2
