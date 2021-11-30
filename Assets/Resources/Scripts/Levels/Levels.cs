@@ -12,9 +12,7 @@ public class Levels : MonoBehaviour, ILoadable
 
     void Awake()
     {
-        LevelData.ForEach((l) => LevelList.Add(new Level(l)));
-
-        LevelList[0].Locked = false;
+        Init();
     }
 
     public void CompleteLevel(LevelData data, int interactionCount)
@@ -99,5 +97,17 @@ public class Levels : MonoBehaviour, ILoadable
         });
 
         LevelList = levels;
+    }
+
+    public void OnDelete()
+    {
+        Init();
+    }
+
+    private void Init()
+    {
+        LevelList.Clear();
+        LevelData.ForEach((l) => LevelList.Add(new Level(l)));
+        LevelList[0].Locked = false;
     }
 }
