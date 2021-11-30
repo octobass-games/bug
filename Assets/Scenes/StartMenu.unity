@@ -1147,6 +1147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00f1b0cd7c65121419cd229cc2156a5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CollectablesButton: {fileID: 912520679}
   ContinueButton: {fileID: 31122874}
 --- !u!224 &1236488276
 RectTransform:

@@ -8,6 +8,14 @@ public class StartMenu : MonoBehaviour
     public GameObject CollectablesButton;
     public GameObject ContinueButton;
 
+    void Awake()
+    {
+        var hasSaveData = Saver.HasSaveData();
+
+        ContinueButton.SetActive(hasSaveData);
+        CollectablesButton.SetActive(hasSaveData);
+    }
+
     IEnumerator Start()
     {
         while (!FMODUnity.RuntimeManager.HasBankLoaded("Music"))
@@ -16,11 +24,6 @@ public class StartMenu : MonoBehaviour
         }
 
         SceneLoader.MaybeLoadScene("Brain");
-
-        var hasSaveData = Saver.HasSaveData();
-
-        ContinueButton.SetActive(hasSaveData);
-        CollectablesButton.SetActive(hasSaveData);
     }
 
     public void StartGame()

@@ -3698,7 +3698,9 @@ GameObject:
   m_Component:
   - component: {fileID: 992788449}
   - component: {fileID: 992788450}
+  - component: {fileID: 992788452}
   - component: {fileID: 992788451}
+  - component: {fileID: 992788453}
   m_Layer: 0
   m_Name: flower-bed
   m_TagString: Untagged
@@ -3714,7 +3716,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 992788448}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3, y: 2, z: 0}
+  m_LocalPosition: {x: -9, y: 14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1245702393}
@@ -3760,7 +3762,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 6580706180292963874, guid: 3af1c044ea454f34a8e8d319d11a16e4, type: 3}
+  m_Sprite: {fileID: 1927328076465057331, guid: 9fdd35c60af72dd42a0b242fb2f1c116, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3788,7 +3790,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 88, y: 52}
+    oldSize: {x: 112, y: 76}
     newSize: {x: 88, y: 52}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3796,31 +3798,81 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 30, y: 23}
-      - {x: 22, y: 23}
-      - {x: 15, y: 26}
-      - {x: -5, y: 26}
-      - {x: -16, y: 21}
-      - {x: -23, y: 7}
-      - {x: -14, y: -2}
-      - {x: -28, y: -5}
-      - {x: -44, y: -11}
-      - {x: -44, y: -25}
-      - {x: -41, y: -26}
-      - {x: -23, y: -26}
-      - {x: 44, y: 9}
-      - {x: 44, y: 16}
-      - {x: 38, y: 22}
-    - - {x: 2, y: 10}
-      - {x: 2, y: 6}
-      - {x: 1, y: 5}
-      - {x: 1, y: 4}
-      - {x: 2, y: 5}
-    - - {x: 14, y: 11}
-      - {x: 15, y: 15}
-      - {x: 15, y: 12}
-      - {x: 11, y: 10}
-      - {x: 11, y: 9}
+    - - {x: 43, y: 15}
+      - {x: 33, y: 16}
+      - {x: 12, y: 16}
+      - {x: -2, y: 7}
+      - {x: -9, y: 0}
+      - {x: -10, y: -5}
+      - {x: -4, y: -14}
+      - {x: -33, y: -23}
+      - {x: -33, y: -35}
+      - {x: -30, y: -38}
+      - {x: -15, y: -38}
+      - {x: 3, y: -31}
+      - {x: 56, y: -3}
+      - {x: 56, y: 7}
+    - - {x: 14, y: -2}
+      - {x: 14, y: -6}
+      - {x: 13, y: -7}
+      - {x: 13, y: -8}
+      - {x: 14, y: -7}
+    - - {x: 26, y: -1}
+      - {x: 27, y: 3}
+      - {x: 27, y: 0}
+      - {x: 23, y: -2}
+      - {x: 23, y: -3}
+--- !u!95 &992788452
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992788448}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5afe9087da3f258498fceb241766f894, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &992788453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992788448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8416580241c603a46ad093e0e4f0ebcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnlyFireOnce: 0
+  Disabled: 0
+  ShouldEnlargeOnHover: 1
+  OnInspect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 992788452}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: wiggle
+          m_BoolArgument: 0
+        m_CallState: 2
+  CustomCursor: {fileID: 0}
+  IncrementInteractionCount: 1
 --- !u!1 &1060817051
 GameObject:
   m_ObjectHideFlags: 0
