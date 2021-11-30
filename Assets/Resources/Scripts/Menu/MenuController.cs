@@ -165,6 +165,9 @@ public class MenuController : MonoBehaviour
 
     public void MainMenu()
     {
+        CloseMenus();
+        SceneLoader.CloseAllScenesExcept("Brain");
+        SceneLoader.MaybeLoadScene("StartMenu");
     }
 
     private void HideMenus()

@@ -54,4 +54,19 @@ public static class SceneLoader
             SceneManager.UnloadSceneAsync(scene);
         }
     }
+
+    public static void CloseAllScenesExcept(string scene)
+    {
+        var sceneCount = SceneManager.sceneCount;
+
+        for (int i = 0; i < sceneCount; ++i)
+        {
+            var sceneName = SceneManager.GetSceneAt(i).name;
+
+            if (sceneName != scene)
+            {
+                SceneManager.UnloadSceneAsync(sceneName);
+            }
+        }
+    }
 }
