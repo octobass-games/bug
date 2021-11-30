@@ -28,8 +28,12 @@ public class PlaySoundEveryNSeconds : MonoBehaviour
         if (time > IntervalTime)
         {
             time = 0;
-
             soundEvent.start();
         }
+    }
+
+    void OnDestroy()
+    {
+        soundEvent.release();
     }
 }
