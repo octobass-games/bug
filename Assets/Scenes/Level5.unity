@@ -983,7 +983,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   CustomCursor: {fileID: 0}
-  IncrementInteractionCount: 1
+  IncrementInteractionCount: 0
 --- !u!61 &558089982
 BoxCollider2D:
   m_ObjectHideFlags: 0
