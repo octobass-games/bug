@@ -38,6 +38,21 @@ TextureImporter:
   - first:
       213: 3706113890242574135
     second: flower-pot-blue
+  - first:
+      213: 5822128478527872384
+    second: plant-food-fallen-over
+  - first:
+      213: -1849827199692588558
+    second: open-box
+  - first:
+      213: 850494669968274643
+    second: flower-pot-blue-fallen-over
+  - first:
+      213: 1972474233171824648
+    second: flower-pot-brown-fallen-over
+  - first:
+      213: 418254648549815542
+    second: bike-fallen-over
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -345,7 +360,7 @@ TextureImporter:
         width: 10
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -366,7 +381,7 @@ TextureImporter:
         width: 10
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -374,6 +389,111 @@ TextureImporter:
       bones: []
       spriteID: 737bc0582f2ce6330800000000000000
       internalID: 3706113890242574135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant-food-fallen-over
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 4
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08dd657110b5cc050800000000000000
+      internalID: 5822128478527872384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open-box
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 63
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9b77276f71456e0800000000000000
+      internalID: -1849827199692588558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower-pot-blue-fallen-over
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 142
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d472de65609dcb00800000000000000
+      internalID: 850494669968274643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower-pot-brown-fallen-over
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 142
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80051dc4dd2af5b10800000000000000
+      internalID: 1972474233171824648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bike-fallen-over
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 6
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4b7780360fdc500800000000000000
+      internalID: 418254648549815542
       vertices: []
       indices: 
       edges: []
