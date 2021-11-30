@@ -5,6 +5,7 @@ public class StartMenu : MonoBehaviour
 {
     private MenuController MenuController;
     private Saver Saver;
+    public GameObject CollectablesButton;
     public GameObject ContinueButton;
 
     IEnumerator Start()
@@ -16,7 +17,10 @@ public class StartMenu : MonoBehaviour
 
         SceneLoader.MaybeLoadScene("Brain");
 
-        ContinueButton.SetActive(Saver.HasSaveData());
+        var hasSaveData = Saver.HasSaveData();
+
+        ContinueButton.SetActive(hasSaveData);
+        CollectablesButton.SetActive(hasSaveData);
     }
 
     public void StartGame()

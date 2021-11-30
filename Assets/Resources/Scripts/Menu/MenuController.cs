@@ -21,7 +21,11 @@ public class MenuController : MonoBehaviour
         MusicEmitter.SetParameter("isPaused", 1f);
         FMODUnity.RuntimeManager.PlayOneShot(toggleMenuSFX);
         SceneManager.LoadScene("Collectables", LoadSceneMode.Additive);
-        Levels.CurrentLevelScene.GetRootGameObjects().ToList().ForEach(g => g.SetActive(false));
+
+        if (Levels.CurrentLevelScene.IsValid())
+        {
+            Levels.CurrentLevelScene.GetRootGameObjects().ToList().ForEach(g => g.SetActive(false));
+        }
     }
 
     public void CloseCollectables()
@@ -29,8 +33,20 @@ public class MenuController : MonoBehaviour
         GoBackInMenus();
         FMODUnity.RuntimeManager.PlayOneShot(toggleMenuSFX);
         MusicEmitter.SetParameter("isPaused", 0f);
-        SceneManager.UnloadSceneAsync("Collectables");
-        Levels.CurrentLevelScene.GetRootGameObjects().ToList().ForEach(g => g.SetActive(true));
+        var unload = SceneManager.UnloadSceneAsync("Collectables");
+
+        unload.completed += action =>
+        {
+            if (SceneManager.sceneCount == 1)
+            {
+                SceneLoader.MaybeLoadScene("StartMenu");
+            }
+        };
+
+        if (Levels.CurrentLevelScene.IsValid())
+        {
+            Levels.CurrentLevelScene.GetRootGameObjects().ToList().ForEach(g => g.SetActive(true));
+        }
     }
     public void TogglePause(InputAction.CallbackContext ctx)
     {
