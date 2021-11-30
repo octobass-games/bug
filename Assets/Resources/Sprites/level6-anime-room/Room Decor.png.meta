@@ -50,6 +50,21 @@ TextureImporter:
   - first:
       213: -487308248914705789
     second: vanity-shadow
+  - first:
+      213: 3366955441979139806
+    second: poster-1
+  - first:
+      213: -7598927094909580511
+    second: poster-2
+  - first:
+      213: 5315822386393258033
+    second: shelf
+  - first:
+      213: 5739476847879747451
+    second: poster-1-mess
+  - first:
+      213: -4924818371506384682
+    second: poster-2-mess
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -482,6 +497,111 @@ TextureImporter:
       bones: []
       spriteID: 382425fbabbbc39f0800000000000000
       internalID: -487308248914705789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poster-1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 18
+        width: 12
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed62cb5b224d9be20800000000000000
+      internalID: 3366955441979139806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poster-2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 18
+        width: 12
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bc2d961103b8690800000000000000
+      internalID: -7598927094909580511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shelf
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 112
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1381a06cb4895c940800000000000000
+      internalID: 5315822386393258033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poster-1-mess
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 63
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77737ab8c7b6af40800000000000000
+      internalID: 5739476847879747451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poster-2-mess
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 65
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d05b0fa8c787abb0800000000000000
+      internalID: -4924818371506384682
       vertices: []
       indices: 
       edges: []
