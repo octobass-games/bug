@@ -1,12 +1,10 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 public class Inventory : MonoBehaviour
 {
     public List<GameObject> Items;
     public GameObject InventoryItemBackground;
-    [FormerlySerializedAs("SpawnPoint")]
     public Transform SpawnPoint;
 
     private const int SpaceBetweenItems = -40;
@@ -19,7 +17,6 @@ public class Inventory : MonoBehaviour
 
         Destroy(item.GetComponent<Pickupable>());
         Destroy(item.GetComponent<Inspectable>());
-
 
         Draw();
     }
