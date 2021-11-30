@@ -4583,7 +4583,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   CustomCursor: {fileID: 0}
-  IncrementInteractionCount: 1
+  IncrementInteractionCount: 0
 --- !u!1 &1249548355
 GameObject:
   m_ObjectHideFlags: 0

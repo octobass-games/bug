@@ -14,9 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SceneName: Level10
   Name: Level 10
-  Sprite: {fileID: 0}
-  Preview: {fileID: 0}
+  Sprite: {fileID: 3647316521000842000, guid: 264e32d7e5a588a409a6675d9b2612eb, type: 3}
+  Preview: {fileID: 21300000, guid: 5cb826c300c1ed84c9f7806468a688e1, type: 3}
+  LevelCompleteSprite: {fileID: -5667919301009578245, guid: bc87f7fd7116e0a45a4cf9480c77233f, type: 3}
   TwoStarInteractionCount: 2
   ThreeStarInteractionCount: 3
-  FallingSprites: []
+  FallingSprites:
+  - {fileID: -8116706097069704030, guid: 5703509ec86c5a54baeca21e171e4937, type: 3}
+  - {fileID: 3647316521000842000, guid: 264e32d7e5a588a409a6675d9b2612eb, type: 3}
+  - {fileID: -6556922700306349592, guid: 264e32d7e5a588a409a6675d9b2612eb, type: 3}
+  - {fileID: -7891647650922392976, guid: 264e32d7e5a588a409a6675d9b2612eb, type: 3}
+  - {fileID: 6388648386946017184, guid: 264e32d7e5a588a409a6675d9b2612eb, type: 3}
+  - {fileID: -148779165187698679, guid: b6e7225a1075ce74db7dc220b7d5610f, type: 3}
+  - {fileID: 6448416895050410193, guid: b6e7225a1075ce74db7dc220b7d5610f, type: 3}
+  - {fileID: -4697085601876516397, guid: b6e7225a1075ce74db7dc220b7d5610f, type: 3}
   MusicSelector: 9

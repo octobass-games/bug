@@ -20,7 +20,7 @@ public class ButtonCursor : MonoBehaviour, IPointerEnterHandler , IPointerExitHa
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        GetCursor().SetClickableCursor();
+        GetCursor()?.SetClickableCursor();
         inButton = true;
     }
     
@@ -28,13 +28,13 @@ public class ButtonCursor : MonoBehaviour, IPointerEnterHandler , IPointerExitHa
     {
         if (inButton)
         {
-            GetCursor().SetNeutralCursor();
+            GetCursor()?.SetNeutralCursor();
         }
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        GetCursor().SetNeutralCursor();
+        GetCursor()?.SetNeutralCursor();
         inButton = false;
     }
 

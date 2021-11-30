@@ -44,6 +44,9 @@ TextureImporter:
   - first:
       213: -5877542388696625535
     second: empty roll
+  - first:
+      213: -6990535230036314891
+    second: towel-fallen
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -434,6 +437,27 @@ TextureImporter:
       bones: []
       spriteID: 18ecf698656ce6ea0800000000000000
       internalID: -5877542388696625535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: towel-fallen
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 5
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4f4d7ee31acfe90800000000000000
+      internalID: -6990535230036314891
       vertices: []
       indices: 
       edges: []
