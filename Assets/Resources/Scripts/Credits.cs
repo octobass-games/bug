@@ -1,12 +1,6 @@
-﻿using System.Collections;
-using UnityEngine;
-using UnityEngine.SceneManagement;
+﻿using UnityEngine;
 
 public class Credits : MonoBehaviour
 {
-
-   public void MainMenu()
-    {
-        SceneManager.LoadScene("StartMenu");
-    }
+   public void MainMenu() => SceneLoader.SwitchScene("Credits", "StartMenu");
 }
