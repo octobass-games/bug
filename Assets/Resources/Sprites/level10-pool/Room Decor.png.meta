@@ -38,6 +38,27 @@ TextureImporter:
   - first:
       213: -3404830080255134940
     second: lockers
+  - first:
+      213: 2929001826419329405
+    second: firstaidkit
+  - first:
+      213: 6841959371117515798
+    second: first-aid-kit-open
+  - first:
+      213: -4755476809843536193
+    second: life-ring-squish
+  - first:
+      213: -487308248914705789
+    second: draw
+  - first:
+      213: 3366955441979139806
+    second: sign-over
+  - first:
+      213: -7598927094909580511
+    second: draw2
+  - first:
+      213: 5315822386393258033
+    second: cupboardopen
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -386,6 +407,153 @@ TextureImporter:
       bones: []
       spriteID: 423f3d1e41d9fb0d0800000000000000
       internalID: -3404830080255134940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firstaidkit
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 141
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79c13284a7e5a820800000000000000
+      internalID: 2929001826419329405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: first-aid-kit-open
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 88
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6145d1b3cc583fe50800000000000000
+      internalID: 6841959371117515798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life-ring-squish
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 120
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe0bab7907210eb0800000000000000
+      internalID: -4755476809843536193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draw
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 101
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382425fbabbbc39f0800000000000000
+      internalID: -487308248914705789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sign-over
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 128
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed62cb5b224d9be20800000000000000
+      internalID: 3366955441979139806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draw2
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 78
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bc2d961103b8690800000000000000
+      internalID: -7598927094909580511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cupboardopen
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 52
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1381a06cb4895c940800000000000000
+      internalID: 5315822386393258033
       vertices: []
       indices: 
       edges: []
