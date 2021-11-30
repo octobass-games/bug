@@ -17,6 +17,12 @@ TextureImporter:
   - first:
       213: 1246187967077875402
     second: lifeguard_4
+  - first:
+      213: 2647430228323156933
+    second: lifeguard_5
+  - first:
+      213: -905957777904805816
+    second: lifeguard_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -218,6 +224,27 @@ TextureImporter:
       bones: []
       spriteID: acefa0d7a595b4110800000000000000
       internalID: 1246187967077875402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeguard_5
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 0
+        width: 66
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c345d614cf8db420800000000000000
+      internalID: 2647430228323156933
       vertices: []
       indices: 
       edges: []

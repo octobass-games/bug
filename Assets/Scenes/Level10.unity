@@ -3776,7 +3776,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: -5371377738824662582, guid: d1f5af741c5df0443bd971de0d97dd88, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5403,7 +5403,19 @@ MonoBehaviour:
   ShouldEnlargeOnHover: 1
   OnInspect:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 780416684}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: no
+          m_BoolArgument: 0
+        m_CallState: 2
   CustomCursor: {fileID: 0}
   IncrementInteractionCount: 1
 --- !u!61 &1208700895
