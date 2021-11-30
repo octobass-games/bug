@@ -116,6 +116,9 @@ TextureImporter:
   - first:
       213: -3514498185808436414
     second: mop-fallen-over
+  - first:
+      213: 5924691111847046691
+    second: rug
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -981,7 +984,7 @@ TextureImporter:
         width: 28
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1002,7 +1005,7 @@ TextureImporter:
         width: 40
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1010,6 +1013,27 @@ TextureImporter:
       bones: []
       spriteID: 2432227458ef93fc0800000000000000
       internalID: -3514498185808436414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rug
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 0
+        width: 68
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32eae850d2bb83250800000000000000
+      internalID: 5924691111847046691
       vertices: []
       indices: 
       edges: []
