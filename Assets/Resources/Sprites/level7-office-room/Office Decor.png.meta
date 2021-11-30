@@ -50,6 +50,9 @@ TextureImporter:
   - first:
       213: 2984044210788178668
     second: alarm
+  - first:
+      213: 997626972200707363
+    second: board-mess
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -474,7 +477,7 @@ TextureImporter:
         width: 22
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -482,6 +485,27 @@ TextureImporter:
       bones: []
       spriteID: cea171a4664796920800000000000000
       internalID: 2984044210788178668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-mess
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 0
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3252f50127848dd00800000000000000
+      internalID: 997626972200707363
       vertices: []
       indices: 
       edges: []
