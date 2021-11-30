@@ -594,6 +594,7 @@ GameObject:
   - component: {fileID: 105914265}
   - component: {fileID: 105914267}
   - component: {fileID: 105914266}
+  - component: {fileID: 105914268}
   m_Layer: 0
   m_Name: mirror
   m_TagString: Untagged
@@ -715,6 +716,18 @@ MonoBehaviour:
           m_StringArgument: shine
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 105914268}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   CustomCursor: {fileID: 0}
   IncrementInteractionCount: 1
 --- !u!61 &105914267
@@ -743,6 +756,29 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 16, y: 46}
   m_EdgeRadius: 0
+--- !u!114 &105914268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105914262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/shine
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!4 &118980367 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3480602951290358976, guid: f0f1942c070ad7d4a84ebd2f3ba20a88, type: 3}
@@ -758,6 +794,7 @@ GameObject:
   m_Component:
   - component: {fileID: 213373454}
   - component: {fileID: 213373455}
+  - component: {fileID: 213373456}
   m_Layer: 0
   m_Name: washing-basket fall
   m_TagString: Untagged
@@ -830,6 +867,29 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &213373456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213373453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/heavyfall
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &216925805
 GameObject:
   m_ObjectHideFlags: 0
@@ -1373,6 +1433,7 @@ GameObject:
   - component: {fileID: 471099951}
   - component: {fileID: 471099953}
   - component: {fileID: 471099952}
+  - component: {fileID: 471099954}
   m_Layer: 0
   m_Name: books
   m_TagString: Untagged
@@ -1487,6 +1548,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 471099954}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   CustomCursor: {fileID: 0}
   IncrementInteractionCount: 1
 --- !u!60 &471099953
@@ -1520,6 +1593,29 @@ PolygonCollider2D:
       - {x: -5, y: -5}
       - {x: 6, y: -5}
       - {x: 6, y: 5}
+--- !u!114 &471099954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471099949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/spell
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1931,6 +2027,7 @@ GameObject:
   m_Component:
   - component: {fileID: 849223378}
   - component: {fileID: 849223379}
+  - component: {fileID: 849223380}
   m_Layer: 0
   m_Name: painting-tilt
   m_TagString: Untagged
@@ -2003,6 +2100,29 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &849223380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849223377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/creek
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &860357263
 GameObject:
   m_ObjectHideFlags: 0
@@ -2348,6 +2468,7 @@ GameObject:
   - component: {fileID: 978521772}
   - component: {fileID: 978521774}
   - component: {fileID: 978521773}
+  - component: {fileID: 978521775}
   m_Layer: 0
   m_Name: bench
   m_TagString: Untagged
@@ -2462,6 +2583,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 978521775}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   CustomCursor: {fileID: 0}
   IncrementInteractionCount: 1
 --- !u!60 &978521774
@@ -2502,6 +2635,29 @@ PolygonCollider2D:
       - {x: 17.389698, y: 9.386848}
       - {x: 12.3489685, y: 10.162753}
       - {x: 11.318737, y: 14.82246}
+--- !u!114 &978521775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978521770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/pillowfall
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!4 &1194545158 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5848676012762609509, guid: 688ba1be6db29ae43b0e30b82db049a2, type: 3}
@@ -2632,6 +2788,7 @@ GameObject:
   - component: {fileID: 1305292833}
   - component: {fileID: 1305292832}
   - component: {fileID: 1305292831}
+  - component: {fileID: 1305292834}
   m_Layer: 0
   m_Name: dresser
   m_TagString: Untagged
@@ -2760,6 +2917,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1305292834}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   CustomCursor: {fileID: 0}
   IncrementInteractionCount: 1
 --- !u!60 &1305292833
@@ -2803,6 +2972,29 @@ PolygonCollider2D:
       - {x: 20.763199, y: -13.918564}
       - {x: 20.021126, y: 1.6606436}
       - {x: -4.2051163, y: 12.805445}
+--- !u!114 &1305292834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305292827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/open3
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1390613894
 GameObject:
   m_ObjectHideFlags: 0
@@ -3694,6 +3886,7 @@ GameObject:
   - component: {fileID: 2015105584}
   - component: {fileID: 2015105586}
   - component: {fileID: 2015105585}
+  - component: {fileID: 2015105587}
   m_Layer: 0
   m_Name: trophy
   m_TagString: Untagged
@@ -3815,6 +4008,18 @@ MonoBehaviour:
           m_StringArgument: shine
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2015105587}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   CustomCursor: {fileID: 0}
   IncrementInteractionCount: 1
 --- !u!60 &2015105586
@@ -3848,6 +4053,29 @@ PolygonCollider2D:
       - {x: 3, y: -9}
       - {x: 5, y: -7}
       - {x: 5, y: 7}
+--- !u!114 &2015105587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015105581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/shine
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!4 &2092324748 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4368337870591375754, guid: 036a3ed605455334f9d77a221bd878f0, type: 3}

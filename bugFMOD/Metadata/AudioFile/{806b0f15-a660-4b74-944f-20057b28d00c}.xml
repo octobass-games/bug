@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{806b0f15-a660-4b74-944f-20057b28d00c}">
+		<property name="assetPath">
+			<value>page turn1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.2186666666666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{02b3a45d-f8e8-4071-bc4d-87e14874f33e}</destination>
+		</relationship>
+	</object>
+</objects>
