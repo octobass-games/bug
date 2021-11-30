@@ -163,6 +163,10 @@ public class MenuController : MonoBehaviour
         FMODUnity.RuntimeManager.PlayOneShot(toggleMenuSFX);
     }
 
+    public void MainMenu()
+    {
+    }
+
     private void HideMenus()
     {
         Time.timeScale = 1;

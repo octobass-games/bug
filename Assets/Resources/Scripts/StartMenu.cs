@@ -49,6 +49,10 @@ public class StartMenu : MonoBehaviour
         SceneLoader.SwitchScene("StartMenu", "Credits");
     }
 
+    public void Quit()
+    {
+        Application.Quit();
+    }
 
     public void LevelSelect() =>
         SceneLoader.UnloadSceneAsync("StartMenu", action => FindMenuController().OpenMenu(Menu.LEVEL_SELECT));
