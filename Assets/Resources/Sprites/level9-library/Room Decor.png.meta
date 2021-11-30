@@ -89,6 +89,33 @@ TextureImporter:
   - first:
       213: 2695961379243542972
     second: chalk
+  - first:
+      213: -7590262256670714136
+    second: chest
+  - first:
+      213: 9149363240354913519
+    second: painting
+  - first:
+      213: 2862135527380116329
+    second: broom
+  - first:
+      213: -1487334721819298273
+    second: mop
+  - first:
+      213: 4353293294980767453
+    second: lamp
+  - first:
+      213: 5000582825369113565
+    second: globe
+  - first:
+      213: -5766350440838673338
+    second: chest-open
+  - first:
+      213: -866463512173406394
+    second: broom-fallen-over
+  - first:
+      213: -3514498185808436414
+    second: mop-fallen-over
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -765,7 +792,7 @@ TextureImporter:
         width: 6
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -786,7 +813,7 @@ TextureImporter:
         width: 2
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -794,6 +821,195 @@ TextureImporter:
       bones: []
       spriteID: cb9cbf1379af96520800000000000000
       internalID: 2695961379243542972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 117
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6561741b8f9a690800000000000000
+      internalID: -7590262256670714136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: painting
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 92
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec1f56446119fe70800000000000000
+      internalID: 9149363240354913519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broom
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 110
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9636480191958b720800000000000000
+      internalID: 2862135527380116329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mop
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 115
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f163bd363fceb5be0800000000000000
+      internalID: -1487334721819298273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 49
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde1b62ef210a6c30800000000000000
+      internalID: 4353293294980767453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 33
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd39b00e593a56540800000000000000
+      internalID: 5000582825369113565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest-open
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 116
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64cc46353dec9ffa0800000000000000
+      internalID: -5766350440838673338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broom-fallen-over
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 69
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6471112c604b9f3f0800000000000000
+      internalID: -866463512173406394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mop-fallen-over
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 48
+        width: 40
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2432227458ef93fc0800000000000000
+      internalID: -3514498185808436414
       vertices: []
       indices: 
       edges: []

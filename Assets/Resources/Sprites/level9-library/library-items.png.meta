@@ -59,6 +59,12 @@ TextureImporter:
   - first:
       213: 845756029984679842
     second: alarm-no-ring
+  - first:
+      213: -506460306627678893
+    second: curtains-closed
+  - first:
+      213: -543883914748853444
+    second: curtains-open
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -546,7 +552,7 @@ TextureImporter:
         width: 18
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -554,6 +560,48 @@ TextureImporter:
       bones: []
       spriteID: 2a7a1e5d0aabcbb00800000000000000
       internalID: 845756029984679842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: curtains-closed
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 119
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d2f92d801b8f8f0800000000000000
+      internalID: -506460306627678893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: curtains-open
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 119
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33885e067cb378f0800000000000000
+      internalID: -543883914748853444
       vertices: []
       indices: 
       edges: []
