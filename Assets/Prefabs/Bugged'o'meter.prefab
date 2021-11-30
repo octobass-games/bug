@@ -47,6 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Bar: {fileID: 5848676013609518426}
+  path: event:/SFX/progress
 --- !u!1 &5848676012849923926
 GameObject:
   m_ObjectHideFlags: 0
@@ -116,7 +117,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 515369661
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: -1940632223565085767, guid: dc3d3e500fcfd0e4a9a99254ee38c542, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -205,8 +206,8 @@ SpriteMask:
   m_MaskAlphaCutoff: 0.382
   m_FrontSortingLayerID: 515369661
   m_BackSortingLayerID: 515369661
-  m_FrontSortingLayer: 3
-  m_BackSortingLayer: 3
+  m_FrontSortingLayer: 4
+  m_BackSortingLayer: 4
   m_FrontSortingOrder: 0
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
@@ -280,7 +281,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 515369661
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 2
   m_Sprite: {fileID: -7629719262564538085, guid: dc3d3e500fcfd0e4a9a99254ee38c542, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -362,7 +363,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 515369661
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 1
   m_Sprite: {fileID: 3126976448829434118, guid: dc3d3e500fcfd0e4a9a99254ee38c542, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
