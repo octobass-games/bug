@@ -4235,7 +4235,7 @@ MonoBehaviour:
   CollisionTag: 
   Event: event:/SFX/WaterSFX/waterswash2
   PlayEvent: 0
-  StopEvent: 0
+  StopEvent: 2
   AllowFadeout: 0
   TriggerOnce: 0
   Preload: 0
@@ -6864,7 +6864,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1430867051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6874,18 +6874,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1430867050}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd9586817fae4b247bd90109ed2bf4df, type: 3}
+  m_Script: {fileID: 11500000, guid: c995491145787464ca908ed983856def, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentRoom: {fileID: 0}
   Rooms:
-  - {fileID: 1973644242}
-  - {fileID: 1617213886}
-  - {fileID: 2103224070}
-  RoomsCamera:
-  - {fileID: 1470079587}
-  - {fileID: 384810659}
-  - {fileID: 188121173}
-  CurrentRoomIndex: 0
+  - {fileID: 1973644244}
+  - {fileID: 1617213888}
+  - {fileID: 2103224072}
 --- !u!4 &1430867052
 Transform:
   m_ObjectHideFlags: 0
@@ -7515,13 +7511,13 @@ MonoBehaviour:
   OnInspect:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1593486701}
-        m_TargetAssemblyTypeName: Door, Assembly-CSharp
+      - m_Target: {fileID: 1430867051}
+        m_TargetAssemblyTypeName: NRoomSwitcher, Assembly-CSharp
         m_MethodName: MoveThroughDoor
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1593486701}
+          m_ObjectArgumentAssemblyTypeName: Door, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -9597,13 +9593,13 @@ MonoBehaviour:
   OnInspect:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 850595700}
-        m_TargetAssemblyTypeName: Door, Assembly-CSharp
+      - m_Target: {fileID: 1430867051}
+        m_TargetAssemblyTypeName: NRoomSwitcher, Assembly-CSharp
         m_MethodName: MoveThroughDoor
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 850595700}
+          m_ObjectArgumentAssemblyTypeName: Door, Assembly-CSharp
           m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 

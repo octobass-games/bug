@@ -10,15 +10,7 @@ public class Room : MonoBehaviour
 
     private Coroutine FallingOutCoroutine;
 
-    void Awake()
-    {
-        if (!IsInitialRoom)
-        {
-            gameObject.SetActive(false);
-        }
-    }
-
-    public void FallIn()
+    public void FallIn(Door door)
     {
         if (FallingOutCoroutine != null)
         {
@@ -26,6 +18,7 @@ public class Room : MonoBehaviour
         }
 
         var fallIns = GetComponentsInChildren<Fall>().ToList();
+        fallIns.Remove(door.GetComponent<Fall>());
 
         fallIns.ForEach(fallIn => fallIn.FallIn());
     }
