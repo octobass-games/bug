@@ -10,7 +10,7 @@ public class Collectables : MonoBehaviour, ILoadable
 
     void Start()
     {
-        CollectableData.ForEach((c) => CollectableList.Add(new Collectable(c)));
+        Init();
     }
 
     public void UnlockCollectable(CollectableData data)
@@ -63,5 +63,16 @@ public class Collectables : MonoBehaviour, ILoadable
         });
 
         CollectableList = collectables;
+    }
+
+    public void OnDelete()
+    {
+        Init();
+    }
+
+    private void Init()
+    {
+        CollectableList.Clear();
+        CollectableData.ForEach((c) => CollectableList.Add(new Collectable(c)));
     }
 }

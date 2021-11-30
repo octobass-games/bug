@@ -28,6 +28,7 @@ public class StartMenu : MonoBehaviour
 
     public void StartGame()
     {
+        FindSaver()?.DeleteSaveData();
         SceneLoader.SwitchScene("StartMenu", "Level1");
     }
 
