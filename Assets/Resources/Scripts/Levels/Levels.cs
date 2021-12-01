@@ -24,8 +24,8 @@ public class Levels : MonoBehaviour, ILoadable
         {
             nextLevel.Locked = false;
             LevelSummary.ShowSummary(level, interactionCount, () => {
-                FindObjectOfType<Saver>()?.Save();
                 SceneLoader.SwitchScene(data, nextLevel?.Data);
+                FindObjectOfType<Saver>()?.Save();
             });
         }
         else
@@ -33,7 +33,7 @@ public class Levels : MonoBehaviour, ILoadable
             LevelSummary.ShowSummaryAsEndLevel(level, interactionCount, () =>
             {
                 SceneLoader.SwitchScene(data, "Credits");
-
+                FindObjectOfType<Saver>()?.Save();
             });
         }
     }
