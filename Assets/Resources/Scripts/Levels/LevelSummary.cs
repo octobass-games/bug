@@ -18,6 +18,7 @@ public class LevelSummary : MonoBehaviour
 
     public void ShowSummary(Level level, int interactionCount, UnityAction GoToNextLevel)
     {
+        NextLevelButton.gameObject.SetActive(true);
         CreditsButton.gameObject.SetActive(false);
         Panel.SetActive(true);
         LevelCompleteImage.sprite = level.Data.LevelCompleteSprite;
