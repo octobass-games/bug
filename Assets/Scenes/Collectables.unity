@@ -885,6 +885,7 @@ GameObject:
   - component: {fileID: 366903342}
   - component: {fileID: 366903343}
   - component: {fileID: 366903344}
+  - component: {fileID: 366903345}
   m_Layer: 0
   m_Name: wall
   m_TagString: Untagged
@@ -987,6 +988,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 366903345}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   CustomCursor: {fileID: 0}
   IncrementInteractionCount: 1
 --- !u!60 &366903344
@@ -1021,6 +1034,29 @@ PolygonCollider2D:
       - {x: 93, y: -34}
       - {x: 93, y: 19}
       - {x: -14, y: 74}
+--- !u!114 &366903345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366903340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/phonetap
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &385790453
 GameObject:
   m_ObjectHideFlags: 0
@@ -4194,6 +4230,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1522771165}
   - component: {fileID: 1522771166}
+  - component: {fileID: 1522771167}
   m_Layer: 0
   m_Name: Room
   m_TagString: Untagged
@@ -4242,6 +4279,29 @@ MonoBehaviour:
   - {r: 0.832478, g: 0.18823528, b: 0.9254902, a: 1}
   - {r: 0.9254902, g: 0.18823528, b: 0.65454596, a: 1}
   - {r: 0.1509434, g: 0.12175152, b: 0.14022936, a: 1}
+--- !u!114 &1522771167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522771164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/falling
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1525691061
 GameObject:
   m_ObjectHideFlags: 0
@@ -5925,6 +5985,7 @@ GameObject:
   - component: {fileID: 2057650083}
   - component: {fileID: 2057650084}
   - component: {fileID: 2057650085}
+  - component: {fileID: 2057650086}
   m_Layer: 0
   m_Name: floor
   m_TagString: Untagged
@@ -6027,6 +6088,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2057650086}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   CustomCursor: {fileID: 0}
   IncrementInteractionCount: 1
 --- !u!60 &2057650085
@@ -6062,6 +6135,29 @@ PolygonCollider2D:
       - {x: 12, y: -74}
       - {x: 92, y: -33}
       - {x: 92, y: -29}
+--- !u!114 &2057650086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057650081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/phonetap
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &2071934451
 GameObject:
   m_ObjectHideFlags: 0
