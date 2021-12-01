@@ -1368,6 +1368,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CollectablesButton: {fileID: 912520679}
   ContinueButton: {fileID: 31122874}
+  Sleep: {fileID: 2120711727}
 --- !u!224 &1236488276
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2501,7 +2502,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2120711722}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c7c357c9fd78b0645a25ee021d9d3ed7, type: 3}
   m_Name: 
