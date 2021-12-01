@@ -74,7 +74,7 @@ public class Saver : MonoBehaviour
             }
             else
             {
-                PlayerPrefs.SetString("save-data", "");
+                PlayerPrefs.DeleteKey("save-data");
             }
         }
     }
