@@ -13,7 +13,7 @@ public static class SceneLoader
 
     public static void SwitchScene(LevelData currentLevel, LevelData newLevel)
     {
-        if (currentLevel)
+        if (currentLevel != null)
         {
             SwitchScene(currentLevel.SceneName, newLevel.SceneName);
         }
