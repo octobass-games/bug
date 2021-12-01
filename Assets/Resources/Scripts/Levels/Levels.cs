@@ -88,7 +88,7 @@ public class Levels : MonoBehaviour, ILoadable
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
-    private List<string> NonLevelScenes = new List<string>(){"Brain", "StartMenu", "Collectables" };
+    private List<string> NonLevelScenes = new List<string>(){"Brain", "StartMenu", "Collectables", "Credits" };
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
