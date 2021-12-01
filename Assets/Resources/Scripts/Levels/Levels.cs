@@ -67,6 +67,8 @@ public class Levels : MonoBehaviour, ILoadable
         return LevelList[index + 1];
     }
 
+    private int CurrentIndex() => CurrentLevel != null ?  LevelList.FindIndex(l => l.Data == CurrentLevel.Data) : -1;
+    public bool IsLastLevel() => CurrentIndex() == LevelList.Count - 1;
     public Level FindLevel(LevelData data) => FindLevel(data.SceneName);
 
     public Level FindLevel(string sceneName)
