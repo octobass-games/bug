@@ -1868,7 +1868,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'escape: pause'
+  m_text: 'escape/p: pause'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84de0484c6512084c9ca494ca8f29a6b, type: 2}
   m_sharedMaterial: {fileID: 7067286068546345787, guid: 84de0484c6512084c9ca494ca8f29a6b, type: 2}
