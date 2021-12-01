@@ -18,13 +18,13 @@ public class LevelSummary : MonoBehaviour
 
     public void ShowSummary(Level level, int interactionCount, UnityAction GoToNextLevel)
     {
+        CreditsButton.gameObject.SetActive(false);
         Panel.SetActive(true);
         LevelCompleteImage.sprite = level.Data.LevelCompleteSprite;
         Image.sprite = level.Data.Sprite;
         StarAnimator.SetInteger("Stars", level.GetStarRating(interactionCount));
         NextLevelButton.onClick.RemoveAllListeners();
         NextLevelButton.onClick.AddListener(GoToNextLevel);
-        Debug.Log(interactionCount);
         NextLevelButton.onClick.AddListener(() => Panel.SetActive(false));
         FallingItems(level);
     }
