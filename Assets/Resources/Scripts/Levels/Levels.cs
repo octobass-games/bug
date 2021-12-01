@@ -38,6 +38,18 @@ public class Levels : MonoBehaviour, ILoadable
         }
     }
 
+    public void NextLevel()
+    {
+        if (CurrentLevel == null)
+        {
+            return;
+        }
+        var nextLevel = NextLevel(CurrentLevel.Data);
+        nextLevel.Locked = false;
+        FindObjectOfType<Saver>()?.Save();
+        SceneLoader.SwitchScene(CurrentLevel.Data, nextLevel?.Data);
+    }
+
     public void UnlockLevel(LevelData data)
     {
         var level = FindLevel(data);

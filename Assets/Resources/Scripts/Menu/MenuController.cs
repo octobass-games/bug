@@ -168,12 +168,19 @@ public class MenuController : MonoBehaviour
         CloseMenus();
         SceneLoader.CloseAllScenesExcept("Brain");
         SceneLoader.MaybeLoadScene("StartMenu");
+        Levels.CurrentLevel = null;
     }
 
     private void HideMenus()
     {
         Time.timeScale = 1;
         MenuHistory.ToList().ForEach(panel => panel.SetActive(false));
+    }
+
+    public void SkipLevel()
+    {
+        Levels.NextLevel();
+        CloseMenus();
     }
 
     private void OpenPause() => OpenMenu(Menu.PAUSE);
