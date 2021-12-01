@@ -15,7 +15,6 @@ public class StartMenu : MonoBehaviour
         var hasSaveData = Saver.HasSaveData();
 
         ContinueButton.SetActive(hasSaveData);
-        CollectablesButton.SetActive(hasSaveData);
     }
 
     IEnumerator Start()
@@ -44,7 +43,11 @@ public class StartMenu : MonoBehaviour
 
     public void Collectables()
     {
-        FindSaver().Load();
+        var hasSaveData = Saver.HasSaveData();
+        if (hasSaveData)
+        {
+            FindSaver().Load();
+        }
         SceneLoader.SwitchScene("StartMenu", "Collectables");
     }
 

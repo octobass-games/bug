@@ -8,7 +8,7 @@ public class SkipLevel : MonoBehaviour
     void OnEnable()
     {
         var levels = FindObjectOfType<Levels>();
-        bool isPlaying = levels.CurrentLevel != null;
+        bool isPlaying = levels.CurrentLevel != null && levels.CurrentLevel?.Data != null;
         bool isLastLevel = levels.IsLastLevel();
 
         SkipButton.SetActive(isPlaying && !isLastLevel);
