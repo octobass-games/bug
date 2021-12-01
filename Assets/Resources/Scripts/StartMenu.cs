@@ -8,6 +8,8 @@ public class StartMenu : MonoBehaviour
     public GameObject CollectablesButton;
     public GameObject ContinueButton;
 
+    public PlaySoundEveryNSeconds Sleep;
+
     void Awake()
     {
         var hasSaveData = Saver.HasSaveData();
@@ -18,12 +20,14 @@ public class StartMenu : MonoBehaviour
 
     IEnumerator Start()
     {
-        while (!FMODUnity.RuntimeManager.HasBankLoaded("Music"))
+        while (!FMODUnity.RuntimeManager.HasBankLoaded("Music") || !FMODUnity.RuntimeManager.HasBankLoaded("SFX"))
         {
             yield return null;
         }
 
         SceneLoader.MaybeLoadScene("Brain");
+
+        Sleep.enabled = true;
     }
 
     public void StartGame()
