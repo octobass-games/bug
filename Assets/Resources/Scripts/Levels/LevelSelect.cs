@@ -51,7 +51,7 @@ public class LevelSelect : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
     private void LoadScene()
     {
-        SceneLoader.MaybeUnloadScene("Collectables");
+        SceneLoader.MaybeUnloadSceneAsync("Collectables");
         SceneLoader.SwitchScene(Levels.CurrentLevel.Data, LevelData);
         MenuController.CloseMenus();
     }

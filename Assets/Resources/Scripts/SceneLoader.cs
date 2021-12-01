@@ -37,7 +37,7 @@ public static class SceneLoader
     }
 
     public static void SwitchScene(string currentScene, string newScene) =>
-        UnloadSceneAsync(currentScene, action => SceneManager.LoadScene(newScene, LoadSceneMode.Additive));
+        MaybeUnloadSceneAsync(currentScene, action => SceneManager.LoadScene(newScene, LoadSceneMode.Additive));
 
     public static void MaybeLoadScene(string scene)
     {
@@ -47,11 +47,17 @@ public static class SceneLoader
         }
     }
 
-    public static void MaybeUnloadScene(string scene)
+    public static void MaybeUnloadSceneAsync(string scene, Action<AsyncOperation> cb = null)
     {
         if (SceneManager.GetSceneByName(scene).isLoaded)
         {
-            SceneManager.UnloadSceneAsync(scene);
+            var unload = SceneManager.UnloadSceneAsync(scene);
+
+            unload.completed += cb;
+        }
+        else
+        {
+            cb?.Invoke(new AsyncOperation());
         }
     }
 
