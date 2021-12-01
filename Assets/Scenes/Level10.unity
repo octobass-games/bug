@@ -1923,6 +1923,7 @@ GameObject:
   - component: {fileID: 291879276}
   - component: {fileID: 291879278}
   - component: {fileID: 291879277}
+  - component: {fileID: 291879279}
   m_Layer: 0
   m_Name: life-ring
   m_TagString: Untagged
@@ -2037,6 +2038,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 291879279}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   CustomCursor: {fileID: 0}
   IncrementInteractionCount: 1
 --- !u!61 &291879278
@@ -2065,6 +2078,29 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 16, y: 15}
   m_EdgeRadius: 0
+--- !u!114 &291879279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291879274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/move
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &350409880
 GameObject:
   m_ObjectHideFlags: 0
@@ -3080,6 +3116,7 @@ GameObject:
   - component: {fileID: 442474391}
   - component: {fileID: 442474390}
   - component: {fileID: 442474389}
+  - component: {fileID: 442474392}
   m_Layer: 0
   m_Name: lockers
   m_TagString: Untagged
@@ -3208,6 +3245,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 442474392}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   CustomCursor: {fileID: 0}
   IncrementInteractionCount: 1
 --- !u!61 &442474391
@@ -3236,6 +3285,29 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 34, y: 42}
   m_EdgeRadius: 0
+--- !u!114 &442474392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442474385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/open3
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &450175629
 GameObject:
   m_ObjectHideFlags: 0
@@ -3248,6 +3320,7 @@ GameObject:
   - component: {fileID: 450175631}
   - component: {fileID: 450175633}
   - component: {fileID: 450175632}
+  - component: {fileID: 450175634}
   m_Layer: 0
   m_Name: caution-sign
   m_TagString: Untagged
@@ -3362,6 +3435,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 450175634}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   CustomCursor: {fileID: 0}
   IncrementInteractionCount: 1
 --- !u!60 &450175633
@@ -3394,6 +3479,29 @@ PolygonCollider2D:
       - {x: -9, y: -13}
       - {x: 12, y: -13}
       - {x: 12, y: 13}
+--- !u!114 &450175634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450175629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/pillowfall
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &461724076
 GameObject:
   m_ObjectHideFlags: 0
@@ -3694,6 +3802,7 @@ GameObject:
   - component: {fileID: 554384817}
   - component: {fileID: 554384816}
   - component: {fileID: 554384815}
+  - component: {fileID: 554384818}
   m_Layer: 0
   m_Name: kitchen-counter
   m_TagString: Untagged
@@ -3822,6 +3931,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 554384818}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   CustomCursor: {fileID: 0}
   IncrementInteractionCount: 1
 --- !u!60 &554384817
@@ -3857,6 +3978,29 @@ PolygonCollider2D:
       - {x: 21.530148, y: -13.461164}
       - {x: 20.862034, y: 5.1249313}
       - {x: 0.7284088, y: 12.780018}
+--- !u!114 &554384818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554384811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/open3
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &595162380
 GameObject:
   m_ObjectHideFlags: 0
@@ -7784,6 +7928,7 @@ GameObject:
   - component: {fileID: 1502267793}
   - component: {fileID: 1502267792}
   - component: {fileID: 1502267791}
+  - component: {fileID: 1502267795}
   m_Layer: 0
   m_Name: firstaidkit
   m_TagString: Untagged
@@ -7842,6 +7987,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 639686534}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1502267795}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -7932,6 +8089,29 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1502267795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502267789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/open3
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1505253155
 GameObject:
   m_ObjectHideFlags: 0
@@ -9240,6 +9420,7 @@ GameObject:
   - component: {fileID: 1754866375}
   - component: {fileID: 1754866374}
   - component: {fileID: 1754866376}
+  - component: {fileID: 1754866377}
   m_Layer: 0
   m_Name: mirror
   m_TagString: Untagged
@@ -9361,6 +9542,18 @@ MonoBehaviour:
           m_StringArgument: shine
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1754866377}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   CustomCursor: {fileID: 0}
   IncrementInteractionCount: 1
 --- !u!60 &1754866375
@@ -9408,6 +9601,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomSpeed: 0
+--- !u!114 &1754866377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754866370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/shine
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1760476838
 GameObject:
   m_ObjectHideFlags: 0
@@ -9422,6 +9638,7 @@ GameObject:
   - component: {fileID: 1760476843}
   - component: {fileID: 1760476842}
   - component: {fileID: 1760476844}
+  - component: {fileID: 1760476845}
   m_Layer: 0
   m_Name: kitchen-cabinets
   m_TagString: Untagged
@@ -9538,6 +9755,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1760476845}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   CustomCursor: {fileID: 0}
   IncrementInteractionCount: 1
 --- !u!60 &1760476843
@@ -9585,6 +9814,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0a7339b2d1a9a04593224785078515b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1760476845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760476838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/open2
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1791897163
 GameObject:
   m_ObjectHideFlags: 0
@@ -10787,10 +11039,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/SFX/open2
+  Event: event:/SFX/open1
   PlayEvent: 11
   StopEvent: 12
-  AllowFadeout: 1
+  AllowFadeout: 0
   TriggerOnce: 0
   Preload: 0
   Params: []
