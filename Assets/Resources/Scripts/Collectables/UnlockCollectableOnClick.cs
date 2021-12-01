@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using UnityEngine;
+﻿using UnityEngine;
 
 [RequireComponent(typeof(Inspectable))]
 public class UnlockCollectableOnClick : MonoBehaviour
@@ -24,6 +23,7 @@ public class UnlockCollectableOnClick : MonoBehaviour
     private void Unlock()
     {
         FindObjectOfType<Collectables>().UnlockCollectable(CollectableData);
+        FindObjectOfType<Saver>().Save();
         gameObject.SetActive(false);
     }
 }
