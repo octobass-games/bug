@@ -68,14 +68,14 @@ public class Saver : MonoBehaviour
             if (Application.platform != RuntimePlatform.WebGLPlayer)
             {
                 File.Delete(Application.persistentDataPath + "/save-data.json");
-
-                Collectables.OnDelete();
-                Levels.OnDelete();
             }
             else
             {
                 PlayerPrefs.DeleteKey("save-data");
             }
+
+            Collectables.OnDelete();
+            Levels.OnDelete();
         }
     }
 }
