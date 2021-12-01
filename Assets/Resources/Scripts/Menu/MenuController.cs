@@ -52,7 +52,7 @@ public class MenuController : MonoBehaviour
     {
         if (ctx.started)
         {
-            if (!SceneManager.GetSceneByName("StartMenu").isLoaded)
+            if (!SceneManager.GetSceneByName("StartMenu").isLoaded && !SceneManager.GetSceneByName("Collectables").isLoaded)
             {
                 if (MenuHistory.Count == 0)
                 {
@@ -60,14 +60,7 @@ public class MenuController : MonoBehaviour
                 }
                 else
                 {
-                    if (SceneManager.GetSceneByName("Collectables").isLoaded)
-                    {
-                        CloseCollectables();
-                    }
-                    else
-                    {
-                        GoBackInMenus();
-                    }
+                    GoBackInMenus();
                 }
             }
         }
